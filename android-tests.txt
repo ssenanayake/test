@@ -1,0 +1,130 @@
+
+
+enabledGroups=0:Play List|1:Custom Resource Provider|2:Multi Language/Captions|3:DAI Live|4:DAI VoD|5:IMA|6:VR-360|7:Side Loaded Seek Thumbnails|8:Low Latency|9:Forced Error|10:Multiple DRM Keys|11:DAI with Ad Parameters|12:Dolby Vision/HDR10|13:Innovid|14:DVR Captions|15:Miscellaneous|
+
+// int group, String id, String externalId, String name, String uri, String subtitleUri,
+// String overrideAdUri, String drmUri, int drmType, boolean preroll, boolean live, boolean vr360,
+// boolean vrStereocopic, int provider, int resumePosition, String thumbnailUri,
+// boolean autoPlay, boolean noAds, String customAdParams
+
+$drm=MjVFOTcxMzJBOTQ3QzUwMTQwREQxM0VFMkI5NTQ5MjI6MTYzMDcxMDMwMDQ5ODpmN2I2YmVkNDk3NTcyNDM4YTA5NDgyZjQ5NmY2YmQwZjozLjA6MA
+$viacomMultiAudio=https://topaz.uat.viacomcbs.digital/topaz/api/mgid:arc:episode:shared.paramountplus.br:40372210-599e-11e8-aacc-70df2f866ace/mica.json?region=BR&clientPlatform=android&ds.stage=staging&TPZdpCheck=false&adsConfig=true
+$syncbakLive=https://www.paramountplus.com/apps-api/v3.0/firetv/dma.json?ipaddress=73.220.60.115&dtp=8&mvpdId=AllAccess&is60FPS=true&did=652e321238a51e6f&locale=en-us&at=ABCmrL%2BqTCQ8UujYajWJJnvgcsXFGqrgS530PSANzLK%2Fi3SLgMcReMBy1nkxGwo9RA0%3D
+
+sample=0|TEST.x|$22,$8|Multiple ResourceConfig (IMA Ad Only, DAI Live Content)|||||ST|true|false|false|false|CUS|-1||true|false|false||
+
+sample=0|TEST.x|$11,$11|Multiple ResourceConfig (DAI Content, DAI Content)|||||ST|true|false|false|false|CUS|-1||true|false|false||
+
+sample=1|TEST.x||Custom RP - (HLS)|||||ST|true|false|false|false|CUS|-1||true|false|false||
+
+sample=1|TEST.x||Custom RP - Resume 10s - No Auto Play (HLS)|||||ST|true|false|false|false|CUS|10||false|false|false||
+
+sample=2|TEST.x||Multi-Language Captions (HLS)|http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8||||ST|false|false|false|false|URL|-1||true|false|false||
+
+sample=2|TEST.x||Multi-Language Audio/Captions (HLS)|https://cdn.theoplayer.com/video/elephants-dream/playlist.m3u8||||ST|false|false|false|false|URL|-1||true|false|false||
+
+sample=2|TEST.x||Multi-Language Captions - UHD (DASH)|https://storage.googleapis.com/shaka-demo-assets/sintel/dash.mpd||||ST|false|false|false|false|URL|-1||true|false|false||
+
+sample=3|TEST.x|gfkxhQFOQAOXHigAVdRi8A/ |DAI Live - BBB (HLS)|||||ST|false|true|false|false|DAI|-1||true|false|false||
+
+sample=3|TEST.x|Sid4xiTQTkCT1SLu6rjUSQ/ |DAI Live - News (HLS)|||||ST|false|true|false|false|DAI|-1||true|false|false||
+
+sample=3|TEST.x|9Lq0ERvoSR-z9AwvFS-xYA/ |DAI Live - Sports (HLS)|||||ST|false|true|false|false|DAI|-1||true|false|false||
+
+sample=3|TEST.x|xrVrJYTmTfitfXBQfeZByQ/ |DAI Live - ETL (HLS)|||||ST|false|true|false|false|DAI|-1||true|false|false||
+
+sample=4|TEST.x|2528370/tears-of-steel/|DAI VoD - Resume 30s (HLS)|||||ST|true|false|false|false|DAI|30||true|false|false||
+
+sample=4|TEST.x|2497752/9D5se7TaQpNkFuHlSJL4Gl_VVoZBPZnz/7j3n273bfj7jcnvf22d713a51f|DAI VoD (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
+
+sample=4|TEST.x|2497752/Szbbn6rCLPF3a5VvSWWhWB871pry6pAE/7j3n273bfj7jcnvf22d713a51f|DAI VoD - 4:3 Content and 16:9 Ads (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
+
+sample=4|TEST.x|2497752/SmYxkxQQtkfYRK4j3oOpG7lwBfE1Eeuo/7j3n273bfj7jcnvf22d713a51f|DAI VoD - Commercial Free (DASH + DRM + Seek Thumbnails)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false|cust_params=sb=14|
+
+sample=4|TEST.x|2497752/SmYxkxQQtkfYRK4j3oOpG7lwBfE1Eeuo/7j3n273bfj7jcnvf22d713a51f|DAI VoD - Multi Audio (DASH + DRM + Seek Thumbnails)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
+
+sample=4|TEST.x|2542453/mgid:arc:episode:roku.playplex.paramountnetwork.com:4f672c49-52e1-11ea-9fb2-70df2f866ace/HMAC:cmsid=*~exp=1606503373~vid=*~hmac=9c3e72b9842e2e2c9f294a0e65d4311538bb5a2363d6d9e3ce41488567ced888|DAI VoD - Auth Token (HLS)|||||ST|true|false|false|false|DAI|-1||true|false|false||
+
+sample=4|TEST.x|2545172/mgid:arc:episode:android.playplex.paramountnetwork.com:79a805f0-5764-11e9-9fb2-70df2f866ace/HMAC:|DAI VoD - Auth Token (HLS)|||||ST|true|false|false|false|DAI|-1||true|false|false||
+
+sample=4|TEST.x|2497752/Szbbn6rCLPF3a5VvSWWhWB871pry6pAE/7j3n273bfj7jcnvf22d713a51f|DAI VoD - Ad Holiday - 4:3 Content and 16:9 Ads (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
+
+sample=4|TEST.x|2497752/p_F16OmokbFpnKJC64lcdoP9_MdR1I7D/7j3n273bfj7jcnvf22d713a51f|DAI VoD - Dolby Audio (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
+
+sample=5|TEST.x||IMA - Ad Only - Random Ad/No Ad (MP4)|||https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/8264/vaw-sports/mobile_app/PARTNER&ciu_szs=300x250,300x60&impl=s&gdfp_req=1&env=vp&output=xml_vmap1&unviewed_position_start=1&url=[referrer_url]&correlator=[timestamp]&vid=zEQl2jWL7PjC8uzTOuhT7hyLGSXNm5zQ&cmsid=2289&rdid=null&is_lat=0&idtype=adid&cust_params=key2%3Dvalue2%26adParamKey%3DadParamValue||ST|true|false|false|false|IMA|-1||true|false|false|iu=/8264/vaw-can/ott/cbs_amazon_tv_app&cust_params=vid%3D1234|
+
+sample=5|TEST.x||IMA - Ad Only - Alternating Ad (MP4)|||https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/8264/vaw-sports/mobile_app/PARTNER&ciu_szs=300x250,300x60&impl=s&gdfp_req=1&env=vp&output=xml_vmap1&unviewed_position_start=1&url=[referrer_url]&correlator=[timestamp]&vid=rIQYYpZJkV2XtrkZ2_dzwIq7wdhFaq6k&cmsid=2289&is_lat=1||ST|true|false|false|false|IMA|-1||true|false|false|iu=/8264/vaw-can/ott/cbs_amazon_tv_app&cust_params=vid%3D1234|
+
+sample=5|TEST.x||IMA - Ad Only - (MP4)|||https://pubads.g.doubleclick.net/gampad/ads?impl=s&gdfp_req=1&env=vp&output=xml_vmap1&unviewed_position_start=1&url=[referrer_url]&correlator=[timestamp]&description_url=https%3A%2F%2Fwww.cnet.com%2Fnews%2Fthe-mandalorian-everything-we-know-star-wars-show-disney-plus-baby-yoda-season-2-boba-fett-ahsoka-tano%2F&sz=640x480&cmsid=2289&iu=%2F8264%2Fvaw-cnet%2Fmobile_app%2Fcnet_ios_app&vid=2DB_sE8AVewAwyz6TM3SDcvMwGQbgweA&cust_params=device%3Dmobile%26host%3Dwww.cnet.com%26embed%3D0%26cid%3Dthe-mandalorian-everything-we-know-star-wars-show-disney-plus-baby-yoda-season-2-boba-fett-ahsoka-tano%252C2b2ce34a-e758-4945-93df-d2f9e216423d%26edition%3Dus%26tag%3Ddisney-plus%252Cdisney%252Cstar-wars%252Ctarget%252Csony%252Cjessica-jones%252Cthor%26topic%3Dculture%252Ctv-and-movies%252Ccomics%26sectopic%3Dculture%26section%3Dnews%26ptype%3Darticle%26mfr%3Ddisney-interactive-studios%252Cdisney-interactive%252Csony%252Cnetflixcom-inc%252Clucasarts%26pid%3Djakks%2Bpacific%2Bstar%2Bwars%252Cpropel%2Bstar%2Bwars%252Cnixon%2Bstar%2Bwars%252Camacom%2Bbaby%252Ccuisinart%2Bbaby%252Cstm%2Bchapter%252Cprodecotech%2Brebel%252Crazor%252Csony%26prodtype%3Dtv%252Cgaming%26vid%3D2DB_sE8AVewAwyz6TM3SDcvMwGQbgweA%26feat%3Dcnetapp_pre||ST|true|false|false|false|IMA|-1||true|false|false|iu=/8264/vaw-can/ott/cbs_amazon_tv_app&cust_params=vid%3D1234|
+
+sample=5|TEST.x||IMA - Preroll Ad & Content (HLS)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2019/03/06/1453250627601/21047_cenc_dash/stream.mpd||https://pubads.g.doubleclick.net/gampad/ads?impl=s&gdfp_req=1&env=vp&output=xml_vmap1&unviewed_position_start=1&url=[referrer_url]&correlator=[timestamp]&description_url=https%3A%2F%2Fwww.cnet.com%2Fnews%2Fthe-mandalorian-everything-we-know-star-wars-show-disney-plus-baby-yoda-season-2-boba-fett-ahsoka-tano%2F&sz=640x480&cmsid=2289&iu=%2F8264%2Fvaw-cnet%2Fmobile_app%2Fcnet_ios_app&vid=2DB_sE8AVewAwyz6TM3SDcvMwGQbgweA&cust_params=device%3Dmobile%26host%3Dwww.cnet.com%26embed%3D0%26cid%3Dthe-mandalorian-everything-we-know-star-wars-show-disney-plus-baby-yoda-season-2-boba-fett-ahsoka-tano%252C2b2ce34a-e758-4945-93df-d2f9e216423d%26edition%3Dus%26tag%3Ddisney-plus%252Cdisney%252Cstar-wars%252Ctarget%252Csony%252Cjessica-jones%252Cthor%26topic%3Dculture%252Ctv-and-movies%252Ccomics%26sectopic%3Dculture%26section%3Dnews%26ptype%3Darticle%26mfr%3Ddisney-interactive-studios%252Cdisney-interactive%252Csony%252Cnetflixcom-inc%252Clucasarts%26pid%3Djakks%2Bpacific%2Bstar%2Bwars%252Cpropel%2Bstar%2Bwars%252Cnixon%2Bstar%2Bwars%252Camacom%2Bbaby%252Ccuisinart%2Bbaby%252Cstm%2Bchapter%252Cprodecotech%2Brebel%252Crazor%252Csony%26prodtype%3Dtv%252Cgaming%26vid%3D2DB_sE8AVewAwyz6TM3SDcvMwGQbgweA%26feat%3Dcnetapp_pre|https://cbsi.live.ott.irdeto.com/widevine/getlicense?CrmId=cbsi&AccountId=cbsi&SubContentType=Default&ContentId=19A7D434-8AC8-3835-5681-54E32CBA735B|WV|true|false|false|false|IMA|-1||true|false|false||
+
+sample=5|TEST.x||IMA - Pre/Mid/Postroll Ads & Content (HLS)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2019/03/06/1453250627601/21047_cenc_dash/stream.mpd||https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostoptimizedpod&cmsid=496&vid=short_onecue&correlator=|https://cbsi.live.ott.irdeto.com/widevine/getlicense?CrmId=cbsi&AccountId=cbsi&SubContentType=Default&ContentId=19A7D434-8AC8-3835-5681-54E32CBA735B|WV|true|false|false|false|IMA|0||true|false|false||
+
+sample=5|TEST.x||IMA - Postroll Ads & Content (HLS)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2019/03/06/1453250627601/21047_cenc_dash/stream.mpd||https://pubads.g.doubleclick.net/gampad/ads?impl=s&gdfp_req=1&env=vp&output=xml_vmap1&unviewed_position_start=1&url=[referrer_url]&correlator=[timestamp]&description_url=https%3A%2F%2Fwww.cnet.com%2Fnews%2Fthe-mandalorian-everything-we-know-star-wars-show-disney-plus-baby-yoda-season-2-boba-fett-ahsoka-tano%2F&sz=640x480&cmsid=2289&iu=%2F8264%2Fvaw-cnet%2Fmobile_app%2Fcnet_ios_app&vid=2DB_sE8AVewAwyz6TM3SDcvMwGQbgweA&cust_params=device%3Dmobile%26host%3Dwww.cnet.com%26embed%3D0%26cid%3Dthe-mandalorian-everything-we-know-star-wars-show-disney-plus-baby-yoda-season-2-boba-fett-ahsoka-tano%252C2b2ce34a-e758-4945-93df-d2f9e216423d%26edition%3Dus%26tag%3Ddisney-plus%252Cdisney%252Cstar-wars%252Ctarget%252Csony%252Cjessica-jones%252Cthor%26topic%3Dculture%252Ctv-and-movies%252Ccomics%26sectopic%3Dculture%26section%3Dnews%26ptype%3Darticle%26mfr%3Ddisney-interactive-studios%252Cdisney-interactive%252Csony%252Cnetflixcom-inc%252Clucasarts%26pid%3Djakks%2Bpacific%2Bstar%2Bwars%252Cpropel%2Bstar%2Bwars%252Cnixon%2Bstar%2Bwars%252Camacom%2Bbaby%252Ccuisinart%2Bbaby%252Cstm%2Bchapter%252Cprodecotech%2Brebel%252Crazor%252Csony%26prodtype%3Dtv%252Cgaming%26vid%3D2DB_sE8AVewAwyz6TM3SDcvMwGQbgweA%26feat%3Dcnetapp_post|https://cbsi.live.ott.irdeto.com/widevine/getlicense?CrmId=cbsi&AccountId=cbsi&SubContentType=Default&ContentId=19A7D434-8AC8-3835-5681-54E32CBA735B|WV|true|false|false|false|IMA|-1||true|false|false||
+
+sample=5|TEST.x||IMA - Ad Only - Skippable Ad (MP4)|||https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dskippablelinear&correlator=[timestamp]||ST|true|false|false|false|IMA|-1||true|false|false|iu=/8264/vaw-can/ott/cbs_amazon_tv_app&cust_params=vid%3D1234|
+
+sample=5|TEST.x||IMA - Pre Skippable Ads & Content (HLS)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2019/03/06/1453250627601/21047_cenc_dash/stream.mpd||https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dskippablelinear&correlator=[timestamp]|https://cbsi.live.ott.irdeto.com/widevine/getlicense?CrmId=cbsi&AccountId=cbsi&SubContentType=Default&ContentId=19A7D434-8AC8-3835-5681-54E32CBA735B|WV|true|false|false|false|IMA|-1||true|false|false||
+
+sample=6|TEST.x||360 (MP4)|https://cdn.jwplayer.com/videos/AgqYcfAT-8yQ1cYbs.mp4||||ST|false|false|true|false|URL|-1||true|false|false||
+
+sample=6|TEST.x||360 (HLS)|https://bitmovin.com/player-content/playhouse-vr/m3u8s/105560.m3u8||||ST|false|false|true|false|URL|-1||true|false|false||
+
+sample=6|TEST.x||360 (DASH)|https://bitmovin-a.akamaihd.net/content/playhouse-vr/mpds/105560.mpd||||ST|false|false|true|false|URL|-1||true|false|false||
+
+sample=7|TEST.x||VTT Seek Thumbnails (HLS + Seek Thumbnails)|https://play.dev.cbsivideo.com/h/1.7TORoMYqJaeWzOhAFif0RCBEMIutx4t97p8SHqcPyqEXtUrnJpNQZ6s6UWxSu7Sk33fooMwlgJA6xFIv2LSYC2jRERfbtGn1VsyWgFfkIisTimThJJ61tcPIcemtEqp2oswKCqFx1MyLIyc9waPsrBt00MIGJqQdjoHkLh0ltoVTDjHnmGFWJ2BqH3JD28LuBgyUi6oRpcxO0FOgeMuCbrjo9ZAQx86VRrkiLFxTB766GNVR5fLyzGbqgSM03tu3GL5KmU2yoV599RJMfGwBEBTbpQ7U7WlNLVZhTLyQkVQ6NjtNvIOCUbG78I8SIS6Vw3FOjmzbL5zTJ2s1hjsl1MFTGEeWE3RQOE4f00T8odARjyCtwPVxk5GLiXxsq5p4FxkZJ2T2mZS7MlVzoOQhx71a6lWQ5WEUfUm8UWGXvWrAgTsHSwBkmFDAfneMj6eqjiwFG5mJEhbo0mbTeNH4zEogYRV3KL3dqsFvvDTcCzRiNZdP609HM0BtMeRq8t0/master.m3u8||||ST|true|false|false|false|URL|-1|https://play.dev.cbsivideo.com/h/1.7TORoMYqJaeWzOhAFif0RCBEMIutx4t97p8SHqcPyqEXtUrnJpNQZ6s6UWxSu7Sk33fooMwlgJA6xFIv2LSYC2jRERfbtGn1VsyWgFfkIisTimThJJ61tcPIcemtEqp2oswKCqFx1MyLIyc9waPsrBt00MIGJqQdjoHkLh0ltoVTDjHnmGFWJ2BqH3JD28LuBgyUi6oRpcxO0FOgeMuCbrjo9ZAQx86VRrkiLFxTB766GNVR5fLyzGbqgSM03tu3GL5KmU2yoV599RJMfGwBEBTbpQ7U7WlNLVZhTLyQkVQ6NjtNvIOCUbG78I8SIS6Vw3FOjmzbL5zTJ2s1hjsl1MFTGEeWE3RQOE4f00T8odARjyCtwPVxk5GLiXxsq5p4FxkZJ2T2mZS7MlVzoOQhx71a6lWQ5WEUfUm8UWGXvWrAgTsHSwBkmFDAfneMj6eqjiwFG5mJEhbo0mbTeNH4zEogYRV3KL3dqsFvvDTcCzRiNZdP609HM0BtMeRq8t0/thumbs.vtt|true|false|false||
+
+sample=8|TEST.x||Low Latency Live - IVS - Captions (HLS)|https://fcc3ddae59ed.us-west-2.playback.live-video.net/api/video/v1/us-west-2.893648527354.channel.DmumNckWFTqz.m3u8||||ST|false|true|false|false|URL|-1||true|false|true||
+
+sample=9|TEST.x||Invalid ResourceConfiguration|||||ST|false|false|false|false|URL|-1||true|false|false||
+
+sample=9|TEST.x||Invalid HLS Key|http://www.sasacinc.com/Work/UVP/Test/test.m3u8||||ST|false|false|false|false|URL|-1||true|false|false||
+
+sample=9|TEST.x||Unavailable HLS Key|http://www.sasacinc.com/Work/UVP/Test/test2.m3u8||||ST|false|false|false|false|URL|-1||true|false|false||
+
+sample=9|TEST.x||Invalid HLS Subtitles|http://www.sasacinc.com/Work/UVP/Test/test1.m3u8||||ST|false|false|false|false|URL|-1||true|false|false||
+
+sample=9|TEST.x|2497752/9D5se7TaQpNkFuHlSJL4Gl_VVoZBPZnz11/7j3n273bfj7jcnvf22d713a51f|DAI VoD - Fallback Url (DASH)|http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8|||$drm|WV|true|false|false|false|DAI|10||true|false|false||
+
+sample=9|TEST.x|xgfkxhQFOQAOXHigAVdRi8A/ |Invalid DAI Live - BBB (HLS)|||||ST|false|true|false|false|DAI|-1||true|false|false||
+
+sample=9|TEST.x||Multi-Language Audio/Captions - Forced Invalid Audio URL (HLS)|https://www.sasacinc.com/Work/UVP/multiaudio.m3u8||||ST|false|false|false|false|URL|-1||true|false|false||
+
+sample=10|TEST.x||Multiple Keys/Track - Non CBS (DASH + DRM + Keys/Track)|https://media.axprod.net/TestVectors/v7-MultiDRM-MultiKey-MultiPeriod/Manifest.mpd|||https://drm-widevine-licensing.axtest.net/AcquireLicense [X-AxDRM-Message:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZXJzaW9uIjoxLCJjb21fa2V5X2lkIjoiYjMzNjRlYjUtNTFmNi00YWUzLThjOTgtMzNjZWQ1ZTMxYzc4IiwibWVzc2FnZSI6eyJ0eXBlIjoiZW50aXRsZW1lbnRfbWVzc2FnZSIsInZlcnNpb24iOjIsImxpY2Vuc2UiOnsiYWxsb3dfcGVyc2lzdGVuY2UiOnRydWV9LCJjb250ZW50X2tleXNfc291cmNlIjp7ImlubGluZSI6W3siaWQiOiIwODcyNzg2ZS1mOWU3LTQ2NWYtYTNhMi00ZTViMGVmOGZhNDUiLCJlbmNyeXB0ZWRfa2V5IjoiUHc2K2VFWU5jdmpZYmZzaDNYM2ZtZz09IiwidXNhZ2VfcG9saWN5IjoiUG9saWN5IEEifSx7ImlkIjoiYzE0ZjA3MDktZjJiOS00NDI3LTkxNmItNjFiNTI1ODY1MDZhIiwiZW5jcnlwdGVkX2tleSI6Ii8xK2ZOaWgzOG1xUnY0eWNZem50L3c9PSIsInVzYWdlX3BvbGljeSI6IlBvbGljeSBBIn0seyJpZCI6IjhiMDI5ZTUxLWQ1NmEtNDRiZC05MTBmLWQ0YjVmZDkwZmJhMiIsImVuY3J5cHRlZF9rZXkiOiJrcTBKdVpFanBGTjhzYVRtdDU2ME9nPT0iLCJ1c2FnZV9wb2xpY3kiOiJQb2xpY3kgQSJ9LHsiaWQiOiIyZDZlOTM4Ny02MGNhLTQxNDUtYWVjMi1jNDA4MzdiNGIwMjYiLCJlbmNyeXB0ZWRfa2V5IjoiVGNSUWVCV3hFb0hPS0hyYWQ0U2VWUT09IiwidXNhZ2VfcG9saWN5IjoiUG9saWN5IEEifSx7ImlkIjoiZGUwMmYwN2YtYTA5OC00ZWUwLWI1NTYtOTA3YzBkMTdmYmJjIiwiZW5jcnlwdGVkX2tleSI6InBvZW5jUzdHZ21lR0Zlb0o2UEVBVFE9PSIsInVzYWdlX3BvbGljeSI6IlBvbGljeSBBIn0seyJpZCI6IjkxNGU2OWY0LTBhYjMtNDUzNC05ZTlmLTk4NTM2MTVlMjZmNiIsImVuY3J5cHRlZF9rZXkiOiJlaUkvTXNsbHJRNHdDbFJUL0xObUNBPT0iLCJ1c2FnZV9wb2xpY3kiOiJQb2xpY3kgQSJ9LHsiaWQiOiJkYTQ0NDVjMi1kYjVlLTQ4ZWYtYjA5Ni0zZWYzNDdiMTZjN2YiLCJlbmNyeXB0ZWRfa2V5IjoiMncremR2cXJwRFYzeFIwYkp5NHVndz09IiwidXNhZ2VfcG9saWN5IjoiUG9saWN5IEEifSx7ImlkIjoiMjlmMDVlOGYtYTFhZS00NmU0LTgwZTktMjJkY2Q0NGNkN2ExIiwiZW5jcnlwdGVkX2tleSI6Ii94bFNIcHh3cXUzZ28vZ2xwbVNnYVE9PSIsInVzYWdlX3BvbGljeSI6IlBvbGljeSBBIn0seyJpZCI6IjY5ZmU3MDc3LWRhZGQtNGI1NS05NmNkLWMzZWRiMzk5MTg1MyIsImVuY3J5cHRlZF9rZXkiOiJ6dTZpdXpOMnBzaTBaU3hRaUFUa1JRPT0iLCJ1c2FnZV9wb2xpY3kiOiJQb2xpY3kgQSJ9XX0sImNvbnRlbnRfa2V5X3VzYWdlX3BvbGljaWVzIjpbeyJuYW1lIjoiUG9saWN5IEEiLCJwbGF5cmVhZHkiOnsibWluX2RldmljZV9zZWN1cml0eV9sZXZlbCI6MTUwLCJwbGF5X2VuYWJsZXJzIjpbIjc4NjYyN0Q4LUMyQTYtNDRCRS04Rjg4LTA4QUUyNTVCMDFBNyJdfX1dfX0.R7aHvOHPBV-f2VfjeQC0AOi9axZI_xGIlpB-OScAzy4]|WV|false|false|false|false|URL|-1||true|false|false||
+
+sample=10|TEST.x|DpvBFSPZQ8SesPg49RctzEp7ggW7Tk_F|IMA Live with Key Rotation - BBLF ***Note: May not be available at all times*** (DASH + DRM + Key Rotation)|https://gamesg041-resid0703.global.ssl.fastly.net/out/v1/8b7f2a2bbbe940b8b749835046e54736/manifest.mpd||http://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=%2F8264%2Fvaw-can%2Fmobile_app%2Fcbs_android_phone_app&ciu_szs=300x250,300x60&impl=s&gdfp_req=1&env=vp&output=xml_vmap1&unviewed_position_start=1&url=cbs.com&correlator=1597967585&cust_params=vid%3Di14ipCp2_P2chxVqo6gGBXD1BHTplvmI&partner=cbs_android_phone_app&vid=i14ipCp2_P2chxVqo6gGBXD1BHTplvmI&cmsid=2289|$drm|WV|false|true|false|false|IMA|-1||true|false|false||
+
+sample=11|TEST.x|2497752/QyrMFqn5iYIAr6nsrYpvR7ZA2Co_VAcz/7j3n273bfj7jcnvf22d713a51f|DAI VoD - with Ad Parameters - iu=/8264/vaw-can/ott/cbs_amazon_tv_app&cust_params=vid%3D1234 (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false|iu=/8264/vaw-can/ott/cbs_amazon_tv_app&cust_params=vid%3D1234|
+
+sample=12|TEST.x|Lj3JUIb4TP5vkuiDIW6iyJpXFfagqB2q|Direct URL - VoD|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2019/01/07/1421523523902/490152_cenc_fmp4_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
+
+sample=13|TEST.x|2490667/googleio-highlights/|DAI - Innovid Preroll (HLS)|||||ST|true|false|false|false|DAI|-1||true|false|false||
+
+sample=14|TEST.x||Direct URL - News DVR (HLS)|https://cbsn-us-cedexis.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/start/$ydateT17:46:09Z/end/$ydateT17:53:44Z/master.m3u8?b=1200-2500&iu=/8264/vaw-can/mobile_app/cbs_android_phone_app||||ST|true|false|false|false|URL|-1||true|false|false||
+
+sample=15|TEST.x|2497752/a4Af8ptKlr5gthauHnde5C9JdeJcNnWa/7j3n273bfj7jcnvf22d713a51f|DAI VoD (DASH + DRM + Seek Thumbnails)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
+
+sample=15|TEST.x||Direct URL - VoD - Multi-Audio (HLS)|$viacomMultiAudio||||ST|true|false|false|false|URL|-1||true|false|false||
+
+sample=15|TEST.x||Direct URL - DVB-DASH|https://raw.githubusercontent.com/bbc/exoplayer-testing-samples/master/app/src/androidTest/assets/streams/files/redGreenVideo/redGreenVideo.mpd||||ST|true|false|false|false|URL|-1||true|false|false||
+
+sample=15|TEST.x|61yWTYCMK1cT// |DAI Live by PID - News (HLS)|||||ST|false|true|false|false|PLA|-1||true|false|false||
+
+sample=15|TEST.x|tZkaMP7FTN2Uw2i7ToBdeA/ |DAI Live - TEST (HLS)|||||ST|false|true|false|false|DAI|-1||true|false|false||
+
+sample=15|TEST.x|2497752/SmYxkxQQtkfYRK4j3oOpG7lwBfE1Eeuo/7j3n273bfj7jcnvf22d713a51f|DAI VoD - Commercial Free - Skip Preroll (DASH + DRM + Seek Thumbnails)||||$drm|WV|false|false|false|false|DAI|-1||true|false|false|cust_params=sb=14|
+
+sample=15|TEST.x||Smithsonian (HLS)|https://hls-vod-cld.cdn1.smithsonianchannel.com/fe3634-buildstartrek_3436402/tv_master.m3u8||||ST|false|false|false|false|URL|-1||true|false|false||
+
+sample=15|TEST.x|2497752/p_F16OmokbFpnKJC64lcdoP9_MdR1I7D/7j3n273bfj7jcnvf22d713a51f|DAI VoD (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
+
+sample=15|TEST.x||Syncbak Live (HLS)|$syncbakLive||||ST|false|true|false|false|URL|-1||true|false|false||
+
+sample=15|TEST.x||News Live (HLS)|https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/9973f84c-7e7d-4381-80c2-aa7985194961:MRN2/master.m3u8||||ST|false|true|false|false|URL|-1||true|false|false||
+
+sample=15|TEST.x||VoD 608 (HLS)|https://cdn.theoplayer.com/video/adultswim/clip.m3u8||||ST|false|false|false|false|URL|-1||true|false|false||
+
+sample=15|TEST.x||Live (DASH)|https://play.dev.cbsivideo.com/d/l/2.QeMcJ0V67D8nfKnAc54oS0A9M9crpHcatNHU6nIXIDbhMJDBOj-xvJv1G-Dwo47C5LWGi7eOJlSDxtPk_oMGQIhE4YZnGoVAL6v40HCEpnzvBc32nC08/manifest.mpd||||ST|false|true|false|false|URL|-1||true|false|false||
+
+sample=15|TEST.x|4PONBbtenbNMmrz0oNcO059HBYB3z37g|Direct URL - CC Alignment Test - VoD|https://vod-gcs-cedexis.cbsaavideo.com/paramountplus/2021/03/02/1867979331773/607810_cenc_precon_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
