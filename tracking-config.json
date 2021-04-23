@@ -218,7 +218,8 @@
       "params":{
          "sessionInfo":{
             "publisherId":"3002231",
-            "publisherSecret":"7b94840eb66b17e61c3d2f909c3a1163"
+            "publisherSecret":"7b94840eb66b17e61c3d2f909c3a1163",
+	    "enableSSL":true
          },
          "contentInfo":{
 	    "ns_ap_ct":"{data.isAd} ? va : vc",
@@ -237,7 +238,6 @@
             "ns_st_ddt":"*null",
             "ns_st_tdt":"*null",
             "c1":"2",
-            "c2":"3002231",
             "c3":"{data.playerName}",
             "c4":"cnetvideo",
             "c6":"{data.mediaTitle}"
