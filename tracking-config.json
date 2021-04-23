@@ -237,10 +237,10 @@
             "ns_st_ddt":"*null",
             "ns_st_tdt":"*null",
             "c1":"2",
-            "c2":"1234",
+            "c2":"3002231",
             "c3":"{data.playerName}",
             "c4":"cnetvideo",
-            "c6":"{data.videoTitle}"
+            "c6":"{data.mediaTitle}"
          }
       }
    },
