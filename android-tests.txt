@@ -127,4 +127,6 @@ sample=15|TEST.x||VoD 608 (HLS)|https://cdn.theoplayer.com/video/adultswim/clip.
 
 sample=15|TEST.x||Live (DASH)|https://play.dev.cbsivideo.com/d/l/2.QeMcJ0V67D8nfKnAc54oS0A9M9crpHcatNHU6nIXIDbhMJDBOj-xvJv1G-Dwo47C5LWGi7eOJlSDxtPk_oMGQIhE4YZnGoVAL6v40HCEpnzvBc32nC08/manifest.mpd||||ST|false|true|false|false|URL|-1||true|false|false||
 
-sample=15|TEST.x|4PONBbtenbNMmrz0oNcO059HBYB3z37g|Direct URL - CC Alignment Test - VoD|https://vod-gcs-cedexis.cbsaavideo.com/paramountplus/2021/03/02/1867979331773/607810_cenc_precon_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
+sample=15|TEST.x|xMZwyBoYHhmNw8gXkrllX17Y99pC67kG/ |DAI Test - (HLS)|||||ST|false|true|false|false|DAI|-1||true|false|false||
+
+sample=15|TEST.x|2497752/Szbbn6rCLPF3a5VvSWWhWB871pry6pAE/7j3n273bfj7jcnvf22d713a51f|DAI VoD - 4:3 Content and 16:9 Ads -Muted (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
