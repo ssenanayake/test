@@ -118,17 +118,17 @@
          "dcrInfo":{
             "dataSrc":"cms",
             "type":"content",
-            "assetId":"{data.mediaIdForTracking}",
-            "tv":"{data..tvRating} ? true : false",
-            "category":"{data.seriesTitle} | na",
-            "title":"{context.formattedTitle} | na",
-            "program":"{data.seriesTitle} | na",
-            "airDate":"{context.airDate} | na",
-            "isFullEpisode":"{data.episodeFlag} ? y : n",
-            "crossId1":"{context.crossId1}",
+            "assetId":"{data.mediaId}",
+            "tv":"{data.tvRating} ? true : false",
+            "category":"{data.mediaCategory.} | na",
+            "title":"{data.mediaTitle} | na",
+            "program":"{data.mediaSeries} | na",
+            "airDate":"{data.mediaAirDate} | na",
+            "isFullEpisode":"{data.mediaFullEpisode} ? y : n",
+            "crossId1":"{data.mediaCrossId1}",
             "crossId2":"CBS",
             "adLoadType":"2",
-            "length":"{data.isLive} ? 86400 : {context.duration}"
+            "length":"{data.isLive} ? 86400 : {data.mediaDuration}"
          },
          "adInfo":{
             "type":"{context.adType}",
@@ -250,8 +250,7 @@
       "params":{
 	 "sessionInfo":{
             "customerKey":"87a6b28bc7823e67a5bb2a0a6728c702afcae78d",
-            "gatewayUrl":"{context.dev} ? cbscom-test.testonly.conviva.com : cws.conviva.com",
-            "enableSSL":true
+            "gatewayUrl":"{context.dev} ? cbscom-test.testonly.conviva.com : cws.conviva.com"
          },
          "contentInfo":{
             "assetName":"{data.isLive} ? [Live] {data.videoTitle} : [VoD] {data.videoTitle}",
