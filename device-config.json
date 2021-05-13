@@ -60,7 +60,7 @@
                            "minBuffer" : 10,
                            "maxBuffer" : 20,
 			   "enableSoftwareDecoder" : false,
-                           "disablePremiumAudio" : true,
+                           "disablePremiumAudio" : false,
 			   "enableSmallSeekThumbnail" : true
                           }
   },
