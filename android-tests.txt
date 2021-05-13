@@ -1,6 +1,6 @@
 
 
-enabledGroups=0:Play List|1:Custom Resource Provider|2:Multi Language/Captions|3:DAI Live|4:DAI VoD|5:IMA|6:VR-360|7:Side Loaded Seek Thumbnails|8:Low Latency|9:Forced Error|10:Multiple DRM Keys|11:DAI with Ad Parameters|12:Dolby Vision/HDR10|13:Innovid|14:DVR Captions|15:Miscellaneous|
+enabledGroups=0:Play List|1:Custom Resource Provider|2:Multi Language/Captions|3:DAI Live|4:DAI VoD|5:IMA|6:VR-360|7:Side Loaded Seek Thumbnails|8:Low Latency|9:Forced Error|10:Multiple DRM Keys|11:DAI with Ad Parameters|12:Dolby Vision/HDR10|13:Innovid|14:DVR Captions|15:Muted|16:Live|17:Miscellaneous|
 
 // int group, String id, String externalId, String name, String uri, String subtitleUri,
 // String overrideAdUri, String drmUri, int drmType, boolean preroll, boolean live, boolean vr360,
@@ -13,7 +13,7 @@ $syncbakLive=https://www.paramountplus.com/apps-api/v3.0/firetv/dma.json?ipaddre
 
 sample=0|TEST.x|$23,$8|Multiple ResourceConfig (IMA Ad Only, DAI Live Content)|||||ST|true|false|false|false|CUS|-1||true|false|false||
 
-sample=0|TEST.x|$11,$11|Multiple ResourceConfig (DAI Content, DAI Content)|||||ST|true|false|false|false|CUS|-1||true|false|false||
+sample=0|TEST.x|$12,$12|Multiple ResourceConfig (DAI Content, DAI Content)|||||ST|true|false|false|false|CUS|-1||true|false|false||
 
 sample=1|TEST.x||Custom RP - (HLS)|||||ST|true|false|false|false|CUS|-1||true|false|false||
 
@@ -24,6 +24,8 @@ sample=2|TEST.x||Multi-Language Captions (HLS)|http://cdnbakmi.kaltura.com/p/243
 sample=2|TEST.x||Multi-Language Audio/Captions (HLS)|https://cdn.theoplayer.com/video/elephants-dream/playlist.m3u8||||ST|false|false|false|false|URL|-1||true|false|false||
 
 sample=2|TEST.x||Multi-Language Captions - UHD (DASH)|https://storage.googleapis.com/shaka-demo-assets/sintel/dash.mpd||||ST|false|false|false|false|URL|-1||true|false|false||
+
+sample=2|TEST.x||VoD 608 (HLS)|https://cdn.theoplayer.com/video/adultswim/clip.m3u8||||ST|false|false|false|false|URL|-1||true|false|false||
 
 sample=3|TEST.x|gfkxhQFOQAOXHigAVdRi8A/ |DAI Live - BBB (HLS)|||||ST|false|true|false|false|DAI|-1||true|false|false||
 
@@ -105,36 +107,22 @@ sample=13|TEST.x|2490667/googleio-highlights/|DAI - Innovid Preroll (HLS)|||||ST
 
 sample=14|TEST.x||Direct URL - News DVR (HLS)|https://cbsn-us-cedexis.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/start/$ydateT17:46:09Z/end/$ydateT17:53:44Z/master.m3u8?b=1200-2500&iu=/8264/vaw-can/mobile_app/cbs_android_phone_app||||ST|true|false|false|false|URL|-1||true|false|false||
 
-sample=15|TEST.x|2497752/a4Af8ptKlr5gthauHnde5C9JdeJcNnWa/7j3n273bfj7jcnvf22d713a51f|DAI VoD (DASH + DRM + Seek Thumbnails)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
+sample=15|TEST.x|2497752/Szbbn6rCLPF3a5VvSWWhWB871pry6pAE/7j3n273bfj7jcnvf22d713a51f|DAI VoD - 4:3 Content and 16:9 Ads -Muted (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
 
-sample=15|TEST.x||Direct URL - VoD - Multi-Audio (HLS)|$viacomMultiAudio||||ST|true|false|false|false|URL|-1||true|false|false||
+sample=16|TEST.x||Syncbak Live (HLS)|$syncbakLive||||ST|false|true|false|false|URL|-1||true|false|false||
 
-sample=15|TEST.x||Direct URL - DVB-DASH|https://raw.githubusercontent.com/bbc/exoplayer-testing-samples/master/app/src/androidTest/assets/streams/files/redGreenVideo/redGreenVideo.mpd||||ST|true|false|false|false|URL|-1||true|false|false||
+sample=16|TEST.x||News Live (HLS)|https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/9973f84c-7e7d-4381-80c2-aa7985194961:MRN2/master.m3u8||||ST|false|true|false|false|URL|-1||true|false|false||
 
-sample=15|TEST.x|61yWTYCMK1cT// |DAI Live by PID - News (HLS)|||||ST|false|true|false|false|PLA|-1||true|false|false||
+sample=16|TEST.x||Live (DASH)|https://play.dev.cbsivideo.com/d/l/2.QeMcJ0V67D8nfKnAc54oS0A9M9crpHcatNHU6nIXIDbhMJDBOj-xvJv1G-Dwo47C5LWGi7eOJlSDxtPk_oMGQIhE4YZnGoVAL6v40HCEpnzvBc32nC08/manifest.mpd||||ST|false|true|false|false|URL|-1||true|false|false||
 
-sample=15|TEST.x|tZkaMP7FTN2Uw2i7ToBdeA/ |DAI Live - TEST (HLS)|||||ST|false|true|false|false|DAI|-1||true|false|false||
+sample=16|TEST.x||Live with Keys (HLS)|http://dai.google.com/linear/hls/event/dtCTLqv-QI-cn4oGMW0HOw/master.m3u8||||ST|false|true|false|false|URL|-1||true|false|false||
 
-sample=15|TEST.x|2497752/SmYxkxQQtkfYRK4j3oOpG7lwBfE1Eeuo/7j3n273bfj7jcnvf22d713a51f|DAI VoD - Commercial Free - Skip Preroll (DASH + DRM + Seek Thumbnails)||||$drm|WV|false|false|false|false|DAI|-1||true|false|false|cust_params=sb=14|
+sample=17|TEST.x||Direct URL - VoD - Multi-Audio (HLS)|$viacomMultiAudio||||ST|true|false|false|false|URL|-1||true|false|false||
 
-sample=15|TEST.x||Smithsonian (HLS)|https://hls-vod-cld.cdn1.smithsonianchannel.com/fe3634-buildstartrek_3436402/tv_master.m3u8||||ST|false|false|false|false|URL|-1||true|false|false||
-
-sample=15|TEST.x|2497752/p_F16OmokbFpnKJC64lcdoP9_MdR1I7D/7j3n273bfj7jcnvf22d713a51f|DAI VoD (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
-
-sample=15|TEST.x||Syncbak Live (HLS)|$syncbakLive||||ST|false|true|false|false|URL|-1||true|false|false||
-
-sample=15|TEST.x||News Live (HLS)|https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/9973f84c-7e7d-4381-80c2-aa7985194961:MRN2/master.m3u8||||ST|false|true|false|false|URL|-1||true|false|false||
-
-sample=15|TEST.x||VoD 608 (HLS)|https://cdn.theoplayer.com/video/adultswim/clip.m3u8||||ST|false|false|false|false|URL|-1||true|false|false||
-
-sample=15|TEST.x||Live (DASH)|https://play.dev.cbsivideo.com/d/l/2.QeMcJ0V67D8nfKnAc54oS0A9M9crpHcatNHU6nIXIDbhMJDBOj-xvJv1G-Dwo47C5LWGi7eOJlSDxtPk_oMGQIhE4YZnGoVAL6v40HCEpnzvBc32nC08/manifest.mpd||||ST|false|true|false|false|URL|-1||true|false|false||
-
-sample=15|TEST.x||Live with Keys (HLS)|http://dai.google.com/linear/hls/event/dtCTLqv-QI-cn4oGMW0HOw/master.m3u8||||ST|false|true|false|false|URL|-1||true|false|false||
+sample=17|TEST.x||Smithsonian (HLS)|https://hls-vod-cld.cdn1.smithsonianchannel.com/fe3634-buildstartrek_3436402/tv_master.m3u8||||ST|false|false|false|false|URL|-1||true|false|false||
 
 sample=15|TEST.x|2497752/tQk_Qooh5wUlxQqzj_4LiBO2m4iMrcPD/7j3n273bfj7jcnvf22d713a51f|Test - 1 (DASH)||||$drm|WV|false|false|false|false|DAI|-1||true|false|false||
 
 sample=15|TEST.x|2497752/ROJ69k8pdtmtR5sBZUrOKS6fhc23T_j9/7j3n273bfj7jcnvf22d713a51f|Test - 2 (DASH)||||$drm|WV|false|false|false|false|DAI|-1||true|false|false||
 
 sample=15|TEST.x|2497752/52cLWdkv2y9tI2E0qvCPzbXW4TQxsJo5/7j3n273bfj7jcnvf22d713a51f|Test - 3 - Movie (DASH)||||$drm|WV|false|false|false|false|DAI|-1||true|false|false||
-
-sample=15|TEST.x|2497752/Szbbn6rCLPF3a5VvSWWhWB871pry6pAE/7j3n273bfj7jcnvf22d713a51f|DAI VoD - 4:3 Content and 16:9 Ads -Muted (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
