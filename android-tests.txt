@@ -11,9 +11,9 @@ $drm=MjVFOTcxMzJBOTQ3QzUwMTQwREQxM0VFMkI5NTQ5MjI6MTYzMDcxMDMwMDQ5ODpmN2I2YmVkNDk
 $viacomMultiAudio=https://topaz.uat.viacomcbs.digital/topaz/api/mgid:arc:episode:shared.paramountplus.br:40372210-599e-11e8-aacc-70df2f866ace/mica.json?region=BR&clientPlatform=android&ds.stage=staging&TPZdpCheck=false&adsConfig=true
 $syncbakLive=https://www.paramountplus.com/apps-api/v3.0/firetv/dma.json?ipaddress=73.220.60.115&dtp=8&mvpdId=AllAccess&is60FPS=true&did=652e321238a51e6f&locale=en-us&at=ABCmrL%2BqTCQ8UujYajWJJnvgcsXFGqrgS530PSANzLK%2Fi3SLgMcReMBy1nkxGwo9RA0%3D
 
-sample=0|TEST.x|$23,$8|Multiple ResourceConfig (IMA Ad Only, DAI Live Content)|||||ST|true|false|false|false|CUS|-1||true|false|false||
+sample=0|TEST.x|$23,$9|Multiple ResourceConfig (IMA Ad Only, DAI Live Content)|||||ST|true|false|false|false|CUS|-1||true|false|false||
 
-sample=0|TEST.x|$12,$12|Multiple ResourceConfig (DAI Content, DAI Content)|||||ST|true|false|false|false|CUS|-1||true|false|false||
+sample=0|TEST.x|$12,$13|Multiple ResourceConfig (DAI Content, DAI Content)|||||ST|true|false|false|false|CUS|-1||true|false|false||
 
 sample=1|TEST.x||Custom RP - (HLS)|||||ST|true|false|false|false|CUS|-1||true|false|false||
 
@@ -121,8 +121,8 @@ sample=17|TEST.x||Direct URL - VoD - Multi-Audio (HLS)|$viacomMultiAudio||||ST|t
 
 sample=17|TEST.x||Smithsonian (HLS)|https://hls-vod-cld.cdn1.smithsonianchannel.com/fe3634-buildstartrek_3436402/tv_master.m3u8||||ST|false|false|false|false|URL|-1||true|false|false||
 
-sample=15|TEST.x|2497752/tQk_Qooh5wUlxQqzj_4LiBO2m4iMrcPD/7j3n273bfj7jcnvf22d713a51f|Test - 1 (DASH)||||$drm|WV|false|false|false|false|DAI|-1||true|false|false||
+sample=17|TEST.x|2497752/tQk_Qooh5wUlxQqzj_4LiBO2m4iMrcPD/7j3n273bfj7jcnvf22d713a51f|Test - 1 (DASH)||||$drm|WV|false|false|false|false|DAI|-1||true|false|false||
 
-sample=15|TEST.x|2497752/ROJ69k8pdtmtR5sBZUrOKS6fhc23T_j9/7j3n273bfj7jcnvf22d713a51f|Test - 2 (DASH)||||$drm|WV|false|false|false|false|DAI|-1||true|false|false||
+sample=17|TEST.x|2497752/ROJ69k8pdtmtR5sBZUrOKS6fhc23T_j9/7j3n273bfj7jcnvf22d713a51f|Test - 2 (DASH)||||$drm|WV|false|false|false|false|DAI|-1||true|false|false||
 
-sample=15|TEST.x|2497752/52cLWdkv2y9tI2E0qvCPzbXW4TQxsJo5/7j3n273bfj7jcnvf22d713a51f|Test - 3 - Movie (DASH)||||$drm|WV|false|false|false|false|DAI|-1||true|false|false||
+sample=17|TEST.x|2497752/52cLWdkv2y9tI2E0qvCPzbXW4TQxsJo5/7j3n273bfj7jcnvf22d713a51f|Test - 3 - Movie (DASH)||||$drm|WV|false|false|false|false|DAI|-1||true|false|false||
