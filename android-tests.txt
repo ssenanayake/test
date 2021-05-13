@@ -131,8 +131,10 @@ sample=15|TEST.x||IMA - Preroll Ad & Content (HLS)|https://dai.google.com/linear
 
 sample=15|TEST.x||Live with Keys (HLS)|http://dai.google.com/linear/hls/event/dtCTLqv-QI-cn4oGMW0HOw/master.m3u8||||ST|false|true|false|false|URL|-1||true|false|false||
 
-sample=15|TEST.x|2497752/tQk_Qooh5wUlxQqzj_4LiBO2m4iMrcPD/7j3n273bfj7jcnvf22d713a51f|Test (DASH)||||$drm|WV|false|false|false|false|DAI|-1||true|false|false||
+sample=15|TEST.x|2497752/tQk_Qooh5wUlxQqzj_4LiBO2m4iMrcPD/7j3n273bfj7jcnvf22d713a51f|Test - 1 (DASH)||||$drm|WV|false|false|false|false|DAI|-1||true|false|false||
 
-sample=15|TEST.x|2497752/ROJ69k8pdtmtR5sBZUrOKS6fhc23T_j9/7j3n273bfj7jcnvf22d713a51f|Test - 1 (DASH)||||$drm|WV|false|false|false|false|DAI|-1||true|false|false||
+sample=15|TEST.x|2497752/ROJ69k8pdtmtR5sBZUrOKS6fhc23T_j9/7j3n273bfj7jcnvf22d713a51f|Test - 2 (DASH)||||$drm|WV|false|false|false|false|DAI|-1||true|false|false||
+
+sample=15|TEST.x|2497752/52cLWdkv2y9tI2E0qvCPzbXW4TQxsJo5/7j3n273bfj7jcnvf22d713a51f|Test - 3 - Movie (DASH)||||$drm|WV|false|false|false|false|DAI|-1||true|false|false||
 
 sample=15|TEST.x|2497752/Szbbn6rCLPF3a5VvSWWhWB871pry6pAE/7j3n273bfj7jcnvf22d713a51f|DAI VoD - 4:3 Content and 16:9 Ads -Muted (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
