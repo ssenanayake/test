@@ -129,5 +129,5 @@ sample=17|TEST.x|2497752/52cLWdkv2y9tI2E0qvCPzbXW4TQxsJo5/7j3n273bfj7jcnvf22d713
 
 sample=17|TEST.x||My5 Test - 1 (DASH)|https://akadash0-staging.akamaized.net/cenc/C5165231828/C5165231828A/20200612120134/C5165231828A-tt.mpd|||https://cassie-staging.channel5.com/api/v2/licences/widevine/425/C5165231828?expiry=1628775999&tag=39316138323736316333643836643235643861623937343762303265393235633862646536613739|WV|false|false|false|false|URL|-1||true|false|false||
 
-sample=17|TEST.x|2489270/2455446402001/|DAI VoD - Net10|||||ST|true|false|false|false|DAI|-1||true|false|false||
+sample=17|TEST.x|2489270/2455446402001/|DAI VoD - Net10|||||ST|true|false|false|false|DAI|-1||true|false|false|iu=/vau-ten/ott/tenplay_test_app|
 
