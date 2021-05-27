@@ -10,7 +10,7 @@ enabledGroups=0:Play List|1:Custom Resource Provider|2:Multi Language/Captions|3
 $drm=MjVFOTcxMzJBOTQ3QzUwMTQwREQxM0VFMkI5NTQ5MjI6MTYzMDcxMDMwMDQ5ODpmN2I2YmVkNDk3NTcyNDM4YTA5NDgyZjQ5NmY2YmQwZjozLjA6MA
 $viacomMultiAudio=https://topaz.uat.viacomcbs.digital/topaz/api/mgid:arc:episode:shared.paramountplus.br:40372210-599e-11e8-aacc-70df2f866ace/mica.json?region=BR&clientPlatform=android&ds.stage=staging&TPZdpCheck=false&adsConfig=true
 $syncbakLive1=https://www.paramountplus.com/apps-api/v3.0/firetv/dma.json?ipaddress=73.220.60.115&dtp=8&mvpdId=AllAccess&is60FPS=true&did=652e321238a51e6f&locale=en-us&at=ABCmrL%2BqTCQ8UujYajWJJnvgcsXFGqrgS530PSANzLK%2Fi3SLgMcReMBy1nkxGwo9RA0%3D
-$syncbakLive2=https://cbsplaylistserver.aws.syncbak.com/cpl/853636/cbshls/2.0/7b2264657669636554797065223a322c226361706162696c6974696573223a7b7d7d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjIwMTYwNDAxIn0.eyJkZXZpY2VUeXBlIjoyLCJzaWQiOiIxMTYiLCJjaWQiOjEwNzU0LCJvb20iOmZhbHNlLCJhcHN0IjpudWxsLCJzc2lkIjoiODQyODcyYmQ4YjUyNDhkOGFjZWRkYmU1NTZhZjIzNjEiLCJpcCI6IjE4LjIwOS44My4xIiwidWlwIjoiMTM2LjMzLjIxNS4yMDEiLCJkbWEiOjYxNiwic24iOiJVbnNwZWNpZmllZCBiYmRhMDhlNGE4ICIsInVpZCI6bnVsbCwibWlkIjoiODUzNjM2IiwibWQ1IjoiZWVhMTg4NWZkN2NmYjgzODc4NTgyNGIzMGMyYmI0MzAiLCJpYXQiOjE2MjIxNDUxODQsImV4cCI6MTYyMjE0NTI3NCwiaXNzIjoiV0xTIiwic3ViIjoiODBmOTAxYTItYzdlZi00MmEwLTgxOWUtYTM1ZjM3NzU1MjIyIn0.9InLX0WyUCQnH80EVQdirvGiyXn3Fi9jTpGGu7qeGoI
+$syncbakLive2=https://dai.google.com/linear/hls/event/K_2aA7OVRTacJJli1oSi8w/master.m3u8
 
 sample=0|TEST.x|$29,$9|Multiple ResourceConfig (IMA Ad Only, DAI Live Content)|||||ST|true|false|false|false|CUS|-1||true|false|false||
 
