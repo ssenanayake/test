@@ -30,6 +30,24 @@
                           }
   },
   {
+        "condition" : {"model" : "(?i)AFTA"},
+        "configuration" : {"disablePremiumAudioForAds" : true,
+                           "disableAdaptiveVR360" : false,
+                           "maxBitRate" : 15000000,
+                           "minBuffer" : 10,
+                           "maxBuffer" : 20
+                          }
+  },
+  {
+        "condition" : {"model" : "(?i)AFTR"},
+        "configuration" : {"disablePremiumAudioForAds" : true,
+                           "disableAdaptiveVR360" : false,
+                           "maxBitRate" : 15000000,
+                           "minBuffer" : 10,
+                           "maxBuffer" : 20
+                          }
+  },
+  {
         "condition" : {"model" : "(?i)AFTM"},
         "configuration" : {"maxBitRate" : 3000000,
 			   "disableAdaptiveVR360" : false
