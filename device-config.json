@@ -17,12 +17,14 @@
   {
         "condition" : {"model" : "(?i)AFTB"},
 	"configuration" : {"disablePremiumAudio" : true,
+			   "disablePremiumAudioForAds" : true,
 			   "maxFrameRate" : 60
                           }
   },
   {
 	"condition" : {"model" : "(?i)AFTMM"},
         "configuration" : {"disablePremiumAudioForAds" : true,
+			   "disablePremiumAudio" : false,
 			   "disableAdaptiveVR360" : false,
 			   "maxBitRate" : 15000000,
 			   "minBuffer" : 10,
@@ -32,6 +34,7 @@
   {
         "condition" : {"model" : "(?i)AFTA"},
         "configuration" : {"disablePremiumAudioForAds" : true,
+			   "disablePremiumAudio" : false,
                            "disableAdaptiveVR360" : false,
                            "maxBitRate" : 15000000,
                            "minBuffer" : 10,
@@ -41,6 +44,7 @@
   {
         "condition" : {"model" : "(?i)AFTR"},
         "configuration" : {"disablePremiumAudioForAds" : true,
+			   "disablePremiumAudio" : false,
                            "disableAdaptiveVR360" : false,
                            "maxBitRate" : 15000000,
                            "minBuffer" : 10,
@@ -50,14 +54,17 @@
   {
         "condition" : {"model" : "(?i)AFTM"},
         "configuration" : {"maxBitRate" : 3000000,
-			   "disableAdaptiveVR360" : false
+			   "disableAdaptiveVR360" : false,
+			   "disablePremiumAudio" : false,
+			   "disablePremiumAudioForAds" : false
                           }
   },
   {
         "condition" : {"model" : "(?i)AFTT"},
         "configuration" : {"maxBitRate" : 3000000,
                            "disableAdaptiveVR360" : false,
-			   "disablePremiumAudio" : true
+			   "disablePremiumAudio" : true,
+			   "disablePremiumAudioForAds" : true
                           }
   },
   {
@@ -67,7 +74,8 @@
                            "minBuffer" : 10,
                            "maxBuffer" : 20,
                            "enableSoftwareDecoder" : false,
-                           "disablePremiumAudio" : true,
+                           "disablePremiumAudio" : false,
+			   "disablePremiumAudioForAds" : true,
 			   "enableSmallSeekThumbnail" : true
                           }
   },
@@ -79,6 +87,7 @@
                            "maxBuffer" : 20,
 			   "enableSoftwareDecoder" : false,
                            "disablePremiumAudio" : false,
+                           "disablePremiumAudioForAds" : true,
 			   "enableSmallSeekThumbnail" : true
                           }
   },
@@ -90,13 +99,16 @@
   },
   {
         "condition" : {"model" : "(?i)BRAVIA.*"},
-        "configuration" : {"disableAdaptiveVR360" : false
+        "configuration" : {"disableAdaptiveVR360" : false,
+			   "disablePremiumAudioForAds" : false,
+			   "disablePremiumAudio" : false
                           }
   },
   {
         "condition" : {"model" : "(?i)SHIELD.*"},
         "configuration" : {"disableAdaptiveVR360" : false,
-			   "disablePremiumAudioForAds" : true
+			   "disablePremiumAudioForAds" : true,
+			   "disablePremiumAudio" : false
                           }
   }
 ]
