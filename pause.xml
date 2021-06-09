@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
+ <Ad id="5668935724">
+  <InLine>
+   <AdSystem>GDFP</AdSystem>
+   <AdTitle>CBS-General-Mills-Younger-Spons-Pause-Ad_-00445231_R2_asset</AdTitle>
+   <Impression><![CDATA[https://securepubads.g.doubleclick.net/pcs/view%3Fxai%3DAKAOjsuiRm29phOraJBopeJE_iC7R31uqFF0tfBEZ2D0Yn02swr6H1v1bxcVln8LTZGD2Zgdb1Ur5N-CZPIE9Ro-52B2mkty74mmVhyZTTglwDmKDJ97s50-4pU0und2waNwnpbS-idYN7dEOfAf17Omu-LvBq7EfYy3L3IzXclDpmF-3l5Ia5Vw6mQOwNxLgp7OZ1cfEQbQ7aAu4dEfE7y_UGb9M7G0C0SfMiOtnqZoNxcMv8dNBx7x8ddcaKFXqv_bQzYCMAI6ulOXu_CsApcyZWjJfQLrZ2Qotov5Vg%26sai%3DAMfl-YRDRdy40KZne5z2jEaXAKGyNuv1Y9lcKWJAiOjfvQYKOdeIA5V67mZOzWAqTLfZw6Y9eiyCtH1fgcWKPM9biawcFoc8Ef08CGMBSXus%26sig%3DCg0ArKJSzKRqyHm8wGzJEAE%26urlfix%3D1%26adurl%3D]]></Impression>
+   <Impression><![CDATA[https://ad.doubleclick.net/ddm/trackimp/N7676.3861580VIACOMCBS/B24596747.301033242;dc_trk_aid=494202228;dc_trk_cid=137455564;ord=1008661405;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=?]]></Impression>
+<Creatives>
+<Creative sequence="1">
+<Linear>
+<Duration>00:00:00</Duration>
+<TrackingEvents/>
+<VideoClicks/>
+<MediaFiles/>
+</Linear>
+</Creative>
+<Creative sequence="1">
+<CompanionAds>
+<Companion height="60" width="300" id="ad300x60">
+<StaticResource creativeType="image/jpeg">
+</StaticResource>
+<TrackingEvents>
+<Tracking event="creativeView"></Tracking>
+</TrackingEvents>
+<CompanionClickThrough>
+https://adclick.g.doubleclick.net/pcs/click%253Fxai%253DAKAOjstILTJw0bfCYQ5-6Yxum0s280vAF5Idj3bWomjLJpI1YckWkmZfEG9wx0-9uL4qztg4QlPbI4iuGSe_Cl2m1OlbxA8aEhI-QadtT0HZO-_XwJ_tuht8gFSw4MJ8_Cv4SHriZ0LSz_E5V8DkZ7jFiHOZ8xUO-RRzTnUetAXOvaGhv33n25-ulsRbEKFbpxgadCqF7Z3cvKWExay9FWSVOrXHTl2nAj0t4XslCIujl2zjXzvSVF5ODlRajQz8NquI4h-EZSl81Bdi14p4SbpAAMoD5Ug%2526sai%253DAMfl-YRBugRqGQLuRME07NQGpUSxoLhPn14Pf-mB2lQSc_4yOcvQwEO0wV9zonOu3rU_CJSl_jaS4Kc_wHWfmIPEfv76O0JFg04y_6XqZcKm%2526sig%253DCg0ArKJSzAfiL8CQYROdEAE%2526fbs_aeid%253D%255Bgw_fbsaeid%255D%2526urlfix%253D1%2526adurl%253D
+</CompanionClickThrough>
+</Companion>
+<Companion apiFramework="" height="477" width="848" id="ad848x477">
+<StaticResource creativeType="image/jpeg">
+https://tpc.googlesyndication.com/simgad/14887118101198195444?
+</StaticResource>
+<TrackingEvents>
+<Tracking event="creativeView">https://ad.doubleclick.net/ddm/trackimp/N7676.3861580VIACOMCBS/B24596747.301033242;dc_trk_aid=494202228;dc_trk_cid=137455564;ord=1008661405;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=?</Tracking>
+</TrackingEvents>
+<CompanionClickThrough>
+https://adclick.g.doubleclick.net/pcs/click%253Fxai%253DAKAOjstILTJw0bfCYQ5-6Yxum0s280vAF5Idj3bWomjLJpI1YckWkmZfEG9wx0-9uL4qztg4QlPbI4iuGSe_Cl2m1OlbxA8aEhI-QadtT0HZO-_XwJ_tuht8gFSw4MJ8_Cv4SHriZ0LSz_E5V8DkZ7jFiHOZ8xUO-RRzTnUetAXOvaGhv33n25-ulsRbEKFbpxgadCqF7Z3cvKWExay9FWSVOrXHTl2nAj0t4XslCIujl2zjXzvSVF5ODlRajQz8NquI4h-EZSl81Bdi14p4SbpAAMoD5Ug%2526sai%253DAMfl-YRBugRqGQLuRME07NQGpUSxoLhPn14Pf-mB2lQSc_4yOcvQwEO0wV9zonOu3rU_CJSl_jaS4Kc_wHWfmIPEfv76O0JFg04y_6XqZcKm%2526sig%253DCg0ArKJSzAfiL8CQYROdEAE%2526fbs_aeid%253D%255Bgw_fbsaeid%255D%2526urlfix%253D1%2526adurl%253Dhttps://ad.doubleclick.net/ddm/trackclk/N7676.3861580VIACOMCBS/B24596747.301033242;dc_trk_aid=494202228;dc_trk_cid=137455564;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=
+</CompanionClickThrough>
+</Companion>
+</CompanionAds>
+</Creative>
+<Creative sequence="1"/>
+</Creatives>
+<Extensions/>
+  </InLine>
+ </Ad>
+</VAST>
