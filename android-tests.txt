@@ -1,6 +1,6 @@
 
 
-enabledGroups=0:Play List|1:Custom Resource Provider|2:Multi Language/Captions|3:DAI Live|4:DAI VoD|5:IMA|6:VR-360|7:Side Loaded Seek Thumbnails|8:Low Latency|9:Forced Error|10:Multiple DRM Keys|11:DAI with Ad Parameters|12:Dolby Vision/HDR10|13:Innovid|14:DVR Captions|15:Muted|16:Live|17:Miscellaneous|
+enabledGroups=0:Play List|1:Custom Resource Provider|2:Multi Language/Captions|3:DAI Live|4:DAI VoD|5:IMA|6:VR-360|7:Side Loaded Seek Thumbnails|8:Low Latency|9:Forced Error|10:Multiple DRM Keys|11:DAI with Ad Parameters|12:Dolby Vision/HDR10/Atmos|13:Innovid|14:DVR Captions|15:Muted|16:Live|17:Miscellaneous|
 
 // int group, String id, String externalId, String name, String uri, String subtitleUri,
 // String overrideAdUri, String drmUri, int drmType, boolean preroll, boolean live, boolean vr360,
@@ -108,6 +108,10 @@ sample=11|TEST.x|2497752/QyrMFqn5iYIAr6nsrYpvR7ZA2Co_VAcz/7j3n273bfj7jcnvf22d713
 
 sample=12|TEST.x|Lj3JUIb4TP5vkuiDIW6iyJpXFfagqB2q|Direct URL - VoD|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2019/01/07/1421523523902/490152_cenc_fmp4_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
 
+sample=12|TEST.x||DAI - ATMOS (DASH)|https://ott.dolby.com/OnDelKits/DDP/Dolby_Digital_Plus_Online_Delivery_Kit_v1.4.1/Test_Signals/muxed_streams/DASH/Live_MPD/ChID_voices_1280x720p_25fps_h264_6ch_640kbps_ddp_joc.mpd||||ST|true|false|false|false|URL|-1||true|false|false||
+
+sample=12|TEST.x||DAI - ATMOS (DASH)|https://ott.dolby.com/OnDelKits/DDP/Dolby_Digital_Plus_Online_Delivery_Kit_v1.4.1/Test_Signals/muxed_streams/DASH/Live_MPD/ChID_voices_1280x720p_25fps_h264_multi_lang.mpd||||ST|true|false|false|false|URL|-1||true|false|false||
+
 sample=13|TEST.x|2490667/googleio-highlights/|DAI - Innovid Preroll (HLS)|||||ST|true|false|false|false|DAI|-1||true|false|false||
 
 sample=14|TEST.x||Direct URL - News DVR (HLS)|https://cbsn-us-cedexis.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/start/$ydateT17:46:09Z/end/$ydateT17:53:44Z/master.m3u8?b=1200-2500&iu=/8264/vaw-can/mobile_app/cbs_android_phone_app||||ST|true|false|false|false|URL|-1||true|false|false||
@@ -135,4 +139,5 @@ sample=17|TEST.x|2497752/52cLWdkv2y9tI2E0qvCPzbXW4TQxsJo5/7j3n273bfj7jcnvf22d713
 sample=17|TEST.x||My5 Test - 1 (DASH)|https://akadash0-staging.akamaized.net/cenc/C5165231828/C5165231828A/20200612120134/C5165231828A-tt.mpd|||https://cassie-staging.channel5.com/api/v2/licences/widevine/425/C5165231828?expiry=1628775999&tag=39316138323736316333643836643235643861623937343762303265393235633862646536613739|WV|false|false|false|false|URL|-1||true|false|false||
 
 sample=17|TEST.x|2489270/2455446402001/|DAI VoD - Net10|||||ST|true|false|false|false|DAI|-1||true|false|false|iu=/vau-ten/ott/tenplay_test_app|
+
 
