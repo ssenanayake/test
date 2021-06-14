@@ -110,7 +110,7 @@ sample=12|TEST.x|Lj3JUIb4TP5vkuiDIW6iyJpXFfagqB2q|Direct URL - VoD|https://vod-g
 
 sample=12|TEST.x||DAI - ATMOS (DASH)|https://ott.dolby.com/OnDelKits/DDP/Dolby_Digital_Plus_Online_Delivery_Kit_v1.4.1/Test_Signals/muxed_streams/DASH/Live_MPD/ChID_voices_1280x720p_25fps_h264_6ch_640kbps_ddp_joc.mpd||||ST|true|false|false|false|URL|-1||true|false|false||
 
-sample=12|TEST.x||DAI - ATMOS (DASH)|https://ott.dolby.com/OnDelKits/DDP/Dolby_Digital_Plus_Online_Delivery_Kit_v1.4.1/Test_Signals/muxed_streams/DASH/Live_MPD/ChID_voices_1280x720p_25fps_h264_multi_lang.mpd||||ST|true|false|false|false|URL|-1||true|false|false||
+sample=12|TEST.x||DAI - Multi-Language Dolby Digital+ (DASH)|https://ott.dolby.com/OnDelKits/DDP/Dolby_Digital_Plus_Online_Delivery_Kit_v1.4.1/Test_Signals/muxed_streams/DASH/Live_MPD/ChID_voices_1280x720p_25fps_h264_multi_lang.mpd||||ST|true|false|false|false|URL|-1||true|false|false||
 
 sample=13|TEST.x|2490667/googleio-highlights/|DAI - Innovid Preroll (HLS)|||||ST|true|false|false|false|DAI|-1||true|false|false||
 
