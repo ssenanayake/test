@@ -159,7 +159,8 @@
       "category":"qos",
       "params":{
          "sessionInfo":{
-            "apiKey":"1778b90ad19424061a4c8920a"
+            "apiKey":"1778b90ad19424061a4c8920a",
+	    "highPriority":true
          },
          "mediaInfo":{
             "contentId":"{data.mediaId}",
@@ -250,7 +251,8 @@
       "params":{
 	 "sessionInfo":{
             "customerKey":"87a6b28bc7823e67a5bb2a0a6728c702afcae78d",
-            "gatewayUrl":"{context.dev} ? cbscom-test.testonly.conviva.com : cws.conviva.com"
+            "gatewayUrl":"{context.dev} ? cbscom-test.testonly.conviva.com : cws.conviva.com",
+            "highPriority":true
          },
          "contentInfo":{
             "assetName":"{data.isLive} ? [Live] {data.videoTitle} : [VoD] {data.videoTitle}",
