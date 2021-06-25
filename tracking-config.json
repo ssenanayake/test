@@ -4,7 +4,7 @@
       "category":"tracking",
       "params":{
          "trackerCommands": {
-            "highPriority": true
+            "runInMainThread": true
 	 },
 	 "sessionInfo":{
             "id3Owner": "com.cbsinteractive.sbvast",
@@ -22,7 +22,7 @@
       "params":{
          "trackerCommands": {
             "sendUndefined": true,
-	    "highPriority": false,
+	    "runInMainThread": false,
             "liveResetInterval": "0",
             "pingInterval": 10,
             "liveSegmentId3Owner":"com.cbsi.live.sg"
@@ -102,7 +102,7 @@
       "params":{
          "trackerCommands":{
             "sendUndefined": true,
-	    "highPriority": false,
+	    "runInMainThread": false,
             "id3Prefix":"www.nielsen.com",
             "isDtvr":"{context.isDTVR}"
          },
@@ -150,7 +150,7 @@
       "category":"tracking",
       "params":{
          "trackerCommands": {
-            "highPriority": false
+            "runInMainThread": false
          },
          "sessionInfo":{
             "slicer1":"CBS",
@@ -167,11 +167,11 @@
       "category":"qos",
       "params":{
 	 "trackerCommands": {
-            "highPriority": true
+            "runInMainThread": true
          },
          "sessionInfo":{
             "apiKey":"1778b90ad19424061a4c8920a",
-	    "highPriority":true
+	    "runInMainThread":true
          },
          "mediaInfo":{
             "contentId":"{data.mediaId}",
@@ -187,7 +187,7 @@
       "category":"tracking",
       "params":{
 	 "trackerCommands": {
-            "highPriority": false
+            "runInMainThread": false
          },
          "sessionInfo":{
             "livePublisherId":"779e3a9f-0ad4-4288-ae57-b4fba8259c1f",
@@ -207,7 +207,7 @@
       "category":"tracking",
       "params":{
 	 "trackerCommands": {
-            "highPriority": false
+            "runInMainThread": false
          },
          "serverInfo":{
             "endPointUrl":"{context.dev} ? stage-sparrow.paramountplus.com : sparrow.paramountplus.com"
@@ -235,7 +235,7 @@
       "category":"tracking",
       "params":{
          "trackerCommands": {
-            "highPriority": false
+            "runInMainThread": false
          },
          "sessionInfo":{
             "publisherId":"3002231",
@@ -270,12 +270,12 @@
       "category":"qos",
       "params":{
 	 "trackerCommands": {
-            "highPriority": true
+            "runInMainThread": true
          },
 	 "sessionInfo":{
             "customerKey":"87a6b28bc7823e67a5bb2a0a6728c702afcae78d",
             "gatewayUrl":"{context.dev} ? cbscom-test.testonly.conviva.com : cws.conviva.com",
-            "highPriority":true
+            "runInMainThread":true
          },
          "contentInfo":{
             "assetName":"{data.isLive} ? [Live] {data.videoTitle} : [VoD] {data.videoTitle}",
