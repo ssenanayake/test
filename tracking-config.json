@@ -327,7 +327,7 @@
             "c3.ad.sessionStartEvent":"{context.currentAdSessionStartEvent}",
             "c3.ad.streamId":"{data.adStitcher} ? {data.streamId} : NA",
 	    "c3.ad.system":"{data.adSystem}",
-            "c3.ad.technology":"{data.adSticher} ? Server Side : Client Side",
+            "c3.ad.technology":"{data.adStitcher} ? Server Side : Client Side",
             "c3.ad.type":"NA",
             "c3.ad.unitName":"NA",
             "c3.ad.videoAssetName":"{data.assetName}",
@@ -353,7 +353,7 @@
             "playerVersion":"{data.playerVersion}",
             "seriesTitle":"{data.seriesTitle}",
             "showId":"{context.showSeriesId}",
-            "streamId":"{data.adSticher} ? {data.streamId} : NA",
+            "streamId":"{data.adStitcher} ? {data.streamId} : NA",
             "testBucket":"none",
             "winDimension":"{data.screenSize}"
          },
