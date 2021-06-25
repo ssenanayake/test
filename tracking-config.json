@@ -353,7 +353,7 @@
             "playerVersion":"{data.playerVersion}",
             "seriesTitle":"{data.seriesTitle}",
             "showId":"{context.showSeriesId}",
-            "streamId":"{data.streamId}",
+            "streamId":"{data.adSticher} ? {data.streamId} : NA",
             "testBucket":"none",
             "winDimension":"{data.screenSize}"
          },
