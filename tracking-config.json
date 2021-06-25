@@ -3,6 +3,9 @@
       "enabled":true,
       "category":"tracking",
       "params":{
+         "trackerCommands": {
+            "highPriority": true
+	 },
 	 "sessionInfo":{
             "id3Owner": "com.cbsinteractive.sbvast",
 	    "adPlatform": "ott",
@@ -18,7 +21,8 @@
       "category":"tracking",
       "params":{
          "trackerCommands": {
-            "sendUndefined": "true",
+            "sendUndefined": true,
+	    "highPriority": false,
             "liveResetInterval": "0",
             "pingInterval": 10,
             "liveSegmentId3Owner":"com.cbsi.live.sg"
@@ -97,7 +101,8 @@
       "category":"tracking",
       "params":{
          "trackerCommands":{
-            "sendUndefined":"true",
+            "sendUndefined": true,
+	    "highPriority": false,
             "id3Prefix":"www.nielsen.com",
             "isDtvr":"{context.isDTVR}"
          },
@@ -144,6 +149,9 @@
       "enabled":true,
       "category":"tracking",
       "params":{
+         "trackerCommands": {
+            "highPriority": false
+         },
          "sessionInfo":{
             "slicer1":"CBS",
             "slicer2":"NA"
@@ -158,6 +166,9 @@
       "enabled":true,
       "category":"qos",
       "params":{
+	 "trackerCommands": {
+            "highPriority": true
+         },
          "sessionInfo":{
             "apiKey":"1778b90ad19424061a4c8920a",
 	    "highPriority":true
@@ -175,6 +186,9 @@
       "enabled":true,
       "category":"tracking",
       "params":{
+	 "trackerCommands": {
+            "highPriority": false
+         },
          "sessionInfo":{
             "livePublisherId":"779e3a9f-0ad4-4288-ae57-b4fba8259c1f",
             "vodPublisherId":"4586f4a7-a22e-4f98-a7b5-31b621a927a5",
@@ -192,6 +206,9 @@
       "enabled":true,
       "category":"tracking",
       "params":{
+	 "trackerCommands": {
+            "highPriority": false
+         },
          "serverInfo":{
             "endPointUrl":"{context.dev} ? stage-sparrow.paramountplus.com : sparrow.paramountplus.com"
          },
@@ -217,6 +234,9 @@
       "enabled":true,
       "category":"tracking",
       "params":{
+         "trackerCommands": {
+            "highPriority": false
+         },
          "sessionInfo":{
             "publisherId":"3002231",
             "publisherSecret":"7b94840eb66b17e61c3d2f909c3a1163",
@@ -249,6 +269,9 @@
       "enabled":true,
       "category":"qos",
       "params":{
+	 "trackerCommands": {
+            "highPriority": true
+         },
 	 "sessionInfo":{
             "customerKey":"87a6b28bc7823e67a5bb2a0a6728c702afcae78d",
             "gatewayUrl":"{context.dev} ? cbscom-test.testonly.conviva.com : cws.conviva.com",
