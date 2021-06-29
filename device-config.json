@@ -4,7 +4,8 @@
         "condition" : {"model" : ".*"},
         "configuration" : {"httpVersions" : "1.1,2.0",
 			   "maxClientSideAdBitrate" : 1000000,
-			   "enableHdrFilter" : true
+			   "enableHdrFilter" : true,
+			   "seekSync" : "exact"
                           }
   },
   {
