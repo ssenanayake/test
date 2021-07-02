@@ -12,7 +12,7 @@ $viacomMultiAudio=https://topaz.uat.viacomcbs.digital/topaz/api/mgid:arc:episode
 $syncbakLive1=https://www.paramountplus.com/apps-api/v3.0/firetv/dma.json?ipaddress=73.220.60.115&dtp=8&mvpdId=AllAccess&is60FPS=true&did=652e321238a51e6f&locale=en-us&at=ABCmrL%2BqTCQ8UujYajWJJnvgcsXFGqrgS530PSANzLK%2Fi3SLgMcReMBy1nkxGwo9RA0%3D
 $syncbakLive2=https://dai.google.com/linear/hls/event/K_2aA7OVRTacJJli1oSi8w/master.m3u8
 
-sample=0|TEST.x|$29,$9|Multiple ResourceConfig (IMA Ad Only, DAI Live Content)|||||ST|true|false|false|false|CUS|-1||true|false|false||
+sample=0|TEST.x|$23,$9|Multiple ResourceConfig (IMA Ad Only, DAI Live Content)|||||ST|true|false|false|false|CUS|-1||true|false|false||
 
 sample=0|TEST.x|$12,$13|Multiple ResourceConfig (DAI Content, DAI Content)|||||ST|true|false|false|false|CUS|-1||true|false|false||
 
@@ -78,6 +78,8 @@ sample=5|TEST.x||IMA (Freewheel) - Ad + Content - (MP4)|http://cdnbakmi.kaltura.
 
 sample=5|TEST.x||IMA (Freewheel) - Ad + Content - (MP4)|http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8||https://7f076.v.fwmrm.net/ad/g/1?asnw=82125&caid=mgid:arc:episode:spike.com:e0b3e1b1-d068-4e58-9172-f234a0cd62ab&csid=paramount_vod_web_desktop&flag=%2Bdtrd%2Bsync%2Bqtcb%2Bvicb%2Bemcr%2Baeti%2Bsltp%2Bfbad%2Bscpv%2Bslcb&metr=1023&nw=82125&prof=82125%3AGoogleDAICSAI_v01&pvrn=[RANDOM]&resp=vmap1&ssnw=82125&vdur=123&vprn=[RANDOM];_fw_ae=xfinity&_fw_continuous_play=0&_fw_coppa=0&_fw_h_referer=com.cbsvideo.app&_fw_nielsen_app_id=12345-678910-1112131415-161718&_fw_vcid2=5dc7fb16c77374f0cfb4ddc60835c679&cpPre=0&cpSession=0&description_url=https%3A%2F%2Fwww.cbs.com%2F%20&ge=3&gr=2&ifa=054b42c5f7cc07d15ad5c30befec5802&sub=12345&subses=2&sz=640x480&tve=18&user=ADULT&vguid=7FEC4E6A-D367-4849-BFC0-568C99C591AD;||ST|true|false|false|false|IMA|-1||true|false|false||
 
+sample=5|TEST.x||IMA (Freewheel) - Ad Only - (MP4)|||https://7f077.v.fwmrm.net/ad/g/1?csid=vcbs_cbsnews_ctv_amazonfiretv_vod&asnw=520311&caid=_fobzoGir2HZ6zwSkvEJat3HIBhEpPXR&flag=+amcb+emcr+sltp+slcb+qtcb+vicb+fbad+sync+nucr+aeti&metr=1023&nw=520311&prof=520311:GoogleDAICSAI_v01&pvrn=1624382774102&resp=vmap1+vast4&ssnw=520311&vprn=1624382774102;_fw_h_referer=com.cbsnews.ott&_fw_app_bundle=com.cbsnews.ott&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&description_url=https://www.cbsnews.com&vguid=2bd851b9-6edc-4767-9f1b-b2ae1c42ff7d&sz=640x480&fms_vcid2type=ifa&_fw_vcid2=a810f068-f050-4de4-a3e4-f3c09548fb42&fms_ifa=a810f068-f050-4de4-a3e4-f3c09548fb42&_fw_is_lat=0&_fw_did=amazon_advertising_id:a810f068-f050-4de4-a3e4-f3c09548fb42&playername_version=avia_3.5.13&ima_sdkv=3.23.0;&cbsnews_amazon_tv_app=cbsnews_amazon_tv_app||ST|true|false|false|false|IMA|-1||true|false|false||
+
 sample=6|TEST.x||360 (MP4)|https://cdn.jwplayer.com/videos/AgqYcfAT-8yQ1cYbs.mp4||||ST|false|false|true|false|URL|-1||true|false|false||
 
 sample=6|TEST.x||360 (HLS)|https://bitmovin.com/player-content/playhouse-vr/m3u8s/105560.m3u8||||ST|false|false|true|false|URL|-1||true|false|false||
@@ -142,4 +144,5 @@ sample=17|TEST.x||My5 Test - 1 (DASH)|https://akadash0-staging.akamaized.net/cen
 
 sample=17|TEST.x|2489270/2455446402001/|DAI VoD - Net10|||||ST|true|false|false|false|DAI|-1||true|false|false|iu=/vau-ten/ott/tenplay_test_app|
 
+sample=17|TEST.x||Direct URL - Live - (HLS)|https://dai.google.com/linear/hls/pa/event/e7mp4YVGS7O_e7rqRNjKow/stream/250cc46d-a3a5-4d2e-9cda-56c931f6ffa9:ATL/master.m3u8||||ST|true|true|false|false|URL|-1||true|false|false||
 
