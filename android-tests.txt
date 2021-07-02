@@ -112,7 +112,9 @@ sample=11|TEST.x|2497752/QyrMFqn5iYIAr6nsrYpvR7ZA2Co_VAcz/7j3n273bfj7jcnvf22d713
 
 sample=12|TEST.x|Lj3JUIb4TP5vkuiDIW6iyJpXFfagqB2q|Direct URL - VoD|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2019/01/07/1421523523902/490152_cenc_fmp4_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
 
-sample=12|TEST.x||DAI - ATMOS (DASH)|https://ott.dolby.com/OnDelKits/DDP/Dolby_Digital_Plus_Online_Delivery_Kit_v1.4.1/Test_Signals/muxed_streams/DASH/Live_MPD/ChID_voices_1280x720p_25fps_h264_6ch_640kbps_ddp_joc.mpd||||ST|true|false|false|false|URL|-1||true|false|false||
+sample=12|TEST.x||DAI - ATMOS - Test (DASH)|https://ott.dolby.com/OnDelKits/DDP/Dolby_Digital_Plus_Online_Delivery_Kit_v1.4.1/Test_Signals/muxed_streams/DASH/Live_MPD/ChID_voices_1280x720p_25fps_h264_6ch_640kbps_ddp_joc.mpd||||ST|true|false|false|false|URL|-1||true|false|false||
+
+sample=12|TEST.x|cgqU6N_Sj_dS_MTv89yy5M0io_YPKJNV|DAI - ATMOS - CBS (DASH)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2020/10/30/1813746243619/657109_cenc_fmp4_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
 
 sample=12|TEST.x||DAI - Multi-Language Dolby Digital+ (DASH)|https://ott.dolby.com/OnDelKits/DDP/Dolby_Digital_Plus_Online_Delivery_Kit_v1.4.1/Test_Signals/muxed_streams/DASH/Live_MPD/ChID_voices_1280x720p_25fps_h264_multi_lang.mpd||||ST|true|false|false|false|URL|-1||true|false|false||
 
