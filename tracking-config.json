@@ -107,6 +107,8 @@
             "isDtvr":"{context.isDTVR}"
          },
          "serverInfo":{
+	    "endPointProtocol":"{context.dev} ? https : https",
+	    "endPointUrl":"{context.dev} ? sandbox-cloudapi.imrworldwide.com/nmapi/v2/ : sandbox-cloudapi.imrworldwide.com/nmapi/v2/" 
          },
          "sessionInfo":{
             "appId":"{context.appId}",
