@@ -101,6 +101,7 @@
       "category":"tracking",
       "params":{
          "trackerCommands":{
+            "pingInterval":10,
             "sendUndefined": true,
 	    "runInMainThread": false,
             "id3Prefix":"www.nielsen.com",
