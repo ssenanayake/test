@@ -369,5 +369,26 @@
             "operatingSystemVersion":"{context.osVersion}"
          }
       }
-   }
+   },
+   "KantarBARB": {
+        "enabled": true,
+        "params": {
+            "accountInfo": {
+                "sn": "c5dotcom"
+            },
+            "mediaInfo": {
+                "cq": "{data.barbId}",
+                "stream": "{data.isLive} ? live/{data.barbChannel} : od",
+                "dur": "{data.isLive} ? 0 : {data.duration}"
+            },
+            "playerInfo": {
+                "pl": "my5",
+                "plv": "{context.playerVersion}",
+                "sx" : "{data.playerInfo.srcWidth}",
+                "sy" : "{data.playerInfo.srcHeight}"
+
+            }
+        }, 
+        "category": "tracking" 
+    }
 }
