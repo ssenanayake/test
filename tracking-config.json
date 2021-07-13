@@ -140,7 +140,7 @@
             "length":"{data.isLive} ? 86400 : {data.mediaDuration}"
          },
          "adInfo":{
-            "type":"{data.adType}",
+            "type":"{data.adBreakType}",
             "assetId":"{data.adId}"
          },
          "dataType":{
