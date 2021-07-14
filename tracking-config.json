@@ -370,14 +370,14 @@
          }
       }
    },
-   "KantarBARB": {
+   "Kantar": {
         "enabled": true,
         "params": {
             "accountInfo": {
                 "sn": "c5dotcom"
             },
             "mediaInfo": {
-                "cq": "{data.barbId}",
+                "cq": "{context.barbId}",
                 "stream": "{data.isLive} ? live/{data.barbChannel} : od",
                 "dur": "{data.isLive} ? 0 : {data.duration}"
             },
