@@ -378,7 +378,7 @@
             },
             "mediaInfo": {
                 "cq": "{context.barbId}",
-                "stream": "{data.isLive} ? live/{data.barbChannel} : od",
+                "stream": "{data.isLive} ? live/{context.barbChannel} : od",
                 "dur": "{data.isLive} ? 0 : {data.duration}"
             },
             "playerInfo": {
@@ -386,7 +386,6 @@
                 "plv": "{context.playerVersion}",
                 "sx" : "{data.playerInfo.srcWidth}",
                 "sy" : "{data.playerInfo.srcHeight}"
-
             }
         }, 
         "category": "tracking" 
