@@ -128,7 +128,7 @@
             "type":"content",
             "assetId":"{data.mediaId}",
             "tv":"{data.tvRating} ? true : false",
-            "category":"{data.mediaCategory.} | na",
+            "category":"{data.mediaCategory} | na",
             "title":"{data.mediaTitle} | na",
             "program":"{data.mediaSeries} | na",
             "airDate":"{data.mediaAirDate} | na",
