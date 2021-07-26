@@ -119,9 +119,20 @@
             "nolDevDebug":"DEBUG"
          },
          "dtvrInfo":{
-            "adModel":"1",
             "dataSrc":"id3",
-            "adLoadType":"1"
+            "type":"content",
+            "assetId":"{data.mediaId}",
+            "tv":"{data.tvRating} ? true : false",
+            "category":"{data.mediaCategory} | na",
+            "title":"{data.mediaTitle} | na",
+            "program":"{data.mediaSeries} | na",
+            "airDate":"{data.mediaAirDate} | na",
+            "isFullEpisode":"{data.mediaFullEpisode} ? y : n",
+            "crossId1":"{data.mediaCrossId1}",
+            "crossId2":"CBS",
+            "adLoadType":"1",
+            "hasAds":"{data.hasAds} ? 1 : 0",
+            "length":"{data.isLive} ? 86400 : {data.mediaDuration}" 
          },
          "dcrInfo":{
             "dataSrc":"cms",
