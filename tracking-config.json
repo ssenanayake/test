@@ -43,7 +43,7 @@
          "mediaInfo":{
             "media.playerName":"{data.playerName}",
             "media.contentType":"{data.isLive} ? Live : VOD",
-            "media.length":"{data.isLive} ? 86400 : {data.duration}",
+            "media.length":"{data.isLive} ? 86400 : {data.mediaDuration}",
             "media.id":"{data.mediaId}",
             "media.name":"{data.videoTitle}",
             "media.channel":"{data.channel}",
