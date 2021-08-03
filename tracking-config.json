@@ -45,7 +45,7 @@
             "media.contentType":"{data.isLive} ? Live : VOD",
             "media.length":"{data.isLive} ? 86400 : {data.mediaDuration}",
             "media.id":"{data.mediaId}",
-            "media.name":"{data.videoTitle}",
+            "media.name":"{data.mediaTitle}",
             "media.channel":"{data.channel}",
             "media.network":"{data.channel}",
             "media.sdkVersion":"{data.playerVersion}",
@@ -63,7 +63,7 @@
          },
          "adInfo":{
             "media.ad.name":"{data.adTitle}",
-            "media.ad.id":"{data.videoTitle} - {data.adTitle}",
+            "media.ad.id":"{data.mediaTitle} - {data.adTitle}",
             "media.ad.length":"{data.adDuration}",
             "media.ad.creativeId":"{data.adId}",
             "media.ad.creativeURL":"{data.adUrl}",
@@ -74,7 +74,7 @@
 	    "media.chapter.index":"{data.chapterIndex}",
             "media.chapter.offset": "{data.chapterOffset}",
             "media.chapter.length": "{data.chapterLength}",
-            "media.chapter.friendlyName": "Chapter {data.chapterIndex} - {data.videoTitle}"
+            "media.chapter.friendlyName": "Chapter {data.chapterIndex} - {data.mediaTitle}"
          },
          "customMetadata":{
             "mediaResume":"{data.hasSessionResumed}",
@@ -293,7 +293,7 @@
             "runInMainThread":true
          },
          "contentInfo":{
-            "assetName":"{data.isLive} ? [Live] {data.videoTitle} : [VoD] {data.videoTitle}",
+            "assetName":"{data.isLive} ? [Live] {data.mediaTitle} : [VoD] {data.mediaTitle}",
             "streamUrl":"{data.mediaUrl}",
             "streamType":"{data.isLive} ? Live : VoD",
             "applicationName":"{context.appName}",
