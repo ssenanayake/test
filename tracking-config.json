@@ -399,10 +399,6 @@
                 "sy" : "{data.playerHeight}"
             }
         }, 
-        "category": "tracking",
-	"dataType":{
-            "sx":"int",
-            "sy":"int"
-         } 
+        "category": "tracking"
     }
 }
