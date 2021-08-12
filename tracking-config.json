@@ -395,8 +395,8 @@
             "playerInfo": {
                 "pl": "my5",
                 "plv": "{context.playerVersion}",
-                "sx" : "{data.playerInfo.srcWidth}",
-                "sy" : "{data.playerInfo.srcHeight}"
+                "sx" : "{data.playerWidth}",
+                "sy" : "{data.playerHeight}"
             }
         }, 
         "category": "tracking" 
