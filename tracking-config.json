@@ -381,7 +381,7 @@
          }
       }
    },
-   "Kantar": {
+   "KantarBARB": {
         "enabled": true,
         "category": "tracking",
         "params": {
