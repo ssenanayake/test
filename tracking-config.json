@@ -383,7 +383,11 @@
    },
    "Kantar": {
         "enabled": true,
+        "category": "tracking",
         "params": {
+            "trackerCommands": {
+                "uidTracking":false
+            },
             "accountInfo": {
                 "sn": "c5dotcom"
             },
@@ -398,7 +402,6 @@
                 "sx" : "{data.playerWidth}",
                 "sy" : "{data.playerHeight}"
             }
-        }, 
-        "category": "tracking"
+        } 
     }
 }
