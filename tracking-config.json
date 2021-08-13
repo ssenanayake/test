@@ -191,6 +191,7 @@
          "mediaInfo":{
 	    "media.playerName":"{data.playerName}",
 	    "media.contentType":"{data.isLive} ? live : on-demand",
+	    "video_stream_type": "{data.isLive} ? live : on-demand",
             "video_id":"{data.mediaId}",
 	    "player_version":"{data.playerVersion}",
 	    "viewer_user_id":"{data.userId} | -1",
