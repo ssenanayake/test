@@ -189,10 +189,10 @@
 	    "runInMainThread":true
          },
          "mediaInfo":{
+	    "media.playerName":"{data.playerName}",
+	    "media.contentType":"{data.isLive} ? live : on-demand",
             "video_id":"{data.mediaId}",
-            "media.playerName":"{data.playerName}",
-	    "playerVersion":"{data.playerVersion}",
-            "media.contentType":"{data.isLive} ? live : on-demand",
+	    "player_version":"{data.playerVersion}",
 	    "viewer_user_id":"{data.userId} | -1",
 	    "video_title":"{data.mediaTitle}"
          }
