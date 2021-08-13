@@ -191,7 +191,7 @@
          "mediaInfo":{
             "contentId":"{data.mediaId}",
             "playerName":"{data.playerName}",
-	    "playerVersion":"{data.playerVersion}",
+	    "playerVersion":"{context.playerVersion}",
             "contentType":"{data.isLive} ? live : on-demand",
 	    "userId":"{data.userId} | -1",
 	    "title":"{data.mediaTitle}"
