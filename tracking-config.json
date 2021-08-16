@@ -191,11 +191,11 @@
          "mediaInfo":{
 	    "playerName":"{data.playerName}",
 	    "contentType":"{data.isLive} ? live : on-demand",
-	    "video_stream_type": "{data.isLive} ? live : on-demand",
-            "video_id":"{data.mediaId}",
-	    "player_version":"{data.playerVersion}",
-	    "viewer_user_id":"{data.userId} | -1",
-	    "video_title":"{data.mediaTitle}"
+	    "videoStreamType": "{data.isLive} ? live : on-demand",
+            "videoId":"{data.mediaId}",
+	    "playerVersion":"{data.playerVersion}",
+	    "viewerUserId":"{data.userId} | -1",
+	    "videoTitle":"{data.mediaTitle}"
          }
       }
    },
