@@ -195,7 +195,9 @@
             "videoId":"{data.mediaId}",
 	    "playerVersion":"{data.playerVersion}",
 	    "viewerUserId":"{data.userId} | -1",
-	    "videoTitle":"{data.mediaTitle}"
+	    "videoTitle":"{data.mediaTitle}",
+ 	    "videoCdn":"{data.cdn}",
+	    "videoLanguageCode":"{data.languageCode}"
          }
       }
    },
