@@ -263,7 +263,6 @@
          },
          "contentInfo":{
 	    "ns_ap_ct":"{data.isAd} ? va : vc",
-	    "ns_st_ct":"{data.isAd} ? va00 : vc00",
             "ns_st_ci":"{data.mediaId}",
             "ns_st_cl":"{data.duration}",
             "ns_st_pu":"{data.partner}",
