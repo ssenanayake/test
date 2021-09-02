@@ -228,7 +228,7 @@
             "runInMainThread": false
          },
          "serverInfo":{
-            "endPointUrl":"{context.dev} ? stage-sparrow.paramountplus.com : sparrow.paramountplus.com"
+            "endPointUrl":"{context.dev} ? sparrow.paramountplus.com : sparrow.paramountplus.com"
          },
 	 "sessionInfo":{
             "interval":10,
