@@ -1,4 +1,3 @@
-$DRM=MjVFOTcxMzJBOTQ3QzUwMTQwREQxM0VFMkI5NTQ5MjI6MTYzMDcxMDMwMDQ5ODpmN2I2YmVkNDk3NTcyNDM4YTA5NDgyZjQ5NmY2YmQwZjozLjA6MA<EOL>
 $TEST=https://livesim.dashif.org/dash/vod/testpic_2s/multi_subs.mpd<EOL>
 TEST-1|http://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8?iu=/8264/vaw-can/mobile_app/cbsnews_android_phone_app<EOL>
 TEST-*|https://vod-gcs-cedexis.cbsaavideo.com/test/HDR10/atmos/clear_atmos_dash_2/stream.mpd<EOL>
