@@ -388,7 +388,6 @@
         "category": "tracking",
         "params": {
             "accountInfo": {
-		"an": "ReferenceApp",
                 "sn": "c5dotcom"
             },
             "mediaInfo": {
