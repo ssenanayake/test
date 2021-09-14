@@ -197,7 +197,7 @@
 	    "videoTitle":"{data.mediaTitle}",
  	    "videoCdn":"{data.cdn}",
 	    "videoLanguageCode":"{data.languageCode}",
-	    "player_init_time":"{context.initTime}"
+	    "playerInitTime":"{context.initTime}"
          }
       }
    },
