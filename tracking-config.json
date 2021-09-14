@@ -196,7 +196,8 @@
 	    "viewerUserId":"{data.userId} | -1",
 	    "videoTitle":"{data.mediaTitle}",
  	    "videoCdn":"{data.cdn}",
-	    "videoLanguageCode":"{data.languageCode}"
+	    "videoLanguageCode":"{data.languageCode}",
+	    "player_init_time":"{context.initTime}
          }
       }
    },
