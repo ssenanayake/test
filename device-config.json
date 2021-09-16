@@ -2,7 +2,7 @@
   {
         "description" : "For All Devices",
         "condition" : {"model" : ".*"},
-        "configuration" : {"httpVersions" : "1.1,2.0",
+        "configuration" : {"httpVersions" : "1.1",
 			   "maxClientSideAdBitrate" : 1000000,
 			   "enableHdrFilter" : true,
 			   "seekSync" : "exact",
