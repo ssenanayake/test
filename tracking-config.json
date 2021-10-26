@@ -115,7 +115,7 @@
             "appId":"{context.appId}",
             "appName":"{context.appName}",
             "appVersion":"{context.appVersion}",
-            "sfCode":"{context.sfCode}",
+            "sfCode":"dcr",
             "nolDevDebug":"DEBUG"
          },
          "dtvrInfo":{
