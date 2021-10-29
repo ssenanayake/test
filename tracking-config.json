@@ -57,9 +57,9 @@
             "media.resume":"{data.hasSessionResumed}"
          },
          "adBreakInfo":{
-            "media.ad.podFriendlyName":"{data.adBreakType}",
-            "media.ad.podIndex":"{data.adBreakPosition}",
-            "media.ad.podSecond":"{data.adBreadkDuration}"
+            "media.ad.podFriendlyName":"{data.adPodType}",
+            "media.ad.podIndex":"{data.adPodPosition}",
+            "media.ad.podSecond":"{data.adPodDuration}"
          },
          "adInfo":{
             "media.ad.name":"{data.adTitle}",
@@ -68,7 +68,7 @@
             "media.ad.creativeId":"{data.adId}",
             "media.ad.creativeURL":"{data.adUrl}",
             "media.ad.playerName":"{data.playerName}",
-            "media.ad.podPosition":"{data.adPosition}"
+            "media.ad.podPosition":"{data.adPositionInPod}"
          },
 	 "chapterInfo":{
 	    "media.chapter.index":"{data.chapterIndex}",
@@ -151,7 +151,7 @@
             "length":"{data.isLive} ? 86400 : {data.mediaDuration}"
          },
          "adInfo":{
-            "type":"{data.adBreakType}",
+            "type":"{data.adPodType}",
             "assetId":"{data.adId}"
          },
          "dataType":{
@@ -307,10 +307,10 @@
             "streamId":"{data.adStitcher} ? {data.streamId} : NA"
          },
          "adBreakInfo":{
-            "podPosition":"{data.adBreakType}",
-            "podIndex":"{data.adBreakPosition}",
-            "absoluteIndex":"{data.adBreakPosition}",
-            "podDuration":"{data.adBreakDuration}"
+            "podPosition":"{data.adPodType}",
+            "podIndex":"{data.adPodPosition}",
+            "absoluteIndex":"{data.adPodPosition}",
+            "podDuration":"{data.adPodDuration}"
          },
          "adInfo":{
             "assetName":"{data.adTitle}",
