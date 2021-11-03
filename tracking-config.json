@@ -343,7 +343,7 @@
             "c3.ad.position":"{data.adPosition}",
             "c3.ad.sequence":"{data.adPositionInPod}",
             "c3.ad.sessionStartEvent":"{context.currentAdSessionStartEvent}",
-            "c3.ad.streamId":"{data.adStitcher} ? {data.streamId} : NA",
+            "c3.ad.streamId":"{data.adStitcher} ? {data.streamId} : {context.emptyValue}",
 	    "c3.ad.system":"{data.adSystem}",
             "c3.ad.technology":"{data.adStitcher} ? Server Side : Client Side",
             "c3.ad.type":"NA",
