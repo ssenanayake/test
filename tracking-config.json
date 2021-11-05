@@ -51,7 +51,7 @@
             "media.sdkVersion":"{data.playerVersion}",
             "media.show":"{data.seriesTitle}",
             "media.genre":"{data.category}",
-            "media.season":"{data.seasonNumber}",
+            "media.season":"{data.isLive} ? {context.undefined} : {data.seasonNumber}",
             "media.episode":"{data.episodeNumber}",
             "media.showType":"{data.isEpisode} ? 0 : 2",
             "media.resume":"{data.hasSessionResumed}"
