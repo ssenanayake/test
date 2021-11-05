@@ -21,7 +21,7 @@
       "category":"tracking",
       "params":{
          "trackerCommands": {
-            "sendUndefined": true,
+            "sendUndefined": false,
 	    "runInMainThread": false,
             "liveResetInterval": "0",
             "pingInterval": 10,
