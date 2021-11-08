@@ -59,7 +59,7 @@
          "adBreakInfo":{
             "media.ad.podFriendlyName":"{data.adPodType}",
             "media.ad.podIndex":"{data.adPodPosition}",
-            "media.ad.podSecond":"{data.adPodDuration}"
+            "media.ad.podSecond":"{data.playhead}"
          },
          "adInfo":{
             "media.ad.name":"{data.adTitle}",
