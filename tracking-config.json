@@ -226,13 +226,13 @@
       "category":"tracking",
       "params":{
 	 "trackerCommands": {
+            "pingInterval":10,
             "runInMainThread": false
          },
          "serverInfo":{
             "endPointUrl":"{context.dev} ? sparrow.paramountplus.com : sparrow.paramountplus.com"
          },
 	 "sessionInfo":{
-            "interval":10,
             "enableSSL":true
          },
          "payload":{
