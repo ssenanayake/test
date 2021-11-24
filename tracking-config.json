@@ -259,7 +259,7 @@
          "sessionInfo":{
             "publisherId":"3002231",
             "publisherSecret":"7b94840eb66b17e61c3d2f909c3a1163",
-	    "enableSSL":true,
+	    "enableSSL":false,
 	    "shortFormDuration":600
          },
          "contentInfo":{
