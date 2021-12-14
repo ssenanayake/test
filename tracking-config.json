@@ -79,7 +79,8 @@
          "customMetadata":{
             "mediaResume":"{data.hasSessionResumed}",
 	    "eVar23": "{data.eVar23}",
-	    "eVar24": "{data.eVar24}"
+	    "eVar24": "{data.eVar24}",
+            "a.DeviceName": "Roku"
          },
          "qoeData":{
             "media.qoe.timeToStart":"{data.timeToStart}"
