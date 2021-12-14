@@ -80,7 +80,8 @@
             "mediaResume":"{data.hasSessionResumed}",
 	    "eVar23": "{data.eVar23}",
 	    "eVar24": "{data.eVar24}",
-            "a.DeviceName": "Roku"
+            "a.DeviceName": "{context.deviceName}",
+	    "a.OSVersion": "{context.osVersion}
          },
          "qoeData":{
             "media.qoe.timeToStart":"{data.timeToStart}"
