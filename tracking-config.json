@@ -107,7 +107,8 @@
             "sendUndefined": true,
 	    "runInMainThread": false,
             "id3Prefix":"www.nielsen.com",
-            "isDtvr":"{context.isDTVR}"
+            "isDtvr":"{context.isDTVR}",
+            "liveSegmentId3Owner":"www.nielsen.com"
          },
          "serverInfo":{
 	    "endPointProtocol":"{context.dev} ? https : https",
