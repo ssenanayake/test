@@ -82,7 +82,7 @@
 	    "eVar24": "{data.eVar24}",
             "a.DeviceName": "{context.deviceName}",
 	    "a.OSVersion": "{context.osVersion}",
-	    "userType": "{context.userType}"
+	    "userType": "{context.userType} | NA"
          },
          "qoeData":{
             "media.qoe.timeToStart":"{data.timeToStart}"
