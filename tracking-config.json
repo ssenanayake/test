@@ -83,6 +83,7 @@
             "a.DeviceName": "{context.deviceName}",
 	    "a.OSVersion": "{context.osVersion}",
 	    "userStatus": "{context.userStatus}",
+            "userType": "{context.userType} | NA",
             "test": "{data.eVar23} | {data.eVar24}",
 	    "test reject": "1"
          },
