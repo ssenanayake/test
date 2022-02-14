@@ -20,8 +20,9 @@ TEST-*|9Lq0ERvoSR-z9AwvFS-xYA<EOL>
 TEST-*|jeTDC610T-OSPdiWhcl0Pg<EOL>
 TEST-*|JHQStU_vRrehBs2eCAOmSw<EOL>
 TEST-*|exKvDkFgAcGa3v_8dTiovwp6QbD4OZYv|2560022|7j3n273bfj7jcnvf22d713a51f|WV-$DRM<EOL>
-TEST-7|IBh_dK9gIOWikgPDwJcDb1a28frNw0Mh|2497752|7j3n273bfj7jcnvf22d713a51f|WV-$DRM<EOL>
+TEST-5|IBh_dK9gIOWikgPDwJcDb1a28frNw0Mh|2497752|7j3n273bfj7jcnvf22d713a51f|WV-$DRM<EOL>
 TEST-*|bmXIGcQ6d1xnZvJfMFEjyGR5FkzDLIbn|2497752|7j3n273bfj7jcnvf22d713a51f|WV-$DRM<EOL>
+TEST-5|tears-of-steel|2528370||<EOL>
 TEST-8|http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8<EOL>
 TEST-9|https://547f72e6652371c3.mediapackage.us-east-1.amazonaws.com/out/v1/1ad9a30929fd45dbbb27c67859086f33/index.mpd|WV-https://cbsi.stage.ott.irdeto.com/widevine/getlicense?CrmId=cbsi&AccountId=cbsi&SubContentType=Default&contentId=liveTestC2&ls_session=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjNkNjg4NGJmLWViMDktNDA1Zi1hOWZjLWU0NGE1NmY3NjZiNiJ9.eyJzdWIiOiJVU18xMDAwMDY1OTAiLCJpc3MiOiJjYnMiLCJlbnQiOlt7ImJpZCI6ImxpdmVUZXN0QiIsImVwaWQiOjl9XSwianRpIjoiYTVjZGI0OTQtMTlkYS00YTcwLTljYzItMjdiODA5ODU4NzY4IiwiZXhwIjoxNjMzMTE1MzMzLCJpYXQiOjE1Njk5NTU4NjcsImFpZCI6ImNic2kifQ.E9gRfC6sRFQdoQmNag3ZNVTHoKJ0mKOkcGCOVlmg274<EOL>
 TEST-*|http://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8?iu=/8264/vaw-can/mobile_app/cbsnews_android_phone_app<EOL>
