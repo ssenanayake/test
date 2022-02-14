@@ -11,8 +11,9 @@ TEST-4|https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2022/01/07/1990687811625
 TEST-*|https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2021/04/28/1891088451853/708194_hls/master.m3u8|https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/8264/vaw-can/ott/cbsnews_roku_app&ciu_szs=300x60,728x90&impl=s&gdfp_req=1&env=vp&output=xml_vmap1&unviewed_position_start=1&url=CBS%2BNews&vid=rdEzpXbMi_hUKTGjdCvrcqfKTtCe_5wc&cust_params=vguid%3D85e771e0-0225-423f-baf5-bb752f701946%26ifa%3Deb538734-b17a-5437-80b3-b5549d52850c&cmsid=2289&pp=ssai&nofb=1&idtype=rida&msid=27536&an=CBS%2BNews<EOL>
 TEST-*|OXeE_nvxDKQu|https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostoptimizedpod&cmsid=496&vid=short_onecue&correlator=<EOL>
 TEST-*|IBh_dK9gIOWikgPDwJcDb1a28frNw0Mh|2497752|7j3n273bfj7jcnvf22d713a51f|WV-$DRM<EOL>
-TEST-5|bmXIGcQ6d1xnZvJfMFEjyGR5FkzDLIbn|2497752|7j3n273bfj7jcnvf22d713a51f|WV-$DRM<EOL>
+TEST-*|bmXIGcQ6d1xnZvJfMFEjyGR5FkzDLIbn|2497752|7j3n273bfj7jcnvf22d713a51f|WV-$DRM<EOL>
 TEST-*|zcKFh2WMB23pIsC_6faB5lSB0zzFxsCX|2497752|7j3n273bfj7jcnvf22d713a51f|WV-$DRM<EOL>
+TEST-5|tears-of-steel|2528370||<EOL>
 TEST-*|Sid4xiTQTkCT1SLu6rjUSQ<EOL>
 TEST-6|gfkxhQFOQAOXHigAVdRi8A<EOL>
 TEST-*|9Lq0ERvoSR-z9AwvFS-xYA<EOL>
