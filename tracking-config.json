@@ -245,9 +245,9 @@
          },
          "payload":{
             "contentId":"{data.mediaId}",
-            "userId":"{data.userId} | -1",
-            "siteId":"{data.siteId} | 164",
-            "sessionId":"{data.sessionId}",
+            "userId":"{context.userId} | -1",
+            "siteId":"{context.siteId} | 164",
+            "sessionId":"{context.sessionId}",
             "platform":"{data.platform}",
             "premium":"{data.mediaPremiumContent}",
             "affiliate":"{data.affiliateFeed}",
