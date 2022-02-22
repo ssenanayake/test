@@ -304,7 +304,7 @@
             "gatewayUrl":"{context.dev} ? cbscom-test.testonly.conviva.com : cbscom-test.testonly.conviva.com"
          },
          "contentInfo":{
-            "assetName":"{data.isLive} ? [Live] {data.mediaTitle} : [VoD] {data.mediaTitle}",
+            "assetName":"{data.isLive} ? [Live] {data.sequenceId}/{data/sequenceCount}  {data.mediaTitle} : [VoD] {data.sequenceId}/{data/sequenceCount}  {data.mediaTitle}",
             "streamUrl":"{data.mediaUrl}",
             "streamType":"{data.isLive} ? Live : VoD",
             "applicationName":"{context.appName}",
