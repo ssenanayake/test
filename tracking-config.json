@@ -85,7 +85,6 @@
 	    "userStatus": "{context.userStatus}",
             "userType": "{context.userType}",
             "test": "{data.eVar23} | {data.eVar24}",
-	    "test reject": "1",
             "movieId": "{context.movieId}"
          },
          "qoeData":{
