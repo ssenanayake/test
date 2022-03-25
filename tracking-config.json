@@ -300,7 +300,7 @@
          },
 	 "sessionInfo":{
             "customerKey":"87a6b28bc7823e67a5bb2a0a6728c702afcae78d",
-            "gatewayUrl":"{context.dev} ? cbscom-test.testonly.conviva.com : cbscom-test.testonly.conviva.com"
+            "gatewayUrl":"{context.dev} ? cbscom-test.testonly.conviva.com : "
          },
          "contentInfo":{
             "assetName":"{data.isLive} ? [Live] {data.mediaTitle} : [VoD] {data.mediaTitle}",
