@@ -1,4 +1,5 @@
-TEST-1|https://dai.google.com/linear/hls/event/mWshGoNoTxe3U8QFNjRZOw/master.m3u8<EOL>
+TEST-*|https://dai.google.com/linear/hls/event/mWshGoNoTxe3U8QFNjRZOw/master.m3u8<EOL>
+TEST-1|https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8<EOL>
 TEST-*|https://storage.googleapis.com/shaka-demo-assets/sintel/dash.mpd|https://news.play.cbsi.video/h/1.1cv0ssAys3rO8nlNqNDgILjpQCQaOvK3c0r8hJTnlfEz44sYLtm9KqyZR5Xpo0aA4c2zCxaInC8Pvi4hIyMQcLDiPkYwN5x62HKGlo742W8epdSfOjm7cflm4zYoq5ujmH8E0IbE7Bp1NQCikyBKODMMPaNBm21sE0tWTu2BZuuceoZdQSIM83EynkYBlkZMZBYKsbacs/thumbs.vtt|https://cbsnews3.cbsistatic.com/hub/i/captions/GX8bakErI5LjHACcLpmwEF_kYGUOVC40.adb_xml<EOL>
 TEST-2|https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2022/02/15/2003334211945/906291_hls/master.m3u8|https://news.play.cbsi.video/h/1.1cv0ssAys3rO8nlNqNDgILjpQCQaOvK3c0r8hJTnlfEz44sYLtm9KqyZR5Xpo0aA4c2zCxaInC8Pvi4hIyMQcLDiPkYwN5x62HKGlo742W8epdSfOjm7cflm4zYoq5ujmH8E0IbE7Bp1NQCikyBKODMMPaNBm21sE0tWTu2BZuuceoZdQSIM83EynkYBlkZMZBYKsbacs/thumbs.vtt|https://cbsnews3.cbsistatic.com/hub/i/captions/GX8bakErI5LjHACcLpmwEF_kYGUOVC40.adb_xml<EOL>
 TEST-3|https://bitmovin-a.akamaihd.net/content/art-of-motion_drm/mpds/11331.mpd|WV-https://widevine-proxy.appspot.com/proxy<EOL>
