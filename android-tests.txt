@@ -179,4 +179,6 @@ sample=17|TEST.x|x7WBZ4vYuARG7ARSjoYK7cTmY3Gh6xj6|DAI - ATMOS - CBS (DASH)|https
 
 sample=17|TEST.x|McTka5bBSYS5B06bQrtoHw/ |DAI Live DVR (HLS)|||||ST|false|true|false|false|DAI|-1||true|false|false||
 
+sample=17|TEST.x|Sid4xiTQTkCT1SLu6rjUSQ/ |DAI Live DVR - News (HLS)|||||ST|false|true|false|false|DAI|-1||true|false|false||
+
 sample=17|TEST.x|2497752/QNUvJ070gfV_vB0z3UCrakVW_uRNj13s/7j3n273bfj7jcnvf22d713a51f|DAI VoD (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
