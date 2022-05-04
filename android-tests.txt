@@ -183,4 +183,6 @@ sample=17|TEST.x|Sid4xiTQTkCT1SLu6rjUSQ/ |DAI Live DVR - News (HLS)|||||ST|false
 
 sample=17|TEST.x||URL Live DVR (DASH)|https://ccf3786b925ee51c.mediapackage.us-east-1.amazonaws.com/out/v1/e61c732ec38d48aeb0db719c3ae83d30/manifest.mpd||||ST|false|true|false|false|URL|-1||true|false|false||
 
+sample=17|TEST.x|KArYwlDG3eE7hCU|Direct URL DVR (DASH)|https://deal734ad65b-f.airspace-cdn.cbsivideo.com/out/v1/65949e5920b14dc8b17fd34d2ae4243e/manifest.mpd|||$drm|WV|true|true|false|false|URL|-1||true|false|false||
+
 sample=17|TEST.x|2497752/QNUvJ070gfV_vB0z3UCrakVW_uRNj13s/7j3n273bfj7jcnvf22d713a51f|DAI VoD (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
