@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Generated with https://github.com/google/shaka-packager version v2.5.1-9f11077768-release-->
 <MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2S" type="static" mediaPresentationDuration="PT2560.349365234375S">
-  <BaseURL>https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2021/11/24/1977487939697/1049782_cenc_dash</BaseURL>
+  <BaseURL>https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2021/11/24/1977487939697/1049782_cenc_dash/</BaseURL>
   <Period id="0">
     <AdaptationSet id="0" contentType="text" lang="en" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
