@@ -14,16 +14,6 @@
         </SegmentTemplate>
       </Representation>
     </AdaptationSet>
-    <AdaptationSet id="1" contentType="text" lang="es-MX" segmentAlignment="true">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
-      <Representation id="1" bandwidth="839" codecs="wvtt" mimeType="application/mp4">
-        <SegmentTemplate timescale="1000" initialization="LIFEUNEXPECTED_102_es-MX_23_FORCED_HDCBSLIF102A/vtt_init.m4v" media="LIFEUNEXPECTED_102_es-MX_23_FORCED_HDCBSLIF102A/seg_$Number$.m4s" startNumber="1">
-          <SegmentTimeline>
-            <S t="0" d="6000" r="8"/>
-          </SegmentTimeline>
-        </SegmentTemplate>
-      </Representation>
-    </AdaptationSet>
     <AdaptationSet id="2" contentType="text" lang="pt-BR" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
       <Representation id="2" bandwidth="828" codecs="wvtt" mimeType="application/mp4">
