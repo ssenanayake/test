@@ -187,4 +187,8 @@ sample=17|TEST.x|KArYwlDG3eE7hCU|Direct URL DVR (DASH + DRM)|https://flvb8gfdd66
 
 sample=17|TEST.x|2497752/QNUvJ070gfV_vB0z3UCrakVW_uRNj13s/7j3n273bfj7jcnvf22d713a51f|DAI VoD (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
 
+sample=17|TEST.x||Direct URL - Forced Narratives (HLS)|https://entclips.cbsaavideo.com/2022/01/27/1997082691531/1354041_hls_ta/master.m3u8||||ST|true|false|false|false|URL|-1||true|false|false||
+
+sample=17|TEST.x|GBT1p6WBSvRmwhztevy1FdFR6JFrDEma|Direct URL - Forced Narratives - French/German (DASH + DRM)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/05/31/2038388803805/1390130_cenc_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
+
 sample=17|TEST.x|QDCM1GiNKkuh4ogPODKr5FBLyjW8tv6T|Direct URL - Forced Narratives (DASH + DRM)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2021/11/24/1977487939697/1049782_cenc_dash/stream_fn.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
