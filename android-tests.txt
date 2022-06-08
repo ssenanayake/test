@@ -187,9 +187,11 @@ sample=17|TEST.x|KArYwlDG3eE7hCU|Direct URL DVR (DASH + DRM)|https://flvb8gfdd66
 
 sample=17|TEST.x|2497752/QNUvJ070gfV_vB0z3UCrakVW_uRNj13s/7j3n273bfj7jcnvf22d713a51f|DAI VoD (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
 
-sample=17|TEST.x|_1XfmlH7Ac9EbzOHqADbPzxg_bgevbVg|Direct URL - HDR (HLS)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/06/02/2039148099721/1408315_cenc_fmp4_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
+sample=17|TEST.x|_1XfmlH7Ac9EbzOHqADbPzxg_bgevbVg|Direct URL - HDR (DASH)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/06/02/2039148099721/1408315_cenc_fmp4_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
 
-sample=17|TEST.x|_1XfmlH7Ac9EbzOHqADbPzxg_bgevbVg|Direct URL - HDR10 (HLS)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/06/02/2039148099721/1408315_cenc_fmp4_hdr_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
+sample=17|TEST.x|_1XfmlH7Ac9EbzOHqADbPzxg_bgevbVg|Direct URL - HDR10 (DASH)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/06/02/2039148099721/1408315_cenc_fmp4_hdr_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
+
+sample=17|TEST.x||Direct URL - MultiKey HDR10 (DASH)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/02/26/2007221315694/40259_cenc_fmp4_dash/stream.mpd|||https://cbsi.live.ott.irdeto.com/widevine/getlicense?CrmId=cbsi&AccountId=cbsi&SubContentType=Default&contentId=biDofOaP4PgCF9XwSyULFlX0Cnm_4rmy&ls_session=eyJhbGciOiJIUzI1NiIsImtpZCI6IjNkNjg4NGJmLWViMDktNDA1Zi1hOWZjLWU0NGE1NmY3NjZiNiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMjg0OTI5M19VUyIsImVudCI6W3siYmlkIjoiQWxsQWNjZXNzTWFpbiIsImVwaWQiOjl9XSwiaWF0IjoxNjU0Mjg3Mzg2LCJleHAiOjE2NTQzMDE3ODYsImlzcyI6ImNicyIsImFpZCI6ImNic2kiLCJpc2UiOnRydWUsImp0aSI6ImFjYTNlYTQxLThlYTEtNGU1MC05MmVmLTIyNTFiNDliYTM0MSJ9.Gve7X3ChKNglRSw9gv4Kyup6uHAuNkfFCMVkHMmft_I|WV|true|false|false|false|URL|-1||true|false|false||
 
 sample=17|TEST.x||Direct URL - Forced Narratives (HLS)|https://entclips.cbsaavideo.com/2022/01/27/1997082691531/1354041_hls_ta/master.m3u8||||ST|true|false|false|false|URL|-1||true|false|false||
 
