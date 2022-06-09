@@ -193,6 +193,8 @@ sample=17|TEST.x|_1XfmlH7Ac9EbzOHqADbPzxg_bgevbVg|Direct URL - HDR10 #2 (DASH)|h
 
 sample=17|TEST.x|biDofOaP4PgCF9XwSyULFlX0Cnm_4rmy|Direct URL - MultiKey HDR10 #3 (DASH)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/02/26/2007221315694/40259_cenc_fmp4_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
 
+sample=17|TEST.x|d1xdkOt5uh339gZVfKlF_o6Y65b_yAeD|Direct URL - HDR10 #4 (DASH)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/03/28/2017199171638/1298604_cenc_fmp4_hdr_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
+
 sample=17|TEST.x|K2X4-9yxQTKcdoBWXbUI1g/ |DAI Live (DASH + DRM)||||$drmstage#wsRlDUI8E5pEG9KzunvIy65d1uQpAhQG|WV|true|true|false|false|DAI|-1||true|false|false||
 
 sample=17|TEST.x||Direct URL - Forced Narratives (HLS)|https://entclips.cbsaavideo.com/2022/01/27/1997082691531/1354041_hls_ta/master.m3u8||||ST|true|false|false|false|URL|-1||true|false|false||
