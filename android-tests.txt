@@ -187,11 +187,11 @@ sample=17|TEST.x|KArYwlDG3eE7hCU|Direct URL DVR (DASH + DRM)|https://flvb8gfdd66
 
 sample=17|TEST.x|2497752/QNUvJ070gfV_vB0z3UCrakVW_uRNj13s/7j3n273bfj7jcnvf22d713a51f|DAI VoD (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
 
-sample=17|TEST.x|_1XfmlH7Ac9EbzOHqADbPzxg_bgevbVg|Direct URL - HDR (DASH)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/06/02/2039148099721/1408315_cenc_fmp4_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
+sample=17|TEST.x|d1xdkOt5uh339gZVfKlF_o6Y65b_yAeD|Direct URL - MultiKey HDR10 #1 (DASH)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/03/28/2017199171638/1298604_cenc_fmp4_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
 
-sample=17|TEST.x|_1XfmlH7Ac9EbzOHqADbPzxg_bgevbVg|Direct URL - HDR10 (DASH)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/06/02/2039148099721/1408315_cenc_fmp4_hdr_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
+sample=17|TEST.x|_1XfmlH7Ac9EbzOHqADbPzxg_bgevbVg|Direct URL - HDR10 #2 (DASH)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/06/02/2039148099721/1408315_cenc_fmp4_hdr_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
 
-sample=17|TEST.x|biDofOaP4PgCF9XwSyULFlX0Cnm_4rmy|Direct URL - MultiKey HDR10 (DASH)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/02/26/2007221315694/40259_cenc_fmp4_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
+sample=17|TEST.x|biDofOaP4PgCF9XwSyULFlX0Cnm_4rmy|Direct URL - MultiKey HDR10 #3 (DASH)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/02/26/2007221315694/40259_cenc_fmp4_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
 
 sample=17|TEST.x|K2X4-9yxQTKcdoBWXbUI1g/ |DAI Live (DASH + DRM)||||$drmstage#wsRlDUI8E5pEG9KzunvIy65d1uQpAhQG|WV|true|true|false|false|DAI|-1||true|false|false||
 
