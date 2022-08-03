@@ -139,7 +139,8 @@
             "crossId2":"CBS",
             "adLoadType":"1",
             "hasAds":"{data.hasAds} ? 1 : 0",
-            "length":"{data.isLive} ? 86400 : {data.mediaDuration}" 
+            "length":"{data.isLive} ? 86400 : {data.mediaDuration}",
+            "channelName":"dtvrChannel" 
          },
          "dcrInfo":{
             "dataSrc":"cms",
@@ -155,7 +156,8 @@
             "crossId2":"CBS",
             "adLoadType":"2",
 	    "hasAds":"{data.hasAds} ? 1 : 0",
-            "length":"{data.isLive} ? 86400 : {data.mediaDuration}"
+            "length":"{data.isLive} ? 86400 : {data.mediaDuration}",
+            "channelName":"dcrChannel"
          },
          "adInfo":{
             "type":"{data.adPodType}",
