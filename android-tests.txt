@@ -218,3 +218,6 @@ sample=17|TEST.x|TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D|Jignesh - Direct URL - Dolby V
 sample=17|TEST.x|TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D|Jignesh - Direct URL - Dolby Vision - SingleKey - 110k Video (DASH + DRM)|https://vod-gcs-cedexis-dev.cbsaavideo.com/CBS_Production_Entertainment_VMS/2022/07/19/2053464643928/11517_cenc_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
 
 sample=17|TEST.x|AmBcaCActcTer6wa7QjKWWzdtKrMlHBw|Halo - Direct URL (DASH + DRM)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/03/16/2013439043562/1250647_cenc_fmp4_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
+
+sample=17|TEST.x|AAoal6tRFiRQNYhFWjvaxc3kk_WsgSsD|Live Direct URL (DASH + DRM)|https://propeg6d45d9.airspace-cdn.cbsivideo.com/out/v1/9df9b3c1f9b34bb0ada43b0af4c5d38a/manifest.mpd|||$drm|WV|true|true|false|false|URL|-1||true|false|false||
+
