@@ -85,7 +85,7 @@
 	    "userStatus": "{context.userStatus}",
             "userType": "{context.userType}",
             "test": "{data.eVar23} | {data.eVar24}",
-            "movieId": "{context.movieId}"
+            "userAgent": "{context.userAgent}"
          },
          "qoeData":{
             "media.qoe.timeToStart":"{data.timeToStart}"
