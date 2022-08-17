@@ -140,7 +140,7 @@
             "adLoadType":"1",
             "hasAds":"{data.hasAds} ? 1 : 0",
             "length":"{data.isLive} ? 86400 : {data.mediaDuration}",
-            "channel":"dtvrChannel" 
+            "channelName":"dtvrChannel" 
          },
          "dcrInfo":{
             "dataSrc":"cms",
@@ -157,7 +157,7 @@
             "adLoadType":"2",
 	    "hasAds":"{data.hasAds} ? 1 : 0",
             "length":"{data.isLive} ? 86400 : {data.mediaDuration}",
-            "channel":"dcrChannel"
+            "channelName":"dcrChannel"
          },
          "adInfo":{
             "type":"{data.adPodType}",
