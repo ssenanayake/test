@@ -217,6 +217,14 @@ sample=17|TEST.x|TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D|Jignesh - Direct URL - Dolby V
 
 sample=17|TEST.x|TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D|Jignesh - Direct URL - Dolby Vision - SingleKey - 110k Video - Prod (DASH + DRM)|https://vod-gcs-cedexis.cbsaavideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
 
+sample=17|TEST.x|AmBcaCActcTer6wa7QjKWWzdtKrMlHBw|Halo - Direct URL - Akamai (DASH + DRM)|http://vod62c350g.airspace-a.cbsivideo.com/intl_vms/2022/03/16/2013439043562/1250647_cenc_fmp4_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
+
+sample=17|TEST.x|AmBcaCActcTer6wa7QjKWWzdtKrMlHBw|Halo - Direct URL - Cloudfront (DASH + DRM)|http://vod62c350g.airspace-c.cbsivideo.com/intl_vms/2022/03/16/2013439043562/1250647_cenc_fmp4_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
+
+sample=17|TEST.x|AmBcaCActcTer6wa7QjKWWzdtKrMlHBw|Halo - Direct URL - Edgecast (DASH + DRM)|http://vod62c350g.airspace-e.cbsivideo.com/intl_vms/2022/03/16/2013439043562/1250647_cenc_fmp4_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
+
+sample=17|TEST.x|AmBcaCActcTer6wa7QjKWWzdtKrMlHBw|Halo - Direct URL - Fastly (DASH + DRM)|http://vod62c350g.airspace-f.cbsivideo.com/intl_vms/2022/03/16/2013439043562/1250647_cenc_fmp4_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
+
 sample=17|TEST.x|AmBcaCActcTer6wa7QjKWWzdtKrMlHBw|Halo - Direct URL (DASH + DRM)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/03/16/2013439043562/1250647_cenc_fmp4_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
 
 sample=17|TEST.x|TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D|Jignesh - Direct URL - Dolby Vision - SingleKey - 110k Video - Akamai (DASH + DRM)|https://vod62c350g.airspace-a.cbsivideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
