@@ -237,4 +237,3 @@ sample=17|TEST.x|TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D|Jignesh - Direct URL - Dolby V
 
 sample=17|TEST.x|TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D|Jignesh - Direct URL - Dolby Vision - SingleKey - 110k Video - Fastly (DASH + DRM)|https://vod62c350g.airspace-f.cbsivideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
 
-sample=17|TEST.x|TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D|Jignesh - Direct URL - Dolby Vision - SingleKey - 110k Video - Fastly (DASH + DRM)|https://vod62c350g.airspace-f.cbsivideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
