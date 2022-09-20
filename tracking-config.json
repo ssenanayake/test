@@ -305,7 +305,7 @@
             "gatewayUrl":"{context.dev} ? cbscom-test.testonly.conviva.com : "
          },
          "ebvsInfo":{
-            "defaultResource":"xyz"
+            "Conviva.defaultResource":"xyz"
          },
          "contentInfo":{
             "assetName":"{data.isLive} ? [Live] {data.mediaTitle} : [VoD] {data.mediaTitle}",
