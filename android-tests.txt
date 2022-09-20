@@ -185,7 +185,7 @@ sample=17|TEST.x|McTka5bBSYS5B06bQrtoHw/ |DAI Live DVR (HLS)|||||ST|false|true|f
 
 sample=17|TEST.x|Sid4xiTQTkCT1SLu6rjUSQ/ |DAI Live DVR - News (HLS)|||||ST|false|true|false|false|DAI|-1||true|false|false||
 
-sample=17|TEST.x||URL Live DVR (DASH)|https://ccf3786b925ee51c.mediapackage.us-east-1.amazonaws.com/out/v1/e61c732ec38d48aeb0db719c3ae83d30/manifest.mpd||||ST|false|true|false|false|URL|-1||true|false|false||
+sample=17|TEST.x||URL Live DVR (DASH)|https://580140g7dh55.airspace-cdn.cbsivideo.com/out/v1/55aa045194794432bc3cef52785d5008/manifest.m3u8||||ST|false|true|false|false|URL|-1||true|false|false||
 
 sample=17|TEST.x|KArYwlDG3eE7hCU|Direct URL DVR (DASH + DRM)|https://flvb8gfdd667-f.airspace-cdn.cbsivideo.com/out/v1/993ac8d996f94123ba27affee35a835e/manifest.mpd|||$drm|WV|true|true|false|false|URL|-1||true|false|false||
 
