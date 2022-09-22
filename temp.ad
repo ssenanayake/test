@@ -1,0 +1,108 @@
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.1" xsi:noNamespaceSchemaLocation="vast.xsd">
+<Ad id="65573739.140013715557632" sequence="1">
+<InLine>
+<AdSystem>FreeWheel</AdSystem>
+<AdTitle>1249141-1_a||PMNT|EyeQ Pause Ad||Video|Standard||640|480||</AdTitle>
+<Error>
+<![CDATA[ https://7f077.v.fwmrm.net/ad/l/1?s=w9136&n=520311%3B520311%3B82125%3B376521%3B381963%3B384777%3B386329%3B499607%3B505334&t=1663858527602306089&f=67371008&r=520311&adid=65573739&reid=265275120&arid=0&iw=&uxnw=520311&uxss=sg922798&uxct=4&inif=1&et=e&cn=[ERRORCODE] ]]>
+</Error>
+<Impression id="FWi_65573739.0">
+<![CDATA[ https://7f077.v.fwmrm.net/ad/l/1?s=w9136&n=520311%3B520311%3B82125%3B376521%3B381963%3B384777%3B386329%3B499607%3B505334&t=1663858527602306089&f=67371008&r=520311&adid=65573739&reid=265275120&arid=0&auid=&cn=defaultImpression&et=i&_cc=65573739,265275120,,,1663858527,1&tpos=0&iw=&uxnw=520311&uxss=sg922798&uxct=4&metr=1023&init=1&inif=1&vcid2=481ec629f710b694e2fb84ac214aba9b4569c88cf1a82bd9d59172229f7b69f9&asid=290400994&ssid=16482043&pingids=4755,4756 ]]>
+</Impression>
+<Impression id="FWi_65573739.0.1">
+<![CDATA[ https://ad.doubleclick.net/ddm/trackimp/N783065.3861580VIACOMCBS/B28453286.345232791;dc_trk_aid=536264058;dc_trk_cid=176950793;ord=359986782;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=? ]]>
+</Impression>
+<Impression id="FWi_65573739.0.2">
+<![CDATA[ https://video.moatads.com/pixel.gif?e=0&g=0&ac=1&bq=7&dz=1&f=0&gh=1&dh=0&hc=1&i=FREEWHEEL_OTT1&t=&de=359986782&d=996979%3A65573729%3A65573738%3A54888987&zMoatFWNID=520311&zMoatAFWNID=520311&zMoatIO=65573730&zMoatEIO=85262&zMoatAUID=63413&zMoatSEID=g133203916&zMoatSite=g932768&zMoatSection=16482043&zMoatASID=290400994&zMoatASCID=fTAkfNkVkgPKAWne2KaqKM3Ws89l50ej&zMoatRID=265275120&zMoatDUR=30&zMoatTPC=pause_midroll&zMoatFWPT=&zMoatProfile=520311:GoogleDAICSAI_v01&zMoatTID=1663858527602306089&zMoatTEID=&zMoatAdID=65573739&zMoatSDH=30&zMoatDevice=SS%3A%20Streaming%3A%20Paramount%20Plus%3A%20CTV%3A%20Roku%3A%20VOD&oa=&zMoatExDealId=&zMoatProgType=no_deal&ott=1&cs=0 ]]>
+</Impression>
+<Impression id="FWi_65573739.0.3">
+<![CDATA[ https://video.moatads.com/pixel.gif?e=29&g=1&q=0&lo=0&dc=1&ak=-&ac=1&bq=7&as=0&ag=0&an=0&gf=0&gg=0&aj=1&dz=1&ef=3&f=0&gh=1&gi=1&gf=1&dh=0&hc=1&i=FREEWHEEL_OTT1&t=&de=359986782&d=996979%3A65573729%3A65573738%3A54888987&zMoatFWNID=520311&zMoatAFWNID=520311&zMoatIO=65573730&zMoatEIO=85262&zMoatAUID=63413&zMoatSEID=g133203916&zMoatSite=g932768&zMoatSection=16482043&zMoatASID=290400994&zMoatASCID=fTAkfNkVkgPKAWne2KaqKM3Ws89l50ej&zMoatRID=265275120&zMoatDUR=30&zMoatTPC=pause_midroll&zMoatFWPT=&zMoatProfile=520311:GoogleDAICSAI_v01&zMoatTID=1663858527602306089&zMoatTEID=&zMoatAdID=65573739&zMoatSDH=30&zMoatDevice=SS%3A%20Streaming%3A%20Paramount%20Plus%3A%20CTV%3A%20Roku%3A%20VOD&oa=&zMoatExDealId=&zMoatProgType=no_deal&ott=1&cs=0 ]]>
+</Impression>
+<Creatives>
+<Creative AdID="65573739" id="54888987">
+<Linear>
+<Duration>00:00:30</Duration>
+<TrackingEvents>
+<Tracking event="firstQuartile">
+<![CDATA[ https://7f077.v.fwmrm.net/ad/l/1?s=w9136&n=520311%3B520311%3B82125%3B376521%3B381963%3B384777%3B386329%3B499607%3B505334&t=1663858527602306089&f=67371008&r=520311&adid=65573739&reid=265275120&arid=0&auid=&cn=firstQuartile&et=i&_cc=&tpos=0&iw=&uxnw=520311&uxss=sg922798&uxct=4&metr=1023&pingids=4757 ]]>
+</Tracking>
+<Tracking event="firstQuartile">
+<![CDATA[ https://video.moatads.com/pixel.gif?e=29&g=2&q=1&lo=0&dc=1&ak=-&ac=1&bq=7&as=1&ka=1&ag=0&an=0&gg=0&aj=1&dz=1&ef=3&eg=3&f=0&gh=1&gi=1&gf=1&dh=0&hc=1&i=FREEWHEEL_OTT1&t=&de=359986782&d=996979%3A65573729%3A65573738%3A54888987&zMoatFWNID=520311&zMoatAFWNID=520311&zMoatIO=65573730&zMoatEIO=85262&zMoatAUID=63413&zMoatSEID=g133203916&zMoatSite=g932768&zMoatSection=16482043&zMoatASID=290400994&zMoatASCID=fTAkfNkVkgPKAWne2KaqKM3Ws89l50ej&zMoatRID=265275120&zMoatDUR=30&zMoatTPC=pause_midroll&zMoatFWPT=&zMoatProfile=520311:GoogleDAICSAI_v01&zMoatTID=1663858527602306089&zMoatTEID=&zMoatAdID=65573739&zMoatSDH=30&zMoatDevice=SS%3A%20Streaming%3A%20Paramount%20Plus%3A%20CTV%3A%20Roku%3A%20VOD&oa=&zMoatExDealId=&zMoatProgType=no_deal&ott=1&cs=0 ]]>
+</Tracking>
+<Tracking event="midpoint">
+<![CDATA[ https://7f077.v.fwmrm.net/ad/l/1?s=w9136&n=520311%3B520311%3B82125%3B376521%3B381963%3B384777%3B386329%3B499607%3B505334&t=1663858527602306089&f=67371008&r=520311&adid=65573739&reid=265275120&arid=0&auid=&cn=midPoint&et=i&_cc=&tpos=0&iw=&uxnw=520311&uxss=sg922798&uxct=4&metr=1023&pingids=4758 ]]>
+</Tracking>
+<Tracking event="midpoint">
+<![CDATA[ https://video.moatads.com/pixel.gif?e=29&g=3&q=2&lo=0&dc=1&ak=-&ac=1&bq=7&as=1&ka=1&ag=0&an=0&gg=0&aj=1&hd=1&dz=1&ef=3&eg=3&eh=3&f=0&gh=1&gi=1&gf=1&dh=0&hc=1&i=FREEWHEEL_OTT1&t=&de=359986782&d=996979%3A65573729%3A65573738%3A54888987&zMoatFWNID=520311&zMoatAFWNID=520311&zMoatIO=65573730&zMoatEIO=85262&zMoatAUID=63413&zMoatSEID=g133203916&zMoatSite=g932768&zMoatSection=16482043&zMoatASID=290400994&zMoatASCID=fTAkfNkVkgPKAWne2KaqKM3Ws89l50ej&zMoatRID=265275120&zMoatDUR=30&zMoatTPC=pause_midroll&zMoatFWPT=&zMoatProfile=520311:GoogleDAICSAI_v01&zMoatTID=1663858527602306089&zMoatTEID=&zMoatAdID=65573739&zMoatSDH=30&zMoatDevice=SS%3A%20Streaming%3A%20Paramount%20Plus%3A%20CTV%3A%20Roku%3A%20VOD&oa=&zMoatExDealId=&zMoatProgType=no_deal&ott=1&cs=0 ]]>
+</Tracking>
+<Tracking event="thirdQuartile">
+<![CDATA[ https://7f077.v.fwmrm.net/ad/l/1?s=w9136&n=520311%3B520311%3B82125%3B376521%3B381963%3B384777%3B386329%3B499607%3B505334&t=1663858527602306089&f=67371008&r=520311&adid=65573739&reid=265275120&arid=0&auid=&cn=thirdQuartile&et=i&_cc=&tpos=0&iw=&uxnw=520311&uxss=sg922798&uxct=4&metr=1023&pingids=4759 ]]>
+</Tracking>
+<Tracking event="thirdQuartile">
+<![CDATA[ https://video.moatads.com/pixel.gif?e=29&g=4&q=3&lo=0&dc=1&ak=-&ac=1&bq=7&as=1&ka=1&ag=0&an=0&gg=0&aj=1&hd=1&dz=1&ef=3&eg=3&eh=3&ei=3&f=0&gh=1&gi=1&gf=1&dh=0&hc=1&i=FREEWHEEL_OTT1&t=&de=359986782&d=996979%3A65573729%3A65573738%3A54888987&zMoatFWNID=520311&zMoatAFWNID=520311&zMoatIO=65573730&zMoatEIO=85262&zMoatAUID=63413&zMoatSEID=g133203916&zMoatSite=g932768&zMoatSection=16482043&zMoatASID=290400994&zMoatASCID=fTAkfNkVkgPKAWne2KaqKM3Ws89l50ej&zMoatRID=265275120&zMoatDUR=30&zMoatTPC=pause_midroll&zMoatFWPT=&zMoatProfile=520311:GoogleDAICSAI_v01&zMoatTID=1663858527602306089&zMoatTEID=&zMoatAdID=65573739&zMoatSDH=30&zMoatDevice=SS%3A%20Streaming%3A%20Paramount%20Plus%3A%20CTV%3A%20Roku%3A%20VOD&oa=&zMoatExDealId=&zMoatProgType=no_deal&ott=1&cs=0 ]]>
+</Tracking>
+<Tracking event="complete">
+<![CDATA[ https://7f077.v.fwmrm.net/ad/l/1?s=w9136&n=520311%3B520311%3B82125%3B376521%3B381963%3B384777%3B386329%3B499607%3B505334&t=1663858527602306089&f=67371008&r=520311&adid=65573739&reid=265275120&arid=0&auid=&cn=complete&et=i&_cc=&tpos=0&iw=&uxnw=520311&uxss=sg922798&uxct=4&metr=1023&pingids=4760 ]]>
+</Tracking>
+<Tracking event="complete">
+<![CDATA[ https://video.moatads.com/pixel.gif?e=29&g=5&q=4&lo=0&dc=1&ak=-&ac=1&bq=7&as=1&ka=1&ag=0&an=0&gg=0&aj=1&hd=1&dz=1&ef=3&eg=3&eh=3&ei=3&ej=3&f=0&gh=1&gi=1&gf=1&dh=0&hc=1&i=FREEWHEEL_OTT1&t=&de=359986782&d=996979%3A65573729%3A65573738%3A54888987&zMoatFWNID=520311&zMoatAFWNID=520311&zMoatIO=65573730&zMoatEIO=85262&zMoatAUID=63413&zMoatSEID=g133203916&zMoatSite=g932768&zMoatSection=16482043&zMoatASID=290400994&zMoatASCID=fTAkfNkVkgPKAWne2KaqKM3Ws89l50ej&zMoatRID=265275120&zMoatDUR=30&zMoatTPC=pause_midroll&zMoatFWPT=&zMoatProfile=520311:GoogleDAICSAI_v01&zMoatTID=1663858527602306089&zMoatTEID=&zMoatAdID=65573739&zMoatSDH=30&zMoatDevice=SS%3A%20Streaming%3A%20Paramount%20Plus%3A%20CTV%3A%20Roku%3A%20VOD&oa=&zMoatExDealId=&zMoatProgType=no_deal&ott=1&cs=0 ]]>
+</Tracking>
+<Tracking event="mute">
+<![CDATA[ https://7f077.v.fwmrm.net/ad/l/1?s=w9136&n=520311%3B520311%3B82125%3B376521%3B381963%3B384777%3B386329%3B499607%3B505334&t=1663858527602306089&f=67371008&r=520311&adid=65573739&reid=265275120&arid=0&auid=&cn=_mute&et=s&_cc=&tpos=0 ]]>
+</Tracking>
+<Tracking event="unmute">
+<![CDATA[ https://7f077.v.fwmrm.net/ad/l/1?s=w9136&n=520311%3B520311%3B82125%3B376521%3B381963%3B384777%3B386329%3B499607%3B505334&t=1663858527602306089&f=67371008&r=520311&adid=65573739&reid=265275120&arid=0&auid=&cn=_un-mute&et=s&_cc=&tpos=0 ]]>
+</Tracking>
+<Tracking event="collapse">
+<![CDATA[ https://7f077.v.fwmrm.net/ad/l/1?s=w9136&n=520311%3B520311%3B82125%3B376521%3B381963%3B384777%3B386329%3B499607%3B505334&t=1663858527602306089&f=67371008&r=520311&adid=65573739&reid=265275120&arid=0&auid=&cn=_collapse&et=s&_cc=&tpos=0 ]]>
+</Tracking>
+<Tracking event="expand">
+<![CDATA[ https://7f077.v.fwmrm.net/ad/l/1?s=w9136&n=520311%3B520311%3B82125%3B376521%3B381963%3B384777%3B386329%3B499607%3B505334&t=1663858527602306089&f=67371008&r=520311&adid=65573739&reid=265275120&arid=0&auid=&cn=_expand&et=s&_cc=&tpos=0 ]]>
+</Tracking>
+<Tracking event="pause">
+<![CDATA[ https://7f077.v.fwmrm.net/ad/l/1?s=w9136&n=520311%3B520311%3B82125%3B376521%3B381963%3B384777%3B386329%3B499607%3B505334&t=1663858527602306089&f=67371008&r=520311&adid=65573739&reid=265275120&arid=0&auid=&cn=_pause&et=s&_cc=&tpos=0 ]]>
+</Tracking>
+<Tracking event="resume">
+<![CDATA[ https://7f077.v.fwmrm.net/ad/l/1?s=w9136&n=520311%3B520311%3B82125%3B376521%3B381963%3B384777%3B386329%3B499607%3B505334&t=1663858527602306089&f=67371008&r=520311&adid=65573739&reid=265275120&arid=0&auid=&cn=_resume&et=s&_cc=&tpos=0 ]]>
+</Tracking>
+<Tracking event="rewind">
+<![CDATA[ https://7f077.v.fwmrm.net/ad/l/1?s=w9136&n=520311%3B520311%3B82125%3B376521%3B381963%3B384777%3B386329%3B499607%3B505334&t=1663858527602306089&f=67371008&r=520311&adid=65573739&reid=265275120&arid=0&auid=&cn=_rewind&et=s&_cc=&tpos=0 ]]>
+</Tracking>
+<Tracking event="acceptInvitation">
+<![CDATA[ https://7f077.v.fwmrm.net/ad/l/1?s=w9136&n=520311%3B520311%3B82125%3B376521%3B381963%3B384777%3B386329%3B499607%3B505334&t=1663858527602306089&f=67371008&r=520311&adid=65573739&reid=265275120&arid=0&auid=&cn=_accept-invitation&et=s&_cc=&tpos=0 ]]>
+</Tracking>
+<Tracking event="close">
+<![CDATA[ https://7f077.v.fwmrm.net/ad/l/1?s=w9136&n=520311%3B520311%3B82125%3B376521%3B381963%3B384777%3B386329%3B499607%3B505334&t=1663858527602306089&f=67371008&r=520311&adid=65573739&reid=265275120&arid=0&auid=&cn=_close&et=s&_cc=&tpos=0 ]]>
+</Tracking>
+</TrackingEvents>
+<VideoClicks>
+<ClickThrough id="FWc_65573739.0">
+<![CDATA[ https://ad.doubleclick.net/ddm/trackclk/N783065.3861580VIACOMCBS/B28453286.345232791;dc_trk_aid=536264058;dc_trk_cid=176950793;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd= ]]>
+</ClickThrough>
+<ClickTracking id="FWc_65573739.0.1">
+<![CDATA[ https://7f077.v.fwmrm.net/ad/l/1?s=w9136&n=520311%3B520311%3B82125%3B376521%3B381963%3B384777%3B386329%3B499607%3B505334&t=1663858527602306089&f=67371008&r=520311&adid=65573739&reid=265275120&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0 ]]>
+</ClickTracking>
+</VideoClicks>
+<MediaFiles>
+<MediaFile delivery="progressive" height="640" id="265275120" type="image/png" width="480">
+<![CDATA[ https://s1.fwmrm.net/m/1/520311/27/54888987/265275120/PAR_SMILE_EyeQ_Culture_PauseAd_4072x2696_QR_code_Date_1663118625.png ]]>
+</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+</Creatives>
+<AdVerifications>
+<Verification vendor="moat.com-omsdkfreewheelinapp172274674898">
+<JavaScriptResource apiFramework="omid" browserOptional="true">
+<![CDATA[ https://z.moatads.com/omsdkfreewheelinapp172274674898/moatvideo.js ]]>
+</JavaScriptResource>
+<TrackingEvents/>
+<VerificationParameters>
+<![CDATA[ {"moatClientLevel1":"996979", "moatClientLevel2":"65573729", "moatClientLevel3":"65573738", "moatClientLevel4":"54888987", "zMoatFWNID":"520311", "zMoatAFWNID":"520311", "zMoatIO":"65573730", "zMoatEIO":"85262", "zMoatAUID":"63413", "zMoatSEID":"g133203916", "zMoatSite":"g932768", "zMoatSection":"16482043", "zMoatASID":"290400994", "zMoatASCID":"fTAkfNkVkgPKAWne2KaqKM3Ws89l50ej", "zMoatRID":"265275120", "zMoatDUR":"30", "zMoatTPC":"pause_midroll", "zMoatFWPT":"", "zMoatProfile":"520311:GoogleDAICSAI_v01", "zMoatCPX":"cpx-non", "zMoatTID":"1663858527602306089", "zMoatEventCallbackURL":"https://7f077.v.fwmrm.net/ad/l/1?s=w9136&n=520311%3B520311%3B82125%3B376521%3B381963%3B384777%3B386329%3B499607%3B505334&t=1663858527602306089&f=67371008&r=520311&adid=65573739&reid=265275120&arid=0&iw=&uxnw=520311&uxss=sg922798&uxct=4&inif=1&absid=&trigid=&et=i&cn=concreteEvent","zMoatExDealId":"", "zMoatProgType":"no_deal"} ]]>
+</VerificationParameters>
+</Verification>
+</AdVerifications>
+</InLine>
+</Ad>
+</VAST>
+
