@@ -88,9 +88,7 @@
             "userAgent": "{context.userAgent}"
          },
          "qoeData":{
-            "media.qoe.timeToStart":"{data.timeToStart}",
-            "media.qoe.errorID":"{data.cvpErrorCode}",
-	    "media.qoe.errorSource":"player"
+            "media.qoe.timeToStart":"{data.timeToStart}"
          },
          "dataType":{
             "analytics.enableSSL":"boolean",
