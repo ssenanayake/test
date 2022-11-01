@@ -35,7 +35,7 @@ sample=3|TEST.x|9Lq0ERvoSR-z9AwvFS-xYA/ |DAI Live - Sports (HLS)|||||ST|false|tr
 
 sample=3|TEST.x|xrVrJYTmTfitfXBQfeZByQ/ |DAI Live - ETL (HLS)|||||ST|false|true|false|false|DAI|-1||true|false|false||
 
-sample=3|TEST.x|JHQStU_vRrehBs2eCAOmSw/ |DAI Live - Infinte Buffering (HLS)|||||AE|false|true|false|false|DAI|-1||true|false|false||
+sample=3|TEST.x|JHQStU_vRrehBs2eCAOmSw/ |DAI Live - Infinte Buffering (HLS)||||$drmStage|AE|false|true|false|false|DAI|-1||true|false|false||
 
 sample=4|TEST.x|2528370/tears-of-steel/|DAI VoD - Resume 360s (HLS)|||||ST|true|false|false|false|DAI|360||true|false|false||
 
