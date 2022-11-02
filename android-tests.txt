@@ -49,7 +49,7 @@ sample=4|TEST.x|2497752/SmYxkxQQtkfYRK4j3oOpG7lwBfE1Eeuo/7j3n273bfj7jcnvf22d713a
 
 sample=4|TEST.x|2497752/SmYxkxQQtkfYRK4j3oOpG7lwBfE1Eeuo/7j3n273bfj7jcnvf22d713a51f|DAI VoD - Multi Audio (DASH + DRM + Seek Thumbnails)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
 
-sample=4|TEST.x|2497752/bmXIGcQ6d1xnZvJfMFEjyGR5FkzDLIbn/7j3n273bfj7jcnvf22d713a51f|DAI VoD - Innovid (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false|csid=streaming_paramountplus_ctv_amazonfiretv_vod&sb=22|
+sample=4|TEST.x|2497752/phz8mnm5AvhUS7rv3yHhWUiSigHl7oSF/7j3n273bfj7jcnvf22d713a51f|DAI VoD - Innovid (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false|csid=streaming_paramountplus_ctv_amazonfiretv_vod&sb=22|
 
 sample=4|TEST.x|2542453/mgid:arc:episode:roku.playplex.paramountnetwork.com:4f672c49-52e1-11ea-9fb2-70df2f866ace/HMAC:cmsid=*~exp=1606503373~vid=*~hmac=9c3e72b9842e2e2c9f294a0e65d4311538bb5a2363d6d9e3ce41488567ced888|DAI VoD - Auth Token (HLS)|||||ST|true|false|false|false|DAI|-1||true|false|false||
 
