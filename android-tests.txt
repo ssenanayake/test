@@ -135,7 +135,7 @@ sample=13|TEST.x|2490667/googleio-highlights/|DAI - Innovid Preroll (HLS)|||||ST
 
 sample=14|TEST.x||Direct URL - News DVR (HLS)|https://cbsn-us-cedexis.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/start/$ydateT17:46:09Z/end/$ydateT17:53:44Z/master.m3u8?b=1200-2500&iu=/8264/vaw-can/mobile_app/cbs_android_phone_app||||ST|true|false|false|false|URL|-1||true|false|false||
 
-sample=14|TEST.x||Direct URL - News DVR (HLS)|https://dai.google.com/linear/hls/event/kmYVtEU0TqeDjeSC6R9epg/master.m3u8?dai-apto=2000||||ST|true|false|false|false|URL|-1||true|false|false||
+sample=14|TEST.x||Direct URL - News (HLS)|https://dai.google.com/linear/hls/event/kmYVtEU0TqeDjeSC6R9epg/master.m3u8?dai-apto=2000||||ST|true|false|false|false|URL|-1||true|false|false||
 
 sample=15|TEST.x|2497752/Szbbn6rCLPF3a5VvSWWhWB871pry6pAE/7j3n273bfj7jcnvf22d713a51f|DAI VoD - 4:3 Content and 16:9 Ads -Muted (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
 
