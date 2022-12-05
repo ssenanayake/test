@@ -333,7 +333,7 @@
             "defaultResource":"{data.cdn}",
             "c3.ad.adManagerName":"Google SDK",
 	    "c3.ad.adManagerVersion":"{context.adManagerVersion}",
-	    "c3.ad.adStitcher":"{data.adStitcher} ? DAI : IMA",
+	    "c3.ad.adStitcher":"{data.adStitcher} ? DAI : {data.adStitcherName}",
             "c3.ad.advertiserCategory":"NA",
             "c3.ad.advertiserId":"NA",
             "c3.ad.advertiser":"{data.advertiserName} | NA",
