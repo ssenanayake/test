@@ -331,7 +331,7 @@
             "streamType":"{data.isLive} ? Live : VoD",
             "applicationName":"{data.playerName}",
             "defaultResource":"{data.cdn}",
-            "c3.ad.adManagerName":"Google SDK",
+            "c3.ad.adManagerName":"{data.adManagerName} SDK",
 	    "c3.ad.adManagerVersion":"{context.adManagerVersion}",
 	    "c3.ad.adStitcher":"{data.adStitcher} ? DAI : {data.adStitcherName}",
             "c3.ad.advertiserCategory":"NA",
