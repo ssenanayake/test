@@ -1,0 +1,12 @@
+
+
+enabledGroups=0:Test|
+
+// int group, String id, String externalId, String name, String uri, String subtitleUri,
+// String overrideAdUri, String drmUri, int drmType, boolean preroll, boolean live, boolean vr360,
+// boolean vrStereocopic, int provider, int resumePosition, String thumbnailUri,
+// boolean autoPlay, boolean noAds, String customAdParams
+
+sample=0|TEST.0|PMVl0J76szUg1_j3hhRG3uTHGTst_uxy|DASH/DRM|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/02/01/1998552131563/1215332_cenc_fmp4_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
+
+
