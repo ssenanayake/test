@@ -185,13 +185,13 @@ sample=17|TEST.x||DAI - ATMOS - Test (DASH)|https://vod-gcs-cedexis.cbsaavideo.c
 
 sample=17|TEST.x||Test Live (HLS)|https://content-ause1.uplynk.com/channel/ceb8d6e35fca432f9f32f4f1f4a822b8/c.m3u8?ct=c&ad.locationDesc=vcbs_comedycentral_mobile_android_live&ad.cust_params=_fw_ae%3D4c69d8ae094b30ca12f90f2d6556fea6%26_vmn_ar%3Dtrue&expand=simulcast_unified_standard&ad.kv=fms_userid,0e9a7885-8e34-4bdf-8bd3-1fe620492da0,_fw_ae,4c69d8ae094b30ca12f90f2d6556fea6,_fw_did_google_advertising_id,811d4924-e08f-46a0-aad2-515351646ed9,_fw_is_lat,0,_vmn_ar,true,_fw_vcid2,XY6395tZ-LrkJ0p-pTWBNmXSRbuhXxfJ3R1EYvWF9QS5bqQv8,fms_ramp_id,XY6395tZ-LrkJ0p-pTWBNmXSRbuhXxfJ3R1EYvWF9QS5bqQv8,fms_hh_ramp_id,UNMATCHED,fms_ifa,811d4924-e08f-46a0-aad2-515351646ed9,fms_vcid2type,liveramp&exp=1635456812&rn=-521633883&cid=ceb8d6e35fca432f9f32f4f1f4a822b8&tc=1&sig=576b850b7b1fee5961c3af8700307d6ad764cda77619a10a5f856f5dacaf34f2&pbs=a8cb3cff018a487bbe5e9a2db3def7c4||||ST|false|true|false|false|URL|-1||true|false|false||
 
-sample=17|TEST.x||FW - Pre/Mid/Postroll Ads & Content (HLS)|https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2021/04/28/1891088451853/708194_hls/master.m3u8||https://2356e.v.fwmrm.net/,380990,380990:c5_fps_ios,iphone_d5,C5222080002||ST|true|false|false|false|FW|-1||true|false|false||
+sample=17|TEST.x||FW - Pre/Mid/Postroll Ads & Content (HLS)|https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2021/04/28/1891088451853/708194_hls/master.m3u8||https://2356e.v.fwmrm.net/,380990,380990:c5_fps_ios,iphone_d5,C5222080002,3600||ST|true|false|false|false|FW|-1||true|false|false||
 
-sample=17|TEST.x||FW - Pre/Mid/Postroll Ads & Content - Resume 0s (HLS)|https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2021/04/28/1891088451853/708194_hls/master.m3u8||https://2356e.v.fwmrm.net/,380990,380990:c5_fps_ios,iphone_d5,C5222080002||ST|true|false|false|false|FW|0||true|false|false||
+sample=17|TEST.x||FW - Pre/Mid/Postroll Ads & Content - Resume 0s (HLS)|https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2021/04/28/1891088451853/708194_hls/master.m3u8||https://2356e.v.fwmrm.net/,380990,380990:c5_fps_ios,iphone_d5,C5222080002,3600||ST|true|false|false|false|FW|0||true|false|false||
 
-sample=17|TEST.x||FW - Pre/Mid/Postroll Ads & Content - Resume 500s (HLS)|https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2021/04/28/1891088451853/708194_hls/master.m3u8||https://2356e.v.fwmrm.net/,380990,380990:c5_fps_ios,iphone_d5,C5222080002||ST|true|false|false|false|FW|500||true|false|false||
+sample=17|TEST.x||FW - Pre/Mid/Postroll Ads & Content - Resume 500s (HLS)|https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2021/04/28/1891088451853/708194_hls/master.m3u8||https://2356e.v.fwmrm.net/,380990,380990:c5_fps_ios,iphone_d5,C5222080002,3600||ST|true|false|false|false|FW|500||true|false|false||
 
-sample=17|TEST.x||FW - Pre/Mid/Postroll Ads & Content (HLS)|http://ipad-streaming.cbsnews.com/media/mpx/2017/10/01/1059268675778/60_1001_Vast_1409240_ott.m3u8||https://2356e.v.fwmrm.net/,380990,380990:c5_fps_ios,iphone_d5,C5222080002||ST|true|false|false|false|FW|-1||true|false|false||
+sample=17|TEST.x||FW - Pre/Mid/Postroll Ads & Content (HLS)|http://ipad-streaming.cbsnews.com/media/mpx/2017/10/01/1059268675778/60_1001_Vast_1409240_ott.m3u8||https://2356e.v.fwmrm.net/,380990,380990:c5_fps_ios,iphone_d5,C5222080002,734||ST|true|false|false|false|FW|-1||true|false|false||
 
 sample=17|TEST.x|x7WBZ4vYuARG7ARSjoYK7cTmY3Gh6xj6|DAI - ATMOS - CBS (DASH)|http://www.sasacinc.com/Work/UVP/test1.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
 
