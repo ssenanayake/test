@@ -9,8 +9,6 @@ enabledGroups=0:Freewheel|
 
 sample=0|TEST.x||FW - Pre/Mid/Postroll Ads & Content (HLS)|https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2021/04/28/1891088451853/708194_hls/master.m3u8||https://2356e.v.fwmrm.net/,380990,380990:c5_fps_ios,iphone_d5,C5222080002,2703||ST|true|false|false|false|FW|-1||true|false|false||
 
-sample=0|TEST.x||FW - Pre/Mid/Postroll Ads & Content (HLS)|https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2021/04/28/1891088451853/708194_hls/master.m3u8||https://2356e.v.fwmrm.net/,380990,380990:c5_fps_ios,iphone_d5,C5222080002,2703||ST|true|false|false|false|FW|-1||true|false|false||
-
 sample=0|TEST.x||FW - Pre/Mid/Postroll Ads & Content - Resume 0s (HLS)|https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2021/04/28/1891088451853/708194_hls/master.m3u8||https://2356e.v.fwmrm.net/,380990,380990:c5_fps_ios,iphone_d5,C5222080002,2703||ST|true|false|false|false|FW|0||true|false|false||
 
 sample=0|TEST.x||FW - Pre/Mid/Postroll Ads & Content - Resume 500s (HLS)|https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2021/04/28/1891088451853/708194_hls/master.m3u8||https://2356e.v.fwmrm.net/,380990,380990:c5_fps_ios,iphone_d5,C5222080002,2703||ST|true|false|false|false|FW|500||true|false|false||
