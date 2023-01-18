@@ -1,0 +1,21 @@
+
+
+enabledGroups=0:Freewheel|
+
+// int group, String id, String externalId, String name, String uri, String subtitleUri,
+// String overrideAdUri, String drmUri, int drmType, boolean preroll, boolean live, boolean vr360,
+// boolean vrStereocopic, int provider, int resumePosition, String thumbnailUri,
+// boolean autoPlay, boolean noAds, String customAdParams
+
+sample=0|TEST.x||FW - Pre/Mid/Postroll Ads & Content (HLS)|https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2021/04/28/1891088451853/708194_hls/master.m3u8||https://2356e.v.fwmrm.net/,380990,380990:c5_fps_ios,iphone_d5,C5222080002,2703||ST|true|false|false|false|FW|-1||true|false|false||
+
+sample=0|TEST.x||FW - Pre/Mid/Postroll Ads & Content (HLS)|https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2021/04/28/1891088451853/708194_hls/master.m3u8||https://2356e.v.fwmrm.net/,380990,380990:c5_fps_ios,iphone_d5,C5222080002,2703||ST|true|false|false|false|FW|-1||true|false|false||
+
+sample=0|TEST.x||FW - Pre/Mid/Postroll Ads & Content - Resume 0s (HLS)|https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2021/04/28/1891088451853/708194_hls/master.m3u8||https://2356e.v.fwmrm.net/,380990,380990:c5_fps_ios,iphone_d5,C5222080002,2703||ST|true|false|false|false|FW|0||true|false|false||
+
+sample=0|TEST.x||FW - Pre/Mid/Postroll Ads & Content - Resume 500s (HLS)|https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2021/04/28/1891088451853/708194_hls/master.m3u8||https://2356e.v.fwmrm.net/,380990,380990:c5_fps_ios,iphone_d5,C5222080002,2703||ST|true|false|false|false|FW|500||true|false|false||
+
+sample=0|TEST.x|TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D|FW - Pre/Mid/Postroll Ads & Content - Resume 586s (DASH)|https://vod-gcs-cedexis-dev.cbsaavideo.com/CBS_Production_Entertainment_VMS/2022/07/19/2053464643928/11474_cenc_fmp4_hdr_dash/stream.mpd||https://2356e.v.fwmrm.net/,380990,380990:c5_fps_ios,iphone_d5,C5222080002,3273|$drm|WV|true|false|false|false|FW|586||true|false|false||
+
+sample=0|TEST.x|TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D|FW - Pre/Mid/Postroll Ads & Content - Resume 3265s (DASH)|https://vod-gcs-cedexis-dev.cbsaavideo.com/CBS_Production_Entertainment_VMS/2022/07/19/2053464643928/11474_cenc_fmp4_hdr_dash/stream.mpd||https://2356e.v.fwmrm.net/,380990,380990:c5_fps_ios,iphone_d5,C5222080002,3273|$drm|WV|true|false|false|false|FW|3265||true|false|false||
+
