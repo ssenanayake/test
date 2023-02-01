@@ -1,6 +1,6 @@
 
 
-enabledGroups=0:CDN Tests|
+enabledGroups=17:CDN Tests|
 
 // int group, String id, String externalId, String name, String uri, String subtitleUri,
 // String overrideAdUri, String drmUri, int drmType, boolean preroll, boolean live, boolean vr360,
