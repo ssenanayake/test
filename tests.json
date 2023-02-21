@@ -1,6 +1,9 @@
 {
    "tests":[
       {
+	"heading":"URI Tests"
+      },
+      {
 	"title":"URI VoD",
 	"resourceProvider":"URI",
 	"uri":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
@@ -46,6 +49,9 @@
         "uri":"https://cdn.jwplayer.com/videos/AgqYcfAT-8yQ1cYbs.mp4",
         "type":"VOD",
         "vr360":true
+      },
+      {
+        "heading":"IMA Tests"
       },
       {
 	"title":"IMA VoD",
