@@ -30,7 +30,7 @@
         "resourceProvider":"URI",
         "uri":"https://tears-of-steel-subtitles.s3.amazonaws.com/tos.mp4",
         "type":"VOD",
-	"captionsUri":"https://tears-of-steel-subtitles.s3.amazonaws.com/tears-en.vtt"
+	"captionsUri":"https://tears-of-steel-subtitles.s3.amazonaws.com/tears-en.vtt",
 	"captionsLanguage":"en"
       },  
       {
