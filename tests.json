@@ -26,7 +26,7 @@
         "type":"DVR"
       },
       {
-	"title":"URI with Side Captions"
+	"title":"URI with Side Captions",
         "resourceProvider":"URI",
         "uri":"https://tears-of-steel-subtitles.s3.amazonaws.com/tos.mp4",
         "type":"VOD",
