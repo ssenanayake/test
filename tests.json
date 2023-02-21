@@ -18,6 +18,34 @@
         "resourceProvider":"URI",
         "uri":"https://fcc3ddae59ed.us-west-2.playback.live-video.net/api/video/v1/us-west-2.893648527354.channel.DmumNckWFTqz.m3u8",
         "type":"LIVE"
+      },
+      {
+        "title":"URI DVR",
+        "resourceProvider":"URI",
+        "uri":"https://fcc3ddae59ed.us-west-2.playback.live-video.net/api/video/v1/us-west-2.893648527354.channel.DmumNckWFTqz.m3u8",
+        "type":"DVR"
+      },
+      {
+	"title":"URI VoD with VTT Thumbnails",
+        "resourceProvider":"URI",
+        "uri":"https://play.dev.cbsivideo.com/h/1.7TORoMYqJaeWzOhAFif0RCBEMIutx4t97p8SHqcPyqEXtUrnJpNQZ6s6UWxSu7Sk33fooMwlgJA6xFIv2LSYC2jRERfbtGn1VsyWgFfkIisTimThJJ61tcPIcemtEqp2oswKCqFx1MyLIyc9waPsrBt00MIGJqQdjoHkLh0ltoVTDjHnmGFWJ2BqH3JD28LuBgyUi6oRpcxO0FOgeMuCbrjo9ZAQx86VRrkiLFxTB766GNVR5fLyzGbqgSM03tu3GL5KmU2yoV599RJMfGwBEBTbpQ7U7WlNLVZhTLyQkVQ6NjtNvIOCUbG78I8SIS6Vw3FOjmzbL5zTJ2s1hjsl1MFTGEeWE3RQOE4f00T8odARjyCtwPVxk5GLiXxsq5p4FxkZJ2T2mZS7MlVzoOQhx71a6lWQ5WEUfUm8UWGXvWrAgTsHSwBkmFDAfneMj6eqjiwFG5mJEhbo0mbTeNH4zEogYRV3KL3dqsFvvDTcCzRiNZdP609HM0BtMeRq8t0/master.m3u8",
+	"type":"VOD",
+        "thumbnailUri":"https://play.dev.cbsivideo.com/h/1.7TORoMYqJaeWzOhAFif0RCBEMIutx4t97p8SHqcPyqEXtUrnJpNQZ6s6UWxSu7Sk33fooMwlgJA6xFIv2LSYC2jRERfbtGn1VsyWgFfkIisTimThJJ61tcPIcemtEqp2oswKCqFx1MyLIyc9waPsrBt00MIGJqQdjoHkLh0ltoVTDjHnmGFWJ2BqH3JD28LuBgyUi6oRpcxO0FOgeMuCbrjo9ZAQx86VRrkiLFxTB766GNVR5fLyzGbqgSM03tu3GL5KmU2yoV599RJMfGwBEBTbpQ7U7WlNLVZhTLyQkVQ6NjtNvIOCUbG78I8SIS6Vw3FOjmzbL5zTJ2s1hjsl1MFTGEeWE3RQOE4f00T8odARjyCtwPVxk5GLiXxsq5p4FxkZJ2T2mZS7MlVzoOQhx71a6lWQ5WEUfUm8UWGXvWrAgTsHSwBkmFDAfneMj6eqjiwFG5mJEhbo0mbTeNH4zEogYRV3KL3dqsFvvDTcCzRiNZdP609HM0BtMeRq8t0/thumbs.vtt"
+      },
+      {
+	"title":"IMA VoD",
+        "resourceProvider":"IMA",
+        "uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
+        "adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_preroll_skippable&sz=640x480&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
+        "type":"VOD"
+      },
+      {
+	"title":"IMA VoD with Resume",
+        "resourceProvider":"IMA",
+        "uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
+        "adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_preroll_skippable&sz=640x480&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
+        "type":"VOD",
+	"resumePosition":5000
       }
    ]
 }
