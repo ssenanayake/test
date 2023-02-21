@@ -44,6 +44,14 @@
         "thumbnailUri":"https://play.dev.cbsivideo.com/h/1.7TORoMYqJaeWzOhAFif0RCBEMIutx4t97p8SHqcPyqEXtUrnJpNQZ6s6UWxSu7Sk33fooMwlgJA6xFIv2LSYC2jRERfbtGn1VsyWgFfkIisTimThJJ61tcPIcemtEqp2oswKCqFx1MyLIyc9waPsrBt00MIGJqQdjoHkLh0ltoVTDjHnmGFWJ2BqH3JD28LuBgyUi6oRpcxO0FOgeMuCbrjo9ZAQx86VRrkiLFxTB766GNVR5fLyzGbqgSM03tu3GL5KmU2yoV599RJMfGwBEBTbpQ7U7WlNLVZhTLyQkVQ6NjtNvIOCUbG78I8SIS6Vw3FOjmzbL5zTJ2s1hjsl1MFTGEeWE3RQOE4f00T8odARjyCtwPVxk5GLiXxsq5p4FxkZJ2T2mZS7MlVzoOQhx71a6lWQ5WEUfUm8UWGXvWrAgTsHSwBkmFDAfneMj6eqjiwFG5mJEhbo0mbTeNH4zEogYRV3KL3dqsFvvDTcCzRiNZdP609HM0BtMeRq8t0/thumbs.vtt"
       },
       {
+        "title":"URI VoD with DRM",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis-dev.cbsaavideo.com/CBS_Production_Entertainment_VMS/2022/07/19/2053464643928/11474_cenc_fmp4_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+	"drmUri:":"TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D/MjU2RTUzNkQxOTZDRjBDOTlFQjRCQzc4OUEwMTkzODFDRDlGRjM5MEZFM0IxRjk1QjZBNkIyNUIwM0ZGRjE0REZDQTkzRENCNDFFN0IzMTk3RTc1NjIwN0I3OTA4QTc0OjE2OTY3MTM5MDM4ODY6MDFjN2U2ZDkzZTJkMmFhNTA2ODUwNDAxNTA4OTU2NzA6My4wOjA",
+	"type":"VOD"
+      },
+      {
 	"title":"URI VoD 360",
         "resourceProvider":"URI",
         "uri":"https://cdn.jwplayer.com/videos/AgqYcfAT-8yQ1cYbs.mp4",
@@ -54,19 +62,38 @@
         "heading":"IMA Tests"
       },
       {
-	"title":"IMA VoD",
+	"title":"IMA VoD Preroll with Skip Ad",
         "resourceProvider":"IMA",
         "uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
         "adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_preroll_skippable&sz=640x480&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
         "type":"VOD"
       },
       {
-	"title":"IMA VoD with Resume",
+	"title":"IMA VoD Pre/Mid/Post",
         "resourceProvider":"IMA",
         "uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
-        "adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_preroll_skippable&sz=640x480&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
+	"adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpostpod&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&cmsid=496&vid=short_onecue&correlator=",        
+"adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_preroll_skippable&sz=640x480&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
+        "type":"VOD"
+      },
+      {
+        "title":"IMA VoD Pre/Mid/Post with Resume",
+        "resourceProvider":"IMA",
+        "uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
+        "adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpostpod&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&cmsid=496&vid=short_onecue&correlator=",
+"adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_preroll_skippable&sz=640x480&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
         "type":"VOD",
 	"resumePosition":5000
+      },
+      {
+        "title":"IMA Ad Only",
+        "resourceProvider":"IMA",
+	"uri":"",
+        "adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_preroll_skippable&sz=640x480&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
+        "type":"VOD"
+      },
+      {
+	"heading":"DAI Tests"
       }
    ]
 }
