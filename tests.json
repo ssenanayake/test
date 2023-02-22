@@ -3,7 +3,8 @@
       "drmToken":"MjU2RTUzNkQxOTZDRjBDOTlFQjRCQzc4OUEwMTkzODFDRDlGRjM5MEZFM0IxRjk1QjZBNkIyNUIwM0ZGRjE0REZDQTkzRENCNDFFN0IzMTk3RTc1NjIwN0I3OTA4QTc0OjE2OTY3MTM5MDM4ODY6MDFjN2U2ZDkzZTJkMmFhNTA2ODUwNDAxNTA4OTU2NzA6My4wOjA",
       "drmHost":"www.paramountplus.com",	
       "drmEnvironment":"live",
-      "drmDevice":"firetv"
+      "drmDevice":"firetv",
+      "trackingConfig":""
    },
    "tests":[
       {
@@ -42,6 +43,12 @@
 	"captionsUri":"https://tears-of-steel-subtitles.s3.amazonaws.com/tears-en.vtt",
 	"captionsLanguage":"en"
       },  
+      {
+        "title":"URI VoD with Multiple Captions",
+        "resourceProvider":"URI",
+        "uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
+        "type":"VOD"
+      },
       {
 	"title":"URI VoD with VTT Thumbnails",
         "resourceProvider":"URI",
