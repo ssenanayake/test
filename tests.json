@@ -63,6 +63,12 @@
         "vr360":true
       },
       {
+	"title":"URI VoD Local File",
+	"resourceProvider":"URI",
+	"uri":"file:///storage/emulated/0/Paramount.mp4",
+	"type":"VOD"
+      },
+      {
         "heading":"IMA Tests"
       },
       {
@@ -106,7 +112,45 @@
 	"heading":"DAI Tests"
       },
       {
-	"title":"DAI VoD"
-      }
+	"title":"DAI VoD with DRM",
+        "resourceProvider":"DAI",
+	"daiId":"9D5se7TaQpNkFuHlSJL4Gl_VVoZBPZnz",
+	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+	"daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"9D5se7TaQpNkFuHlSJL4Gl_VVoZBPZnz",
+        "drmToken":"MjU2RTUzNkQxOTZDRjBDOTlFQjRCQzc4OUEwMTkzODFDRDlGRjM5MEZFM0IxRjk1QjZBNkIyNUIwM0ZGRjE0REZDQTkzRENCNDFFN0IzMTk3RTc1NjIwN0I3OTA4QTc0OjE2OTY3MTM5MDM4ODY6MDFjN2U2ZDkzZTJkMmFhNTA2ODUwNDAxNTA4OTU2NzA6My4wOjA",
+        "type":"VOD",
+        "drmEnvironment":"live",
+        "drmHost":"www.paramountplus.com",
+        "drmDevice":"firetv"
+      },
+      {
+        "title":"DAI Live",
+        "resourceProvider":"DAI",
+        "daiId":"9Lq0ERvoSR-z9AwvFS-xYA",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"LIVE"
+      },
+      {
+        "title":"DAI VoD with Innovid",
+        "resourceProvider":"DAI",
+        "daiId":"googleio-highlights",
+        "daiApiKey":"",
+        "daiCmsId":"2490667",
+        "type":"VOD"
+      },
+      {
+        "title":"DAI DVR",
+        "resourceProvider":"DAI",
+        "daiId":"gfkxhQFOQAOXHigAVdRi8A",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"DVR"
+      },
+      {
+	"heading":"Miscellaneous"
+      }      
    ]
 }
