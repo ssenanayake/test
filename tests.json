@@ -210,9 +210,9 @@
       {
         "title":"URI VoD with DRM - Akamai CDN",
         "resourceProvider":"URI",
-        "uri":"http://vod62c350g.airspace-a.cbsivideo.com/intl_vms/2022/03/16/2013439043562/1250647_cenc_fmp4_dash/stream.mpd",
+        "uri":"https://vod62c350g.airspace-a.cbsivideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd",
         "drmType":"WIDEVINE",
-        "drmContentId":"AmBcaCActcTer6wa7QjKWWzdtKrMlHBw",
+        "drmContentId":"TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D",
         "drmToken":"{drmToken}",
         "type":"VOD",
         "drmEnvironment":"{drmEnvironment}",
@@ -222,9 +222,9 @@
       {
         "title":"URI VoD with DRM - CloudFront CDN",
         "resourceProvider":"URI",
-        "uri":"http://vod62c350g.airspace-c.cbsivideo.com/intl_vms/2022/03/16/2013439043562/1250647_cenc_fmp4_dash/stream.mpd",
+        "uri":"https://vod62c350g.airspace-c.cbsivideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd",
         "drmType":"WIDEVINE",
-        "drmContentId":"AmBcaCActcTer6wa7QjKWWzdtKrMlHBw",
+        "drmContentId":"TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D",
         "drmToken":"{drmToken}",
         "type":"VOD",
         "drmEnvironment":"{drmEnvironment}",
@@ -234,9 +234,9 @@
       {
         "title":"URI VoD with DRM - Edgecast CDN",
         "resourceProvider":"URI",
-        "uri":"http://vod62c350g.airspace-e.cbsivideo.com/intl_vms/2022/03/16/2013439043562/1250647_cenc_fmp4_dash/stream.mpd",
+        "uri":"https://vod62c350g.airspace-e.cbsivideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd",
         "drmType":"WIDEVINE",
-        "drmContentId":"AmBcaCActcTer6wa7QjKWWzdtKrMlHBw",
+        "drmContentId":"TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D",
         "drmToken":"{drmToken}",
         "type":"VOD",
         "drmEnvironment":"{drmEnvironment}",
@@ -246,7 +246,22 @@
       {
         "title":"URI VoD with DRM - Fastly CDN",
         "resourceProvider":"URI",
-        "uri":"http://vod62c350g.airspace-f.cbsivideo.com/intl_vms/2022/03/16/2013439043562/1250647_cenc_fmp4_dash/stream.mpd",
+        "uri":"https://vod62c350g.airspace-f.cbsivideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd",
+        "drmType":"WIDEVINE",
+        "drmContentId":"TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },
+      {
+	"heading":"Error Tests"
+      },
+      {
+        "title":"URI VoD with DRM - Akamai CDN - Error",
+        "resourceProvider":"URI",
+        "uri":"http://vod62c350g.airspace-a.cbsivideo.com/intl_vms/2022/03/16/2013439043562/1250647_cenc_fmp4_dash/stream.mpd",
         "drmType":"WIDEVINE",
         "drmContentId":"AmBcaCActcTer6wa7QjKWWzdtKrMlHBw",
         "drmToken":"{drmToken}",
