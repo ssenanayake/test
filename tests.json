@@ -8,6 +8,7 @@
       "enableThumbnails":"true",
       "selectLargeThumbnail":"true",
       "showThumbnailTime":"true",
+      "waitForThumbnailPreload":"false",
       "fetchAdUri":"https://raw.githubusercontent.com/ssenanayake/test/main/pause.xml",
       "fetchAdDelay":"3000",
       "trackingConfig":""
