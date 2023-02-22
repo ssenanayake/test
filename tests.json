@@ -7,6 +7,7 @@
       "maxBitrate":"2000000",
       "enableThumbnails":"true",
       "selectLargeThumbnail":"true",
+      "showThumbnailTime":"true",
       "fetchAdUri":"https://raw.githubusercontent.com/ssenanayake/test/main/pause.xml",
       "fetchAdDelay":"3000",
       "trackingConfig":""
