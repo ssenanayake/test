@@ -4,6 +4,7 @@
       "drmHost":"www.paramountplus.com",	
       "drmEnvironment":"live",
       "drmDevice":"firetv",
+      "maxBitrate":"2000000",
       "trackingConfig":""
    },
    "tests":[
