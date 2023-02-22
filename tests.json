@@ -259,11 +259,23 @@
 	"heading":"Error Tests"
       },
       {
-        "title":"URI VoD with DRM - Akamai CDN - Error",
+        "title":"URI VoD with DRM - Source Error",
         "resourceProvider":"URI",
         "uri":"http://vod62c350g.airspace-a.cbsivideo.com/intl_vms/2022/03/16/2013439043562/1250647_cenc_fmp4_dash/stream.mpd",
         "drmType":"WIDEVINE",
         "drmContentId":"AmBcaCActcTer6wa7QjKWWzdtKrMlHBw",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },
+      {
+        "title":"URI VoD with DRM - DRM Error",
+        "resourceProvider":"URI",
+        "uri":"http://vod62c350g.airspace-a.cbsivideo.com/intl_vms/2022/03/16/2013439043562/1250647_cenc_fmp4_dash/stream.mpd",
+        "drmType":"WIDEVINE",
+        "drmContentId":"_AmBcaCActcTer6wa7QjKWWzdtKrMlHBw",
         "drmToken":"{drmToken}",
         "type":"VOD",
         "drmEnvironment":"{drmEnvironment}",
