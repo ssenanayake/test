@@ -16,6 +16,13 @@
 	"heading":"URI Tests"
       },
       {
+        "title":"URI VoD without Auto-Play",
+        "resourceProvider":"URI",
+        "uri":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "type":"VOD",
+        "autoPlay":false
+      },  
+      {
 	"title":"URI VoD",
 	"resourceProvider":"URI",
 	"uri":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
