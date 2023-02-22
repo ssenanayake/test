@@ -1,4 +1,7 @@
 {
+   "params":{
+      "drmToken":"MjU2RTUzNkQxOTZDRjBDOTlFQjRCQzc4OUEwMTkzODFDRDlGRjM5MEZFM0IxRjk1QjZBNkIyNUIwM0ZGRjE0REZDQTkzRENCNDFFN0IzMTk3RTc1NjIwN0I3OTA4QTc0OjE2OTY3MTM5MDM4ODY6MDFjN2U2ZDkzZTJkMmFhNTA2ODUwNDAxNTA4OTU2NzA6My4wOjA"	
+   },
    "tests":[
       {
 	"heading":"URI Tests"
@@ -49,7 +52,7 @@
 	"uri":"https://vod-gcs-cedexis-dev.cbsaavideo.com/CBS_Production_Entertainment_VMS/2022/07/19/2053464643928/11474_cenc_fmp4_dash/stream.mpd",
 	"drmType":"WIDEVINE",
         "drmContentId":"TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D",
-        "drmToken":"MjU2RTUzNkQxOTZDRjBDOTlFQjRCQzc4OUEwMTkzODFDRDlGRjM5MEZFM0IxRjk1QjZBNkIyNUIwM0ZGRjE0REZDQTkzRENCNDFFN0IzMTk3RTc1NjIwN0I3OTA4QTc0OjE2OTY3MTM5MDM4ODY6MDFjN2U2ZDkzZTJkMmFhNTA2ODUwNDAxNTA4OTU2NzA6My4wOjA",  
+        "drmToken":"{drmToken}",
 	"type":"VOD",
 	"drmEnvironment":"live",
 	"drmHost":"www.paramountplus.com",
@@ -119,11 +122,26 @@
 	"daiCmsId":"2497752",
         "drmType":"WIDEVINE",
         "drmContentId":"9D5se7TaQpNkFuHlSJL4Gl_VVoZBPZnz",
-        "drmToken":"MjU2RTUzNkQxOTZDRjBDOTlFQjRCQzc4OUEwMTkzODFDRDlGRjM5MEZFM0IxRjk1QjZBNkIyNUIwM0ZGRjE0REZDQTkzRENCNDFFN0IzMTk3RTc1NjIwN0I3OTA4QTc0OjE2OTY3MTM5MDM4ODY6MDFjN2U2ZDkzZTJkMmFhNTA2ODUwNDAxNTA4OTU2NzA6My4wOjA",
+        "drmToken":"{drmToken}",
         "type":"VOD",
         "drmEnvironment":"live",
         "drmHost":"www.paramountplus.com",
         "drmDevice":"firetv"
+      },
+      {
+        "title":"DAI VoD with DRM & Resume",
+        "resourceProvider":"DAI",
+        "daiId":"9D5se7TaQpNkFuHlSJL4Gl_VVoZBPZnz",
+        "daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+        "daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"9D5se7TaQpNkFuHlSJL4Gl_VVoZBPZnz",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"live",
+        "drmHost":"www.paramountplus.com",
+        "drmDevice":"firetv",
+	"resumePosition":":10000
       },
       {
         "title":"DAI Live",
