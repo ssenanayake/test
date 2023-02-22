@@ -273,9 +273,9 @@
       {
         "title":"URI VoD with DRM - DRM Error",
         "resourceProvider":"URI",
-        "uri":"http://vod62c350g.airspace-a.cbsivideo.com/intl_vms/2022/03/16/2013439043562/1250647_cenc_fmp4_dash/stream.mpd",
+        "uri":"https://vod-gcs-cedexis-dev.cbsaavideo.com/CBS_Production_Entertainment_VMS/2022/07/19/2053464643928/11474_cenc_fmp4_dash/stream.mpd",
         "drmType":"WIDEVINE",
-        "drmContentId":"_AmBcaCActcTer6wa7QjKWWzdtKrMlHBw",
+        "drmContentId":"_TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D",
         "drmToken":"{drmToken}",
         "type":"VOD",
         "drmEnvironment":"{drmEnvironment}",
