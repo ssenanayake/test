@@ -5,6 +5,8 @@
       "drmEnvironment":"live",
       "drmDevice":"firetv",
       "maxBitrate":"2000000",
+      "enableThumbnails":"true",
+      "selectLargeThumbnail":"true",
       "trackingConfig":""
    },
    "tests":[
