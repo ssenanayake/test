@@ -205,7 +205,55 @@
         "adHoliday":true
       },
       {
-	"heading":"Miscellaneous"
-      }      
+	"heading":"CDN Tests"
+      },
+      {
+        "title":"URI VoD with DRM - Akamai CDN",
+        "resourceProvider":"URI",
+        "uri":"http://vod62c350g.airspace-a.cbsivideo.com/intl_vms/2022/03/16/2013439043562/1250647_cenc_fmp4_dash/stream.mpd",
+        "drmType":"WIDEVINE",
+        "drmContentId":"AmBcaCActcTer6wa7QjKWWzdtKrMlHBw",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },     
+      {
+        "title":"URI VoD with DRM - CloudFront CDN",
+        "resourceProvider":"URI",
+        "uri":"http://vod62c350g.airspace-c.cbsivideo.com/intl_vms/2022/03/16/2013439043562/1250647_cenc_fmp4_dash/stream.mpd",
+        "drmType":"WIDEVINE",
+        "drmContentId":"AmBcaCActcTer6wa7QjKWWzdtKrMlHBw",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },
+      {
+        "title":"URI VoD with DRM - Edgecast CDN",
+        "resourceProvider":"URI",
+        "uri":"http://vod62c350g.airspace-e.cbsivideo.com/intl_vms/2022/03/16/2013439043562/1250647_cenc_fmp4_dash/stream.mpd",
+        "drmType":"WIDEVINE",
+        "drmContentId":"AmBcaCActcTer6wa7QjKWWzdtKrMlHBw",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },
+      {
+        "title":"URI VoD with DRM - Fastly CDN",
+        "resourceProvider":"URI",
+        "uri":"http://vod62c350g.airspace-f.cbsivideo.com/intl_vms/2022/03/16/2013439043562/1250647_cenc_fmp4_dash/stream.mpd",
+        "drmType":"WIDEVINE",
+        "drmContentId":"AmBcaCActcTer6wa7QjKWWzdtKrMlHBw",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      }
    ]
 }
