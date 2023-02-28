@@ -96,6 +96,12 @@
 	"type":"VOD"
       },
       {
+	"title":"URI VoD Local Resource",
+	"resourceProvider":"URI",
+	"uri":"resource:///res/raw/Paramount.mp4",
+	"type":"VOD"
+      },	   
+      {
         "heading":"IMA Tests"
       },
       {
