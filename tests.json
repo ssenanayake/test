@@ -96,7 +96,7 @@
 	"type":"VOD"
       },
       {
-	"title":"URI Live DASH Seek Thumbnails - Spike",
+	"title":"URI Live DASH Seek Thumbnails",
 	"resourceProvider":"URI",
 	"uri":"https://prope52906gc.airspace-cdn.cbsivideo.com/out/v1/196e25bc5ad44b199190af7bdf8a5524/manifest.mpd",
 	"type":"DVR"
