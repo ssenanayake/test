@@ -96,16 +96,16 @@
       {
 	"title":"URI Live DASH Seek Thumbnails",
 	"resourceProvider":"URI",
-	"uri":"https://dai.google.com/linear/dash/event/J2kFFtzCSxyRJgeg5YzupA/manifest.mpd",
+	"uri":"https://propec941a5h.airspace-cdn.cbsivideo.com/out/v1/d9486a190ad9460aa6b0e38669a3b973/manifest.mpd",
 	"type":"DVR"
       },
       {
 	"title":"URI Live DASH with DRM & Seek Thumbnails",
 	"resourceProvider":"URI",
-	"uri":"https://dai.google.com/linear/dash/event/Hr1768JrR7ysDedQs3s6AQ/manifest.mpd",
+	"uri":"https://propec941a5h.airspace-cdn.cbsivideo.com/out/v1/4530ea5870074ee1a7946a2881711334/manifest.mpd",
 	"type":"DVR",
 	"drmType":"WIDEVINE",
-        "drmContentId":"Hr1768JrR7ysDedQs3s6AQ",
+        "drmContentId":"hlsdash20230131",
         "drmToken":"{drmToken}",
 	"drmEnvironment":"{drmEnvironment}",
 	"drmHost":"{drmHost}",
