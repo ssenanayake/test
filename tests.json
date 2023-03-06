@@ -96,8 +96,20 @@
       {
 	"title":"URI Live DASH Seek Thumbnails",
 	"resourceProvider":"URI",
-	"uri":"https://prope52906gc.airspace-cdn.cbsivideo.com/out/v1/196e25bc5ad44b199190af7bdf8a5524/manifest.mpd",
+	"uri":"https://dai.google.com/linear/dash/event/J2kFFtzCSxyRJgeg5YzupA/manifest.mpd",
 	"type":"DVR"
+      },
+      {
+	"title":"URI Live DASH with DRM & Seek Thumbnails",
+	"resourceProvider":"URI",
+	"uri":"https://dai.google.com/linear/dash/event/Hr1768JrR7ysDedQs3s6AQ/manifest.mpd",
+	"type":"DVR",
+	"drmType":"WIDEVINE",
+        "drmContentId":"Hr1768JrR7ysDedQs3s6AQ",
+        "drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"    
       },	   
       {
         "heading":"IMA Tests"
