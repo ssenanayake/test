@@ -107,7 +107,7 @@
 	"drmType":"WIDEVINE",
         "drmContentId":"hlsdash20230131",
         "drmToken":"{drmToken}",
-	"drmEnvironment":"{drmEnvironment}",
+	"drmEnvironment":"stage",
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}"    
       },	   
