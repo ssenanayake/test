@@ -4,7 +4,7 @@
       "drmHost":"www.paramountplus.com",	
       "drmEnvironment":"live",
       "drmDevice":"firetv",
-      "maxBitrate":"2000000",
+      "maxBitrate":"20000000",
       "enableThumbnails":"true",
       "waitForThumbnailPreload":"false",
       "fetchAdUri":"https://raw.githubusercontent.com/ssenanayake/test/main/pause.xml",
