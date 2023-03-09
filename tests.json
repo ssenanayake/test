@@ -132,7 +132,7 @@
 	"drmType":"WIDEVINE",
         "drmContentId":"TQuI_dTZ3hMCozhQnQpKt_Ciarhoprzj",
         "drmToken":"{drmToken}",
-	"drmEnvironment":"{drmEnvironmentTest}",
+	"drmEnvironment":"{drmEnvironment}",
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}"      
       },	   
