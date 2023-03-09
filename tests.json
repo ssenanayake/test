@@ -1,7 +1,8 @@
 {
    "params":{
       "drmToken":"MjU2RTUzNkQxOTZDRjBDOTlFQjRCQzc4OUEwMTkzODFDRDlGRjM5MEZFM0IxRjk1QjZBNkIyNUIwM0ZGRjE0REZDQTkzRENCNDFFN0IzMTk3RTc1NjIwN0I3OTA4QTc0OjE2OTY3MTM5MDM4ODY6MDFjN2U2ZDkzZTJkMmFhNTA2ODUwNDAxNTA4OTU2NzA6My4wOjA",
-      "drmHost":"www.paramountplus.com",	
+      "drmHost":"www.paramountplus.com",
+      "drmHostIntl":"www.intl.paramountplus.com",	   
       "drmEnvironment":"live",
       "drmEnvironmentTest":"stage",	   
       "drmDevice":"firetv",
@@ -126,7 +127,7 @@
       },
       {
 	"enable":true,      
-	"title":"URI VoD through Bakery with DRM",
+	"title":"URI VoD International through Bakery with DRM",
 	"resourceProvider":"URI",
 	"uri":"https://bakeryv2-pplus.cbs.com/l(fr,it,no,fi,da,sv,es-MX,pt-BR,es-mx,pt-br)/paramountplus/2022/04/14/2022829635545/dubs/1806651_cenc_precon_dash/stream.mpd",
 	"type":"VOD",
@@ -134,7 +135,7 @@
         "drmContentId":"TQuI_dTZ3hMCozhQnQpKt_Ciarhoprzj",
         "drmToken":"{drmToken}",
 	"drmEnvironment":"{drmEnvironment}",
-	"drmHost":"{drmHost}",
+	"drmHost":"{drmHostIntl}",
 	"drmDevice":"{drmDevice}"      
       },	   
       {
