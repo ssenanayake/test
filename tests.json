@@ -123,6 +123,18 @@
 	"drmEnvironment":"{drmEnvironmentTest}",
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}"      
+      },
+      {
+	"title":"URI VoD through Bakery with DRM",
+	"resourceProvider":"URI",
+	"uri":"https://bakeryv2-pplus.cbs.com/l(fr,it,no,fi,da,sv,es-MX,pt-BR,es-mx,pt-br)/paramountplus/2022/04/14/2022829635545/dubs/1806651_cenc_precon_dash/stream.mpd",
+	"type":"VOD",
+	"drmType":"WIDEVINE",
+        "drmContentId":"ul8fAGiabSMSi8kY3kMKBbmgHoefoLhr",
+        "drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"      
       },	   
       {
         "heading":"IMA Tests"
