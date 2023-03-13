@@ -126,18 +126,11 @@
 	"drmDevice":"{drmDevice}"      
       },
       {
-	"enable":false,      
-	"title":"URI VoD International through Bakery with DRM",
+	"title":"URI VoD Forced Subtitles",
 	"resourceProvider":"URI",
-	"uri":"https://bakeryv2-pplus.cbs.com/l(fr,it,no,fi,da,sv,es-MX,pt-BR,es-mx,pt-br)/paramountplus/2022/04/14/2022829635545/dubs/1806651_cenc_precon_dash/stream.mpd",
-	"type":"VOD",
-	"drmType":"WIDEVINE",
-        "drmContentId":"TQuI_dTZ3hMCozhQnQpKt_Ciarhoprzj",
-        "drmToken":"{drmToken}",
-	"drmEnvironment":"{drmEnvironment}",
-	"drmHost":"{drmHostIntl}",
-	"drmDevice":"{drmDevice}"      
-      },	   
+	"uri":"https://entclips.cbsaavideo.com/2022/01/27/1997082691531/1354041_hls_ta/master.m3u8",
+	"type":"VOD"
+      },	      
       {
         "heading":"IMA Tests"
       },
