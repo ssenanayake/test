@@ -130,7 +130,7 @@
 	"resourceProvider":"URI",
 	"uri":"https://entclips.cbsaavideo.com/2022/01/27/1997082691531/1354041_hls_ta/master.m3u8",
 	"type":"VOD"
-      },	      
+      },
       {
         "heading":"IMA Tests"
       },
@@ -319,6 +319,12 @@
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}"
-      }
+      },
+      {
+	"title":"URI VoD VTT Error",
+	"resourceProvider":"URI",
+	"uri":"https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8:wq",
+	"type":"VOD"
+      },	   
    ]
 }
