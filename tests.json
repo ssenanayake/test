@@ -126,7 +126,7 @@
 	"drmDevice":"{drmDevice}"      
       },
       {
-	"title":"URI VoD Forced Subtitles @ 30s",
+	"title":"URI VoD Forced Spanish Subtitles @ 34s (with Captions = Off, Audio = Spanish)",
 	"resourceProvider":"URI",
 	"uri":"https://entclips.cbsaavideo.com/2022/01/27/1997082691531/1354041_hls_ta/master.m3u8",
 	"type":"VOD"
