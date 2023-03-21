@@ -255,7 +255,7 @@
 	"daiId":"NVv_JyUbYUmbE0T__q87_rSwqYwUo_9f",
 	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
 	"daiCmsId":"2497752",
-	"adParameters":["csid=streaming_paramountplus_ctv_amazonfiretv_vod"],      
+	"adParameters":["csid=streaming_paramountplus_ctv_amazonfiretv_vod", "sb=14"],      
         "drmType":"WIDEVINE",
         "drmContentId":"NVv_JyUbYUmbE0T__q87_rSwqYwUo_9f",
         "drmToken":"{drmToken}",
