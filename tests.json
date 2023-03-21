@@ -172,6 +172,13 @@
 	"adHoliday":true
       },
       {
+        "title":"IMA Content Only",
+        "resourceProvider":"IMA",
+	"uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
+        "adUri":"",
+        "type":"VOD"
+      },		   
+      {
 	"heading":"DAI Tests"
       },
       {
@@ -243,7 +250,7 @@
         "adHoliday":true
       },
       {
-	"title":"DAI VoD with DRM & Skip Ad",
+	"title":"DAI VoD with DRM, Multi-Captions, Multi-Language Audio",
         "resourceProvider":"DAI",
 	"daiId":"NVv_JyUbYUmbE0T__q87_rSwqYwUo_9f",
 	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
