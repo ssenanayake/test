@@ -177,7 +177,14 @@
 	"uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
         "adUri":"",
         "type":"VOD"
-      },		   
+      },	
+      {
+	"title":"IMA Live Pre/Mid/Post",
+        "resourceProvider":"IMA",
+        "uri":"https://propec941a5h.airspace-cdn.cbsivideo.com/out/v1/d9486a190ad9460aa6b0e38669a3b973/manifest.mpd",
+	"adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpostpod&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&cmsid=496&vid=short_onecue&correlator=",        
+        "type":"LIVE"
+      },	    
       {
 	"heading":"DAI Tests"
       },
