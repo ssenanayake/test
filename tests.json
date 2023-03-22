@@ -361,6 +361,6 @@
 	"resourceProvider":"URI",
 	"uri":"https://raw.githubusercontent.com/ssenanayake/test/main/vtt-test.m3u8",
 	"type":"VOD"
-      },	   
+      }	   
    ]
 }
