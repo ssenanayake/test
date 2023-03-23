@@ -140,7 +140,7 @@
 	"type":"VOD"
       },
       {
-	"title":"URI VoD displays rendition info in Video",
+	"title":"URI VoD with Rendition Info in Video",
 	"resourceProvider":"URI",
 	"uri":"https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd",
 	"type":"VOD"
