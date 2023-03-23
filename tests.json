@@ -99,7 +99,7 @@
 	"title":"URI VoD Local File - Looping, Muted",
 	"resourceProvider":"URI",
 	"uri":"file:///storage/emulated/0/Paramount.mp4",
-	"type":"VOD"
+	"type":"VOD",
 	"loop":true,
 	"mute":true      
       },	
