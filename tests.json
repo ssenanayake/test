@@ -375,6 +375,17 @@
 	"resourceProvider":"URI",
 	"uri":"https://raw.githubusercontent.com/ssenanayake/test/main/vtt-test.m3u8",
 	"type":"VOD"
-      }	   
+      },
+      {
+	"heading":"Miscellaneous Tests"
+      },	   
+      {
+	"title":"DAI Live - Captions Not Showing",
+        "resourceProvider":"DAI",
+        "daiId":"7f3Wv6f7QEKfQna22jHqLQ",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"LIVE"
+      }
    ]
 }
