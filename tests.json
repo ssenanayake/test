@@ -406,7 +406,7 @@
 	"daiId":"exKvDkFgAcGa3v_8dTiovwp6QbD4OZYv",
 	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
 	"daiCmsId":"2497752",
-	"adParameters":["csid=streaming_paramountplus_mobile_androidtablet_vod", "sb=22", "cust_params=vguid%3Dtest1%26csid%3Dtest2"],      
+	"adParameters":["csid=streaming_paramountplus_mobile_androidtablet_vod", "sb=22", "cust_params=vguid%3Dtest1%26csid%3Dtest2", "rdid=31228d63-999f-42a3-b56e-6acf74373d6d", "is_lat=0"],      
         "drmType":"WIDEVINE",
         "drmContentId":"exKvDkFgAcGa3v_8dTiovwp6QbD4OZYv",
         "drmToken":"{drmToken}",
