@@ -386,6 +386,21 @@
         "daiApiKey":"",
         "daiCmsId":"",
         "type":"LIVE"
-      }
+      },
+      {
+	"title":"DAI VoD with DRM, Skippable Ads",
+        "resourceProvider":"DAI",
+	"daiId":"exKvDkFgAcGa3v_8dTiovwp6QbD4OZYv",
+	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+	"daiCmsId":"2497752",
+	"adParameters":["csid=streaming_paramountplus_mobile_androidtablet_vod", "sb=22"],      
+        "drmType":"WIDEVINE",
+        "drmContentId":"exKvDkFgAcGa3v_8dTiovwp6QbD4OZYv",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },	   
    ]
 }
