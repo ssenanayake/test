@@ -140,10 +140,11 @@
 	"type":"VOD"
       },
       {
-	"title":"URI VoD with Rendition Info in Video",
+	"title":"URI VoD with Rendition Info in Video, Pause Ad",
 	"resourceProvider":"URI",
 	"uri":"https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd",
-	"type":"VOD"
+	"type":"VOD",
+	"allowPauseAd":true      
       },	      
       {
         "heading":"IMA Tests"
@@ -176,12 +177,13 @@
         "type":"VOD"
       },
       {
-        "title":"IMA VoD Pre/Mid/Postrolls with Resume",
+        "title":"IMA VoD Pre/Mid/Postrolls with Resume, Pause Ad",
         "resourceProvider":"IMA",
         "uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
         "adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpostpod&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&cmsid=496&vid=short_onecue&correlator=",
         "type":"VOD",
-	"resumePosition":5000
+	"resumePosition":5000,
+	"allowPauseAd":true            
       },
       {
         "title":"IMA Ad Only",
@@ -237,7 +239,7 @@
         "drmDevice":"{drmDevice}"
       },
       {
-        "title":"DAI VoD with DRM & Resume",
+        "title":"DAI VoD with DRM & Resume, Pause Ad",
         "resourceProvider":"DAI",
         "daiId":"9D5se7TaQpNkFuHlSJL4Gl_VVoZBPZnz",
         "daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
@@ -249,7 +251,8 @@
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}",
-	"resumePosition":10000
+	"resumePosition":10000,
+	"allowPauseAd":true            
       },
       {
         "title":"DAI Live",
