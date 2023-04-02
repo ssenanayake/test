@@ -103,13 +103,13 @@
 	"mute":true      
       },	
       {
-	"title":"URI Live DASH Seek Thumbnails",
+	"title":"URI DVR DASH Seek Thumbnails",
 	"resourceProvider":"URI",
 	"uri":"https://propec941a5h.airspace-cdn.cbsivideo.com/out/v1/d9486a190ad9460aa6b0e38669a3b973/manifest.mpd",
 	"type":"DVR"
       },
       {
-	"title":"URI Live DASH with DRM & Seek Thumbnails",
+	"title":"URI DVR DASH with DRM & Seek Thumbnails",
 	"resourceProvider":"URI",
 	"uri":"https://propec941a5h.airspace-cdn.cbsivideo.com/out/v1/4530ea5870074ee1a7946a2881711334/manifest.mpd",
 	"type":"DVR",
