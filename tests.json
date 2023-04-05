@@ -259,6 +259,14 @@
         "type":"LIVE"
       },
       {
+        "title":"DAI Live with Frequent Ads",
+        "resourceProvider":"DAI",
+        "daiId":"9Lq0ERvoSR-z9AwvFS-xYA",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"LIVE"
+      },   
+      {
         "title":"DAI VoD with Innovid",
         "resourceProvider":"DAI",
         "daiId":"googleio-highlights",
