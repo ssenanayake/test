@@ -119,12 +119,6 @@
 	"drmEnvironment":"{drmEnvironmentTest}",
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}"       
-      },	
-      {
-	"title":"URI Live HLS",
-	"resourceProvider":"URI",
-	"uri":"https://188105e06331.airspace-cdn.cbsivideo.com/out/v1/cf04f57002da4a4fb0c778ad5b0d6b91/manifest.m3u8",
-	"type":"LIVE"
       },	   	   
       {
 	"title":"URI Live HLS fMP4 with DRM",
