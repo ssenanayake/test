@@ -36,20 +36,8 @@
         "type":"VOD",
 	"resumePosition":10000
       },
-      {
-        "title":"URI Live",
-        "resourceProvider":"URI",
-        "uri":"https://fcc3ddae59ed.us-west-2.playback.live-video.net/api/video/v1/us-west-2.893648527354.channel.DmumNckWFTqz.m3u8",
-        "type":"LIVE"
-      },
-      {
-        "title":"URI DVR",
-        "resourceProvider":"URI",
-        "uri":"https://fcc3ddae59ed.us-west-2.playback.live-video.net/api/video/v1/us-west-2.893648527354.channel.DmumNckWFTqz.m3u8",
-        "type":"DVR"
-      },
-      {
-	"title":"URI with Side Captions",
+            {
+	"title":"URI VOD MP4 with Side Captions",
         "resourceProvider":"URI",
         "uri":"https://tears-of-steel-subtitles.s3.amazonaws.com/tos.mp4",
         "type":"VOD",
@@ -101,7 +89,61 @@
 	"type":"VOD",
 	"loop":true,
 	"mute":true      
+      },
+      {
+	"title":"URI VoD Forced Spanish Subtitles @ 34s (with Captions = Off, Audio = Spanish)",
+	"resourceProvider":"URI",
+	"uri":"https://entclips.cbsaavideo.com/2022/01/27/1997082691531/1354041_hls_ta/master.m3u8",
+	"type":"VOD"
+      },
+      {
+	"title":"URI VoD with Rendition Info in Video",
+	"resourceProvider":"URI",
+	"uri":"https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd",
+	"type":"VOD"
+      },	   
+      {
+        "title":"URI Live",
+        "resourceProvider":"URI",
+        "uri":"https://fcc3ddae59ed.us-west-2.playback.live-video.net/api/video/v1/us-west-2.893648527354.channel.DmumNckWFTqz.m3u8",
+        "type":"LIVE"
+      },
+      {
+	"title":"URI Live DASH with DRM",
+	"resourceProvider":"URI",
+	"uri":"https://188105e06331.airspace-cdn.cbsivideo.com/out/v1/abf671309c034fb0bc26a1244f00ecc0/manifest.mpd",
+	"type":"LIVE",
+	"drmType":"WIDEVINE",
+        "drmContentId":"l0qJaPDJfuowrvNyhFzLEzoZpQMz8SYE",
+        "drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironmentTest}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"       
       },	
+      {
+	"title":"URI Live HLS",
+	"resourceProvider":"URI",
+	"uri":"https://188105e06331.airspace-cdn.cbsivideo.com/out/v1/cf04f57002da4a4fb0c778ad5b0d6b91/manifest.m3u8",
+	"type":"LIVE",
+      },	   	   
+      {
+	"title":"URI Live HLS fMP4 with DRM",
+	"resourceProvider":"URI",
+	"uri":"https://547f72e6652371c3.mediapackage.us-east-1.amazonaws.com/out/v1/e320fb5d052e49c49827a1bbabb39906/hlste153/manifest.m3u8",
+	"type":"LIVE",
+	"drmType":"WIDEVINE",
+        "drmContentId":"hlsdash20230131",
+        "drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironmentTest}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"      
+      },	   
+      {
+        "title":"URI DVR HLS",
+        "resourceProvider":"URI",
+        "uri":"https://fcc3ddae59ed.us-west-2.playback.live-video.net/api/video/v1/us-west-2.893648527354.channel.DmumNckWFTqz.m3u8",
+        "type":"DVR"
+      },
       {
 	"title":"URI DVR DASH Seek Thumbnails",
 	"resourceProvider":"URI",
@@ -119,54 +161,10 @@
 	"drmEnvironment":"{drmEnvironmentTest}",
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}"    
-      },	
-      {
-	"title":"URI Live HLS fMP4 with DRM",
-	"resourceProvider":"URI",
-	"uri":"https://547f72e6652371c3.mediapackage.us-east-1.amazonaws.com/out/v1/e320fb5d052e49c49827a1bbabb39906/hlste153/manifest.m3u8",
-	"type":"LIVE",
-	"drmType":"WIDEVINE",
-        "drmContentId":"hlsdash20230131",
-        "drmToken":"{drmToken}",
-	"drmEnvironment":"{drmEnvironmentTest}",
-	"drmHost":"{drmHost}",
-	"drmDevice":"{drmDevice}"      
       },
-      {
-	"title":"URI VoD Forced Spanish Subtitles @ 34s (with Captions = Off, Audio = Spanish)",
-	"resourceProvider":"URI",
-	"uri":"https://entclips.cbsaavideo.com/2022/01/27/1997082691531/1354041_hls_ta/master.m3u8",
-	"type":"VOD"
-      },
-      {
-	"title":"URI VoD with Rendition Info in Video",
-	"resourceProvider":"URI",
-	"uri":"https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd",
-	"type":"VOD"
-      },	      
       {
         "heading":"IMA Tests"
       },
-      {
-	"title":"IMA VoD Preroll with Skip Ad",
-        "resourceProvider":"IMA",
-        "uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
-        "adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_preroll_skippable&sz=640x480&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
-        "type":"VOD"
-      },
-      {
-	"title":"IMA VoD Multi Ad Preroll with Skip Ad, DRM",
-        "resourceProvider":"IMA",
-        "uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2014/06/29/292077123905/1681438_cenc_precon_dash/stream.mpd",
-	"adUri":"https://7f077.v.fwmrm.net/ad/g/1?asnw=520311&caid=NVv_JyUbYUmbE0T__q87_rSwqYwUo_9f&csid=streaming_paramountplus_mobile_androidphone_vod&flag=%2Bamcb%2Bemcr%2Bsltp%2Bslcb%2Bqtcb%2Bvicb%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&nw=520311&prof=520311%3AGoogleDAICSAI_v01&pvrn=1680028421&resp=vmap1%2Bvast4&ssnw=520311&vprn=1680028421;_fw_coppa=0&_fw_app_bundle=com.cbs.app&_fw_is_lat=0&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&packageSource=cbscomp&_fw_did=google_advertising_id%3A31228d63-999f-42a3-b56e-6acf74373d6d&_fw_h_referer=com.cbs.app&_fw_continuous_play=0&sub=55431484&description_url=https%3A%2F%2Fwww.paramountplus.com&tfcd=0&_fw_us_privacy=1YNN&session=b&sz=640x480&cpSession=0&gr=3&sb=14&vguid=b3cf090b-01eb-486e-a0e4-e0181bce67f8&cpPre=0&bundle=%20&subses=1&user=ADULT&ge=2&fms_subscriberid=55431484&fms_emailhash=366e33752d5d7b9a0a401387c9797c5cdc84cbc84bcd5e3b569b9f625df15e1b&_fw_vcid2=XY6395KTI4hXQ5tvG8GfcHJHIOp5gYPdxQLhCdCfyMKmMYmRs&fms_ramp_id=XY6395KTI4hXQ5tvG8GfcHJHIOp5gYPdxQLhCdCfyMKmMYmRs&fms_hh_ramp_id=hY63957x5dAvyWVuIUOwI3BOIaSvnkfuC_zOA1x_5t8OSlNTE&fms_ifa=31228d63-999f-42a3-b56e-6acf74373d6d&fms_vcid2type=liveramp&playername_version=avia_4.2.2&ima_sdkv=3.28.2",      
-	"drmType":"WIDEVINE",
-        "drmContentId":"NVv_JyUbYUmbE0T__q87_rSwqYwUo_9f",
-        "drmToken":"{drmToken}",
-        "type":"VOD",
-        "drmEnvironment":"{drmEnvironment}",
-        "drmHost":"{drmHost}",
-        "drmDevice":"{drmDevice}"
-      },	   
       {
 	"title":"IMA VoD Pre/Mid/Postrolls",
         "resourceProvider":"IMA",
@@ -203,7 +201,27 @@
 	"uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
         "adUri":"",
         "type":"VOD"
-      },	
+      },
+      {
+	"title":"IMA VoD Preroll with Skip Ad",
+        "resourceProvider":"IMA",
+        "uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
+        "adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_preroll_skippable&sz=640x480&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
+        "type":"VOD"
+      },
+      {
+	"title":"IMA VoD Multi Ad Preroll with Skip Ad, DRM",
+        "resourceProvider":"IMA",
+        "uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2014/06/29/292077123905/1681438_cenc_precon_dash/stream.mpd",
+	"adUri":"https://7f077.v.fwmrm.net/ad/g/1?asnw=520311&caid=NVv_JyUbYUmbE0T__q87_rSwqYwUo_9f&csid=streaming_paramountplus_mobile_androidphone_vod&flag=%2Bamcb%2Bemcr%2Bsltp%2Bslcb%2Bqtcb%2Bvicb%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&nw=520311&prof=520311%3AGoogleDAICSAI_v01&pvrn=1680028421&resp=vmap1%2Bvast4&ssnw=520311&vprn=1680028421;_fw_coppa=0&_fw_app_bundle=com.cbs.app&_fw_is_lat=0&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&packageSource=cbscomp&_fw_did=google_advertising_id%3A31228d63-999f-42a3-b56e-6acf74373d6d&_fw_h_referer=com.cbs.app&_fw_continuous_play=0&sub=55431484&description_url=https%3A%2F%2Fwww.paramountplus.com&tfcd=0&_fw_us_privacy=1YNN&session=b&sz=640x480&cpSession=0&gr=3&sb=14&vguid=b3cf090b-01eb-486e-a0e4-e0181bce67f8&cpPre=0&bundle=%20&subses=1&user=ADULT&ge=2&fms_subscriberid=55431484&fms_emailhash=366e33752d5d7b9a0a401387c9797c5cdc84cbc84bcd5e3b569b9f625df15e1b&_fw_vcid2=XY6395KTI4hXQ5tvG8GfcHJHIOp5gYPdxQLhCdCfyMKmMYmRs&fms_ramp_id=XY6395KTI4hXQ5tvG8GfcHJHIOp5gYPdxQLhCdCfyMKmMYmRs&fms_hh_ramp_id=hY63957x5dAvyWVuIUOwI3BOIaSvnkfuC_zOA1x_5t8OSlNTE&fms_ifa=31228d63-999f-42a3-b56e-6acf74373d6d&fms_vcid2type=liveramp&playername_version=avia_4.2.2&ima_sdkv=3.28.2",      
+	"drmType":"WIDEVINE",
+        "drmContentId":"NVv_JyUbYUmbE0T__q87_rSwqYwUo_9f",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },	      
       {
 	"title":"IMA Live Preroll",
         "resourceProvider":"IMA",
@@ -251,37 +269,13 @@
 	"resumePosition":10000
       },
       {
-        "title":"DAI Live",
-        "resourceProvider":"DAI",
-        "daiId":"9Lq0ERvoSR-z9AwvFS-xYA",
-        "daiApiKey":"",
-        "daiCmsId":"",
-        "type":"LIVE"
-      },
-      {
-        "title":"DAI Live with Frequent Ads",
-        "resourceProvider":"DAI",
-        "daiId":"gfkxhQFOQAOXHigAVdRi8A",
-        "daiApiKey":"",
-        "daiCmsId":"",
-        "type":"LIVE"
-      },   
-      {
-        "title":"DAI VoD with Innovid",
+        "title":"DAI VoD with Innovid (returns a 404 during Content)",
         "resourceProvider":"DAI",
         "daiId":"googleio-highlights",
         "daiApiKey":"",
         "daiCmsId":"2490667",
         "type":"VOD"
-      },
-      {
-        "title":"DAI DVR",
-        "resourceProvider":"DAI",
-        "daiId":"gfkxhQFOQAOXHigAVdRi8A",
-        "daiApiKey":"",
-        "daiCmsId":"",
-        "type":"DVR"
-      },
+      },	
       {
         "title":"DAI VoD with DRM & Ad Holiday",
         "resourceProvider":"DAI",
@@ -326,6 +320,30 @@
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}"
+      },	   
+      {
+        "title":"DAI Live",
+        "resourceProvider":"DAI",
+        "daiId":"9Lq0ERvoSR-z9AwvFS-xYA",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"LIVE"
+      },
+      {
+        "title":"DAI Live with Frequent Ads",
+        "resourceProvider":"DAI",
+        "daiId":"gfkxhQFOQAOXHigAVdRi8A",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"LIVE"
+      }, 
+      {
+        "title":"DAI DVR",
+        "resourceProvider":"DAI",
+        "daiId":"gfkxhQFOQAOXHigAVdRi8A",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"DVR"
       },	   
       {
 	"heading":"CDN Tests"
@@ -415,7 +433,7 @@
 	"heading":"Miscellaneous Tests"
       },	   
       {
-	"title":"DAI Live - Captions Not Showing",
+	"title":"DAI Live - VTT Captions Not Showing",
         "resourceProvider":"DAI",
         "daiId":"7f3Wv6f7QEKfQna22jHqLQ",
         "daiApiKey":"",
