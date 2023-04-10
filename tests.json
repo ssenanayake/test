@@ -433,6 +433,17 @@
         "daiApiKey":"",
         "daiCmsId":"",
         "type":"LIVE"
-      }
+      },
+      {
+	"title":"DAI VoD with DRM - Irdeto License Check",
+        "resourceProvider":"DAI",
+	"drmType":"WIDEVINE",
+        "drmContentId":"mgGvI0fjn9XwrG_u4Xcaxsxv5AHOZAUB",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"      
+      }	   
    ]
 }
