@@ -424,6 +424,12 @@
 	"type":"VOD"
       },
       {
+	 "title":"URI Live with Expired Token",
+	 "resourceProvider":"URI",
+	 "uri":"https://cbsplaylistserver.aws.syncbak.com/cpl/853636/cbshls/2.0/7b2264657669636554797065223a322c226361706162696c6974696573223a7b7d7d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjIwMTYwNDAxIn0.eyJkZXZpY2VUeXBlIjoyLCJzaWQiOiIxMTYiLCJjaWQiOjEwNzU0LCJvb20iOmZhbHNlLCJhcHN0IjpudWxsLCJzc2lkIjoiYmQ4MjdjM2ViZjUxNGY4YzhhMDU5ZDk0NTRiNzIxZTAiLCJpcCI6IjE4LjIwOS44My4xIiwidWlwIjoiMTM2LjMzLjIxNi4xMzkiLCJkbWEiOjYxNiwic24iOiJVbnNwZWNpZmllZCBiYmRhMDhlNGE4ICIsInVpZCI6bnVsbCwiY3NiIjpmYWxzZSwibWlkIjoiODUzNjM2IiwibWQ1IjoiZWVhMTg4NWZkN2NmYjgzODc4NTgyNGIzMGMyYmI0MzAiLCJpYXQiOjE2ODExNTgxMjksImV4cCI6MTY4MTE1ODIxOSwiaXNzIjoiV0xTIiwic3ViIjoiNzVlZTlhODMtMGU3NC00OWYwLTk4MTgtYTI5NWE2YjdiN2FhIn0.LLlQYbrU0QYgGQYp-MA77p7BzGBIPsIE7_mWepF_FKM",
+	 "type":"LIVE"     
+      },      
+      {
 	"heading":"Miscellaneous Tests"
       },	   
       {
