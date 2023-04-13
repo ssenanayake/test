@@ -433,7 +433,7 @@
 	"heading":"Custom Resource Provider Tests"
       },	   
       {
-	"title":"URI VoD",
+	"title":"URI VoD - Custom Resource Provider",
 	"resourceProvider":"CUSTOM",
 	"uri":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
         "type":"VOD"
