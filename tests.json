@@ -1,6 +1,6 @@
 {
    "params":{
-      "drmToken":"MjU2RTUzNkQxOTZDRjBDOTlFQjRCQzc4OUEwMTkzODFDRDlGRjM5MEZFM0IxRjk1QjZBNkIyNUIwM0ZGRjE0REZDQTkzRENCNDFFN0IzMTk3RTc1NjIwN0I3OTA4QTc0OjE2OTY3MTM5MDM4ODY6MDFjN2U2ZDkzZTJkMmFhNTA2ODUwNDAxNTA4OTU2NzA6My4wOjA",
+      "drmToken":"https://www.paramountplus.com/apps-api/v2.0/iphone/auth/login.json?at=ABA7fgnFH2O1XVmpSKh6f5YiwylZTNpMlafiNbyneb9n8T0B3DOq/3LdTxmeTy2g6/k=",
       "drmHost":"www.paramountplus.com",
       "drmHostIntl":"www.intl.paramountplus.com",	   
       "drmEnvironment":"live",
