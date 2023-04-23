@@ -133,7 +133,7 @@
 	"drmDevice":"{drmDevice}"      
       },	
       {
-	"title":"HLS Live - 608/708 Captions",
+	"title":"URI Live HLS - 608/708 Captions",
         "resourceProvider":"URI",
 	"uri":"https://cbsn-sf.cbsnstream.cbsnews.com/out/v1/dac63c1abb3f4a2dac9f508f44bb072a/start/2023-04-20T17:49:12Z/end/2023-04-20T18:13:29Z/master.m3u8",      
         "type":"LIVE"
