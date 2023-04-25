@@ -101,6 +101,18 @@
 	"resourceProvider":"URI",
 	"uri":"https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd",
 	"type":"VOD"
+      },
+      {
+	"title":"URI VoD through Bakery",
+	"resourceProvider":"URI",
+	"uri":"https://bakeryv2-pplus-dev.cbs.com/l(fr,it,no,fi,da,sv,es-MX,pt-BR,es-mx,pt-br)/paramountplus/2022/04/14/2022826563810/dubs/1805907_cenc_precon_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+        "drmContentId":"Mr8aO0vU_uK_TgtEtgE4Kmjw_YK3xWJG",
+        "drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironmentTest}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"      
+	"type":"VOD"
       },	   
       {
         "title":"URI Live",
