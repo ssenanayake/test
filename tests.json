@@ -113,6 +113,18 @@
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}",   
 	"type":"VOD"
+      },
+      {
+	"title":"URI VoD with Forced Narrative (with Captions = Off, Audio = German)",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/paramountplus/2022/04/14/2022829635545/dubs/1806651_cenc_precon_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+        "drmContentId":"rUVlAnVuQxDJat0Ok5IPBEuGPDwBSMt3",
+        "drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}",   
+	"type":"VOD"
       },	   
       {
         "title":"URI Live",
