@@ -111,7 +111,7 @@
         "drmToken":"{drmToken}",
 	"drmEnvironment":"{drmEnvironmentTest}",
 	"drmHost":"{drmHost}",
-	"drmDevice":"{drmDevice}"      
+	"drmDevice":"{drmDevice}",   
 	"type":"VOD"
       },	   
       {
