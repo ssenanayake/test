@@ -511,6 +511,18 @@
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}"      
-      }	   
+      },
+      {
+	"title":"Caption Checkl",
+        "resourceProvider":"URL",
+	"uri":"https://bakeryv2-pplus.cbs.com/l(fr,it,no,fi,da,sv,es-MX,pt-BR,es-mx,pt-br)/paramountplus/2022/12/01/2131892291842/dubs/2176865_cenc_precon_dash/stream.mpd",      
+        "drmType":"WIDEVINE",
+        "drmContentId":"FHUPX4FAS0HLzdB3XtCxX4XW_Pyw2WIE",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"      
+      }		   
    ]
 }
