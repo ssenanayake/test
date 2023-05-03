@@ -14,7 +14,7 @@
         "sessionInterval": "45"
       },
       "accountInfo": {
-        "plutotvdev": "channel5test"
+        "accountCode": "plutotvdev"
       },
       "authInfo": {
         "pluginVersion": "6.7.33-ExoPlayer-Android",
