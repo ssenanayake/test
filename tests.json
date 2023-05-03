@@ -129,7 +129,7 @@
       {
         "title":"URI VoD w/608 wo/Multi-Variant",
         "resourceProvider":"URI",
-        "uri":"https://cbsn-sf.cbsnstream.cbsnews.com/out/v1/dac63c1abb3f4a2dac9f508f44bb072a/start/2023-05-02T17:49:12Z/end/2023-05-02T18:13:29Z/master_3.m3u8",
+        "uri":"https://cbsn-sf.cbsnstream.cbsnews.com/out/v1/dac63c1abb3f4a2dac9f508f44bb072a/start/${yesterday}T17:49:12Z/end/${yesterday}T18:13:29Z/master_3.m3u8",
         "type":"VOD"
       },	
       {
