@@ -125,6 +125,12 @@
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}",   
 	"type":"VOD"
+      },	
+      {
+        "title":"URI VoD w/608",
+        "resourceProvider":"URI",
+        "uri":"https://cdn.theoplayer.com/video/adultswim/clip.m3u8",
+        "type":"VOD"
       },	   
       {
         "title":"URI Live",
