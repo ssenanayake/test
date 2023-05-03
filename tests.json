@@ -131,7 +131,13 @@
         "resourceProvider":"URI",
         "uri":"https://cdn.theoplayer.com/video/adultswim/clip.m3u8",
         "type":"VOD"
-      },	   
+      },	
+      {
+	"title":"URI VoD HLS fMP4 with DRM",
+	"resourceProvider":"URI",
+	"uri":"https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s-fmp4/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8",
+	"type":"VOD"
+      },		   
       {
         "title":"URI Live",
         "resourceProvider":"URI",
@@ -150,18 +156,6 @@
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}"       
       },	   	   
-      {
-	"title":"URI Live HLS fMP4 with DRM",
-	"resourceProvider":"URI",
-	"uri":"https://547f72e6652371c3.mediapackage.us-east-1.amazonaws.com/out/v1/e320fb5d052e49c49827a1bbabb39906/hlste153/manifest.m3u8",
-	"type":"LIVE",
-	"drmType":"WIDEVINE",
-        "drmContentId":"hlsdash20230131",
-        "drmToken":"{drmToken}",
-	"drmEnvironment":"{drmEnvironmentTest}",
-	"drmHost":"{drmHost}",
-	"drmDevice":"{drmDevice}"      
-      },	
       {
 	"title":"URI Live DASH - 608/708 CC",
         "resourceProvider":"URI",
