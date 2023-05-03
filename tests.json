@@ -129,11 +129,11 @@
       {
         "title":"URI VoD w/608",
         "resourceProvider":"URI",
-        "uri":"https://cdn.theoplayer.com/video/adultswim/clip.m3u8",
+        "uri":"https://playertest.longtailvideo.com/adaptive/captions/playlist.m3u8",
         "type":"VOD"
       },	
       {
-	"title":"URI VoD HLS fMP4 with DRM",
+	"title":"URI VoD HLS fMP4",
 	"resourceProvider":"URI",
 	"uri":"https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s-fmp4/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8",
 	"type":"VOD"
