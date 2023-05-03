@@ -14,13 +14,13 @@
         "sessionInterval": "45"
       },
       "accountInfo": {
-        "accountCode": "channel5test"
+        "plutotvdev": "channel5test"
       },
       "authInfo": {
         "pluginVersion": "6.7.33-ExoPlayer-Android",
         "outputformat": "json"
       },
-      "session_start": {
+      "sessionStart": {
         "username": "{context.username}",
         "deviceUUID": "{context.deviceUUID}",
         "dimensions": "{context.dimensions}",
@@ -33,7 +33,7 @@
         "connectionType": "{context.connectionType}",
         "libVersion": "{context.libVersion}"
       },
-      "session_stop": {
+      "sessionStop": {
         "metrics": "{context.metrics}"
       },
       "entities": {
