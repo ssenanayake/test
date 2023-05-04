@@ -70,6 +70,19 @@
 	"drmDevice":"{drmDevice}"
       },
       {
+        "title":"URI VoD w/DRM Reset after 10s & DASH Thumbnails ",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis-dev.cbsaavideo.com/CBS_Production_Entertainment_VMS/2022/07/19/2053464643928/11474_cenc_fmp4_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+        "drmContentId":"TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D",
+        "drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}",
+	"drmReset":10000      
+      },	   
+      {
 	"title":"URI VoD 360",
         "resourceProvider":"URI",
         "uri":"https://cdn.jwplayer.com/videos/AgqYcfAT-8yQ1cYbs.mp4",
