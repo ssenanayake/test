@@ -490,6 +490,12 @@
       },	   
       {
 	"heading":"Miscellaneous Tests"
+      },
+      {
+	"title":"URI Live ID3 Check,
+        "resourceProvider":"URI",
+	"uri":"https://prope97699h3.airspace-cdn.cbsivideo.com/out/v1/08152b9891bc47539ad460e405b8d283/manifest.mpd",      
+        "type":"LIVE"
       },	   
       {
 	"title":"DAI Live w/VTT CC Not Showing",
