@@ -165,7 +165,7 @@
       {
 	"title":"URI DVR HLS Seek Thumbnails",
 	"resourceProvider":"URI",
-	"uri":"https://dai.google.com/linear/hls/event/6euWfEElRQSXZJWYC1Z-iw/master.m3u8",
+	"uri":"https://propec941a5h.airspace-cdn.cbsivideo.com/out/v1/c9cbcac3533d454e8570acb532c28d13/master.m3u8",
 	"thumbnailUri":"https://propec941a5h.airspace-cdn.cbsivideo.com/out/v1/c9cbcac3533d454e8570acb532c28d13",      
 	"type":"DVR"
       },	   
