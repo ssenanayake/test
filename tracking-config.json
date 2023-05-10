@@ -2,6 +2,9 @@
    "Youbora": {
     "enabled": true,
     "params": {
+      "trackerCommands": {
+	"delayedStart": "{context.delayedStart}"
+      },	    
       "serverInfo": {
         "authUrl": "https://a-fds.youborafds01.com/data",
         "videoPath": "/infinity/video/",
