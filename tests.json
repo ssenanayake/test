@@ -2,7 +2,6 @@
    "params":{
       "drmToken":"https://www.paramountplus.com/apps-api/v2.0/iphone/auth/login.json?at=ABA7fgnFH2O1XVmpSKh6f5YiwylZTNpMlafiNbyneb9n8T0B3DOq/3LdTxmeTy2g6/k=",
       "drmHost":"www.paramountplus.com",
-      "drmHostStage":"www.stage.paramountplus.com",	   
       "drmEnvironment":"live",
       "drmEnvironmentTest":"stage",	   
       "drmDevice":"firetv",
