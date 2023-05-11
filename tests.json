@@ -101,7 +101,8 @@
 	"uri":"file:///storage/emulated/0/Paramount.mp4",
 	"type":"VOD",
 	"loop":true,
-	"mute":true      
+	"mute":true,
+	"preview":true      
       },
       {
 	"title":"URI VoD Forced Spanish CC @ 34s (CC=Off, Audio=Spanish)",
