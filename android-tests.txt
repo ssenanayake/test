@@ -42,6 +42,8 @@ sample=4|TEST.x|2528370/tears-of-steel/|DAI VoD - Resume 360s (HLS)|||||ST|true|
 
 sample=4|TEST.x|2497752/9D5se7TaQpNkFuHlSJL4Gl_VVoZBPZnz/7j3n273bfj7jcnvf22d713a51f|DAI VoD (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
 
+sample=4|TEST.x|2497752/ZiCCqECbmlOHLlyp1zG6YXEfB9RkAS1C/7j3n273bfj7jcnvf22d713a51f|DAI VoD (DASH + DRM + Single Key Per Track)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
+
 sample=4|TEST.x|2497752/9D5se7TaQpNkFuHlSJL4Gl_VVoZBPZnz/7j3n273bfj7jcnvf22d713a51f|DAI VoD - Promo (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
 
 sample=4|TEST.x|2497752/Szbbn6rCLPF3a5VvSWWhWB871pry6pAE/7j3n273bfj7jcnvf22d713a51f|DAI VoD - 4:3 Content and 16:9 Ads (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false||
