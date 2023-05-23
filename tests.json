@@ -40,8 +40,8 @@
         "resourceProvider":"URI",
         "uri":"https://tears-of-steel-subtitles.s3.amazonaws.com/tos.mp4",
         "type":"VOD",
-	"captionsUri":"https://tears-of-steel-subtitles.s3.amazonaws.com/tears-en.vtt",
-	"captionsLanguage":"en"
+	"captionsUri":[{"language":"en", "uri":"https://tears-of-steel-subtitles.s3.amazonaws.com/tears-en.vtt"},
+		       {"language":"es", "uri":"https://download.blender.org/demo/movies/ToS/subtitles/TOS-es.srt"}]
       },  
       {
         "title":"URI VoD w/Multiple CC",
