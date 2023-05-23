@@ -35,12 +35,12 @@
         "type":"VOD",
 	"resumePosition":10000
       },
-            {
+      {
 	"title":"URI VOD MP4 w/Multiple Side CC",
         "resourceProvider":"URI",
         "uri":"https://tears-of-steel-subtitles.s3.amazonaws.com/tos.mp4",
         "type":"VOD",
-	"captionsUri":[{"language":"en", "uri":"https://tears-of-steel-subtitles.s3.amazonaws.com/tears-en.vtt"},
+	"captions":[{"language":"en", "uri":"https://tears-of-steel-subtitles.s3.amazonaws.com/tears-en.vtt"},
 		       {"language":"es", "uri":"https://download.blender.org/demo/movies/ToS/subtitles/TOS-es.srt"},
 		       {"language":"ru", "uri":"https://download.blender.org/demo/movies/ToS/subtitles/TOS-ru.srt"}]
       },  
@@ -518,7 +518,7 @@
         "daiApiKey":"",
         "daiCmsId":"",
         "type":"LIVE"
-      },	   
+      },   
       {
 	"title":"DAI VoD w/DRM - Irdeto License Check",
         "resourceProvider":"DAI",
