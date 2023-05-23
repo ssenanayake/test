@@ -41,7 +41,8 @@
         "uri":"https://tears-of-steel-subtitles.s3.amazonaws.com/tos.mp4",
         "type":"VOD",
 	"captionsUri":[{"language":"en", "uri":"https://tears-of-steel-subtitles.s3.amazonaws.com/tears-en.vtt"},
-		       {"language":"es", "uri":"https://download.blender.org/demo/movies/ToS/subtitles/TOS-es.srt"}]
+		       {"language":"es", "uri":"https://download.blender.org/demo/movies/ToS/subtitles/TOS-es.srt"},
+		       {"language":"ru", "uri":"https://download.blender.org/demo/movies/ToS/subtitles/TOS-ru.srt"}]
       },  
       {
         "title":"URI VoD w/Multiple CC",
