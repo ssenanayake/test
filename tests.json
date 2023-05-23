@@ -36,7 +36,7 @@
 	"resumePosition":10000
       },
             {
-	"title":"URI VOD MP4 w/Side CC",
+	"title":"URI VOD MP4 w/Multiple Side CC",
         "resourceProvider":"URI",
         "uri":"https://tears-of-steel-subtitles.s3.amazonaws.com/tos.mp4",
         "type":"VOD",
