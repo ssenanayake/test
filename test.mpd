@@ -102,12 +102,6 @@
       </ContentProtection>
       <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="5"/>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-      <Representation id="20" bandwidth="3407951" codecs="avc1.640028" mimeType="video/mp4" sar="1:1" width="1280" height="720">
-        <BaseURL>Sonic_The_Hedgehog_2_36647_3840x2160_XQ_DV_PPlus_HEVC_1320616_4000_1320616_1600.mp4</BaseURL>
-        <SegmentBase indexRange="1607-16314" timescale="24000">
-          <Initialization range="0-1606"/>
-        </SegmentBase>
-      </Representation>
       <Representation id="21" bandwidth="6133400" codecs="avc1.640028" mimeType="video/mp4" sar="1:1" width="1920" height="1080">
         <BaseURL>Sonic_The_Hedgehog_2_36647_3840x2160_XQ_DV_PPlus_HEVC_1320616_4000_1320616_2900.mp4</BaseURL>
         <SegmentBase indexRange="1609-16316" timescale="24000">
