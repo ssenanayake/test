@@ -224,3 +224,6 @@ sample=18|TEST.x|NVv_JyUbYUmbE0T__q87_rSwqYwUo_9f|IMA - Skip Ads (Frasier S1E8)|
 sample=18|TEST.x|ZiCCqECbmlOHLlyp1zG6YXEfB9RkAS1C|Test **** (DASH + DRM)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/04/15/2194252867872/2212632_cenc_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
 
 sample=18|TEST.x|2497752/NVv_JyUbYUmbE0T__q87_rSwqYwUo_9f/7j3n273bfj7jcnvf22d713a51f|DAI VoD - with Preroll and Bumper (DASH + DRM)||||$drm|WV|true|false|false|false|DAI|-1||true|false|false|iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpreonlybumper&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&correlator=|
+
+sample=18|TEST.x|NXFYTekfckCoKBmEoDZZOtMsiCIG3D0_|Sonic the Hedge Hog - Direct URL (DASH + DRM)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/04/14/2023121475896/1500797_cenc_fmp4_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
+
