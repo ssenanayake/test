@@ -227,3 +227,4 @@ sample=18|TEST.x|2497752/NVv_JyUbYUmbE0T__q87_rSwqYwUo_9f/7j3n273bfj7jcnvf22d713
 
 sample=18|TEST.x|NXFYTekfckCoKBmEoDZZOtMsiCIG3D0_|Sonic the Hedge Hog - Direct URL (DASH + DRM)|https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/04/14/2023121475896/1500797_cenc_fmp4_dash/stream.mpd|||$drm|WV|true|false|false|false|URL|-1||true|false|false||
 
+sample=18|TEST.x|NXFYTekfckCoKBmEoDZZOtMsiCIG3D0_|Tears of Steel - Direct URL (DASH + DRM)|https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd|||https://proxy.uat.widevine.com/proxy?video_id=2015_tears&provider=widevine_test|WV|true|false|false|false|URL|-1||true|false|false||
