@@ -117,6 +117,14 @@
 	"type":"VOD"
       },
       {
+	"title":"URI VoD w/DRM",
+	"resourceProvider":"URI",
+	"uri":"https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
+	"drmType":"WIDEVINE",
+	"drmUri":"https://proxy.uat.widevine.com/proxy?video_id=2015_tears&provider=widevine_test",      
+        "type":"VOD"
+      },	   
+      {
 	"title":"URI VoD thru Bakery w/German Forced CC (CC=Off, Audio=German)",
 	"resourceProvider":"URI",
 	"uri":"https://bakeryv2-pplus-dev.cbs.com/l(fr,it,no,fi,da,sv,es-MX,pt-BR,es-mx,pt-br)/paramountplus/2022/04/14/2022826563810/dubs/1805907_cenc_precon_dash/stream.mpd",
