@@ -552,7 +552,7 @@
 	"drmDevice":"{drmDevice}"
       },
       {
-        "title":"URI VoD w/SAMPLE-AES for HLS",
+        "title":"URI Live w/SAMPLE-AES for HLS",
 	"resourceProvider":"URI",
 	"uri":"https://hfrcache1.viacbsops.com/live/hfr1/ccc_hfr.isml/.m3u8",
 	"type":"LIVE"
