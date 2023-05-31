@@ -528,7 +528,7 @@
         "type":"LIVE"
       },   
       {
-        "title":"URI VoD w/DRM & DASH Thumbnails",
+        "title":"URI VoD w/DRM & DASH Thumbnails - with HDR",
 	"resourceProvider":"URI",
 	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/04/14/2023121475896/1500797_cenc_fmp4_dash/stream.mpd",
 	"drmType":"WIDEVINE",
@@ -539,5 +539,17 @@
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}"
       },
+      {
+        "title":"URI VoD w/DRM & DASH Thumbnails - Non HDR",
+	"resourceProvider":"URI",
+	"uri":"https://raw.githubusercontent.com/ssenanayake/test/main/test.mpd",
+	"drmType":"WIDEVINE",
+        "drmContentId":"NXFYTekfckCoKBmEoDZZOtMsiCIG3D0_",
+        "drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+      }	   
    ]
 }
