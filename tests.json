@@ -487,6 +487,12 @@
         "resourceProvider":"URI",
 	"uri":"https://cbsn-sf.cbsnstream.cbsnews.com/out/v1/dac63c1abb3f4a2dac9f508f44bb072a/start/2023-04-20T17:49:12Z/end/2023-04-20T18:13:29Z/master.m3u8",      
         "type":"VOD"
+      },	 
+      {
+        "title":"URI Live w/SAMPLE-AES for HLS",
+	"resourceProvider":"URI",
+	"uri":"https://hfrcache1.viacbsops.com/live/hfr1/ccc_hfr.isml/.m3u8",
+	"type":"LIVE"
       },	   
       {
 	"heading":"Custom Resource Provider Tests"
@@ -526,36 +532,6 @@
         "daiApiKey":"",
         "daiCmsId":"",
         "type":"LIVE"
-      },   
-      {
-        "title":"URI VoD w/DRM & DASH Thumbnails - with HDR",
-	"resourceProvider":"URI",
-	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/04/14/2023121475896/1500797_cenc_fmp4_dash/stream.mpd",
-	"drmType":"WIDEVINE",
-        "drmContentId":"NXFYTekfckCoKBmEoDZZOtMsiCIG3D0_",
-        "drmToken":"{drmToken}",
-	"type":"VOD",
-	"drmEnvironment":"{drmEnvironment}",
-	"drmHost":"{drmHost}",
-	"drmDevice":"{drmDevice}"
-      },
-      {
-        "title":"URI VoD w/DRM & DASH Thumbnails - Non HDR",
-	"resourceProvider":"URI",
-	"uri":"https://raw.githubusercontent.com/ssenanayake/test/main/test.mpd",
-	"drmType":"WIDEVINE",
-        "drmContentId":"NXFYTekfckCoKBmEoDZZOtMsiCIG3D0_",
-        "drmToken":"{drmToken}",
-	"type":"VOD",
-	"drmEnvironment":"{drmEnvironment}",
-	"drmHost":"{drmHost}",
-	"drmDevice":"{drmDevice}"
-      },
-      {
-        "title":"URI Live w/SAMPLE-AES for HLS",
-	"resourceProvider":"URI",
-	"uri":"https://hfrcache1.viacbsops.com/live/hfr1/ccc_hfr.isml/.m3u8",
-	"type":"LIVE"
-      }
+      }  
    ]
 }
