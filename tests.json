@@ -551,10 +551,10 @@
       {
 	"title":"URI VoD DASH w/DRM - Test DRM",
 	"resourceProvider":"URI",
-	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/02/14/2172334147973/1972876_cenc_fmp4_dash/stream.mpd",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/04/14/2023121475896/1500797_cenc_fmp4_dash/stream.mpd",
 	"type":"VOD",
 	"drmType":"WIDEVINE",
-        "drmContentId":"JZRgV_54Iog1y1mkFt3_tIg_lm2CACYK",
+        "drmContentId":"NXFYTekfckCoKBmEoDZZOtMsiCIG3D0_",
         "drmToken":"{drmToken}",
 	"drmEnvironment":"{drmEnvironmentTest}",
 	"drmHost":"{drmHost}",
