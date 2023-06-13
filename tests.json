@@ -549,7 +549,7 @@
         "drmDevice":"{drmDevice}"
       },
       {
-	"title":"URI VoD DASH w/DRM - Test DRM",
+	"title":"URI VoD DASH w/DRM - Movie 1 - Test DRM",
 	"resourceProvider":"URI",
 	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/04/14/2023121475896/1500797_cenc_fmp4_dash/stream.mpd",
 	"type":"VOD",
@@ -559,6 +559,18 @@
 	"drmEnvironment":"{drmEnvironmentTest}",
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}"       
-      }
+      },
+      {
+	"title":"URI VoD DASH w/DRM - Movie 2 - Test DRM",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/07/16/2052743235896/1533745_cenc_fmp4_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+	"drmContentId":"DVNyURCvCmj0jbRbCzl_WWm8Ib3t4L8o",
+	"drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironmentTest}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+      }	   
    ]
 }
