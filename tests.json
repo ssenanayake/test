@@ -288,7 +288,7 @@
 	"heading":"DAI Tests"
       },
       {
-	"title":"DAI VoD w/DRM",
+	"title":"DAI VoD w/DRM - 1",
         "resourceProvider":"DAI",
 	"daiId":"9D5se7TaQpNkFuHlSJL4Gl_VVoZBPZnz",
 	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
@@ -301,6 +301,20 @@
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}"
       },
+      {
+	"title":"DAI VoD w/DRM - 2",
+        "resourceProvider":"DAI",
+	"daiId":"kFfjpWZ9totEO8uL2CsFxFxYGTcqLIS_",
+	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+	"daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"kFfjpWZ9totEO8uL2CsFxFxYGTcqLIS_",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },	   
       {
         "title":"DAI VoD w/DRM & Resume",
         "resourceProvider":"DAI",
