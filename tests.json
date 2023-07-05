@@ -589,8 +589,8 @@
 	"drmDevice":"{drmDevice}"
       },
       {
-        "title":"URI Live - Timed Event for Ads",
-        "resourceProvider":"LTE",
+        "title":"URI Live - SuperBowl",
+        "resourceProvider":"SB",
         "uri":"https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/f388889369b9401cb8bdad965aed5e32/uhd-hdr/index.m3u8",
         "type":"LIVE"
       }	   
