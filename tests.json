@@ -60,7 +60,7 @@
       {
         "title":"URI VoD w/DRM & DASH Thumbnails",
 	"resourceProvider":"URI",
-	"uri":"https://vod-gcs-cedexis-dev.cbsaavideo.com/CBS_Production_Entertainment_VMS/2022/07/19/2053464643928/11474_cenc_fmp4_dash/stream.mpd",
+	"uri":"https://vod62c350g.airspace-f.cbsivideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd",
 	"drmType":"WIDEVINE",
         "drmContentId":"TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D",
         "drmToken":"{drmToken}",
@@ -72,7 +72,7 @@
       {
         "title":"URI VoD w/DRM Reset after 10s & DASH Thumbnails ",
 	"resourceProvider":"URI",
-	"uri":"https://vod-gcs-cedexis-dev.cbsaavideo.com/CBS_Production_Entertainment_VMS/2022/07/19/2053464643928/11474_cenc_fmp4_dash/stream.mpd",
+	"uri":"https://vod62c350g.airspace-f.cbsivideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd",
 	"drmType":"WIDEVINE",
         "drmContentId":"TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D",
         "drmToken":"{drmToken}",
