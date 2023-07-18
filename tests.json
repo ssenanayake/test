@@ -589,6 +589,7 @@
 	"drmDevice":"{drmDevice}"
       },
       {
+	"enable":false,      
 	"title":"URI VoD DASH w/DRM - Interstitials",
 	"resourceProvider":"URI",
 	"uri":"https://vod-gcs-cedexis-dev.cbsaavideo.com/CBS_Production_Entertainment_VMS/2023/07/11/2243781187614/13070_cenc_fmp4_hdr_dash/stream_xlink_1.mpd",
