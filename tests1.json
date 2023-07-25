@@ -1,0 +1,31 @@
+{
+   "params":{
+      "drmToken":"https://www.paramountplus.com/apps-api/v2.0/iphone/auth/login.json?at=ABA7fgnFH2O1XVmpSKh6f5YiwylZTNpMlafiNbyneb9n8T0B3DOq/3LdTxmeTy2g6/k=",
+      "drmHost":"www.paramountplus.com",
+      "drmEnvironment":"live",
+      "drmEnvironmentTest":"stage",	   
+      "drmDevice":"firetv",
+      "maxBitrate":"20000000",
+      "enableThumbnails":"true",
+      "fetchAdUri":"https://raw.githubusercontent.com/ssenanayake/test/main/pause.xml",
+      "fetchAdDelay":"3000",
+      "trackingConfig":""
+   },
+   "tests":[
+      {
+	"heading":"URI Tests"
+      },
+     {
+        "title":"URI VoD w/DRM & DASH Thumbnails",
+	"resourceProvider":"URI",
+	"uri":"https://vod62c350g.airspace-f.cbsivideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd",
+	"drmType":"WIDEVINE",
+        "drmContentId":"TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D",
+        "drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+      }
+  ]
+}
