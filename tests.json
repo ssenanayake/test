@@ -615,7 +615,7 @@
 	"drmType":"WIDEVINE",
 	"drmContentId":"propeller-sb58-test",
 	"drmToken":"{drmToken}",
-	"drmEnvironment":"{drmEnvironment}",
+	"drmEnvironment":"{drmEnvironmentTest}",
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}"
       }	    
