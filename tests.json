@@ -632,7 +632,7 @@
 	"title":"URI - Sports Test",
         "resourceProvider":"URI",
 	"uri":"http://canhls.cbs.com/CBS_Production_MaxPreps_VMS/2018/01/26/1146247235697/MiamiTop10_1313822_phone.m3u8",      
-        "type":"LIVE"
+        "type":"VOD"
       },	   
    ]
 }
