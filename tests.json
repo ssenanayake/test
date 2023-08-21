@@ -629,9 +629,9 @@
 	"drmDevice":"{drmDevice}"
       },	   
       {
-	"title":"URI Live DASH - 608/708 CC",
+	"title":"URI - Sports Test",
         "resourceProvider":"URI",
-	"uri":"https://livesim.dashif.org/dash/vod/testpic_2s/cea608.mpd",      
+	"uri":"http://canhls.cbs.com/CBS_Production_MaxPreps_VMS/2018/01/26/1146247235697/MiamiTop10_1313822_phone.m3u8",      
         "type":"LIVE"
       },	   
    ]
