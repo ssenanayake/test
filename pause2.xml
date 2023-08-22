@@ -1,4 +1,4 @@
-<VAST version='4.1' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='vast.xsd'>
+<VAST version='3.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='vast.xsd'>
     <Ad id='70996380.139724208301312' sequence='1'>
         <InLine>
             <AdSystem>FreeWheel</AdSystem>
