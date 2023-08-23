@@ -535,7 +535,7 @@
           "deviceVersion": "{context.deviceVersion}",
           "deviceScreenWidth": "{context.deviceScreenWidth}",
           "deviceScreenHeight": "{context.deviceScreenHeight}",
-          "deviceScreenScaleFactor": "{context.deviceScreenScaleFactor}",
+          "deviceScreenScaleFactor": "{context.deviceScreenScaleFactor}"
         },
 	 "sessionInfo":{
             "customerKey":"87a6b28bc7823e67a5bb2a0a6728c702afcae78d",
