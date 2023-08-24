@@ -634,5 +634,21 @@
 	"uri":"http://canhls.cbs.com/CBS_Production_MaxPreps_VMS/2018/01/26/1146247235697/MiamiTop10_1313822_phone.m3u8",      
         "type":"VOD"
       },	   
+      {
+	"title":"DAI with Auth Token",
+        "resourceProvider":"DAI",
+	"daiId":"mgid:arc:episode:android.playplex.comedycentral.com:844ddf1c-f2dc-40c6-9be0-efdc4c7318e8",
+	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+	"daiCmsId":"2632468",
+	"daiAuthToken":"",      
+        "type":"VOD",
+        "autoPlay":true
+      },
+      {
+	"title":"Ticket #720",
+        "resourceProvider":"URI",
+	"uri":"https://topaz.dai.uat.viacomcbs.digital/h/a/dG9wYXotdWF0YDg0NGRkZjFjLWYyZGMtNDBjNi05YmUwLWVmZGM0YzczMThlOGBmNmFhOTU2NjI0NDljZDUxYTBlMTU0YzljN2U0MTc4NTcyZDUyNzgyYHBPYWoyQmI3TUtRejV2cFVLTWNCOGNZb1NsMnZkTXpGUVc3UmdDTTA5NW8/master.m3u8?hdnea=st=1692907868~exp=1692911468~acl=/h/a/dG9wYXotdWF0YDg0NGRkZjFjLWYyZGMtNDBjNi05YmUwLWVmZGM0YzczMThlOGBmNmFhOTU2NjI0NDljZDUxYTBlMTU0YzljN2U0MTc4NTcyZDUyNzgyYHBPYWoyQmI3TUtRejV2cFVLTWNCOGNZb1NsMnZkTXpGUVc3UmdDTTA5NW8/*~id=3859eb4f-bd69-4709-8b0c-3d83ae670699~hmac=1221eb875892dc80440db1518711f38ebecf61132073f1cb97e5ce043b7c900a&originpath=/ondemand/hls/content/2632468/vid/mgid:arc:episode:android.playplex.comedycentral.com:844ddf1c-f2dc-40c6-9be0-efdc4c7318e8/DLS/streams/d50560f5-d282-4ed8-b9c2-06db2ff2f352/master.m3u8",      
+        "type":"VOD"
+      }	   
    ]
 }
