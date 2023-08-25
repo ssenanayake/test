@@ -620,7 +620,7 @@
 	"drmDevice":"{drmDevice}"
       },
       {
-	"title":"URI VoD DASH w/DRM - Movie 3",
+	"title":"URI VoD DASH w/DRM - Movie 3, Resume",
 	"resourceProvider":"URI",
 	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2019/03/20/1461808707757/1326543_cenc_fmp4_hdr_dash/stream.mpd",
 	"drmType":"WIDEVINE",
@@ -629,7 +629,8 @@
 	"type":"VOD",
 	"drmEnvironment":"{drmEnvironment}",
 	"drmHost":"{drmHost}",
-	"drmDevice":"{drmDevice}"
+	"drmDevice":"{drmDevice}",
+	"resumePosition":11000      
       },	   
       {
 	"heading":"Topaz Tests"
