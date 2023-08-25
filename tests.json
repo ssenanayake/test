@@ -592,6 +592,28 @@
         "drmDevice":"{drmDevice}"
       },
       {
+	"enable":false,      
+	"title":"URI VoD DASH w/DRM - Interstitials",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis-dev.cbsaavideo.com/CBS_Production_Entertainment_VMS/2023/07/11/2243781187614/13070_cenc_fmp4_hdr_dash/stream_xlink_1.mpd",
+	"drmType":"WIDEVINE",
+	"drmContentId":"s0egwLW18sTWkFJMhW9C7rnvlag2DO94",
+	"drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+      },	   
+      {
+	"title":"URI - Sports Test",
+        "resourceProvider":"URI",
+	"uri":"http://canhls.cbs.com/CBS_Production_MaxPreps_VMS/2018/01/26/1146247235697/MiamiTop10_1313822_phone.m3u8",      
+        "type":"VOD"    
+      },	
+      {
+	"heading":"Movie Tests"
+      },	   
+      {
 	"title":"URI VoD DASH w/DRM - Movie 1 - Test DRM",
 	"resourceProvider":"URI",
 	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/04/14/2023121475896/1500797_cenc_fmp4_dash/stream.mpd",
@@ -614,25 +636,9 @@
 	"drmEnvironment":"{drmEnvironmentTest}",
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}"
-      },
-      {
-	"enable":false,      
-	"title":"URI VoD DASH w/DRM - Interstitials",
-	"resourceProvider":"URI",
-	"uri":"https://vod-gcs-cedexis-dev.cbsaavideo.com/CBS_Production_Entertainment_VMS/2023/07/11/2243781187614/13070_cenc_fmp4_hdr_dash/stream_xlink_1.mpd",
-	"drmType":"WIDEVINE",
-	"drmContentId":"s0egwLW18sTWkFJMhW9C7rnvlag2DO94",
-	"drmToken":"{drmToken}",
-	"type":"VOD",
-	"drmEnvironment":"{drmEnvironment}",
-	"drmHost":"{drmHost}",
-	"drmDevice":"{drmDevice}"
       },	   
       {
-	"title":"URI - Sports Test",
-        "resourceProvider":"URI",
-	"uri":"http://canhls.cbs.com/CBS_Production_MaxPreps_VMS/2018/01/26/1146247235697/MiamiTop10_1313822_phone.m3u8",      
-        "type":"VOD"
+	"heading":"Topaz Tests"
       },	   
       {
 	"title":"Topaz URI Test",
@@ -642,7 +648,7 @@
 	"feed":"topaz_uri"
       },
       {
-	"title":"Topaz DAI Test",
+	"title":"Topaz DAI Test - with DAI Auth Token",
         "resourceProvider":"DAI",
 	"uri":"https://topaz-uat.paramount.tech/topaz/api/mgid:arc:episode:shared.betplus.us:0599969a-e91c-11eb-8774-70df2f866ace/mica.json?clientPlatform=roku&ds.stage=staging&advertId=&ssus=ed524808-6f72-5959-951a-1d375b5094af&bundle=&idfv=&deviceType=&TPZdpCheck=false",      
         "type":"VOD",
