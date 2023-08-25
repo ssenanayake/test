@@ -614,7 +614,7 @@
 	"heading":"Movie Tests"
       },	   
       {
-	"title":"URI VoD DASH w/DRM - Movie 1 - Test DRM",
+	"title":"URI VoD DASH w/DRM - Movie 1",
 	"resourceProvider":"URI",
 	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/04/14/2023121475896/1500797_cenc_fmp4_dash/stream.mpd",
 	"type":"VOD",
@@ -626,7 +626,7 @@
 	"drmDevice":"{drmDevice}"       
       },
       {
-	"title":"URI VoD DASH w/DRM - Movie 2 - Test DRM",
+	"title":"URI VoD DASH w/DRM - Movie 2",
 	"resourceProvider":"URI",
 	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/07/16/2052743235896/1533745_cenc_fmp4_dash/stream.mpd",
 	"drmType":"WIDEVINE",
@@ -641,14 +641,14 @@
 	"heading":"Topaz Tests"
       },	   
       {
-	"title":"Topaz URI Test",
+	"title":"Topaz URI",
         "resourceProvider":"URI",
 	"uri":"https://topaz-uat.paramount.tech/topaz/api/mgid:arc:episode:shared.betplus.us:0599969a-e91c-11eb-8774-70df2f866ace/mica.json?clientPlatform=roku&ds.stage=staging&advertId=&ssus=ed524808-6f72-5959-951a-1d375b5094af&bundle=&idfv=&deviceType=&TPZdpCheck=false",      
         "type":"VOD",
 	"feed":"topaz_uri"
       },
       {
-	"title":"Topaz DAI Test - with DAI Auth Token",
+	"title":"Topaz DAI - with DAI Auth Token",
         "resourceProvider":"DAI",
 	"uri":"https://topaz-uat.paramount.tech/topaz/api/mgid:arc:episode:shared.betplus.us:0599969a-e91c-11eb-8774-70df2f866ace/mica.json?clientPlatform=roku&ds.stage=staging&advertId=&ssus=ed524808-6f72-5959-951a-1d375b5094af&bundle=&idfv=&deviceType=&TPZdpCheck=false",      
         "type":"VOD",
