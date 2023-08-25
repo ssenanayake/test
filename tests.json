@@ -611,6 +611,13 @@
         "type":"VOD"    
       },	
       {
+	"title":"IMA - Sports Test",
+        "resourceProvider":"IMA",
+        "uri":"http://canhls.cbs.com/CBS_Production_MaxPreps_VMS/2018/01/26/1146247235697/MiamiTop10_1313822_phone.m3u8",
+        "adUri":"https://7f077.v.fwmrm.net/ad/g/1?asnw=520311&caid=ZSU_QWliQ1KNUaJ7veTItfArxdq4dPuR&csid=vcbs_cbssports_mobile_androidphone_vod&flag=%2Bdtrd%2Bsync%2Bqtcb%2Bvicb%2Bemcr%2Baeti%2Bsltp%2Bfbad%2Bscpv%2Bslcb&metr=1023&nw=520311&prof=520311%3AGoogleDAICSAI_v01&pvrn=%5BTIMESTAMP%5D&resp=vmap1%2Bvast4&ssnw=520311&vprn=%5BTIMESTAMP%5D;&_fw_coppa=0&_fw_h_referer=com.handmark.sportcaster.android&_fw_vcid2=8a4b05f7-800e-4b06-8ae9-f5018946e4f3&description_url=https%3A%2F%2Fwww.cbssports.com&sz=640x480&givn=%5BGOOGLE_INSTREAM_VIDEO_NONCE%5D",
+        "type":"VOD"
+      },	   
+      {
 	"heading":"Movie Tests"
       },	   
       {
