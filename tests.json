@@ -641,14 +641,14 @@
 	"heading":"Topaz Tests"
       },	   
       {
-	"title":"Topaz URI",
+	"title":"Topaz URI - Using Topaz Feed",
         "resourceProvider":"URI",
 	"uri":"https://topaz-uat.paramount.tech/topaz/api/mgid:arc:episode:shared.betplus.us:0599969a-e91c-11eb-8774-70df2f866ace/mica.json?clientPlatform=roku&ds.stage=staging&advertId=&ssus=ed524808-6f72-5959-951a-1d375b5094af&bundle=&idfv=&deviceType=&TPZdpCheck=false",      
         "type":"VOD",
 	"feed":"topaz_uri"
       },
       {
-	"title":"Topaz DAI - with DAI Auth Token",
+	"title":"Topaz DAI - with DAI Auth Token using Topaz Feed",
         "resourceProvider":"DAI",
 	"uri":"https://topaz-uat.paramount.tech/topaz/api/mgid:arc:episode:shared.betplus.us:0599969a-e91c-11eb-8774-70df2f866ace/mica.json?clientPlatform=roku&ds.stage=staging&advertId=&ssus=ed524808-6f72-5959-951a-1d375b5094af&bundle=&idfv=&deviceType=&TPZdpCheck=false",      
         "type":"VOD",
