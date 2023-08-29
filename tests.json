@@ -643,12 +643,19 @@
 	"feed":"topaz_uri"
       },
       {
-	"title":"DAI VoD w/Topaz Feed, DAI Auth Token",
+	"title":"DAI VoD w/Topaz Feed, DAI Auth Token - 1",
         "resourceProvider":"DAI",
 	"uri":"https://topaz-uat.paramount.tech/topaz/api/mgid:arc:episode:shared.betplus.us:0599969a-e91c-11eb-8774-70df2f866ace/mica.json?clientPlatform=roku&ds.stage=staging&advertId=&ssus=ed524808-6f72-5959-951a-1d375b5094af&bundle=&idfv=&deviceType=&TPZdpCheck=false",      
         "type":"VOD",
 	"feed":"topaz_dai"
       },
+      {
+	"title":"DAI VoD w/Topaz Feed, DAI Auth Token - 2",
+        "resourceProvider":"DAI",
+	"uri":"https://topaz-uat.paramount.tech/topaz/api/mgid:arc:movie:android.playplex.mtv.com:71ca3598-39e8-11eb-834d-70df2f866ace/mica.json?clientPlatform=androidfiretv&ds.stage=staging&advertId=db20f99e-77d5-4272-8bc8-fd01c332b5e6&ssus=848e540c-3132-4a96-86c0-1e54ddb1879e&bundle=&idfv=&deviceType=&TPZdpCheck=false&plutov2=true&widevineSupport=L1",      
+        "type":"VOD",
+	"feed":"topaz_dai"
+      },	   
       {
 	"heading":"Miscellaneous Tests"
       },
