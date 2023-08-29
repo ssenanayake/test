@@ -1,0 +1,25 @@
+{
+   "params":{
+      "drmToken":"https://www.paramountplus.com/apps-api/v2.0/iphone/auth/login.json?at=ABA7fgnFH2O1XVmpSKh6f5YiwylZTNpMlafiNbyneb9n8T0B3DOq/3LdTxmeTy2g6/k=",
+      "drmHost":"www.paramountplus.com",
+      "drmEnvironment":"live",
+      "drmEnvironmentTest":"stage",	   
+      "drmDevice":"firetv",
+      "maxBitrate":"20000000",
+      "enableThumbnails":"true",
+      "fetchAdUri":"https://raw.githubusercontent.com/ssenanayake/test/main/pause.xml",
+      "fetchAdDelay":"3000",
+      "trackingConfig":""
+   },
+   "tests":[ 
+      {
+	"heading":"Superbowl Tests"
+      },
+      {
+        "title":"URI Live - SuperBowl HLS",
+        "resourceProvider":"SB",
+        "uri":"https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/f388889369b9401cb8bdad965aed5e32/uhd-hdr/index.m3u8",
+        "type":"LIVE"
+      }
+   ]
+}
