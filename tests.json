@@ -655,7 +655,14 @@
 	"uri":"https://topaz-uat.paramount.tech/topaz/api/mgid:arc:movie:android.playplex.mtv.com:71ca3598-39e8-11eb-834d-70df2f866ace/mica.json?clientPlatform=androidfiretv&ds.stage=staging&advertId=db20f99e-77d5-4272-8bc8-fd01c332b5e6&ssus=848e540c-3132-4a96-86c0-1e54ddb1879e&bundle=&idfv=&deviceType=&TPZdpCheck=false&plutov2=true&widevineSupport=L1",      
         "type":"VOD",
 	"feed":"topaz_dai"
+      },
+      {
+	"heading":"Play List Tests"
       },	   
+      {
+	"title":"IMA Ad & DAI Content",
+	"list":["IMA Ad Only", "DAI VoD w/Topaz Feed, DAI Auth Token - 2"]
+      },	      
       {
 	"heading":"Miscellaneous Tests"
       },
