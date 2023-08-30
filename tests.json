@@ -413,6 +413,21 @@
         "daiApiKey":"",
         "daiCmsId":"",
         "type":"LIVE"
+      },	
+      {
+        "title":"DAI Live - with HLS Key Headers",
+        "resourceProvider":"DAI",
+        "daiId":"5dKkkAbqTruWOc3Vdtndrg",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"LIVE",
+	"drmType":"NONE",      
+        "drmContentId":"UlDz5M8xbMl8rW9mlsdsjSvipKwdMa7X",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"      
       },	   
       {
         "title":"DAI DVR",
