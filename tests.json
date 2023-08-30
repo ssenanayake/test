@@ -399,6 +399,14 @@
         "type":"LIVE"
       },
       {
+        "title":"DAI Live w/Preroll",
+        "resourceProvider":"DAI",
+        "daiId":"e3-dXxPwQV2rzrLIPCrFLA",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"LIVE"
+      },	   
+      {
         "title":"DAI Live w/Frequent Ads",
         "resourceProvider":"DAI",
         "daiId":"gfkxhQFOQAOXHigAVdRi8A",
