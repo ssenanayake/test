@@ -424,7 +424,6 @@
 	"drmType":"NONE",      
         "drmContentId":"UlDz5M8xbMl8rW9mlsdsjSvipKwdMa7X",
         "drmToken":"{drmToken}",
-        "type":"VOD",
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}"      
