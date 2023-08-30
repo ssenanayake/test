@@ -570,6 +570,12 @@
         "type":"LIVE"
       },
       {
+        "title":"URI Live - SuperBowl HLS - Clear CMAF",
+        "resourceProvider":"SB",
+        "uri":"https://c75a7e79204e539d.mediapackage.us-east-1.amazonaws.com/out/v1/f388889369b9401cb8bdad965aed5e32/uhd-hdr/index.m3u8",
+        "type":"LIVE"
+      },	   
+      {
         "title":"URI Live - SuperBowl DASH",
         "resourceProvider":"SB",
         "uri":"https://63050ee307b58b8f.mediapackage.us-east-1.amazonaws.com/out/v1/33ad214ed12e411ba1a416c8a6451a0b/index.mpd",
