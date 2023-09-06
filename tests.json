@@ -721,12 +721,24 @@
 	"drmDevice":"{drmDevice}"
       },
       {
-        "title":"DAI Live - News",
+        "title":"DAI Live - News - Captions Test 1",
         "resourceProvider":"DAI",
         "daiId":"Sid4xiTQTkCT1SLu6rjUSQ",
         "daiApiKey":"",
         "daiCmsId":"",
         "type":"LIVE"
+      },
+      {
+	"title":"URI Live - Captions Test 2",
+	"resourceProvider":"URI",
+	"uri":"https://7cfdaa0a709b.airspace-cdn.cbsivideo.com/out/v1/150e8ae734844c7bbea5c390e75ceb68/manifest.mpd",
+	"drmType":"WIDEVINE",
+	"drmContentId":"y0Rot3bPoyjWCUqwE1vxXHOYHuV32Hwg",
+	"drmToken":"{drmToken}",
+	"type":"LIVE",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
       }	   
    ]
 }
