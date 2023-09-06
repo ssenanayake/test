@@ -719,6 +719,14 @@
 	"drmEnvironment":"{drmEnvironment}",
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}"
+      },
+      {
+        "title":"DAI Live - News",
+        "resourceProvider":"DAI",
+        "daiId":"Sid4xiTQTkCT1SLu6rjUSQ",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"LIVE"
       }	   
    ]
 }
