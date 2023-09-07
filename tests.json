@@ -23,10 +23,11 @@
         "autoPlay":false
       },  
       {
-	"title":"URI VoD",
+	"title":"URI VoD w/Pause Ad",
 	"resourceProvider":"URI",
 	"uri":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-        "type":"VOD"
+        "type":"VOD",
+	"allowFetchAd":true      
       },
       {
 	"title":"URI VoD w/Resume",
@@ -226,12 +227,13 @@
         "type":"VOD"
       },
       {
-        "title":"IMA VoD Pre/Mid/Postrolls w/Resume",
+        "title":"IMA VoD Pre/Mid/Postrolls w/Resume & Pause Ad",
         "resourceProvider":"IMA",
         "uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
         "adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpostpod&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&cmsid=496&vid=short_onecue&correlator={RANDOM}",
         "type":"VOD",
-	"resumePosition":5000
+	"resumePosition":5000,
+	"allowFetchAd":true            
       },
       {
         "title":"IMA Ad Only",
@@ -294,7 +296,7 @@
 	"heading":"DAI Tests"
       },
       {
-	"title":"DAI VoD w/DRM - 1",
+	"title":"DAI VoD w/DRM & Pause Ad",
         "resourceProvider":"DAI",
 	"daiId":"9D5se7TaQpNkFuHlSJL4Gl_VVoZBPZnz",
 	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
@@ -305,10 +307,11 @@
         "type":"VOD",
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
-        "drmDevice":"{drmDevice}"
+        "drmDevice":"{drmDevice}",
+	"allowFetchAd":true            
       },
       {
-	"title":"DAI VoD w/DRM - 2",
+	"title":"DAI VoD w/DRM",
         "resourceProvider":"DAI",
 	"daiId":"kFfjpWZ9totEO8uL2CsFxFxYGTcqLIS_",
 	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
@@ -391,12 +394,13 @@
 	"promo":true      
       },	   
       {
-        "title":"DAI Live",
+        "title":"DAI Live w/Pause Ad",
         "resourceProvider":"DAI",
         "daiId":"9Lq0ERvoSR-z9AwvFS-xYA",
         "daiApiKey":"",
         "daiCmsId":"",
-        "type":"LIVE"
+        "type":"LIVE",
+	"allowFetchAd":true       
       },
       {
         "title":"DAI Live w/Preroll",
