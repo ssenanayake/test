@@ -747,7 +747,7 @@
       {
 	"title":"URI Live - Captions Test 3",
 	"resourceProvider":"URI",
-	"uri":"https://cbsplaylistserver.aws.syncbak.com/spl/cbshls/3.0/master.m3u8?api_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IjVhNDcwMDI0MmNkZDRkNzViYmMxYzExMzE2YWI2MTE0IiwidHlwIjoiSldUIn0.eyJiYXNlQ2hhbm5lbElkIjoyNDQ1LCJtdnBkSWQiOiJBbGxBY2Nlc3MiLCJkaWQiOiI0MGM2NTQ1ODUxNzA4NDc3IiwiZHRwIjoyLCJleHAiOjE2OTQyMTUwNjYsImlzcyI6IkNCUy5jb20iLCJhdWQiOiJwbGF5bGlzdHNlcnZlci5hd3Muc3luY2Jhay5jb20iLCJtZDUiOiJkNjc1OGJmNDIyYmQwMjdkZjgxOWYyNTk3MDg1MDcyNyIsImlwIjoiNjcuMTc0LjE0OS40NSIsImRjIjp7IjYwRlBTIjp0cnVlfSwiZXVhIjpmYWxzZSwiZWlkIjpmYWxzZSwiaWF0IjoxNjk0MjE0OTc2fQ.bTTePOmDM3zwP3pDIynsVMB8NZoD_4m3NYHh5MSaWr8",
+	"uri":"https://cbsplaylistserver.aws.syncbak.com/spl/cbshls/3.0/master.m3u8?api_token=${TOKEN}",
 	"type":"LIVE"
       }   
    ]
