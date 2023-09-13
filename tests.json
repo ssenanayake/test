@@ -583,7 +583,7 @@
 	"heading":"Superbowl Tests"
       },
       {
-        "title":"URI Live - SuperBowl HLSi with Ad ID3",
+        "title":"URI Live - SuperBowl HLS with Ad ID3",
         "resourceProvider":"SB",
         "uri":"https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/f388889369b9401cb8bdad965aed5e32/uhd-hdr/index.m3u8",
         "type":"LIVE"
@@ -601,7 +601,7 @@
         "type":"LIVE"
       },	   
       {
-        "title":"URI Live - SuperBowl HLS - AES128 - SDR",
+        "title":"URI Live - SuperBowl HLS - AES128 - SDR (Not supported)",
         "resourceProvider":"SB",
         "uri":"https://sblvi754e20a.airspace-cdn.cbsivideo.com/out/v1/ff8fa0426a384adb91cf542f465c030b/index.m3u8",
         "type":"LIVE"
