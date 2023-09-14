@@ -199,11 +199,9 @@
 	"feed":"syncbak"      
       },  	   
       {
-	"enabled":false,      
-	"title":"URI DVR HLS Seek Thumbnails",
+	"title":"URI DVR HLS",
 	"resourceProvider":"URI",
-	"uri":"https://propec941a5h.airspace-cdn.cbsivideo.com/out/v1/c9cbcac3533d454e8570acb532c28d13/manifest.m3u8",
-	"thumbnails":[{"size":"", "uri":"https://propec941a5h.airspace-cdn.cbsivideo.com/out/v1/c9cbcac3533d454e8570acb532c28d13"}],      
+	"uri":"https://propeb08b495.airspace-cdn.cbsivideo.com/out/v1/7db4a9d67cef4a2887e32c317d26a850/manifest.m3u8",
 	"type":"DVR"
       },	   
       {
