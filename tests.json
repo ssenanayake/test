@@ -436,7 +436,7 @@
         "type":"LIVE"
       },	
       {
-        "title":"DAI Live - with HLS Key Headers",
+        "title":"DAI Live - w/HLS Key Headers",
         "resourceProvider":"DAI",
         "daiId":"5dKkkAbqTruWOc3Vdtndrg",
         "daiApiKey":"",
@@ -458,7 +458,7 @@
         "type":"DVR"
       },	
       {
-        "title":"DAI DVR with Irdeto Keys",
+        "title":"DAI DVR w/HLS Key Headers",
         "resourceProvider":"DAI",
         "daiId":"FK81dfnhRS2cXTA2iczTAA",
         "daiApiKey":"",
