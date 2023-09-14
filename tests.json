@@ -199,6 +199,7 @@
 	"feed":"syncbak"      
       },  	   
       {
+	"enabled":false,      
 	"title":"URI DVR HLS",
 	"resourceProvider":"URI",
 	"uri":"https://propeb08b495.airspace-cdn.cbsivideo.com/out/v1/7db4a9d67cef4a2887e32c317d26a850/manifest.m3u8",
@@ -459,7 +460,7 @@
       {
         "title":"DAI DVR",
         "resourceProvider":"DAI",
-        "daiId":"AReLjT9_N5A1YOHvqsfod8FJyFq2u_Kk",
+        "daiId":"FK81dfnhRS2cXTA2iczTAA",
         "daiApiKey":"",
         "daiCmsId":"",
         "type":"DVR"
