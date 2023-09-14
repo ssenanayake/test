@@ -458,11 +458,16 @@
         "type":"DVR"
       },	
       {
-        "title":"DAI DVR",
+        "title":"DAI DVR with Irdeto Keys",
         "resourceProvider":"DAI",
         "daiId":"FK81dfnhRS2cXTA2iczTAA",
         "daiApiKey":"",
         "daiCmsId":"",
+	"drmContentId":"W3ONcRWtWXQbE8XLlC6ivcg_W_fvG9Ep",
+        "drmToken":"{drmToken}",
+        "drmEnvironment":"{drmEnvironmentTest}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"      
         "type":"DVR"
       },	   
       {
