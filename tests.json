@@ -199,6 +199,7 @@
 	"feed":"syncbak"      
       },  	   
       {
+	"enabled":false,      
 	"title":"URI DVR HLS Seek Thumbnails",
 	"resourceProvider":"URI",
 	"uri":"https://propec941a5h.airspace-cdn.cbsivideo.com/out/v1/c9cbcac3533d454e8570acb532c28d13/manifest.m3u8",
@@ -206,12 +207,14 @@
 	"type":"DVR"
       },	   
       {
+	"enabled":false,      
 	"title":"URI DVR DASH Seek Thumbnails",
 	"resourceProvider":"URI",
 	"uri":"https://propec941a5h.airspace-cdn.cbsivideo.com/out/v1/d9486a190ad9460aa6b0e38669a3b973/manifest.mpd",
 	"type":"DVR"
       },
       {
+	"enabled":false,      
 	"title":"URI DVR DASH w/DRM & Seek Thumbnails",
 	"resourceProvider":"URI",
 	"uri":"https://propec941a5h.airspace-cdn.cbsivideo.com/out/v1/4530ea5870074ee1a7946a2881711334/manifest.mpd",
@@ -448,9 +451,17 @@
         "drmDevice":"{drmDevice}"      
       },	   
       {
-        "title":"DAI DVR",
+        "title":"DAI DVR - Frequent Ads",
         "resourceProvider":"DAI",
         "daiId":"gfkxhQFOQAOXHigAVdRi8A",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"DVR"
+      },	
+      {
+        "title":"DAI DVR",
+        "resourceProvider":"DAI",
+        "daiId":"AReLjT9_N5A1YOHvqsfod8FJyFq2u_Kk",
         "daiApiKey":"",
         "daiCmsId":"",
         "type":"DVR"
