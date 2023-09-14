@@ -199,21 +199,21 @@
 	"feed":"syncbak"      
       },  	   
       {
-	"enabled":false,      
+	"enable":false,      
 	"title":"URI DVR HLS",
 	"resourceProvider":"URI",
 	"uri":"https://propeb08b495.airspace-cdn.cbsivideo.com/out/v1/7db4a9d67cef4a2887e32c317d26a850/manifest.m3u8",
 	"type":"DVR"
       },	   
       {
-	"enabled":false,      
+	"enable":false,      
 	"title":"URI DVR DASH Seek Thumbnails",
 	"resourceProvider":"URI",
 	"uri":"https://propec941a5h.airspace-cdn.cbsivideo.com/out/v1/d9486a190ad9460aa6b0e38669a3b973/manifest.mpd",
 	"type":"DVR"
       },
       {
-	"enabled":false,      
+	"enable":false,      
 	"title":"URI DVR DASH w/DRM & Seek Thumbnails",
 	"resourceProvider":"URI",
 	"uri":"https://propec941a5h.airspace-cdn.cbsivideo.com/out/v1/4530ea5870074ee1a7946a2881711334/manifest.mpd",
