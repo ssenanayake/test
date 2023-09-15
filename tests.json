@@ -724,6 +724,13 @@
 	"feed":"topaz_dai"
       },
       {
+	"title":"URI VoD w/Topaz Feed & Seek Thumbnails",
+        "resourceProvider":"DAI",
+	"uri":"https://topaz-uat.paramount.tech/topaz/api/mgid:arc:episode:android.playplex.comedycentral.com:b81f4880-254a-4dc6-b8ff-5a4781496dad/mica.json?clientPlatform=android&ds.stage=staging&advertId=&ssus=d405f3f4-b0ee-488a-b862-f9ff361fc1b0&bundle=&idfv=&deviceType=&TPZdpCheck=false&plutov2=true&widevineSupport=L1",      
+        "type":"VOD",
+	"feed":"topaz_dai"
+      },	   	   
+      {
 	"heading":"Play List Tests"
       },	   
       {
@@ -766,6 +773,6 @@
 	"drmEnvironment":"{drmEnvironment}",
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}"
-      } 
+      }
    ]
 }
