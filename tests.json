@@ -780,6 +780,14 @@
 	"drmEnvironment":"{drmEnvironment}",
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}"
-      }
+      },
+      {
+        "title":"DAI Live - Golazo",
+        "resourceProvider":"DAI",
+        "daiId":"7f3Wv6f7QEKfQna22jHqLQ",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"LIVE"
+      },	   
    ]
 }
