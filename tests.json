@@ -793,6 +793,20 @@
         "resourceProvider":"URI",
 	"uri":"https://dai.google.com/linear/hls/event/zCNuwqBgQNKbiwNR3dhqiA/master.m3u8",      
         "type":"LIVE"
+      },
+      {
+	"title":"DAI VoD w/DRM - Track Count Test",
+        "resourceProvider":"DAI",
+	"daiId":"rn1zyirVOPjCl8rxopWrhUmJEIs3GcKW",
+	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+	"daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"rn1zyirVOPjCl8rxopWrhUmJEIs3GcKW",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
       },	   
    ]
 }
