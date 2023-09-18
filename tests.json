@@ -789,11 +789,9 @@
 	"drmDevice":"{drmDevice}"
       },
       {
-        "title":"DAI Live - Golazo",
-        "resourceProvider":"DAI",
-        "daiId":"7f3Wv6f7QEKfQna22jHqLQ",
-        "daiApiKey":"",
-        "daiCmsId":"",
+        "title":"URI Live - Golazo",
+        "resourceProvider":"URI",
+	"uri":"https://dai.google.com/linear/hls/event/zCNuwqBgQNKbiwNR3dhqiA/master.m3u8",      
         "type":"LIVE"
       },	   
    ]
