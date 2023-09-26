@@ -807,6 +807,13 @@
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}"
-      },	   
+      },	
+      {
+        "title":"URI VoD - Crash Test",
+        "resourceProvider":"IMA",
+	"adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpostpod&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&cmsid=496&vid=short_onecue&correlator={RANDOM}",      
+	"uri":"https://sports.play.cbsi.video/h/1.KdZYWEfyFHBuPKIasOnZpwzTSK7nSLgXUUNRLBPf2Yf1ab6NlN9pAVa3Pve6NNRRmZlrXSyYGWdcIuB0Kb5WOJNuOCswvPyrRh0ackV1u0vYz9llF3Q6NtSdBlG1L0t6JLvdAx2SJn8nHnX9MAfQcEt1jeUxYIGuYxGuukwNK6QoJHrFgIpS3tUd5fa2r7INpa5ukzyoanlBRn3RkXXpuayVh5kXBosjCYfLz16xHJOcnEUnbc4Sn4RI1PJpZLwCVyqxEmyUi2RYe2Hq0tInlekZV/master.m3u8",      
+        "type":"VOD"
+      },	    
    ]
 }
