@@ -632,10 +632,10 @@
       {
         "title":"URI Live - SuperBowl DASH w/DRM - HDR",
         "resourceProvider":"SB",
-        "uri":"https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/8ed5905e3c594aea8054c72e57af58ff/index.mpd",
+        "uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/04/27/2199270467759/2344697_cenc_fmp4_hdr_dash/stream.mpd",
         "type":"LIVE",
 	"drmType":"WIDEVINE",
-	"drmContentId":"propeller-sb58-test",
+	"drmContentId":"7juDj4xQPZG1xtvD0pDPRQWgv1Vj6xox",
 	"drmToken":"{drmToken}",
 	"drmEnvironment":"{drmEnvironmentTest}",
 	"drmHost":"{drmHost}",
