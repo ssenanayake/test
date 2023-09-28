@@ -166,7 +166,20 @@
 	"resourceProvider":"URI",
 	"uri":"https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s-fmp4/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8",
 	"type":"VOD"
-      },		   
+      },
+      {
+        "title":"URI VoD w/Custom DRM Session Manager",
+	"resourceProvider":"URI",
+	"uri":"https://vod62c350g.airspace-f.cbsivideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd",
+	"drmType":"WIDEVINE",
+        "drmContentId":"TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D",
+        "drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}",
+	"customDrm":true      
+      },	   
       {
         "title":"URI Live - TXXX ID3 Test",
         "resourceProvider":"URI",
