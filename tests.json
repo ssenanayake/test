@@ -718,6 +718,18 @@
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}",
 	"resumePosition":11000      
+      },	
+      {
+        "title":"URI VoD DASH w/DRM - HDR - Movie 4",
+        "resourceProvider":"URI",
+        "uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/04/27/2199270467759/2344697_cenc_fmp4_hdr_dash/stream.mpd",
+        "type":"VOD",
+	"drmType":"WIDEVINE",
+	"drmContentId":"7juDj4xQPZG1xtvD0pDPRQWgv1Vj6xox",
+	"drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironmentTest}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
       },	   
       {
 	"heading":"Topaz Tests"
