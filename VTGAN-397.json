@@ -1,0 +1,43 @@
+{
+   "params":{
+      "drmToken":"https://www.paramountplus.com/apps-api/v2.0/iphone/auth/login.json?at=ABA7fgnFH2O1XVmpSKh6f5YiwylZTNpMlafiNbyneb9n8T0B3DOq/3LdTxmeTy2g6/k=",
+      "drmHost":"www.paramountplus.com",
+      "drmEnvironment":"live",
+      "drmEnvironmentTest":"stage",	   
+      "drmDevice":"firetv",
+      "maxBitrate":"20000000",
+      "enableThumbnails":"true",
+      "fetchAdUri":"https://raw.githubusercontent.com/ssenanayake/test/main/pause.xml",
+      "fetchAdDelay":"3000",
+      "trackingConfig":""
+   },
+   "tests":[  
+      {
+	"heading":"Movie Tests"
+      },	   
+      {
+	"title":"URI VoD DASH w/DRM - Movie 1",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/04/14/2023121475896/1500797_cenc_fmp4_dash/stream.mpd",
+	"type":"VOD",
+	"drmType":"WIDEVINE",
+        "drmContentId":"NXFYTekfckCoKBmEoDZZOtMsiCIG3D0_",
+        "drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironmentTest}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"       
+      },
+      {
+	"title":"URI VoD DASH w/DRM - Movie 2",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/07/16/2052743235896/1533745_cenc_fmp4_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+	"drmContentId":"DVNyURCvCmj0jbRbCzl_WWm8Ib3t4L8o",
+	"drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironmentTest}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+      } 
+   ]
+}
