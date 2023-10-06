@@ -841,6 +841,18 @@
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}"
-      } 
+      },
+      {
+	"title":"URI VoD - Track Test",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/05/19/2208572995707/2375176_cenc_precon_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+	"drmContentId":"zzvVWZ_qkLDj2LXltHmuZlUsX8BfdZ7U",
+	"drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+      },	   
    ]
 }
