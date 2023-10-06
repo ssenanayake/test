@@ -843,7 +843,7 @@
         "drmDevice":"{drmDevice}"
       },
       {
-	"title":"URI VoD - Track Test",
+	"title":"URI VoD - Track Test 1",
 	"resourceProvider":"URI",
 	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/05/19/2208572995707/2375176_cenc_precon_dash/stream.mpd",
 	"drmType":"WIDEVINE",
@@ -854,5 +854,17 @@
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}"
       },	   
+      {
+	"title":"URI VoD - Track Test 2",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2021/04/29/1891421251546/2319741_cenc_fmp4_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+	"drmContentId":"_pv_OqjNGiWc67M0M3pCYUnM2G5c_DhP",
+	"drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+      }	   	   
    ]
 }
