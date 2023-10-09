@@ -5,8 +5,6 @@
     "params": {
       "trackerCommands": {
         "sendUndefined": false,
-        "runInMainThread": false,
-        "liveResetInterval": "0",
         "pingInterval": 10,
         "liveSegmentId3Owner": "com.cbsi.live.sg"
       },
@@ -21,54 +19,50 @@
         "analytics.reportSuite": "{context.dev} ? cbsicbsiall-dev : cbsicbsiall",
         "analytics.enableSSL": "{context.dev} ? false : true",
         "visitor.marketingCloudOrgId": "10D31225525FF5790A490D4D@AdobeOrg",
-        "visitor.marketingCloudUserId": "{config.marketingCloudUserId}"
+        "visitor.marketingCloudUserId": "{context.marketingCloudUserId}"
       },
       "mediaInfo": {
         "media.playerName": "{data.playerName}",
         "media.contentType": "{data.isLive} ? Live : VOD",
-        "media.length": "{data.isLive} ? 86400 : {data.mediaDuration}",
-        "media.id": "{data.mediaId}",
+        "media.length": "{data.isLive} ? 86400 : {context.mediaDuration}",
+        "media.id": "{context.mediaId}",
         "media.name": "{data.mediaTitle}",
-        "media.channel": "{data.channel}",
-        "media.network": "{data.channel}",
+        "media.channel": "{context.channel}",
+        "media.network": "{context.channel}",
         "media.sdkVersion": "{data.playerVersion}",
-        "media.show": "{data.seriesTitle}",
-        "media.genre": "{data.category}",
-        "media.season": "{data.isLive} ? {context.undefined} : {data.seasonNumber}",
-        "media.episode": "{data.episodeNumber}",
-        "media.showType": "{data.isEpisode} ? 0 : 2",
-        "media.resume": "{data.hasSessionResumed}"
+        "media.show": "{context.seriesTitle}",
+        "media.genre": "{context.category}",
+        "media.season": "{data.isLive} ? {context.undefined} : {context.seasonNumber}",
+        "media.episode": "{context.episodeNumber}",
+        "media.showType": "{context.isEpisode} ? 0 : 2",
+        "media.resume": "{context.hasSessionResumed}",
+        "media.states.name": "{data.isHdr} ? streamFormatHdr : streamFormatSdr",
+        "media.qoe.bitrate": "{data.bitrate}"
       },
       "adBreakInfo": {
         "media.ad.podFriendlyName": "{data.adPodType}",
-        "media.ad.podIndex": "{data.adPodPosition}",
+        "media.ad.podIndex": "{data.adPodIndex}",
         "media.ad.podSecond": "{data.adPodStartPosition}"
       },
       "adInfo": {
-        "media.ad.name": "{data.adTitle}",
         "media.ad.id": "{data.mediaTitle} - {data.adTitle}",
         "media.ad.length": "{data.adDuration}",
         "media.ad.creativeId": "{data.adId}",
-        "media.ad.creativeURL": "{data.adUrl}",
+        "media.ad.creativeURL": "{data.adResourceUrl}",
         "media.ad.playerName": "{data.playerName}",
-        "media.ad.podPosition": "{data.adPositionInPod}"
-      },
-      "chapterInfo": {
-        "media.chapter.index": "{data.chapterIndex}",
-        "media.chapter.offset": "{data.chapterOffset}",
-        "media.chapter.length": "{data.chapterLength}",
-        "media.chapter.friendlyName": "Chapter {data.chapterIndex} - {data.mediaTitle}"
+        "media.ad.podPosition": "{data.adIndex}"
       },
       "customMetadata": {
-        "mediaResume": "{data.hasSessionResumed}",
-        "eVar23": "{data.eVar23}",
-        "eVar24": "{data.eVar24}",
+        "mediaResume": "{context.hasSessionResumed}",
+        "eVar23": "{context.eVar23}",
+        "eVar24": "{context.eVar24}",
         "a.DeviceName": "{context.deviceName}",
         "a.OSVersion": "{context.osVersion}",
         "userStatus": "{context.userStatus}",
         "userType": "{context.userType}",
-        "test": "{data.eVar23} | {data.eVar24}",
-        "userAgent": "{context.userAgent}"
+        "test": "{context.eVar23} | {context.eVar24}",
+        "userAgent": "{context.userAgent}",
+        "streamDeviceSupportedFormat": "{data.deviceCapabilities}"
       },
       "qoeData": {
         "media.qoe.timeToStart": "{data.timeToStart}"
