@@ -35,9 +35,7 @@
         "media.season": "{data.isLive} ? {context.undefined} : {context.seasonNumber}",
         "media.episode": "{context.episodeNumber}",
         "media.showType": "{context.isEpisode} ? 0 : 2",
-        "media.resume": "{context.hasSessionResumed}",
-        "media.states.name": "{data.isHdr} ? streamFormatHdr : streamFormatSdr",
-        "media.qoe.bitrate": "{data.bitrate}"
+        "media.resume": "{context.hasSessionResumed}"
       },
       "adBreakInfo": {
         "media.ad.podFriendlyName": "{data.adPodType}",
