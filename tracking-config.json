@@ -74,14 +74,14 @@
         "media.qoe.timeToStart": "{data.timeToStart}"
       },
       "dataType": {
-        "analytics.enableSSL": "boolean",
-        "media.length": "int",
-        "media.resume": "boolean",
-        "media.ad.podIndex": "int",
-        "media.ad.podSecond": "int",
-        "media.ad.length": "int",
-        "media.ad.podPosition": "int",
-        "media.qoe.timeToStart": "int"
+        "accountInfo.analytics.enableSSL": "boolean",
+        "mediaInfo.media.length": "int",
+        "mediaInfo.media.resume": "boolean",
+        "adBreakInfo.media.ad.podIndex": "int",
+        "adBreakInfo.media.ad.podSecond": "int",
+        "adInfo.media.ad.length": "int",
+        "adInfo.media.ad.podPosition": "int",
+        "qoeData.media.qoe.timeToStart": "int"
       }
     }
   },
