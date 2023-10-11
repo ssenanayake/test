@@ -865,6 +865,18 @@
 	"drmEnvironment":"{drmEnvironment}",
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}"
-      }	   	   
+      },
+      {
+	"title":"URI VoD - Missing Thumbnails Check",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2014/08/04/315040323798/733724_cenc_precon_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+	"drmContentId":"v6MQx0t3sYwv_dPzd5a1_ZhMqC9LSyLr",
+	"drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+      }	   		   
    ]
 }
