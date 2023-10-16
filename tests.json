@@ -84,6 +84,19 @@
 	"drmReset":10000      
       },	   
       {
+        "title":"URI VoD w/URI Reset after 10s & DASH Thumbnails ",
+	"resourceProvider":"URI",
+	"uri":"https://vod62c350g.airspace-f.cbsivideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd",
+	"drmType":"WIDEVINE",
+        "drmContentId":"TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D",
+        "drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}",
+	"drmReset":10000      
+      },	   	   
+      {
 	"title":"URI VoD 360",
         "resourceProvider":"URI",
         "uri":"https://cdn.jwplayer.com/videos/AgqYcfAT-8yQ1cYbs.mp4",
