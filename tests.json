@@ -890,6 +890,18 @@
 	"drmEnvironment":"{drmEnvironment}",
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}"
-      }	   		   
+      },
+      {
+	"title":"URI VoD - Max Quality Check",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/04/14/2193920579720/2215071_cenc_fmp4_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+	"drmContentId":"VYaqo0i3pHMuC4n2U30CyIQ6CuVjp716",
+	"drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+      }	   	    
    ]
 }
