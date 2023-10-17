@@ -902,6 +902,12 @@
 	"drmEnvironment":"{drmEnvironment}",
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}"
-      }	   	    
+      },
+      {
+	"title":"URI DVR - Playback Check",
+	"resourceProvider":"URI",
+	"uri":"https://propea4bd188.airspace-cdn.cbsivideo.com/out/v1/698df154dd334613b39b5262c2451faf/start/1697279100/manifest.mpd",
+	"type":"DVR"
+      }	   	   
    ]
 }
