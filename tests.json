@@ -908,6 +908,20 @@
 	"resourceProvider":"URI",
 	"uri":"https://propea4bd188.airspace-cdn.cbsivideo.com/out/v1/698df154dd334613b39b5262c2451faf/start/1697279100/manifest.mpd",
 	"type":"DVR"
-      }	   	   
+      },
+      {
+	"title":"DAI VoD w/DRM - Decorder crash Check",
+        "resourceProvider":"DAI",
+	"daiId":"rWlBiiWtlV7Htmqq8nX3oGxySpWkV34E",
+	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+	"daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"rWlBiiWtlV7Htmqq8nX3oGxySpWkV34E",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },		   
    ]
 }
