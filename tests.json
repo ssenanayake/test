@@ -777,7 +777,12 @@
 	"title":"IMA Ad & DAI Content",
 	"resourceProvider":"LIST",      
 	"list":["IMA Ad Only", "DAI VoD w/Topaz Feed, DAI Auth Token - 1"]
-      },	      
+      },
+      {
+	"title":"IMA Ad & DAI Content with Error",
+	"resourceProvider":"LIST",      
+	"list":["IMA Ad Only", "DAI VoD w/Topaz Feed, DAI Auth Token - 2"]
+      },	   
       {
 	"heading":"Miscellaneous Tests"
       },
