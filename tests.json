@@ -935,6 +935,18 @@
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}"
-      },		   
+      },
+      {
+	"title":"URI VoD - Caption Tracks Check",
+	"resourceProvider":"URI",
+	"uri":"https://bakery-pplus.cbs.com/l(fr,de,it,no,fi,da,sv,es-MX,pt-BR)/intl_vms/2023/09/28/2267947587535/2374878_cenc_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+	"drmContentId":"VTSt19RhFbSZ4y0d8c26cS5avVYzLO6B",
+	"drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+      }	   
    ]
 }
