@@ -319,7 +319,7 @@
         "appName": "{context.appName}",
         "appVersion": "{context.appVersion}",
         "sfCode": "dcr",
-        "nolDevDebug": "DEBUG"
+        "nol_devDebug": "DEBUG"
       },
       "dtvrInfo": {
         "dataSrc": "id3",
