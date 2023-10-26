@@ -315,10 +315,10 @@
         "endPointUrl": "{context.dev} ? sandbox-cloudapi.imrworldwide.com/nmapi/v2/ : sandbox-cloudapi.imrworldwide.com/nmapi/v2/"
       },
       "sessionInfo": {
-        "appId": "{context.appId}",
-        "appName": "{context.appName}",
-        "appVersion": "{context.appVersion}",
-        "sfCode": "dcr",
+        "appid": "{context.appId}",
+        "appname": "{context.appName}",
+        "appversion": "{context.appVersion}",
+        "sfcode": "dcr",
         "nol_devDebug": "DEBUG"
       },
       "dtvrInfo": {
