@@ -666,10 +666,10 @@
       {
         "title":"URI Live - SuperBowl DASH w/DRM - HDR",
         "resourceProvider":"SB",
-        "uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/04/27/2199270467759/2344697_cenc_fmp4_hdr_dash/stream.mpd",
+        "uri":"https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/8ed5905e3c594aea8054c72e57af58ff/index.mpd",
         "type":"LIVE",
 	"drmType":"WIDEVINE",
-	"drmContentId":"7juDj4xQPZG1xtvD0pDPRQWgv1Vj6xox",
+	"drmContentId":"fa4c06e8-7cde-4794-bbe8-35b1e41b927c",
 	"drmToken":"{drmToken}",
 	"drmEnvironment":"{drmEnvironmentTest}",
 	"drmHost":"{drmHost}",
