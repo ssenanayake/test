@@ -223,23 +223,8 @@
 	"uri":"https://www.paramountplus.com/apps-api/v3.0/firetv/dma.json?ipaddress=73.220.60.115&dtp=8&mvpdId=AllAccess&is60FPS=true&did=652e321238a51e6f&locale=en-us&at=ABCmrL%2BqTCQ8UujYajWJJnvgcsXFGqrgS530PSANzLK%2Fi3SLgMcReMBy1nkxGwo9RA0%3D",
 	"type":"LIVE",
 	"feed":"syncbak"      
-      },  		   
+      },  		   	   
       {
-	"enable":false,      
-	"title":"URI DVR HLS",
-	"resourceProvider":"URI",
-	"uri":"https://propeb08b495.airspace-cdn.cbsivideo.com/out/v1/7db4a9d67cef4a2887e32c317d26a850/manifest.m3u8",
-	"type":"DVR"
-      },	   
-      {
-	"enable":false,      
-	"title":"URI DVR DASH Seek Thumbnails",
-	"resourceProvider":"URI",
-	"uri":"https://propec941a5h.airspace-cdn.cbsivideo.com/out/v1/d9486a190ad9460aa6b0e38669a3b973/manifest.mpd",
-	"type":"DVR"
-      },
-      {
-	"enable":false,      
 	"title":"URI DVR DASH w/DRM & Seek Thumbnails",
 	"resourceProvider":"URI",
 	"uri":"https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/8ed5905e3c594aea8054c72e57af58ff/index.mpd",
