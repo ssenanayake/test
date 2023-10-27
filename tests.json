@@ -567,7 +567,7 @@
 	"type":"LIVE"
       },	
       {
-        "title":"URI VoD w/DRM & DASH Thumbnails - DRM Update after 20s",
+        "title":"URI VoD w/DRM & DASH Thumbnails - DRM Update after 300s",
 	"resourceProvider":"URI",
 	"uri":"https://vod62c350g.airspace-f.cbsivideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd",
 	"drmType":"WIDEVINE",
@@ -577,7 +577,7 @@
 	"drmEnvironment":"{drmEnvironment}",
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}",
-	"resetInterval":20      	      
+	"resetInterval":300      	      
       },	   
       {
 	"title":"URI Live - Syncbak Update after 20s",
