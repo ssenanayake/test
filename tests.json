@@ -567,6 +567,19 @@
 	"type":"LIVE"
       },	
       {
+        "title":"URI VoD w/DRM & DASH Thumbnails - DRM Update after 20s",
+	"resourceProvider":"URI",
+	"uri":"https://vod62c350g.airspace-f.cbsivideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd",
+	"drmType":"WIDEVINE",
+        "drmContentId":"TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D",
+        "drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}",
+	"resetInterval":20      	      
+      },	   
+      {
 	"title":"URI Live - Syncbak Update after 20s",
 	"resourceProvider":"URI",
 	"uri":"https://www.paramountplus.com/apps-api/v3.0/firetv/dma.json?ipaddress=73.220.60.115&dtp=8&mvpdId=AllAccess&is60FPS=true&did=652e321238a51e6f&locale=en-us&at=ABCmrL%2BqTCQ8UujYajWJJnvgcsXFGqrgS530PSANzLK%2Fi3SLgMcReMBy1nkxGwo9RA0%3D",
