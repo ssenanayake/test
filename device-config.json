@@ -2,61 +2,52 @@
   {
         "description" : "For All Devices",
         "condition" : {"model" : ".*"},
-        "configuration" : {"httpVersions" : "1.1,2.0",
-			   "maxClientSideAdBitrate" : 1000000,
-			   "enableHdrFilter" : true,
-			   "seekSync" : "exact",
-			   "releasePlayerOnBackground" : true
-                          }
-  },
-  {
-        "condition" : {"manufacturer" : "(?i)Amazon"},
-        "configuration" : {"dashAdSnapBackThreshold" : 4,
-                           "dashAdSnapForwardThreshold" : 1,
-			   "disableAdaptiveVR360" : true
+        "configuration" : {"httpTimeout" : 30000,
                           }
   },
   {
         "condition" : {"model" : "(?i)AFTB"},
 	"configuration" : {"disablePremiumAudio" : true,
 			   "disablePremiumAudioForAds" : true,
-			   "maxFrameRate" : 60
+			   "maxFrameRate" : 30
                           }
   },
   {
 	"condition" : {"model" : "(?i)AFTMM"},
         "configuration" : {"disablePremiumAudioForAds" : true,
 			   "disablePremiumAudio" : false,
-			   "disableAdaptiveVR360" : false,
 			   "maxBitRate" : 15000000,
-			   "minBuffer" : 10,
-			   "maxBuffer" : 20
+			   "minLiveBuffer" : 10,
+			   "maxLiveBuffer" : 20,
+			   "minNonLiveBuffer" : 10,
+			   "maxNonLiveBuffer" : 20
                           }
   },
   {
         "condition" : {"model" : "(?i)AFTA"},
         "configuration" : {"disablePremiumAudioForAds" : true,
 			   "disablePremiumAudio" : false,
-                           "disableAdaptiveVR360" : false,
                            "maxBitRate" : 15000000,
-                           "minBuffer" : 10,
-                           "maxBuffer" : 20
+			   "minLiveBuffer" : 10,
+			   "maxLiveBuffer" : 20,
+			   "minNonLiveBuffer" : 10,
+			   "maxNonLiveBuffer" : 20
                           }
   },
   {
         "condition" : {"model" : "(?i)AFTR"},
         "configuration" : {"disablePremiumAudioForAds" : true,
 			   "disablePremiumAudio" : false,
-                           "disableAdaptiveVR360" : false,
                            "maxBitRate" : 15000000,
-                           "minBuffer" : 10,
-                           "maxBuffer" : 20
+			   "minLiveBuffer" : 10,
+			   "maxLiveBuffer" : 20,
+			   "minNonLiveBuffer" : 10,
+			   "maxNonLiveBuffer" : 20
                           }
   },
   {
         "condition" : {"model" : "(?i)AFTM"},
         "configuration" : {"maxBitRate" : 3000000,
-			   "disableAdaptiveVR360" : false,
 			   "disablePremiumAudio" : false,
 			   "disablePremiumAudioForAds" : false
                           }
@@ -64,53 +55,46 @@
   {
         "condition" : {"model" : "(?i)AFTT"},
         "configuration" : {"maxBitRate" : 3000000,
-                           "disableAdaptiveVR360" : false,
 			   "disablePremiumAudio" : true,
-			   "disablePremiumAudioForAds" : true,
-			   "enableSoftwareDecoder" : true
+			   "disablePremiumAudioForAds" : true
                           }
   },
   {
         "condition" : {"model" : "(?i)AFTSS"},
-        "configuration" : {"disableAdaptiveVR360" : true,
-                           "maxBitRate" : 8000000,
-                           "minBuffer" : 10,
-                           "maxBuffer" : 20,
-                           "enableSoftwareDecoder" : false,
+        "configuration" : {"maxBitRate" : 8000000,
+			   "minLiveBuffer" : 10,
+			   "maxLiveBuffer" : 20,
+			   "minNonLiveBuffer" : 10,
+			   "maxNonLiveBuffer" : 20
                            "disablePremiumAudio" : false,
-			   "disablePremiumAudioForAds" : true,
-			   "enableSmallSeekThumbnail" : true
+			   "disablePremiumAudioForAds" : true
                           }
   },
   {
         "condition" : {"model" : "(?i)AFTSSS"},
-        "configuration" : {"adaptiveVR360" : true,
-                           "maxBitRate" : 8000000,
-                           "minBuffer" : 10,
-                           "maxBuffer" : 20,
-			   "enableSoftwareDecoder" : false,
-                           "disablePremiumAudio" : false,
-                           "disablePremiumAudioForAds" : true,
-			   "enableSmallSeekThumbnail" : true
+        "configuration" : {"maxBitRate" : 8000000,
+			   "minLiveBuffer" : 10,
+			   "maxLiveBuffer" : 20,
+			   "minNonLiveBuffer" : 10,
+			   "maxNonLiveBuffer" : 20
+			   "disablePremiumAudio" : false,
+                           "disablePremiumAudioForAds" : true
                           }
   },
   {
         "condition" : {"model" : "(?i).*X86"},
-        "configuration" : {"maxBitRate" : 10000000,
-                           "maxClientSideAdBitrate" : 1000000
+        "configuration" : {"maxBitRate" : 10000000
                           }
   },
   {
         "condition" : {"model" : "(?i)BRAVIA.*"},
-        "configuration" : {"disableAdaptiveVR360" : false,
-			   "disablePremiumAudioForAds" : false,
+        "configuration" : {"disablePremiumAudioForAds" : false,
 			   "disablePremiumAudio" : false
                           }
   },
   {
         "condition" : {"model" : "(?i)SHIELD.*"},
-        "configuration" : {"disableAdaptiveVR360" : false,
-			   "disablePremiumAudioForAds" : true,
+        "configuration" : {"disablePremiumAudioForAds" : true,
 			   "disablePremiumAudio" : false
                           }
   }
