@@ -2,7 +2,7 @@
   {
         "description" : "For All Devices",
         "condition" : {"model" : ".*"},
-        "configuration" : {"httpTimeout" : 30000,
+        "configuration" : {"httpTimeout" : 30000
                           }
   },
   {
