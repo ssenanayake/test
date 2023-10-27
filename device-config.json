@@ -65,7 +65,7 @@
 			   "minLiveBuffer" : 10,
 			   "maxLiveBuffer" : 20,
 			   "minNonLiveBuffer" : 10,
-			   "maxNonLiveBuffer" : 20
+			   "maxNonLiveBuffer" : 20,
                            "disablePremiumAudio" : false,
 			   "disablePremiumAudioForAds" : true
                           }
@@ -76,7 +76,7 @@
 			   "minLiveBuffer" : 10,
 			   "maxLiveBuffer" : 20,
 			   "minNonLiveBuffer" : 10,
-			   "maxNonLiveBuffer" : 20
+			   "maxNonLiveBuffer" : 20,
 			   "disablePremiumAudio" : false,
                            "disablePremiumAudioForAds" : true
                           }
