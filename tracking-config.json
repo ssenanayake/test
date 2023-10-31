@@ -1,6 +1,6 @@
 {
   "Adobe": {
-    "enabled": true,
+    "enabled": false,
     "category": "tracking",
     "params": {
       "trackerCommands": {
@@ -78,7 +78,7 @@
     }
   },
   "AdobeECID": {
-    "enabled": true,
+    "enabled": false,
     "category": "tracking",
     "params": {
       "serverInfo": {
@@ -88,7 +88,7 @@
     }
   },
   "Comscore": {
-    "enabled": true,
+    "enabled": false,
     "category": "tracking",
     "params": {
       "trackerCommands": {
@@ -123,7 +123,7 @@
     }
   },
   "Conviva": {
-    "enabled": true,
+    "enabled": false,
     "category": "qos",
     "params": {
       "trackerCommands": {
@@ -238,7 +238,7 @@
     }
   },
   "KantarBARB": {
-    "enabled": true,
+    "enabled": false,
     "category": "tracking",
     "params": {
       "accountInfo": {
@@ -258,7 +258,7 @@
     }
   },
   "Moat": {
-    "enabled": true,
+    "enabled": false,
     "category": "tracking",
     "params": {
       "trackerCommands": {
@@ -275,7 +275,7 @@
     }
   },
   "Mux": {
-    "enabled": true,
+    "enabled": false,
     "category": "qos",
     "params": {
       "trackerCommands": {
@@ -299,7 +299,7 @@
     }
   },
   "Nielsen": {
-    "enabled": true,
+    "enabled": false,
     "category": "tracking",
     "params": {
       "trackerCommands": {
@@ -366,7 +366,7 @@
     }
   },
   "Oztam": {
-    "enabled": true,
+    "enabled": false,
     "category": "tracking",
     "params": {
       "trackerCommands": {
@@ -386,7 +386,7 @@
     }
   },
   "Sparrow": {
-    "enabled": true,
+    "enabled": false,
     "category": "tracking",
     "params": {
       "trackerCommands": {
@@ -427,7 +427,7 @@
     }
   },
   "Youbora": {
-    "enabled": true,
+    "enabled": false,
     "params": {
       "trackerCommands": {
         "delayedStart": "{context.delayedStart}"
