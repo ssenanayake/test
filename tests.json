@@ -946,6 +946,20 @@
 	"drmEnvironment":"{drmEnvironment}",
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}"
-      }	   
+      },
+      {
+        "title":"DAI VoD w/DRM - Decoder Crash Test",
+        "resourceProvider":"DAI",
+        "daiId":"x6XrF8A_tiSDRwc4Rt349KFKnCZ8QmtY",
+        "daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+        "daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"x6XrF8A_tiSDRwc4Rt349KFKnCZ8QmtY",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },	   
    ]
 }
