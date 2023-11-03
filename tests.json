@@ -966,6 +966,19 @@
         "resourceProvider":"URI",
         "uri":"https://p-ause1-adops-output.cbsivideo.com/encodes/adops-us/1698170236935-0/SHOFELLOS01TR101030000STN1_2bX6tO-6.mp4",
         "type":"VOD"
-      },	   
+      },
+      {
+	"title":"IMA VoD Multi Ad Preroll Ad & DRM - Crash Test",
+        "resourceProvider":"IMA",
+        "uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2014/06/29/292077123905/1681438_cenc_precon_dash/stream.mpd",
+	"adUri":"https://7f077.v.fwmrm.net/ad/g/1?asnw=520311&caid=x6XrF8A_tiSDRwc4Rt349KFKnCZ8QmtY&csid=streaming_paramountplus_ctv_androidtv_vod&flag=%2Bamcb%2Bemcr%2Bsltp%2Bslcb%2Bqtcb%2Bvicb%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&nw=520311&prof=520311%3AGoogleDAICSAI_v01&pvrn=1698968761&resp=vmap1%2Bvast4&ssnw=520311&vprn=1698968761;_fw_coppa=0&_fw_ae=&_fw_app_bundle=com.cbs.ott&_fw_is_lat=0&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&packageSource=cbscomp&_fw_did=google_advertising_id%3A19399215-d44e-4e9e-96fe-37eb85e0aea8&_fw_h_referer=com.cbs.ott&_fw_continuous_play=0&sub=72584152&description_url=https%3A%2F%2Fwww.paramountplus.com&tfcd=0&_fw_us_privacy=1YNN&session=c&sz=640x480&cpSession=0&gr=4&sb=14&vguid=1fc20f9d-2553-43b5-941b-93c67f45e2dc&cpPre=0&subses=1&user=ADULT&ge=0&fms_subscriberid=72584152&_fw_3P_UID=UID2%3AAgAABUGZMnQn7CvMNHah6jAI3WDT89R573Uo5OlsDxSr4W1K3Q7tyzw3upe8kYv%2FzyIGQfEdfACYPz4%2FB1o25YaBw9xN8Qnaj6615pbrl6wceAl3E113VsxgLKj8Ii%2Fwx4iVKl22Y8R2TQddRRUBL1kTOaOBTU%2BZiDHzE6kimhMdVO%2BZHQ%3D%3D&fms_ruleid=10000&fms_emailhash=d130d367432c948d4852f0c37795e96d85aa3855d86e816397d1e0931bff7585&_fw_vcid2=XY6395vRL_cp2uExfbb1r5pDQ3sMoB03enjrukUDkS3lKyTsE&fms_ramp_id=XY6395vRL_cp2uExfbb1r5pDQ3sMoB03enjrukUDkS3lKyTsE&fms_bididtype=1010&fms_hh_ramp_id=hY63955ql31XWK1AeaiJkgsyvLqyTnJejaGMQ0GLr7i0NTWLo&fms_ifa=19399215-d44e-4e9e-96fe-37eb85e0aea8&fms_vcid2type=liveramp&playername_version=avia_5.7.7&ima_sdkv=3.30.3",      
+	"drmType":"WIDEVINE",
+        "drmContentId":"NVv_JyUbYUmbE0T__q87_rSwqYwUo_9f",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      }	   
    ]
 }
