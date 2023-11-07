@@ -1,0 +1,658 @@
+{
+  "Adobe": {
+    "enabled": true,
+    "category": "tracking",
+    "params": {
+      "trackerCommands": {
+        "sendUndefined": false,
+        "pingInterval": 10,
+        "liveSegmentId3Owner": "com.cbsi.live.sg"
+      },
+      "serverInfo": {
+        "endPointProtocol": "{context.dev} ? http : http",
+        "endPointHost": "{context.dev} ? cbs-stage.hb-api.omtrdc.net : cbs.hb-api.omtrdc.net",
+        "sessionUrlPath": "api/v1/sessions",
+        "eventUrlPath": "events"
+      },
+      "accountInfo": {
+        "analytics.trackingServer": "saa.cbsi.com",
+        "analytics.reportSuite": "{context.dev} ? cbsicbsiall-dev : cbsicbsiall",
+        "analytics.enableSSL": "{context.dev} ? false : true",
+        "visitor.marketingCloudOrgId": "10D31225525FF5790A490D4D@AdobeOrg",
+        "visitor.marketingCloudUserId": "{context.marketingCloudUserId}"
+      },
+      "mediaInfo": {
+        "media.playerName": "{data.playerName}",
+        "media.contentType": "{data.isLive} ? Live : VOD",
+        "media.length": "{data.isLive} ? 86400 : {context.mediaDuration}",
+        "media.id": "{context.mediaId}",
+        "media.name": "{data.mediaTitle}",
+        "media.channel": "{context.channel}",
+        "media.network": "{context.channel}",
+        "media.sdkVersion": "{data.playerVersion}",
+        "media.show": "{context.seriesTitle}",
+        "media.genre": "{context.category}",
+        "media.season": "{data.isLive} ? {context.undefined} : {context.seasonNumber}",
+        "media.episode": "{context.episodeNumber}",
+        "media.showType": "{context.isEpisode} ? 0 : 2",
+        "media.resume": "{context.hasSessionResumed}"
+      },
+      "adBreakInfo": {
+        "media.ad.podFriendlyName": "{data.adPodType}",
+        "media.ad.podIndex": "{data.adPodIndex}",
+        "media.ad.podSecond": "{data.playhead}"
+      },
+      "adInfo": {
+        "media.ad.id": "{data.mediaTitle} - {data.adTitle}",
+        "media.ad.length": "{data.adDuration}",
+        "media.ad.creativeId": "{data.adId}",
+        "media.ad.creativeURL": "{data.adResourceUrl}",
+        "media.ad.playerName": "{data.playerName}",
+        "media.ad.podPosition": "{data.adIndex}"
+      },
+      "customMetadata": {
+        "mediaResume": "{context.hasSessionResumed}",
+        "eVar23": "{context.eVar23}",
+        "eVar24": "{context.eVar24}",
+        "a.DeviceName": "{context.deviceName}",
+        "a.OSVersion": "{context.osVersion}",
+        "userStatus": "{context.userStatus}",
+        "userType": "{context.userType}",
+        "test": "{context.eVar23} | {context.eVar24}",
+        "userAgent": "{context.userAgent}",
+        "streamDeviceSupportedFormat": "{data.deviceCapabilities}"
+      },
+      "qoeData": {
+        "media.qoe.timeToStart": "{data.timeToStart}"
+      },
+      "dataType": {
+        "accountInfo.analytics.enableSSL": "boolean",
+        "mediaInfo.media.length": "int",
+        "mediaInfo.media.resume": "boolean",
+        "adBreakInfo.media.ad.podIndex": "int",
+        "adBreakInfo.media.ad.podSecond": "int",
+        "adInfo.media.ad.length": "int",
+        "adInfo.media.ad.podPosition": "int",
+        "qoeData.media.qoe.timeToStart": "int"
+      }
+    }
+  },
+  "AdobeECID": {
+    "enabled": true,
+    "category": "tracking",
+    "params": {
+      "serverInfo": {
+        "demdexUrl": "https://dpm.demdex.net/id?d_rtbd=json&d_ver=2&d_orgid=",
+        "marketingCloudOrgId": "10D31225525FF5790A490D4D@AdobeOrg"
+      }
+    }
+  },
+  "Comscore": {
+    "enabled": true,
+    "category": "tracking",
+    "params": {
+      "trackerCommands": {
+        "runInMainThread": false
+      },
+      "sessionInfo": {
+        "publisherId": "3002231",
+        "publisherSecret": "7b94840eb66b17e61c3d2f909c3a1163",
+        "enableSSL": false,
+        "shortFormDuration": 600
+      },
+      "contentInfo": {
+        "ns_ap_ct": "{data.isAd} ? va : vc",
+        "ns_st_ci": "{data.mediaId}",
+        "ns_st_cl": "{data.duration}",
+        "ns_st_pu": "{data.partner}",
+        "ns_st_pr": "{data.seriesTitle}",
+        "ns_st_ep": "{data.episodeTitle}",
+        "ns_st_sn": "{data.seasonNumber}",
+        "ns_st_en": "{data.episodeNumber}",
+        "ns_st_ge": "{data.category}",
+        "ns_st_ia": "{data.isLive} ? 1 : 0",
+        "ns_st_st": "cnetvideo",
+        "ns_st_ce": "{data.isEpisode} ? 1 : 0",
+        "ns_st_ddt": "*null",
+        "ns_st_tdt": "*null",
+        "c1": "2",
+        "c3": "{data.playerName}",
+        "c4": "cnetvideo",
+        "c6": "{data.mediaTitle}"
+      }
+    }
+  },
+  "Conviva": {
+    "enabled": true,
+    "category": "qos",
+    "params": {
+      "trackerCommands": {
+        "runInMainThread": true
+      },
+      "deviceInfo": {
+        "androidBuildModel": "{context.androidBuildModel}",
+        "operatingSystemVersion": "{context.osVersion}",
+        "deviceBrand": "{context.deviceBrand}",
+        "deviceManufacturer": "{context.deviceManufacturer}",
+        "deviceModel": "{context.deviceModel}",
+        "deviceType": "{context.deviceType}",
+        "deviceVersion": "{context.deviceVersion}",
+        "deviceScreenWidth": "{context.deviceScreenWidth}",
+        "deviceScreenHeight": "{context.deviceScreenHeight}",
+        "deviceScreenScaleFactor": "{context.deviceScreenScaleFactor}"
+      },
+      "sessionInfo": {
+        "customerKey": "87a6b28bc7823e67a5bb2a0a6728c702afcae78d",
+        "gatewayUrl": "{context.dev} ? cbscom-test.testonly.conviva.com : "
+      },
+      "ebvsInfo": {
+        "Conviva.defaultResource": "xyz"
+      },
+      "contentInfo": {
+        "assetName": "{data.isLive} ? [Live] {data.mediaTitle} : [VoD] {data.mediaTitle}",
+        "streamUrl": "{data.mediaUrl}",
+        "streamType": "{data.isLive} ? Live : VoD",
+        "applicationName": "{context.appName}",
+        "duration": "{data.duration}",
+        "defaultResource": "{data.cdn}",
+        "encodedFrameRate": "{data.playbackFrameRate}",
+        "viewerId": "{context.userRegId}",
+        "streamId": "{data.adStitcher} ? {data.streamId} : {context.emptyValue}"
+      },
+      "adBreakInfo": {
+        "podPosition": "{data.adPodType}",
+        "podIndex": "{data.adPodPosition}",
+        "absoluteIndex": "{data.adPodPosition}",
+        "podDuration": "{data.adPodDuration}"
+      },
+      "adInfo": {
+        "assetName": "{data.adTitle}",
+        "duration": "{data.adDuration}",
+        "encodedFrameRate": "{data.playbackFrameRate}",
+        "streamType": "{data.isLive} ? Live : VoD",
+        "applicationName": "{data.playerName}",
+        "defaultResource": "{data.cdn}",
+        "c3.ad.adManagerName": "{data.adManagerName} SDK",
+        "c3.ad.adManagerVersion": "{context.adManagerVersion}",
+        "c3.ad.adStitcher": "{data.adStitcher} ? DAI : {data.adStitcherName}",
+        "c3.ad.advertiserCategory": "NA",
+        "c3.ad.advertiserId": "NA",
+        "c3.ad.advertiser": "{data.advertiserName} | NA",
+        "c3.ad.breakId": "NA",
+        "c3.ad.campaignName": "NA",
+        "c3.ad.category": "NA",
+        "c3.ad.classification": "NA",
+        "c3.ad.creativeId": "{data.adCreativeId}",
+        "c3.ad.creativeName": "{data.adTitle}",
+        "c3.ad.dayPart": "Primetime",
+        "c3.ad.description": "{data.adDescription}",
+        "c3.ad.firstAdId": "{data.firstAdId} | NA",
+        "c3.ad.firstAdSystem": "{data.firstAdSystem} | NA",
+        "c3.ad.firstCreativeId": "{data.firstAdCreativeId} | NA",
+        "c3.ad.id": "{data.adId}",
+        "c3.ad.isSlate": "false",
+        "c3.ad.mediaFileApiFramework": "NA",
+        "c3.ad.adPodType": "{data.adPodType}",
+        "c3.ad.position": "{data.adPosition}",
+        "c3.ad.sequence": "{data.adPositionInPod}",
+        "c3.ad.sessionStartEvent": "{context.currentAdSessionStartEvent}",
+        "c3.ad.streamId": "{data.adStitcher} ? {data.streamId} : {context.emptyValue}",
+        "c3.ad.system": "{data.adSystem}",
+        "c3.ad.technology": "{data.adStitcher} ? Server Side : Client Side",
+        "c3.ad.type": "NA",
+        "c3.ad.unitName": "NA",
+        "c3.ad.videoAssetName": "{data.assetName}",
+        "customField": "TEST"
+      },
+      "cdnInfo": {
+        "defaultResource": "{data.cdn}"
+      },
+      "customTag": {
+        "accessType": "{context.userStatus}",
+        "app": "{context.appName}",
+        "appRegion": "{data.userCountry}",
+        "appVersion": "{context.appName} {context.appVersion}",
+        "contentId": "{data.mediaId}",
+        "contentType": "{data.isLive} ? Live : VOD",
+        "connectionType": "{data.networkType}",
+        "drm": "{data.drmEnabled}",
+        "drmType": "{data.drmType}",
+        "episodeTitle": "{data.episodeTitle}",
+        "isAd": "{data.isAd}",
+        "isEpisode": "{data.isEpisode}",
+        "partnerId": "{data.partner}",
+        "playerVersion": "{data.playerVersion}",
+        "seriesTitle": "{data.seriesTitle}",
+        "showId": "{context.showSeriesId}",
+        "streamId": "{data.adStitcher} ? {data.streamId} : {context.emptyValue}",
+        "testBucket": "none",
+        "winDimension": "{data.screenSize}"
+      },
+      "metadataInterface": {
+        "deviceCategory": "OTT",
+        "deviceType": "Android",
+        "deviceModel": "{context.deviceModel}",
+        "operatingSystemName": "Android",
+        "operatingSystemVersion": "{context.osVersion}"
+      }
+    }
+  },
+  "KantarBARB": {
+    "enabled": false,
+    "category": "tracking",
+    "params": {
+      "accountInfo": {
+        "sn": "c5dotcom"
+      },
+      "mediaInfo": {
+        "cq": "{context.barbId}",
+        "stream": "{data.isLive} ? live/{context.barbChannel} : od",
+        "dur": "{data.isLive} ? 0 : {data.duration}"
+      },
+      "playerInfo": {
+        "pl": "my5",
+        "plv": "{context.playerVersion}",
+        "sx": "{data.playerWidth}",
+        "sy": "{data.playerHeight}"
+      }
+    }
+  },
+  "Moat": {
+    "enabled": false,
+    "category": "tracking",
+    "params": {
+      "trackerCommands": {
+        "runInMainThread": false
+      },
+      "sessionInfo": {
+        "slicer1": "CBS",
+        "slicer2": "NA"
+      },
+      "adInfo": {
+        "media.ad.id": "{data.adId}",
+        "media.ad.creativeId": "{data.creativeId}"
+      }
+    }
+  },
+  "Mux": {
+    "enabled": false,
+    "category": "qos",
+    "params": {
+      "trackerCommands": {
+        "runInMainThread": true
+      },
+      "sessionInfo": {
+        "apiKey": "1778b90ad19424061a4c8920a"
+      },
+      "mediaInfo": {
+        "playerName": "{data.playerName}",
+        "contentType": "{data.isLive} ? live : on-demand",
+        "videoStreamType": "{data.isLive} ? live : on-demand",
+        "videoId": "{data.mediaId}",
+        "playerVersion": "{data.playerVersion}",
+        "viewerUserId": "{data.userId} | -1",
+        "videoTitle": "{data.mediaTitle}",
+        "videoCdn": "{data.cdn}",
+        "videoLanguageCode": "{data.languageCode}",
+        "playerInitTime": "{context.initTime}"
+      }
+    }
+  },
+  "Nielsen": {
+    "enabled": true,
+    "category": "tracking",
+    "params": {
+      "trackerCommands": {
+        "pingInterval": 10,
+        "sendUndefined": true,
+        "runInMainThread": false,
+        "id3Prefix": "www.nielsen.com",
+        "isDtvr": "{context.isDTVR}",
+        "liveSegmentId3Owner": "www.nielsen.com"
+      },
+      "serverInfo": {
+        "endPointProtocol": "{context.dev} ? https : https",
+        "endPointUrl": "{context.dev} ? sandbox-cloudapi.imrworldwide.com/nmapi/v2/ : sandbox-cloudapi.imrworldwide.com/nmapi/v2/"
+      },
+      "sessionInfo": {
+        "appid": "{context.appId}",
+        "appname": "{context.appName}",
+        "appversion": "{context.appVersion}",
+        "sfcode": "dcr",
+        "nol_devDebug": "DEBUG"
+      },
+      "dtvrInfo": {
+        "dataSrc": "id3",
+        "type": "content",
+        "assetId": "{data.mediaId}",
+        "tv": "{data.tvRating} ? true : false",
+        "category": "{data.mediaCategory} | na",
+        "title": "{data.mediaTitle} | na",
+        "program": "{data.mediaSeries} | na",
+        "airDate": "{data.mediaAirDate} | na",
+        "isFullEpisode": "{data.mediaFullEpisode} ? y : n",
+        "crossId1": "{data.mediaCrossId1}",
+        "crossId2": "CBS",
+        "adLoadType": "1",
+        "hasAds": "{data.hasAds} ? 1 : 0",
+        "length": "{data.isLive} ? 86400 : {data.mediaDuration}",
+        "channelName": "dtvrChannel"
+      },
+      "dcrInfo": {
+        "dataSrc": "cms",
+        "type": "content",
+        "assetId": "{data.mediaId}",
+        "tv": "{data.tvRating} ? true : false",
+        "category": "{data.mediaCategory} | na",
+        "title": "{data.mediaTitle} | na",
+        "program": "{data.mediaSeries} | na",
+        "airDate": "{data.mediaAirDate} | na",
+        "isFullEpisode": "{data.mediaFullEpisode} ? y : n",
+        "crossId1": "{data.mediaCrossId1}",
+        "crossId2": "CBS",
+        "adLoadType": "2",
+        "hasAds": "{data.hasAds} ? 1 : 0",
+        "length": "{data.isLive} ? 86400 : {data.mediaDuration}",
+        "channelName": "dcrChannel"
+      },
+      "adInfo": {
+        "type": "{data.adPodType}",
+        "assetId": "{data.adId}"
+      },
+      "dataType": {
+        "sendUndefined": "boolean",
+        "isDtvr": "boolean"
+      }
+    }
+  },
+  "Oztam": {
+    "enabled": false,
+    "category": "tracking",
+    "params": {
+      "trackerCommands": {
+        "runInMainThread": false
+      },
+      "sessionInfo": {
+        "livePublisherId": "779e3a9f-0ad4-4288-ae57-b4fba8259c1f",
+        "vodPublisherId": "4586f4a7-a22e-4f98-a7b5-31b621a927a5",
+        "deviceType": "phone",
+        "productionService": false
+      },
+      "mediaInfo": {
+        "playerName": "{data.playerName}",
+        "contentType": "{data.isLive} ? live : vod",
+        "contentId": "{data.mediaId}"
+      }
+    }
+  },
+  "Sparrow": {
+    "enabled": true,
+    "category": "tracking",
+    "params": {
+      "trackerCommands": {
+        "pingInterval": 10,
+        "runInMainThread": false
+      },
+      "serverInfo": {
+        "endPointUrl": "{context.dev} ? sparrow.paramountplus.com : sparrow.paramountplus.com"
+      },
+      "sessionInfo": {
+        "enableSSL": true
+      },
+      "payload": {
+        "contentId": "{data.mediaId}",
+        "userId": "{context.userId} | -1",
+        "siteId": "{context.siteId} | 164",
+        "sessionId": "{context.sessionId}",
+        "platform": "{data.platform}",
+        "premium": "{data.mediaPremiumContent}",
+        "affiliate": "{data.affiliateFeed}",
+        "medTime": "{data.playhead}",
+        "title": "{data.mediaTitle}",
+        "userProfile": "0"
+      }
+    }
+  },
+  "SuperBowl": {
+    "enabled": true,
+    "category": "tracking",
+    "params": {
+      "trackerCommands": {
+        "runInMainThread": true
+      },
+      "sessionInfo": {
+        "id3Owner": "com.paramount.vtg",
+        "adTemplate": "https://7f077.v.fwmrm.net/ad/g/1?asnw=520311&caid=Superbowl_58_Linear_Stream_Game_Day&csid=streaming_paramountplus_us_mobile_androidphone_live&flag=%2Bamcb%2Bemcr%2Bdtrd%2Bsltp%2Bslcb%2Bexvt%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&mode=LIVE&nw=520311&prof=520311%3Asuperbowl&pvrn=[RANDOM]&resp=vmap1%2Bvast4&ssnw=520311&vdty=VARIABLE&vrdu=[DUR]&vprn=[RANDOM];_fw_coppa=0&_fw_did=&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&_fw_hylda=acid%3Dtpplushylda%26aiid%3D[AIID]%26abid%3Dbreak%3A%2F%2F[AIID]%2F[ABID]&_fw_player_height=1080&_fw_player_width=1920&_fw_us_privacy=1YNN&fms_subscriberid=225085918&fms_userid=%242a%2404%24TqmiMMYYxsFB4XsE4.Fhe.JXAZEhYWSjoonohMY2vnsC0mfHjS3si&fms_ruleid=10003%2C10004&fms_emailhash=dff691398f50b6d2dc45a25b45fdf015058c70a41d9958a4340f9fe65c3a1799&_fw_vcid2=dff691398f50b6d2dc45a25b45fdf015058c70a41d9958a4340f9fe65c3a1799&fms_vcid2type=emailhash&sb=22&packageSource=googleplay&ge=1&gr=3&sub=225085918&user=adult&session=b&subses=1&sz=640x480&tfcd=0&vguid=7508e749-75fd-4ca4-a2a5-f759dd841d81&_fw_is_lat=0&playername_version=avia_5.7.5&ima_sdkv=3.30.3;cpsq=1&maxd=[DUR]&mind=[DUR]&ptgt=a&slid=&tpcl=MIDROLL&slau=Super%20Bowl%2058&tpos=0"
+      }
+    }
+  },
+  "Youbora": {
+    "enabled": false,
+    "params": {
+      "trackerCommands": {
+        "delayedStart": "{context.delayedStart}"
+      },
+      "serverInfo": {
+        "authUrl": "https://a-fds.youborafds01.com/data",
+        "videoPath": "/infinity/video/",
+        "sessionPath": "/infinity/session/",
+        "eventPath": "/infinity/event",
+        "authResponseKey": "q",
+        "sessionRootKey": "c",
+        "domainKey": "h",
+        "pingKey": "pt",
+        "sessionInterval": "45"
+      },
+      "accountInfo": {
+        "accountCode": "plutotvdev"
+      },
+      "authInfo": {
+        "pluginVersion": "6.7.33-ExoPlayer-Android",
+        "outputformat": "json"
+      },
+      "sessionStart": {
+        "username": "{context.username}",
+        "deviceUUID": "{context.deviceUUID}",
+        "dimensions": "{context.dimensions}",
+        "route": "{context.route}",
+        "page": "{context.page}",
+        "referral": "{context.referral}",
+        "url": "{context.url}",
+        "language": "en",
+        "deviceInfo": "{context.deviceInfo}",
+        "connectionType": "{context.connectionType}",
+        "libVersion": "{context.libVersion}"
+      },
+      "sessionStop": {
+        "metrics": "{context.metrics}"
+      },
+      "entities": {
+        "cdn": "{data.cdn}",
+        "rendition": "{context.renditionChangeComposed}",
+        "title": "{data.isLive} ? {context.vidEpTitle} : {context.seriesTitle} - {context.vidEpTitle}",
+        "program": "{data.isLive} ? {data.mediaTitle} : {data.seriesTitle}",
+        "subtitles": "en",
+        "language": "en",
+        "nodeHost": "",
+        "nodeType": "",
+        "contentLanguage": "en"
+      },
+      "start": {
+        "mediaResource": "{data.mediaUrl}",
+        "live": "{data.isLive} ? true : false",
+        "pluginVersion": "6.7.33-ExoPlayer-Android",
+        "title": "{data.isLive} ? {context.vidEpTitle} : {context.seriesTitle} - {context.vidEpTitle}",
+        "mediaDuration": "{data.isLive} ? 0 : {context.mediaDuration}",
+        "player": "{data.playerName}",
+        "playerVersion": "{data.playerVersion}",
+        "resource": "{data.mediaUrl}",
+        "deviceUUID": "",
+        "username": "",
+        "playrate": "1",
+        "userType": "",
+        "transactionCode": "",
+        "parsedResource": "",
+        "properties": "",
+        "contentId": "{context.mediaId}",
+        "assetId": "",
+        "drm": "{data.drmEnabled}",
+        "videoCodec": "",
+        "audioCodec": "",
+        "codecSettings": "",
+        "codecProfile": "",
+        "containerFormat": "",
+        "contractedResolution": "",
+        "rendition": "",
+        "saga": "",
+        "program": "{data.isLive} ? {context.liveVideoTitle} : {data.seriesTitle}",
+        "tvshow": "{context.seriesTitle}",
+        "season": "{context.seasonN}",
+        "titleEpisode": "{context.vidEpTitle}",
+        "channel": "",
+        "imdbID": "",
+        "gracenoteID": "",
+        "genre": "",
+        "language": "en",
+        "subtitles": "en",
+        "cost": "",
+        "price": "",
+        "contentType": "",
+        "playbackType": "",
+        "cdn": "{data.cdn}",
+        "isp": "",
+        "ip": "",
+        "connectionType": "",
+        "deviceInfo": "{context.deviceInfo}",
+        "appName": "My5 Plex Android",
+        "appReleaseVersion": "",
+        "referer": "",
+        "streamingProtocol": "",
+        "obfuscateIp": "false",
+        "p2pStreaming": "",
+        "p2pEnabled": "",
+        "nodeHost": "",
+        "nodeType": "",
+        "adsExpected": "",
+        "adsBlocked": "",
+        "package": "",
+        "libVersion": ""
+      },
+      "ping": {
+        "metrics": "{context.metrics}"
+      },
+      "error": {
+        "live": "{data.isLive} ? true : false",
+        "errorCode": "{data.errorCode}",
+        "errorMetadata": "{data.errorName}",
+        "msg": "Playback failed",
+        "title": "{data.isLive} ? {context.vidEpTitle} : {context.seriesTitle} - {context.vidEpTitle}",
+        "pluginVersion": "6.7.33-ExoPlayer-Android",
+        "mediaDuration": "{data.mediaDuration}",
+        "player": "{data.playerName}"
+      },
+      "adManifest": {
+        "givenBreaks": "{data.adBreakCount}",
+        "expectedBreaks": "{data.adBreakCount}"
+      },
+      "adBreakStart": {
+        "breakNumber": "{data.adPodPosition}",
+        "title": "{data.mediaTitle}",
+        "givenAds": "{data.adCount}",
+        "expectedAds": "{data.adCount}"
+      },
+      "adBreakStop": {
+        "breakNumber": "{data.adPodPosition}"
+      },
+      "adStart": {
+        "adNumber": "{data.adPositionInPod}",
+        "adResource": "{data.adUrl}",
+        "adCampaign": "{context.adCampaign}",
+        "audio": "{context.audio}",
+        "fullscreen": "true",
+        "breakNumber": "{data.adPodPosition}",
+        "title": "{data.mediaTitle}",
+        "adTitle": "{data.adTitle}",
+        "adCreativeId": "{data.adId}",
+        "adProvider": "{data.adSystem}",
+        "param1": "{context.param1}",
+        "param2": "{context.param2}",
+        "param3": "{context.param3}",
+        "param4": "{context.param4}",
+        "param5": "{context.param5}",
+        "param6": "{context.param6}",
+        "param7": "{context.param7}",
+        "param8": "{context.param8}",
+        "param9": "{context.param9}",
+        "param10": "{context.param10}"
+      },
+      "customData": {
+        "param1": "{context.userStatus}",
+        "param2": "{context.appName}",
+        "param3": "{context.countryName}",
+        "param4": "{context.appName} {data.appVersion}",
+        "param5": "{context.brandName}",
+        "param6": "{context.mediaId}",
+        "param7": "{data.isLive} ? Live : VOD",
+        "param8": "{context.connectionType}",
+        "param9": "{data.drmEnabled}",
+        "param10": "{data.drmType}",
+        "param11": "{context.vidEpTitle}",
+        "param12": "{context.isEpisode}",
+        "param13": "{data.partner}",
+        "param14": "{context.playerVersion}",
+        "param15": "{context.seriesTitle}",
+        "param16": "{context.showSeriesId}",
+        "param17": "{context.streamId}",
+        "param18": "{context.videoProperties}",
+        "param19": "{context.screenSize}"
+      },
+      "bufferEvent": {
+        "adNumber": "{data.adPositionInPod}"
+      },
+      "adBufferEvent": {
+        "adNumber": "{data.adPositionInPod}"
+      },
+      "adJoin": {
+        "adNumber": "{data.adPositionInPod}"
+      },
+      "adQuartile": {
+        "breakNumber": "{data.adPodPosition}",
+        "adNumber": "{data.adPositionInPod}"
+      },
+      "adPause": {
+        "breakNumber": "{data.adPodPosition}",
+        "adNumber": "{data.adPositionInPod}"
+      },
+      "adResume": {
+        "breakNumber": "{data.adPodPosition}",
+        "adNumber": "{data.adPositionInPod}"
+      },
+      "adBuffer": {},
+      "adClick": {
+        "breakNumber": "{data.adPodPosition}",
+        "adNumber": "{data.adPositionInPod}",
+        "adUrl": "{data.adUrl}"
+      },
+      "adStop": {
+        "breakNumber": "{data.adPodPosition}",
+        "adNumber": "{data.adPositionInPod}"
+      },
+      "adError": {
+        "position": "{data.adBreakTypeKey}",
+        "adNumber": "{data.adPositionInPod}",
+        "errorCode": "{data.errorCode}",
+        "player": "{data.playerName}",
+        "msg": "{data.errorMessage}",
+        "errorMetadata": "{data.errorName}",
+        "errorSeverity": "",
+        "playhead": "{data.playhead}",
+        "adPlayhead": "{data.adPlayhead}"
+      },
+      "dataType": {
+        "debugLogging": "boolean",
+        "sendUndefined": "boolean",
+        "sessionInterval": "int"
+      }
+    }
+  }
+}
