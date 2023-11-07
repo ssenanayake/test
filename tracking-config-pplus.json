@@ -307,7 +307,7 @@
         "sendUndefined": true,
         "runInMainThread": false,
         "id3Prefix": "www.nielsen.com",
-        "isDtvr": "{context.isDTVR}",
+        "isDtvr": true,
         "liveSegmentId3Owner": "www.nielsen.com"
       },
       "serverInfo": {
