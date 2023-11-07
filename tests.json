@@ -654,7 +654,7 @@
         "resourceProvider":"SB",
         "uri":"https://sblvi754e20a.airspace-cdn.cbsivideo.com/out/v1/ff8fa0426a384adb91cf542f465c030b/index.m3u8",
         "type":"LIVE",
-	"drmType":"WIDEVINE",
+	"drmType":"NONE",
 	"drmContentId":"6c93f843-3368-43c9-ac54-58d14f6ee827",
 	"drmToken":"{drmToken}",
 	"drmEnvironment":"{drmEnvironmentTest}",
@@ -987,7 +987,13 @@
         "title":"URI Live - SuperBowl HLS - Clear - SDR",
         "resourceProvider":"SB",
         "uri":"https://sb58hf609gf.airspace-cdn.cbsivideo.com/stream_2/index.m3u8",
-        "type":"LIVE"
+        "type":"LIVE",
+	"drmType":"NONE",
+	"drmContentId":"21a0170a-59af-4a90-899c-5e989c9c85fc",
+	"drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"      
       },	   
       {
         "title":"URI Live - SuperBowl DASH w/DRM - HDR",
