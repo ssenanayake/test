@@ -32,7 +32,7 @@
 	"allowFetchAd":true      
       },
       {
-	"title":"URI VoD w/Resume",
+	"title":"URI VoD w/Resume @10s",
 	"resourceProvider":"URI",
         "uri":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
         "type":"VOD",
@@ -223,7 +223,7 @@
         "type":"VOD"
       },
       {
-        "title":"IMA VoD Pre/Mid/Postrolls w/Resume & Pause Ad",
+        "title":"IMA VoD Pre/Mid/Postrolls w/Resume @5s & Pause Ad",
         "resourceProvider":"IMA",
         "uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
         "adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpostpod&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&cmsid=496&vid=short_onecue&correlator={RANDOM}",
@@ -275,7 +275,7 @@
         "drmDevice":"{drmDevice}"
       },	 
       {
-	"title":"IMA VoD & DRM without Ad url - Resume @20",
+	"title":"IMA VoD & DRM without Ad url - Resume @20s",
         "resourceProvider":"IMA",
         "uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2021/10/28/1968784451885/1152154_cenc_fmp4_dash/stream.mpd",
 	"adUri":"",
@@ -342,7 +342,7 @@
         "drmDevice":"{drmDevice}"
       },	   
       {
-        "title":"DAI VoD w/DRM & Resume",
+        "title":"DAI VoD w/DRM & Resume @10s",
         "resourceProvider":"DAI",
         "daiId":"9D5se7TaQpNkFuHlSJL4Gl_VVoZBPZnz",
         "daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
@@ -741,7 +741,7 @@
 	"drmDevice":"{drmDevice}"
       },
       {
-	"title":"URI VoD DASH w/DRM - Movie 3, Resume",
+	"title":"URI VoD DASH w/DRM - Movie 3, Resume @11s",
 	"resourceProvider":"URI",
 	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2019/03/20/1461808707757/1326543_cenc_fmp4_hdr_dash/stream.mpd",
 	"drmType":"WIDEVINE",
