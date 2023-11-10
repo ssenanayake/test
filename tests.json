@@ -275,7 +275,7 @@
         "drmDevice":"{drmDevice}"
       },	 
       {
-	"title":"IMA VoD & DRM without Ad url",
+	"title":"IMA VoD & DRM without Ad url - Resume @20",
         "resourceProvider":"IMA",
         "uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2021/10/28/1968784451885/1152154_cenc_fmp4_dash/stream.mpd",
 	"adUri":"",
@@ -285,7 +285,8 @@
         "type":"VOD",
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
-        "drmDevice":"{drmDevice}"
+        "drmDevice":"{drmDevice}",
+	"resumePosition":20000      
       },	   
       {
 	"title":"IMA Live Preroll",
