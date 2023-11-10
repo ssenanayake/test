@@ -273,7 +273,20 @@
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}"
-      },	      
+      },	 
+      {
+	"title":"IMA VoD & DRM without Ad url",
+        "resourceProvider":"IMA",
+        "uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2021/10/28/1968784451885/1152154_cenc_fmp4_dash/stream.mpd",
+	"adUri":"",
+	"drmType":"WIDEVINE",
+        "drmContentId":"t_OKSBTJxPYhx3VdOh2fuhNjrdGIUz4Y",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },	   
       {
 	"title":"IMA Live Preroll",
         "resourceProvider":"IMA",
