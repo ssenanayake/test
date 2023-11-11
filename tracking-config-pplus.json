@@ -400,16 +400,16 @@
         "enableSSL": true
       },
       "payload": {
-        "contentid": "{data.mediaId}",
+        "contentid": "{context.mediaId}",
         "userid": "{context.userId} | -1",
         "siteid": "{context.siteId} | 164",
         "sessionid": "{context.sessionId}",
-        "platform": "{data.platform}",
-        "premium": "{data.mediaPremiumContent}",
-        "affiliate": "{data.affiliateFeed}",
+        "platform": "{context.platform}",
+        "premium": "{context.mediaPremiumContent}",
+        "affiliate": "{context.affiliateFeed}",
         "medtime": "{data.playhead}",
-        "medtitle": "{data.mediaTitle}",
-        "profileid": "0"
+        "medtitle": "{context.mediaTitle}",
+        "profileid": "{context.userProfileId}"
       }
     }
   },
