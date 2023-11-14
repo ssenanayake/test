@@ -403,7 +403,7 @@
         "contentid": "{context.mediaId}",
         "userid": "{context.userId} | -1",
         "siteid": "{context.siteId} | 164",
-        "sessionid": "{context.sessionId}",
+        "sessionid": "",
         "platform": "{context.platform}",
         "premium": "{context.mediaPremiumContent}",
         "affiliate": "{context.affiliateFeed}",
