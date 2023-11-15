@@ -464,7 +464,16 @@
         "daiApiKey":"",
         "daiCmsId":"",
         "type":"DVR"
-      },	
+      },
+      {
+        "title":"DAI DVR - Frequent Ads - Resume @0s",
+        "resourceProvider":"DAI",
+        "daiId":"gfkxhQFOQAOXHigAVdRi8A",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"DVR",
+	"resumePosition":0      
+      },	   
       {
         "title":"DAI DVR w/HLS Key Headers",
         "resourceProvider":"DAI",
