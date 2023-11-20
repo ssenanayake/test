@@ -63,7 +63,9 @@
         "streamDeviceSupportedFormat": "{data.deviceCapabilities}"
       },
       "qoeData": {
-        "media.qoe.timeToStart": "{data.timeToStart}"
+        "media.qoe.timeToStart": "{data.timeToStart}",
+        "media.qoe.errorID": "{data.errorCode}",
+        "media.qoe.errorSource": "player"
       },
       "dataType": {
         "accountInfo.analytics.enableSSL": "boolean",
