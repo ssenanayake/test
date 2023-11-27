@@ -9,7 +9,8 @@
         "condition" : {"model" : "(?i)AFTB"},
 	"configuration" : {"disablePremiumAudio" : true,
 			   "disablePremiumAudioForAds" : true,
-			   "maxFrameRate" : 30
+			   "maxFrameRate" : 30,
+			   "maxBitRate" : 2000000
                           }
   },
   {
