@@ -9,15 +9,15 @@
         "condition" : {"model" : "(?i)AFTB"},
 	"configuration" : {"disablePremiumAudio" : true,
 			   "disablePremiumAudioForAds" : true,
-			   "maxFrameRate" : 30,
-			   "maxBitRate" : 2000000
+			   "maxFramerate" : 30,
+			   "maxBitrate" : 2000000
                           }
   },
   {
 	"condition" : {"model" : "(?i)AFTMM"},
         "configuration" : {"disablePremiumAudioForAds" : true,
 			   "disablePremiumAudio" : false,
-			   "maxBitRate" : 15000000,
+			   "maxBitrate" : 15000000,
 			   "minLiveBuffer" : 10,
 			   "maxLiveBuffer" : 20,
 			   "minNonLiveBuffer" : 10,
@@ -28,7 +28,7 @@
         "condition" : {"model" : "(?i)AFTA"},
         "configuration" : {"disablePremiumAudioForAds" : true,
 			   "disablePremiumAudio" : false,
-                           "maxBitRate" : 15000000,
+                           "maxBitrate" : 15000000,
 			   "minLiveBuffer" : 10,
 			   "maxLiveBuffer" : 20,
 			   "minNonLiveBuffer" : 10,
@@ -39,7 +39,7 @@
         "condition" : {"model" : "(?i)AFTR"},
         "configuration" : {"disablePremiumAudioForAds" : true,
 			   "disablePremiumAudio" : false,
-                           "maxBitRate" : 15000000,
+                           "maxBitrate" : 15000000,
 			   "minLiveBuffer" : 10,
 			   "maxLiveBuffer" : 20,
 			   "minNonLiveBuffer" : 10,
@@ -48,21 +48,21 @@
   },
   {
         "condition" : {"model" : "(?i)AFTM"},
-        "configuration" : {"maxBitRate" : 3000000,
+        "configuration" : {"maxBitrate" : 3000000,
 			   "disablePremiumAudio" : false,
 			   "disablePremiumAudioForAds" : false
                           }
   },
   {
         "condition" : {"model" : "(?i)AFTT"},
-        "configuration" : {"maxBitRate" : 3000000,
+        "configuration" : {"maxBitrate" : 3000000,
 			   "disablePremiumAudio" : true,
 			   "disablePremiumAudioForAds" : true
                           }
   },
   {
         "condition" : {"model" : "(?i)AFTSS"},
-        "configuration" : {"maxBitRate" : 8000000,
+        "configuration" : {"maxBitrate" : 8000000,
 			   "minLiveBuffer" : 10,
 			   "maxLiveBuffer" : 20,
 			   "minNonLiveBuffer" : 10,
@@ -73,7 +73,7 @@
   },
   {
         "condition" : {"model" : "(?i)AFTSSS"},
-        "configuration" : {"maxBitRate" : 8000000,
+        "configuration" : {"maxBitrate" : 8000000,
 			   "minLiveBuffer" : 10,
 			   "maxLiveBuffer" : 20,
 			   "minNonLiveBuffer" : 10,
@@ -84,7 +84,7 @@
   },
   {
         "condition" : {"model" : "(?i).*X86"},
-        "configuration" : {"maxBitRate" : 10000000
+        "configuration" : {"maxBitrate" : 10000000
                           }
   },
   {
