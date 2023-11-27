@@ -10,7 +10,7 @@
 	"configuration" : {"disablePremiumAudio" : true,
 			   "disablePremiumAudioForAds" : true,
 			   "maxFramerate" : 30,
-			   "maxBitrate" : 2000000
+			   "maxResolution" : 576
                           }
   },
   {
