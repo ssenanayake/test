@@ -750,7 +750,19 @@
 	"drmDevice":"{drmDevice}"
       },
       {
-	"title":"URI VoD DASH w/DRM - Movie 3, Resume @11s",
+	"title":"URI VoD DASH w/DRM - Movie 3",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/04/14/2193920579720/2413401_cenc_fmp4_dash/stream.mpd",
+	"type":"VOD",
+	"drmType":"WIDEVINE",
+        "drmContentId":"VYaqo0i3pHMuC4n2U30CyIQ6CuVjp716",
+        "drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"       
+      },	   
+      {
+	"title":"URI VoD DASH w/DRM - Movie 4, Resume @11s",
 	"resourceProvider":"URI",
 	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2019/03/20/1461808707757/1326543_cenc_fmp4_hdr_dash/stream.mpd",
 	"drmType":"WIDEVINE",
