@@ -1058,10 +1058,23 @@
 	"runTest":1      
       },
       {
-        "title":"URI Live - SuperBowl HLS - Clear - SDR",
+        "title":"URI Live - SuperBowl HLS - Clear - Nov 28 SDR",
         "resourceProvider":"SB",
         "uri":"https://sb58hf609gf.airspace-cdn.cbsivideo.com/stream_2/main.m3u8",
         "type":"LIVE"
-      },	   	   
+      },
+      {
+        "title":"URI Live - SuperBowl DASH w/DRM - Nov 28 HDR",
+        "resourceProvider":"SB",
+        "uri":"https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
+        "type":"LIVE",
+	"drmType":"WIDEVINE",
+	"drmContentId":"5190e100-f0dd-4bc1-8088-e93998b3db87",
+	"drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}",
+	"runTest":1      
+      },	   
    ]
 }
