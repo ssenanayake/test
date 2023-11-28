@@ -1056,6 +1056,12 @@
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}",
 	"runTest":1      
-      }
+      },
+      {
+        "title":"URI Live - SuperBowl HLS - Clear - SDR",
+        "resourceProvider":"SB",
+        "uri":"https://sb58hf609gf.airspace-cdn.cbsivideo.com/stream_2/main.m3u8",
+        "type":"LIVE"
+      },	   	   
    ]
 }
