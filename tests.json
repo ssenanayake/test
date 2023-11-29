@@ -1073,8 +1073,7 @@
 	"drmToken":"{drmToken}",
 	"drmEnvironment":"{drmEnvironment}",
 	"drmHost":"{drmHost}",
-	"drmDevice":"{drmDevice}",
-	"runTest":1      
+	"drmDevice":"{drmDevice}"
       },	   
    ]
 }
