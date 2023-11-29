@@ -86,9 +86,9 @@
 	"type":"VOD"
       },
       {
-	"title":"URI VoD Local File/Preview - Loop, Muted",
+	"title":"URI VoD Preview - Loop, Muted",
 	"resourceProvider":"URI",
-	"uri":"file:///storage/emulated/0/Paramount.mp4",
+	"uri":"https://media.amlg.io/assets/splice_preview/2023/10/26/2276771907948/B23_45701_DIG06_2403486_2403486_3133.mp4",
 	"type":"VOD",
 	"loop":true,
 	"mute":true,
