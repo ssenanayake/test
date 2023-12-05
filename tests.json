@@ -726,7 +726,7 @@
 	"heading":"Movie Tests"
       },	   
       {
-	"title":"URI VoD DASH w/DRM - Movie 1",
+	"title":"URI VoD DASH w/DRM - Sonic the Hedgehog",
 	"resourceProvider":"URI",
 	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/04/14/2023121475896/1500797_cenc_fmp4_dash/stream.mpd",
 	"type":"VOD",
@@ -738,7 +738,7 @@
 	"drmDevice":"{drmDevice}"       
       },
       {
-	"title":"URI VoD DASH w/DRM - Movie 2",
+	"title":"URI VoD DASH w/DRM - RESPECT",
 	"resourceProvider":"URI",
 	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/07/16/2052743235896/1533745_cenc_fmp4_dash/stream.mpd",
 	"drmType":"WIDEVINE",
@@ -750,12 +750,24 @@
 	"drmDevice":"{drmDevice}"
       },
       {
-	"title":"URI VoD DASH w/DRM - Movie 3",
+	"title":"URI VoD DASH w/DRM - Dungeon's and Dragons",
 	"resourceProvider":"URI",
 	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/04/14/2193920579720/2413401_cenc_fmp4_dash/stream.mpd",
 	"type":"VOD",
 	"drmType":"WIDEVINE",
         "drmContentId":"VYaqo0i3pHMuC4n2U30CyIQ6CuVjp716",
+        "drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"       
+      },	  
+      {
+	"title":"URI VoD DASH w/DRM - Top Gun, Maverick",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/10/26/2091444291941/2404044_cenc_fmp4_dash/stream.mpd",
+	"type":"VOD",
+	"drmType":"WIDEVINE",
+        "drmContentId":"Alcn0hcGx0HosdhcawKteH8DXh3RiOF7",
         "drmToken":"{drmToken}",
 	"drmEnvironment":"{drmEnvironment}",
 	"drmHost":"{drmHost}",
