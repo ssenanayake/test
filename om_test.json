@@ -29,7 +29,7 @@
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}"      
-      }
+      },
       {
 	"heading":"DAI Tests"
       },
