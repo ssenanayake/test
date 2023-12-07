@@ -18,24 +18,23 @@
         "heading":"IMA Tests"
       },
       {
-	"title":"IMA VoD Pre/Mid/Postrolls",
+	"title":"IMA VoD - Paramount Ad",
         "resourceProvider":"IMA",
-        "uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
-	"adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpostpod&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&cmsid=496&vid=short_onecue&correlator={RANDOM}",        
-        "type":"VOD"
-      },
-      {
-        "title":"IMA Ad Only",
-        "resourceProvider":"IMA",
-	"uri":"",
-        "adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_preroll_skippable&sz=640x480&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator={RANDOM}",
-        "type":"VOD"
-      },
+        "uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/09/20/2265354307771/2380476_cenc_fmp4_dash/stream.mpd",
+	"adUri":"https://7f077.v.fwmrm.net/ad/g/1?asnw=520311&caid=oMvs9adT4w35zHaQSmmU25QZw5Rt6DnM&csid=streaming_paramountplus_us_ctv_amazonfiretv_vod&flag=%2Bamcb%2Bemcr%2Bsltp%2Bslcb%2Bqtcb%2Bvicb%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&nw=520311&prof=520311%3AGoogleDAICSAI_v01&pvrn=1701972250&resp=vmap1%2Bvast4&ssnw=520311&vprn=1701972250;_fw_coppa=0&_fw_ae=&_fw_app_bundle=com.cbs.ott&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&packageSource=cbscomp&_fw_h_referer=com.cbs.ott&_fw_continuous_play=0&sub=20562091&description_url=https%3A%2F%2Fwww.paramountplus.com&tfcd=0&_fw_us_privacy=1YNN&session=d&sz=640x480&cpSession=0&gr=5&sb=14&vguid=f77909ee-7a7a-47a0-91a4-867006246dec&cpPre=0&msid=B017250D16&subses=4&user=ADULT&ge=0&fms_subscriberid=20562091&fms_userid=%242a%2404%24zSyvThAN4P.wMDUjgZEGhuSkag%2F1G9XtFvAWLDa7SbNoJyMgfO3Z.&fms_ruleid=10003%2C10004&fms_emailhash=518074e839e8ee03fcbe0e19c45c9cad47876f1bb42146528fcd70fe00df7e51&_fw_vcid2=518074e839e8ee03fcbe0e19c45c9cad47876f1bb42146528fcd70fe00df7e51&fms_vcid2type=emailhash&_fw_is_lat=1&_fw_did=amazon_advertising_id%3A00000000-0000-0000-0000-00000000000&playername_version=avia_5.7.12&ima_sdkv=3.30.3",        
+        "type":"VOD",
+	"drmType":"WIDEVINE",
+        "drmContentId":"oMvs9adT4w35zHaQSmmU25QZw5Rt6DnM",
+        "drmToken":"{drmToken}",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"      
+      }
       {
 	"heading":"DAI Tests"
       },
       {
-	"title":"DAI VoD w/DRM",
+	"title":"DAI VoD w/DRM - Paramount Ad",
         "resourceProvider":"DAI",
 	"daiId":"kFfjpWZ9totEO8uL2CsFxFxYGTcqLIS_",
 	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
@@ -44,21 +43,6 @@
         "drmContentId":"kFfjpWZ9totEO8uL2CsFxFxYGTcqLIS_",
         "drmToken":"{drmToken}",
         "type":"VOD",
-        "drmEnvironment":"{drmEnvironment}",
-        "drmHost":"{drmHost}",
-        "drmDevice":"{drmDevice}"
-      },	   
-      {
-	"title":"DAI VoD w/DRM, Ad Params, Skippable Ads",
-        "resourceProvider":"DAI",
-	"daiId":"FJI2nkXRr14XckzAnrDBUrUVoNuwqm8_",
-	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
-	"daiCmsId":"2497752",
-	"adParameters":"imafw_gr=3&imafw_cpPre=0&imafw_sz=640x480&imafw_fms_vcid2type=liveramp&imafw__fw_continuous_play=0&imafw_vguid=30aa07ca-7261-4f1f-86e4-704b191b8402&imafw__fw_app_bundle=com.cbs.app&imafw_description_url=https%3A%2F%2Fwww.paramountplus.com&imafw_packageSource=cbscomp&imafw_user=ADULT&imafw_fms_emailhash=366e33752d5d7b9a0a401387c9797c5cdc84cbc84bcd5e3b569b9f625df15e1b&imafw_ge=2&imafw_fms_ramp_id=XY6395KTI4hXQ5tvG8GfcHJHIOp5gYPdxQLhCdCfyMKmMYmRs&imafw_csid=streaming_paramountplus_mobile_androidphone_vod&imafw_cpSession=0&imafw__fw_us_privacy=1YNN&imafw__fw_did=google_advertising_id%3A31228d63-999f-42a3-b56e-6acf74373d6d&imafw_sb=14&imafw_ima_sdkv=3.28.2&imafw__fw_h_referer=com.cbs.app&imafw_session=b&imafw__fw_coppa=0&tfcd=0&imafw_fms_ifa=31228d63-999f-42a3-b56e-6acf74373d6d&imafw_fms_hh_ramp_id=hY63957x5dAvyWVuIUOwI3BOIaSvnkfuC_zOA1x_5t8OSlNTE&imafw__fw_is_lat=0&imafw_tfcd=0&imafw_sub=55431484&imafw_fms_subscriberid=55431484&imafw__fw_vcid2=XY6395KTI4hXQ5tvG8GfcHJHIOp5gYPdxQLhCdCfyMKmMYmRs&imafw_playername_version=avia_4.2.2&imafw_subses=1&api-key=7j3n273bfj7jcnvf22d713a51f&sas=1&ctv=0&mv=83461110.com.android.vending&ms=CoAC1UqlRZEl9pF1OuNJ1dmmUvExfOkdHDdhw4qQyZ3TAnFPpG7g535c3S1Imkvs7fQvbagHdmZXH3A-7kgFwr3bf3798ZDZIBtyAzu-_4P-2lRDv9b0QEZGoa0PDWdSPX0LOa3UXVd_mRbgFpm__oyoMjfwYDJqy0qGdZbftJ1pHR4FQTNht2N_IlFfeSNhofBx5ArfP9orfOrscV5o2l7xjakRpCSQufYojbh6lS-OVj-EP9bKfVmB7z2p49d-1bprd-Ms6lJ7J0RKEZ_a7GVhRCR8MAHde1nNvIdbti7xrMua9zfCiWp9vLipVb2-x-gEpqT5M5EW4XK99obGyPTOiwqAAlL4R2EDaGOnJ-YpeqbVwPmMUew5efZUfEkDax4toSKkkZcS5j3WaWe4gl2VEwb1izbtUTj4lZbqFdTMn-cHf5vlzR45PGtLum9c2FKoJjQ4oaFn5kyydLiHz0Be3tZ75OxVEQA4-jBEy1AX0IWP1qqOdVsaglq-V1OT2Dp7BRHflmLPA1T1MGBR0O_1WAFkxQPTOvbToisBj7O2RliJJ0WJ6aR--nKW3T9z7CXkemIkexmBUb-1o0705kY21IaYsVE2bxLey8r-lajA3Qn1JQaaFV5OivtyW5CWlnh9MlmDFq0_QzrU4d0wSylnRUSWHjrQhodW-_u9FbDYJJKeupYSEMUvkBYLm0TqKv7oftZSIo4&js=ima-android.3.28.2&correlator=586459642010124&mpt=AVIA_Player&mpv=avia_4.2.2&ptt=20&osd=2&sdki=445&sdkv=h.3.353.0%2Fn.android.3.28.2%2Fcom.cbs.app&uach=null&an=com.cbs.app&msid=com.cbs.app&eid=44748969%2C44765701%2C44777649%2C44781409%2C44781753%2C44782991&frm=-1&omid_p=Google1%2Fandroid.3.28.2&sdk_apis=7%2C8&sid=68CFB855-844C-4995-A9AD-C411FF884FB9&url=com.cbs.app.adsenseformobileapps.com%2F&is_lat=0&idtype=adid&rdid=31228d63-999f-42a3-b56e-6acf74373d6d&us_privacy=1YNN",      
-        "drmType":"WIDEVINE",
-        "drmContentId":"FJI2nkXRr14XckzAnrDBUrUVoNuwqm8_",
-        "drmToken":"{drmToken}",
-        "type":"VOD",     
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}"
