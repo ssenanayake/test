@@ -46,7 +46,7 @@
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}"
-      }
+      },
       {
 	"title":"DAI VoD - Google Ad",
         "resourceProvider":"DAI",
