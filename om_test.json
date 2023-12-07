@@ -61,8 +61,7 @@
         "type":"VOD",     
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
-        "drmDevice":"{drmDevice}",
-	"promo":true      
+        "drmDevice":"{drmDevice}"
       }
    ]
 }
