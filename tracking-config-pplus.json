@@ -148,7 +148,7 @@
         "contentInfo.Conviva.isLive": "boolean"
       },
       "contentInfo": {
-        "Conviva.assetName": "{data.isLive} ? {context.liveVideoTitle} : {context.asset}",
+        "Conviva.assetName": "{data.isLive} ? [Live] {data.mediaTitle} : [VoD] {data.mediaTitle}",
         "Conviva.streamUrl": "{data.mediaUrl}",
         "Conviva.isLive": "{data.isLive}",
         "Conviva.playerName": "{data.playerName}",
