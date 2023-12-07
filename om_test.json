@@ -47,5 +47,13 @@
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}"
       }
+      {
+	"title":"DAI VoD - Google Ad",
+        "resourceProvider":"DAI",
+	"daiId":"tears-of-steel-omid",
+	"daiApiKey":"",
+	"daiCmsId":"2556080",
+        "type":"VOD"
+      }	   
    ]
 }
