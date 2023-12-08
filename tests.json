@@ -342,7 +342,7 @@
         "drmDevice":"{drmDevice}"
       },
       {
-	"title":"DAI VoD w/DRM & adParams",
+	"title":"DAI VoD w/DRM & Ad Parameters",
         "resourceProvider":"DAI",
 	"daiId":"kFfjpWZ9totEO8uL2CsFxFxYGTcqLIS_",
 	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
