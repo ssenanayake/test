@@ -354,7 +354,7 @@
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}",
-	"adParameters":["dai-excl=audio-lang:fr,audio-lang:de,audio-lang:it,subtitle-lang:fr,subtitle-lang:de,subtitle-lang:it", "dai-sr=:6000000", "sb=14"],       
+	"adParameters":["dai-excl=audio-lang:fr,audio-lang:de,audio-lang:it,subtitle-lang:fr,subtitle-lang:de,subtitle-lang:it", "dai-sr=:6000000", "sb=14"]      
       },	   
       {
         "title":"DAI VoD w/DRM & Resume @10s",
