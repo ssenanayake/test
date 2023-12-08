@@ -340,6 +340,21 @@
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}"
+      },
+      {
+	"title":"DAI VoD w/DRM & adParams",
+        "resourceProvider":"DAI",
+	"daiId":"kFfjpWZ9totEO8uL2CsFxFxYGTcqLIS_",
+	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+	"daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"kFfjpWZ9totEO8uL2CsFxFxYGTcqLIS_",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}",
+	"adParameters":["dai-excl=audio-lang:fr,audio-lang:de,audio-lang:it,subtitle-lang:fr,subtitle-lang:de,subtitle-lang:it", "dai-sr=:6000000", "sb=14"],       
       },	   
       {
         "title":"DAI VoD w/DRM & Resume @10s",
