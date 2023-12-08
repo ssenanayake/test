@@ -774,11 +774,11 @@
 	"drmDevice":"{drmDevice}"       
       },	   
       {
-	"title":"URI VoD DASH w/DRM - Movie 4, Resume @11s",
+	"title":"URI VoD DASH w/DRM - Transformers, Resume @11s",
 	"resourceProvider":"URI",
-	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2019/03/20/1461808707757/1326543_cenc_fmp4_hdr_dash/stream.mpd",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2021/07/08/1919384131766/861986_cenc_fmp4_hdr_dash/stream.mpd",
 	"drmType":"WIDEVINE",
-	"drmContentId":"OZkLn_xRuFBy_B3dQnzkewP0hw99lxaZ",
+	"drmContentId":"BzNnp6UpAQvTAlTdIrfO26aZoA9sxwTh",
 	"drmToken":"{drmToken}",
 	"type":"VOD",
 	"drmEnvironment":"{drmEnvironment}",
