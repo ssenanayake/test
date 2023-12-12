@@ -1074,7 +1074,7 @@
       {
         "title":"URI Live - SuperBowl DASH w/DRM - HDR",
         "resourceProvider":"SB",
-        "uri":"https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_3/index.mpd",
+        "uri":"https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
         "type":"LIVE",
 	"drmType":"WIDEVINE",
 	"drmContentId":"18181293-eb43-4da7-8059-a2da0952f2fd",
@@ -1083,30 +1083,6 @@
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}",
 	"runTest":1      
-      },
-      {
-        "title":"URI Live - SuperBowl HLS - Clear - Nov 28 SDR",
-        "resourceProvider":"SB",
-        "uri":"https://sb58hf609gf.airspace-cdn.cbsivideo.com/stream_2/main.m3u8",
-        "type":"LIVE"
-      },
-      {
-        "title":"URI Live - SuperBowl DASH w/DRM - Nov 28 HDR",
-        "resourceProvider":"SB",
-        "uri":"https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
-        "type":"LIVE",
-	"drmType":"WIDEVINE",
-	"drmContentId":"18181293-eb43-4da7-8059-a2da0952f2fd",
-	"drmToken":"{drmToken}",
-	"drmEnvironment":"{drmEnvironment}",
-	"drmHost":"{drmHost}",
-	"drmDevice":"{drmDevice}"
-      },
-      {
-        "title":"URI Live - SuperBowl HLS - Clear - Failover SDR",
-        "resourceProvider":"SB",
-        "uri":"https://sb58gcf94h2.airspace-cdn.cbsivideo.com/stream_2/main.m3u8",
-        "type":"LIVE"
-      }	   
+      }
    ]
 }
