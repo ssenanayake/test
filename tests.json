@@ -1077,7 +1077,7 @@
         "uri":"https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_3/index.mpd",
         "type":"LIVE",
 	"drmType":"WIDEVINE",
-	"drmContentId":"da78412f-2ac1-4370-9c60-d19ced0752bf",
+	"drmContentId":"18181293-eb43-4da7-8059-a2da0952f2fd",
 	"drmToken":"{drmToken}",
 	"drmEnvironment":"{drmEnvironment}",
 	"drmHost":"{drmHost}",
