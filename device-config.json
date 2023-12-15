@@ -19,9 +19,9 @@
 			   "disablePremiumAudio" : false,
 			   "maxBitrate" : 1500000,
 			   "minLiveBuffer" : 10,
-			   "maxLiveBuffer" : 20,
+			   "maxLiveBuffer" : 40,
 			   "minNonLiveBuffer" : 10,
-			   "maxNonLiveBuffer" : 20
+			   "maxNonLiveBuffer" : 40
                           }
   },
   {
@@ -30,9 +30,9 @@
 			   "disablePremiumAudio" : false,
                            "maxBitrate" : 15000000,
 			   "minLiveBuffer" : 10,
-			   "maxLiveBuffer" : 20,
+			   "maxLiveBuffer" : 40,
 			   "minNonLiveBuffer" : 10,
-			   "maxNonLiveBuffer" : 20
+			   "maxNonLiveBuffer" : 40
                           }
   },
   {
@@ -41,9 +41,9 @@
 			   "disablePremiumAudio" : false,
                            "maxBitrate" : 15000000,
 			   "minLiveBuffer" : 10,
-			   "maxLiveBuffer" : 20,
+			   "maxLiveBuffer" : 40,
 			   "minNonLiveBuffer" : 10,
-			   "maxNonLiveBuffer" : 20
+			   "maxNonLiveBuffer" : 40
                           }
   },
   {
@@ -64,9 +64,9 @@
         "condition" : {"model" : "(?i)AFTSS"},
         "configuration" : {"maxBitrate" : 8000000,
 			   "minLiveBuffer" : 10,
-			   "maxLiveBuffer" : 20,
+			   "maxLiveBuffer" : 40,
 			   "minNonLiveBuffer" : 10,
-			   "maxNonLiveBuffer" : 20,
+			   "maxNonLiveBuffer" : 40,
                            "disablePremiumAudio" : false,
 			   "disablePremiumAudioForAds" : true
                           }
@@ -75,9 +75,9 @@
         "condition" : {"model" : "(?i)AFTSSS"},
         "configuration" : {"maxBitrate" : 8000000,
 			   "minLiveBuffer" : 10,
-			   "maxLiveBuffer" : 20,
+			   "maxLiveBuffer" : 40,
 			   "minNonLiveBuffer" : 10,
-			   "maxNonLiveBuffer" : 20,
+			   "maxNonLiveBuffer" : 40,
 			   "disablePremiumAudio" : false,
                            "disablePremiumAudioForAds" : true
                           }
