@@ -198,7 +198,8 @@
 	"resourceProvider":"URI",
 	"uri":"https://www.paramountplus.com/apps-api/v3.0/firetv/dma.json?ipaddress=98.210.77.111&dtp=8&mvpdId=AllAccess&is60FPS=true&did=652e321238a51e6f&locale=en-us&at=ABCmrL%2BqTCQ8UujYajWJJnvgcsXFGqrgS530PSANzLK%2Fi3SLgMcReMBy1nkxGwo9RA0%3D",
 	"type":"LIVE",
-	"feed":"syncbak"      
+	"feed":"syncbak",
+	"tokenized":true      
       },  		   	   
       {
 	"title":"URI DVR DASH w/DRM & Seek Thumbnails",
