@@ -1081,7 +1081,7 @@
 	"drmType":"WIDEVINE",
 	"drmContentId":"6c93f843-3368-43c9-ac54-58d14f6ee827",
         "drmToken":"{drmToken}",
-        "drmEnvironment":"{drmEnvironment}",
+        "drmEnvironment":"{drmEnvironmentTest}",
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}"      
       }	   
