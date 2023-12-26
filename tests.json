@@ -1076,7 +1076,7 @@
       {
         "title":"URI Live - SuperBowl DASH - DRM - HDR",
         "resourceProvider":"SB",
-        "uri":"https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
+        "uri":"https://sb589f19881.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
         "type":"LIVE",
 	"drmType":"WIDEVINE",
 	"drmContentId":"6c93f843-3368-43c9-ac54-58d14f6ee827",
