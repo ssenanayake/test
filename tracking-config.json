@@ -537,7 +537,7 @@
         "resource": "{data.mediaUrl}",
         "deviceUUID": "",
         "username": "",
-        "playrate": "1",
+        "playRate": "1.0",
         "userType": "",
         "transactionCode": "",
         "parsedResource": "",
