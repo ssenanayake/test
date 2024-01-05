@@ -449,13 +449,13 @@
         "enableSSL": true
       },
       "payload": {
-        "contentid": "{data.mediaId}",
+        "contentid": "{data.mediaId} | 00000000",
         "userid": "{context.userId} | -1",
         "siteid": "{context.siteId} | 164",
         "sessionid": "{context.sessionId}",
-        "platform": "{data.platform}",
-        "premium": "{data.mediaPremiumContent}",
-        "affiliate": "{data.affiliateFeed}",
+        "platform": "{data.platform} | android",
+        "premium": "{data.mediaPremiumContent} | false",
+        "affiliate": "{data.affiliateFeed} | false",
         "medtime": "{data.playhead}",
         "title": "{data.mediaTitle}",
         "userprofile": "0"
