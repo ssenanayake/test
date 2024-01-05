@@ -1071,7 +1071,7 @@
         "drmDevice":"{drmDevice}"
       },	   
       {
-	"heading":"Superbowl Pre-Games"
+	"heading":"Superbowl Test-Games"
       },
       {
         "title":"URI Live - SuperBowl HLS - Clear - SDR",
@@ -1110,6 +1110,33 @@
         "drmEnvironment":"{drmEnvironmentTest}",
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}"      
-      }		      
+      },
+      {
+	"heading":"Superbowl Pre-Games"
+      },
+      {
+        "title":"URI Live - SuperBowl HLS - Key from Irdeto - SDR",
+        "resourceProvider":"SB",
+        "uri":"https://sb58hf609gf.airspace-cdn.cbsivideo.com/stream_1/main.m3u8",
+        "type":"LIVE",
+	"drmType":"NONE",
+        "drmContentId":"d817dd83-9b21-4dc5-94c8-b470f2142851",
+        "drmToken":"{drmToken}",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"      
+      },
+      {
+        "title":"URI Live - SuperBowl DASH w/DRM - HDR",
+        "resourceProvider":"SB",
+        "uri":"https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
+        "type":"LIVE",
+	"drmType":"WIDEVINE",
+        "drmContentId":"f0bdb26c-b853-418b-b740-98b10f2ec35b",
+        "drmToken":"{drmToken}",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"      
+      }			   
    ]
 }
