@@ -1098,6 +1098,18 @@
         "drmEnvironment":"{drmEnvironmentTest}",
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}"      
-      }	   
+      },
+      {
+        "title":"URI Live - SuperBowl DASH w/DRM - HDR",
+        "resourceProvider":"SB",
+        "uri":"https://sb589f19881.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
+        "type":"LIVE",
+	"drmType":"NONE",
+        "drmContentId":"fa4c06e8-7cde-4794-bbe8-35b1e41b927c",
+        "drmToken":"{drmToken}",
+        "drmEnvironment":"{drmEnvironmentTest}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"      
+      }		      
    ]
 }
