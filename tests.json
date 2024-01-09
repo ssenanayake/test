@@ -882,7 +882,7 @@
 	"drmToken":"{drmToken}",
 	"drmEnvironment":"{drmEnvironment}",
 	"drmHost":"{drmHost}",
-	"drmDevice":"{drmDevice}",      
+	"drmDevice":"{drmDevice}"    
       }, 	   
       {
 	"enable":false,      
