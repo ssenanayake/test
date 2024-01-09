@@ -871,7 +871,7 @@
 	"heading":"Miscellaneous Tests"
       },
       {
-        "title":"DAI Live - w/Irdeto keys",
+        "title":"DAI Live - HLS w/Irdeto Keys",
         "resourceProvider":"DAI",
         "daiId":"5dKkkAbqTruWOc3Vdtndrg",
         "daiApiKey":"",
