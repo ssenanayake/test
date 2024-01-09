@@ -871,12 +871,18 @@
 	"heading":"Miscellaneous Tests"
       },
       {
-        "title":"DAI Live - Check 6000",
+        "title":"DAI Live - w/Irdeto keys",
         "resourceProvider":"DAI",
         "daiId":"5dKkkAbqTruWOc3Vdtndrg",
         "daiApiKey":"",
         "daiCmsId":"",
-        "type":"LIVE"
+        "type":"LIVE",
+	"drmType":"NONE",
+	"drmContentId":"UlDz5M8xbMl8rW9mlsdsjSvipKwdMa7X",
+	"drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}",      
       }, 	   
       {
 	"enable":false,      
