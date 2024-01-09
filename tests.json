@@ -871,6 +871,14 @@
 	"heading":"Miscellaneous Tests"
       },
       {
+        "title":"DAI Live - Check 6000",
+        "resourceProvider":"DAI",
+        "daiId":"5dKkkAbqTruWOc3Vdtndrg",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"LIVE"
+      }, 	   
+      {
 	"enable":false,      
 	"title":"URI VoD DASH w/DRM - Interstitials",
 	"resourceProvider":"URI",
