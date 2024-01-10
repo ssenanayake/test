@@ -407,7 +407,7 @@
         "platform": "{data.platform}",
         "premium": "{data.mediaPremiumContent}",
         "affiliate": "{data.affiliateFeed}",
-        "medTime": "{data.playhead}",
+        "medtime": "{data.playhead}",
         "title": "{data.mediaTitle}",
         "userProfile": "0"
       }
