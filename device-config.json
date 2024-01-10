@@ -21,8 +21,7 @@
 			   "minLiveBuffer" : 10,
 			   "maxLiveBuffer" : 40,
 			   "minNonLiveBuffer" : 10,
-			   "maxNonLiveBuffer" : 40,
-			   "useSoftwareDecoder": true
+			   "maxNonLiveBuffer" : 40
                           }
   },
   {
