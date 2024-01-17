@@ -16,7 +16,7 @@
    "tests":[	   
       {
 	"heading":"Superbowl Test-Games"
-      }
+      },
       {
         "title":"URI Live - SuperBowl HLS - Key from Irdeto - SDR",
         "resourceProvider":"SB",
