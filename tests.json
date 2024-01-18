@@ -1116,6 +1116,20 @@
         "drmDevice":"{drmDevice}"
       },	   
       {
+	"title":"DAI VoD w/DRM - 7th Haven",
+        "resourceProvider":"DAI",
+	"daiId":"_hvHAxnZRBpULz9JqBxlYVTKOyQOtETq",
+	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+	"daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"_hvHAxnZRBpULz9JqBxlYVTKOyQOtETq",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },	   
+      {
 	"heading":"Superbowl Test-Games"
       },
       {
