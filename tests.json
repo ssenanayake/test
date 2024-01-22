@@ -1148,21 +1148,21 @@
 	"heading":"Superbowl Test-Games"
       },
       {
-        "title":"URI Live - SuperBowl HLS - Clear - SDR",
+        "title":"URI Live Test - SuperBowl HLS - Clear - SDR",
         "resourceProvider":"SB",
         "uri":"https://sb58hf609gf.airspace-cdn.cbsivideo.com/stream_2/main.m3u8",
         "type":"LIVE",
 	"drmType":"NONE"
       },	   
       {
-        "title":"URI Live - SuperBowl DASH - Clear - HDR",
+        "title":"URI Live Test - SuperBowl DASH - Clear - HDR",
         "resourceProvider":"SB",
         "uri":"https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_4/main.mpd",
         "type":"LIVE",
 	"drmType":"NONE"
       },
       {
-        "title":"URI Live - SuperBowl HLS - Key from Irdeto - SDR",
+        "title":"URI Live Test - SuperBowl HLS - Key from Irdeto - SDR",
         "resourceProvider":"SB",
         "uri":"https://sb58gcf94h2.airspace-cdn.cbsivideo.com/stream_1/main.m3u8",
         "type":"LIVE",
@@ -1174,7 +1174,7 @@
         "drmDevice":"{drmDevice}"      
       },
       {
-        "title":"URI Live - SuperBowl DASH w/DRM - HDR",
+        "title":"URI Live Test - SuperBowl DASH w/DRM - HDR",
         "resourceProvider":"SB",
         "uri":"https://sb589f19881.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
         "type":"LIVE",
