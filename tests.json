@@ -873,9 +873,16 @@
       {
 	"title":"Pluto w/JWT",
         "resourceProvider":"URI",
-	"uri":"https://boot.pluto.tv/v4/start?appName=ios&appVersion=5.33&architecture=&blockingMode=&buildVersion=18&channelCount=0&channelID=&channelNumber=0&channelPosition=&channelSlug=&clientDeviceType=4&clientID=DE2E3620-C8AC-4D75-8626-A80E553FB35A&clientModelNumber=iPhone&clientTime=\(String(Date().timeIntervalSince1970))&cmAudienceID=&constraints=&deviceMake=Apple&deviceModel=iPhone&deviceType=ios&deviceVersion=16_0&drmCapabilities=fairplay&episodeCount=0&episodeIDs=&episodeSlugs=&eventSource=&includeExtendedEvents=&isClientDNT=1&serverSideAds=0",      
+	"uri":"https://boot.pluto.tv/v4/start?appName=web&appVersion=7.9.0-a9cca6b89aea4dc0998b92a51989d2adb9a9025d&deviceVersion=109.0.0&deviceModel=web&deviceMake=firefox&deviceType=web&clientID=ef2e090d-4cdc-4376-94cd-2891140edd67&clientModelNumber=1.0.0&seriesIDs=629ff609cb032400134d42bc&serverSideAds=false&constraints=&drmCapabilities=widevine%3AL3&blockingMode=&clientTime=2024-01-22T16%3A58%3A47.396Z",      
 	"contentId": "629ff609cb032400134d42bc",
         "type":"VOD",
+	"drmType":"WIDEVINE",
+	"drmContentId":"629ff609cb032400134d42bc",
+	"drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}",      
 	"feed":"pluto"
       },	   
       {
