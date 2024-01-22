@@ -874,6 +874,7 @@
 	"title":"Pluto w/JWT",
         "resourceProvider":"URI",
 	"uri":"https://boot.pluto.tv/v4/start?appName=ios&appVersion=5.33&architecture=&blockingMode=&buildVersion=18&channelCount=0&channelID=&channelNumber=0&channelPosition=&channelSlug=&clientDeviceType=4&clientID=DE2E3620-C8AC-4D75-8626-A80E553FB35A&clientModelNumber=iPhone&clientTime=\(String(Date().timeIntervalSince1970))&cmAudienceID=&constraints=&deviceMake=Apple&deviceModel=iPhone&deviceType=ios&deviceVersion=16_0&drmCapabilities=fairplay&episodeCount=0&episodeIDs=&episodeSlugs=&eventSource=&includeExtendedEvents=&isClientDNT=1&serverSideAds=0",      
+	"contentId": "629ff609cb032400134d42bc",
         "type":"VOD",
 	"feed":"pluto"
       },	   
