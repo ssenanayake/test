@@ -1,0 +1,1216 @@
+{
+   "params":{
+      "drmToken":"https://www.paramountplus.com/apps-api/v2.0/iphone/auth/login.json?at=ABA7fgnFH2O1XVmpSKh6f5YiwylZTNpMlafiNbyneb9n8T0B3DOq/3LdTxmeTy2g6/k=",
+      "drmHost":"www.paramountplus.com",
+      "drmEnvironment":"live",
+      "drmEnvironmentTest":"stage",	   
+      "drmDevice":"firetv",
+      "maxBitrate":"20000000",
+      "enableThumbnails":"true",
+      "fetchAdUri":"https://7f077.v.fwmrm.net/ad/g/1?nw=520311&asnw=520311&ssnw=520311&prof=520311%3AGoogleDAICSAI_v01&caid=oMvs9adT4w35zHaQSmmU25QZw5Rt6DnM&csid=streaming_paramountplus_ctv_androidtv_vod&flag=%2Bamcb%2Bemcr%2Bslcb%2Bqtcb%2Bvicb%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&pvrn=1697861614&resp=vast4&vprn=1697861614;_fw_coppa=0&_fw_is_lat=0&csid=streaming_paramountplus_ctv_androidtv_vod&_fw_ae=&_fw_continuous_play=0&_fw_app_bundle=com.cbs.ott&_fw_did=google_advertising_id%3A93aecbf9-6060-4f46-9dea-0abe88193d22&_fw_h_referer=com.cbs.ott&packageSource=cbscomp&gr=4&cpPre=0&sz=640x480&tfcd=0&vguid=f45efa76-90c7-436e-8ec0-6227f5f58b29&description_url=https%3A%2F%2Fwww.paramountplus.com&user=ADULT&cust_params=bundle%3DSHO&ge=3&tfcd=0&cpSession=0&_fw_us_privacy=1YNN&sub=80747620&sb=22&session=b&subses=2&fms_bididtype=1010&_fw_3P_UID=UID2%3AAgAABSeYUikw1OrjX3hNfKZnUyC%2FRo27RFKMk4eijp0Ln%2FvbthpO1iAzEBUsXUwX3ghJL5%2F4s2lttLOB%2Fuo%2BlLxppmqV6Ix6Kvyqh3ApwJYKK2nmT17hytNmiVpYyAgriO1x%2BrtlKagQ2Z1yeR28qQIjiv%2BIZhl8Y2U3zUHa4pGjj2OvoA%3D%3D&fms_ruleid=10000&fms_ramp_id=XY6395oFkPT7tu0tW5r_hZqSkBNLepxbjJKNPjIbPgW7yu1jE&fms_vcid2type=liveramp&fms_ifa=93aecbf9-6060-4f46-9dea-0abe88193d22&fms_subscriberid=80747620&_fw_vcid2=XY6395oFkPT7tu0tW5r_hZqSkBNLepxbjJKNPjIbPgW7yu1jE&fms_emailhash=35c70ea01d22e010bf51bd2f9def921527c174c9e80107216ba5ef260bbe10ee&fms_hh_ramp_id=hY6395clQXKjYjn9Ae9QQ5HmRs0EhkMe7OzicmvTGcn4jMTuc;slid=pause_ads-1018x674&ptgt=a&tpcl=PAUSE_MIDROLL&w=1018&h=674&slau=PAUSE_AD",
+      "fetchAdDelay":"3000",
+      "liveOffset":"40000",	   
+      "trackingConfig":"",
+      "deviceConfig":"https://raw.githubusercontent.com/ssenanayake/test/main/device-config.json"	   
+   },
+   "tests":[
+      {
+	"heading":"URI Tests"
+      },
+      {
+        "title":"URI VoD wo/Auto-Play",
+        "resourceProvider":"URI",
+        "uri":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "type":"VOD",
+        "autoPlay":false
+      },  
+      {
+	"title":"URI VoD w/Pause Ad",
+	"resourceProvider":"URI",
+	"uri":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "type":"VOD",
+	"allowFetchAd":true      
+      },
+      {
+	"title":"URI VoD w/Resume @10s",
+	"resourceProvider":"URI",
+        "uri":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "type":"VOD",
+	"resumePosition":10000
+      },
+      {
+	"title":"URI VOD MP4 w/Multiple Side CC",
+        "resourceProvider":"URI",
+        "uri":"https://tears-of-steel-subtitles.s3.amazonaws.com/tos.mp4",
+        "type":"VOD",
+	"captions":[{"language":"en", "uri":"https://tears-of-steel-subtitles.s3.amazonaws.com/tears-en.vtt"},
+		       {"language":"es", "uri":"https://download.blender.org/demo/movies/ToS/subtitles/TOS-es.srt"},
+		       {"language":"ru", "uri":"https://download.blender.org/demo/movies/ToS/subtitles/TOS-ru.srt"}]
+      },  
+      {
+        "title":"URI VoD w/Multiple CC",
+        "resourceProvider":"URI",
+        "uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
+        "type":"VOD"
+      },
+      {
+	"title":"URI VoD w/VTT Thumbnails",
+        "resourceProvider":"URI",
+        "uri":"https://play.dev.cbsivideo.com/h/1.7TORoMYqJaeWzOhAFif0RCBEMIutx4t97p8SHqcPyqEXtUrnJpNQZ6s6UWxSu7Sk33fooMwlgJA6xFIv2LSYC2jRERfbtGn1VsyWgFfkIisTimThJJ61tcPIcemtEqp2oswKCqFx1MyLIyc9waPsrBt00MIGJqQdjoHkLh0ltoVTDjHnmGFWJ2BqH3JD28LuBgyUi6oRpcxO0FOgeMuCbrjo9ZAQx86VRrkiLFxTB766GNVR5fLyzGbqgSM03tu3GL5KmU2yoV599RJMfGwBEBTbpQ7U7WlNLVZhTLyQkVQ6NjtNvIOCUbG78I8SIS6Vw3FOjmzbL5zTJ2s1hjsl1MFTGEeWE3RQOE4f00T8odARjyCtwPVxk5GLiXxsq5p4FxkZJ2T2mZS7MlVzoOQhx71a6lWQ5WEUfUm8UWGXvWrAgTsHSwBkmFDAfneMj6eqjiwFG5mJEhbo0mbTeNH4zEogYRV3KL3dqsFvvDTcCzRiNZdP609HM0BtMeRq8t0/master.m3u8",
+	"type":"VOD",
+        "thumbnails":[{"size":"", "uri":"https://play.dev.cbsivideo.com/h/1.7TORoMYqJaeWzOhAFif0RCBEMIutx4t97p8SHqcPyqEXtUrnJpNQZ6s6UWxSu7Sk33fooMwlgJA6xFIv2LSYC2jRERfbtGn1VsyWgFfkIisTimThJJ61tcPIcemtEqp2oswKCqFx1MyLIyc9waPsrBt00MIGJqQdjoHkLh0ltoVTDjHnmGFWJ2BqH3JD28LuBgyUi6oRpcxO0FOgeMuCbrjo9ZAQx86VRrkiLFxTB766GNVR5fLyzGbqgSM03tu3GL5KmU2yoV599RJMfGwBEBTbpQ7U7WlNLVZhTLyQkVQ6NjtNvIOCUbG78I8SIS6Vw3FOjmzbL5zTJ2s1hjsl1MFTGEeWE3RQOE4f00T8odARjyCtwPVxk5GLiXxsq5p4FxkZJ2T2mZS7MlVzoOQhx71a6lWQ5WEUfUm8UWGXvWrAgTsHSwBkmFDAfneMj6eqjiwFG5mJEhbo0mbTeNH4zEogYRV3KL3dqsFvvDTcCzRiNZdP609HM0BtMeRq8t0/thumbs.vtt"}]
+      },
+      {
+        "title":"URI VoD w/DRM & DASH Thumbnails",
+	"resourceProvider":"URI",
+	"uri":"https://vod62c350g.airspace-f.cbsivideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd",
+	"drmType":"WIDEVINE",
+        "drmContentId":"TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D",
+        "drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+      },
+      {
+	"title":"URI VoD 360",
+        "resourceProvider":"URI",
+        "uri":"https://cdn.jwplayer.com/videos/AgqYcfAT-8yQ1cYbs.mp4",
+        "type":"VOD",
+        "vr360":true
+      },
+      {
+	"title":"URI VoD Local File",
+	"resourceProvider":"URI",
+	"uri":"file:///storage/emulated/0/Paramount.mp4",
+	"type":"VOD"
+      },
+      {
+	"title":"URI VoD Preview - Loop, Muted",
+	"resourceProvider":"URI",
+	"uri":"https://media.amlg.io/assets/splice_preview/2023/10/26/2276771907948/B23_45701_DIG06_2403486_2403486_3133.mp4",
+	"type":"VOD",
+	"loop":true,
+	"mute":true,
+	"preview":true      
+      },
+      {
+	"title":"URI VoD Forced Spanish CC @ 34s (CC=Off, Audio=Spanish)",
+	"resourceProvider":"URI",
+	"uri":"https://entclips.cbsaavideo.com/2022/01/27/1997082691531/1354041_hls_ta/master.m3u8",
+	"type":"VOD"
+      },
+      {
+	"title":"URI VoD w/Rendition Info in Video",
+	"resourceProvider":"URI",
+	"uri":"https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd",
+	"type":"VOD"
+      },
+      {
+	"title":"URI VoD w/4k Video",
+	"resourceProvider":"URI",
+	"uri":"http://amssamples.streaming.mediaservices.windows.net/634cd01c-6822-4630-8444-8dd6279f94c6/CaminandesLlamaDrama4K.ism/manifest(format=m3u8-aapl).m3u8",
+	"type":"VOD"
+      },	    
+      {
+	"title":"URI VoD w/DRM",
+	"resourceProvider":"URI",
+	"uri":"https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
+	"drmType":"WIDEVINE",
+	"drmUri":"https://proxy.uat.widevine.com/proxy?video_id=2015_tears&provider=widevine_test",      
+        "type":"VOD"
+      },	   
+      {
+	"title":"URI VoD thru Bakery w/German Forced CC (CC=Off, Audio=German)",
+	"resourceProvider":"URI",
+	"uri":"https://bakeryv2-pplus-dev.cbs.com/l(fr,it,no,fi,da,sv,es-MX,pt-BR,es-mx,pt-br)/paramountplus/2022/04/14/2022826563810/dubs/1805907_cenc_precon_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+        "drmContentId":"Mr8aO0vU_uK_TgtEtgE4Kmjw_YK3xWJG",
+        "drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironmentTest}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}",   
+	"type":"VOD"
+      },
+      {
+	"title":"URI VoD w/Forced CC (CC=Off, Audio=Italian,French or German)",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/paramountplus/2022/04/14/2022829635545/dubs/1806651_cenc_precon_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+        "drmContentId":"rUVlAnVuQxDJat0Ok5IPBEuGPDwBSMt3",
+        "drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}",   
+	"type":"VOD"
+      },	
+      {
+        "title":"URI VoD w/608 wo/Multi-Variant",
+        "resourceProvider":"URI",
+        "uri":"https://cbsn-sf.cbsnstream.cbsnews.com/out/v1/dac63c1abb3f4a2dac9f508f44bb072a/start/${yesterday}T17:00:00Z/end/${yesterday}T18:00:00Z/master_3.m3u8",
+        "type":"VOD"
+      },	
+      {
+	"title":"URI VoD HLS fMP4",
+	"resourceProvider":"URI",
+	"uri":"https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s-fmp4/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8",
+	"type":"VOD"
+      },
+      {
+        "title":"URI VoD w/Custom DRM Session Manager",
+	"resourceProvider":"URI",
+	"uri":"https://vod62c350g.airspace-f.cbsivideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd",
+	"drmType":"WIDEVINE",
+        "drmContentId":"TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D",
+        "drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}",
+	"customDrm":true      
+      },	   
+      {
+        "title":"URI Live - TXXX ID3 Test",
+        "resourceProvider":"URI",
+        "uri":"https://fcc3ddae59ed.us-west-2.playback.live-video.net/api/video/v1/us-west-2.893648527354.channel.DmumNckWFTqz.m3u8",
+        "type":"LIVE"
+      },
+      {
+	"title":"URI Live DASH with DRM",
+	"resourceProvider":"URI",
+	"uri":"https://188105e06331.airspace-cdn.cbsivideo.com/out/v1/abf671309c034fb0bc26a1244f00ecc0/manifest.mpd",
+	"type":"LIVE",
+	"drmType":"WIDEVINE",
+        "drmContentId":"l0qJaPDJfuowrvNyhFzLEzoZpQMz8SYE",
+        "drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironmentTest}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"       
+      },	   	   
+      {
+	"title":"URI Live DASH - 608/708 CC",
+        "resourceProvider":"URI",
+	"uri":"https://livesim.dashif.org/dash/vod/testpic_2s/cea608.mpd",      
+        "type":"LIVE"
+      },
+      {
+	"title":"URI Live - Syncbak",
+	"resourceProvider":"URI",
+	"uri":"https://www.paramountplus.com/apps-api/v3.0/firetv/dma.json?ipaddress=98.210.77.111&dtp=8&mvpdId=AllAccess&is60FPS=true&did=652e321238a51e6f&locale=en-us&at=ABCmrL%2BqTCQ8UujYajWJJnvgcsXFGqrgS530PSANzLK%2Fi3SLgMcReMBy1nkxGwo9RA0%3D",
+	"type":"LIVE",
+	"feed":"syncbak",
+	"tokenized":true      
+      },  		   	   
+      {
+	"title":"URI DVR DASH w/DRM & Seek Thumbnails",
+	"resourceProvider":"URI",
+	"uri":"https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/8ed5905e3c594aea8054c72e57af58ff/index.mpd",
+	"type":"DVR",
+	"drmType":"WIDEVINE",
+        "drmContentId":"fa4c06e8-7cde-4794-bbe8-35b1e41b927c",
+        "drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironmentTest}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"    
+      },
+      {
+        "heading":"IMA Tests"
+      },
+      {
+	"title":"IMA VoD Pre/Mid/Postrolls",
+        "resourceProvider":"IMA",
+        "uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
+	"adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpostpod&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&cmsid=496&vid=short_onecue&correlator={RANDOM}",        
+        "type":"VOD"
+      },
+      {
+        "title":"IMA VoD Pre/Mid/Postrolls w/Resume @5s & Pause Ad",
+        "resourceProvider":"IMA",
+        "uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
+        "adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpostpod&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&cmsid=496&vid=short_onecue&correlator={RANDOM}",
+        "type":"VOD",
+	"resumePosition":5000,
+	"allowFetchAd":true            
+      },
+      {
+        "title":"IMA Ad Only",
+        "resourceProvider":"IMA",
+	"uri":"",
+        "adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_preroll_skippable&sz=640x480&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator={RANDOM}",
+        "type":"VOD"
+      },
+      {
+        "title":"IMA VoD Pre/Mid/Postrolls w/Ad Holiday",
+        "resourceProvider":"IMA",
+        "uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
+        "adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpostpod&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&cmsid=496&vid=short_onecue&correlator={RANDOM}",
+        "type":"VOD",
+	"adHoliday":true
+      },
+      {
+        "title":"IMA Content Only",
+        "resourceProvider":"IMA",
+	"uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
+        "adUri":"",
+        "type":"VOD"
+      },
+      {
+	"title":"IMA VoD Preroll w/Skip Ad",
+        "resourceProvider":"IMA",
+        "uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
+        "adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_preroll_skippable&sz=640x480&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator={RANDOM}",
+        "type":"VOD",
+	"promo":true      
+      },
+      {
+	"title":"IMA VoD Multi Ad Preroll Ad & DRM",
+        "resourceProvider":"IMA",
+        "uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2014/06/29/292077123905/1681438_cenc_precon_dash/stream.mpd",
+	"adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpreonlybumper&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&correlator={RANDOM}",      
+	"drmType":"WIDEVINE",
+        "drmContentId":"NVv_JyUbYUmbE0T__q87_rSwqYwUo_9f",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },	 
+      {
+	"title":"IMA VoD & DRM without Ad url - Resume @20s",
+        "resourceProvider":"IMA",
+        "uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2021/10/28/1968784451885/1152154_cenc_fmp4_dash/stream.mpd",
+	"adUri":"",
+	"drmType":"WIDEVINE",
+        "drmContentId":"t_OKSBTJxPYhx3VdOh2fuhNjrdGIUz4Y",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}",
+	"resumePosition":20000      
+      },	   
+      {
+	"title":"IMA Live Preroll",
+        "resourceProvider":"IMA",
+        "uri":"https://propec941a5h.airspace-cdn.cbsivideo.com/out/v1/d9486a190ad9460aa6b0e38669a3b973/manifest.mpd",
+	"adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpostpod&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&cmsid=496&vid=short_onecue&correlator={RANDOM}",        
+        "type":"LIVE"
+      },	
+      {
+	"title":"IMA DVR Preroll",
+        "resourceProvider":"IMA",
+        "uri":"https://propec941a5h.airspace-cdn.cbsivideo.com/out/v1/d9486a190ad9460aa6b0e38669a3b973/manifest.mpd",
+	"adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpostpod&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&cmsid=496&vid=short_onecue&correlator={RANDOM}",        
+        "type":"DVR"
+      },
+      {
+	"title":"IMA VoD Preroll - Check for Freewheel Ad Params",
+        "resourceProvider":"IMA",
+        "uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
+        "adUri":"https://7f077.v.fwmrm.net/ad/g/1?asnw=520311&caid=ZSU_QWliQ1KNUaJ7veTItfArxdq4dPuR&csid=vcbs_cbssports_mobile_androidphone_vod&flag=%2Bdtrd%2Bsync%2Bqtcb%2Bvicb%2Bemcr%2Baeti%2Bsltp%2Bfbad%2Bscpv%2Bslcb&metr=1023&nw=520311&prof=520311%3AGoogleDAICSAI_v01&pvrn=564972480052 &resp=vmap1%2Bvast4&ssnw=520311&vprn=564972480052; &_fw_coppa=0&_fw_h_referer=com.handmark.sportcaster.android&_fw_vcid2=8a4b05f7-800e-4b06-8ae9-f5018946e4f3&description_url=https%3A%2F%2Fwww.cbssports.com&sz=640x480&givn=[GOOGLE_INSTREAM_VIDEO_NONCE];",
+        "type":"VOD"
+      },	   
+      {
+	"heading":"DAI Tests"
+      },
+      {
+	"title":"DAI VoD w/DRM & Pause Ad",
+        "resourceProvider":"DAI",
+	"daiId":"9D5se7TaQpNkFuHlSJL4Gl_VVoZBPZnz",
+	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+	"daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"9D5se7TaQpNkFuHlSJL4Gl_VVoZBPZnz",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}",
+	"allowFetchAd":true            
+      },
+      {
+	"title":"DAI VoD w/DRM",
+        "resourceProvider":"DAI",
+	"daiId":"kFfjpWZ9totEO8uL2CsFxFxYGTcqLIS_",
+	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+	"daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"kFfjpWZ9totEO8uL2CsFxFxYGTcqLIS_",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },
+      {
+	"title":"DAI VoD w/DRM & Ad Parameters",
+        "resourceProvider":"DAI",
+	"daiId":"kFfjpWZ9totEO8uL2CsFxFxYGTcqLIS_",
+	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+	"daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"kFfjpWZ9totEO8uL2CsFxFxYGTcqLIS_",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}",
+	"adParameters":["dai-excl=audio-lang:fr,audio-lang:de,audio-lang:it,subtitle-lang:fr,subtitle-lang:de,subtitle-lang:it", "dai-sr=:6000000", "sb=14"]      
+      },	   
+      {
+        "title":"DAI VoD w/DRM & Resume @10s",
+        "resourceProvider":"DAI",
+        "daiId":"9D5se7TaQpNkFuHlSJL4Gl_VVoZBPZnz",
+        "daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+        "daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"9D5se7TaQpNkFuHlSJL4Gl_VVoZBPZnz",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}",
+	"resumePosition":10000
+      },
+      {
+        "title":"DAI VoD w/Innovid (returns a 404 during Content)",
+        "resourceProvider":"DAI",
+        "daiId":"googleio-highlights",
+        "daiApiKey":"",
+        "daiCmsId":"2490667",
+        "type":"VOD"
+      },	
+      {
+        "title":"DAI VoD w/DRM & Ad Holiday",
+        "resourceProvider":"DAI",
+        "daiId":"9D5se7TaQpNkFuHlSJL4Gl_VVoZBPZnz",
+        "daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+        "daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"9D5se7TaQpNkFuHlSJL4Gl_VVoZBPZnz",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}",
+        "adHoliday":true
+      },
+      {
+	"title":"DAI VoD w/DRM, Multi-CC, Multi-Language Audio",
+        "resourceProvider":"DAI",
+	"daiId":"NVv_JyUbYUmbE0T__q87_rSwqYwUo_9f",
+	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+	"daiCmsId":"2497752",
+	"adParameters":["csid=streaming_paramountplus_ctv_amazonfiretv_vod", "sb=14"],      
+        "drmType":"WIDEVINE",
+        "drmContentId":"NVv_JyUbYUmbE0T__q87_rSwqYwUo_9f",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },
+      {
+	"title":"DAI VoD w/DRM, Ad Params, Skippable Ads",
+        "resourceProvider":"DAI",
+	"daiId":"FJI2nkXRr14XckzAnrDBUrUVoNuwqm8_",
+	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+	"daiCmsId":"2497752",
+	"adParameters":"imafw_gr=3&imafw_cpPre=0&imafw_sz=640x480&imafw_fms_vcid2type=liveramp&imafw__fw_continuous_play=0&imafw_vguid=30aa07ca-7261-4f1f-86e4-704b191b8402&imafw__fw_app_bundle=com.cbs.app&imafw_description_url=https%3A%2F%2Fwww.paramountplus.com&imafw_packageSource=cbscomp&imafw_user=ADULT&imafw_fms_emailhash=366e33752d5d7b9a0a401387c9797c5cdc84cbc84bcd5e3b569b9f625df15e1b&imafw_ge=2&imafw_fms_ramp_id=XY6395KTI4hXQ5tvG8GfcHJHIOp5gYPdxQLhCdCfyMKmMYmRs&imafw_csid=streaming_paramountplus_mobile_androidphone_vod&imafw_cpSession=0&imafw__fw_us_privacy=1YNN&imafw__fw_did=google_advertising_id%3A31228d63-999f-42a3-b56e-6acf74373d6d&imafw_sb=14&imafw_ima_sdkv=3.28.2&imafw__fw_h_referer=com.cbs.app&imafw_session=b&imafw__fw_coppa=0&tfcd=0&imafw_fms_ifa=31228d63-999f-42a3-b56e-6acf74373d6d&imafw_fms_hh_ramp_id=hY63957x5dAvyWVuIUOwI3BOIaSvnkfuC_zOA1x_5t8OSlNTE&imafw__fw_is_lat=0&imafw_tfcd=0&imafw_sub=55431484&imafw_fms_subscriberid=55431484&imafw__fw_vcid2=XY6395KTI4hXQ5tvG8GfcHJHIOp5gYPdxQLhCdCfyMKmMYmRs&imafw_playername_version=avia_4.2.2&imafw_subses=1&api-key=7j3n273bfj7jcnvf22d713a51f&sas=1&ctv=0&mv=83461110.com.android.vending&ms=CoAC1UqlRZEl9pF1OuNJ1dmmUvExfOkdHDdhw4qQyZ3TAnFPpG7g535c3S1Imkvs7fQvbagHdmZXH3A-7kgFwr3bf3798ZDZIBtyAzu-_4P-2lRDv9b0QEZGoa0PDWdSPX0LOa3UXVd_mRbgFpm__oyoMjfwYDJqy0qGdZbftJ1pHR4FQTNht2N_IlFfeSNhofBx5ArfP9orfOrscV5o2l7xjakRpCSQufYojbh6lS-OVj-EP9bKfVmB7z2p49d-1bprd-Ms6lJ7J0RKEZ_a7GVhRCR8MAHde1nNvIdbti7xrMua9zfCiWp9vLipVb2-x-gEpqT5M5EW4XK99obGyPTOiwqAAlL4R2EDaGOnJ-YpeqbVwPmMUew5efZUfEkDax4toSKkkZcS5j3WaWe4gl2VEwb1izbtUTj4lZbqFdTMn-cHf5vlzR45PGtLum9c2FKoJjQ4oaFn5kyydLiHz0Be3tZ75OxVEQA4-jBEy1AX0IWP1qqOdVsaglq-V1OT2Dp7BRHflmLPA1T1MGBR0O_1WAFkxQPTOvbToisBj7O2RliJJ0WJ6aR--nKW3T9z7CXkemIkexmBUb-1o0705kY21IaYsVE2bxLey8r-lajA3Qn1JQaaFV5OivtyW5CWlnh9MlmDFq0_QzrU4d0wSylnRUSWHjrQhodW-_u9FbDYJJKeupYSEMUvkBYLm0TqKv7oftZSIo4&js=ima-android.3.28.2&correlator=586459642010124&mpt=AVIA_Player&mpv=avia_4.2.2&ptt=20&osd=2&sdki=445&sdkv=h.3.353.0%2Fn.android.3.28.2%2Fcom.cbs.app&uach=null&an=com.cbs.app&msid=com.cbs.app&eid=44748969%2C44765701%2C44777649%2C44781409%2C44781753%2C44782991&frm=-1&omid_p=Google1%2Fandroid.3.28.2&sdk_apis=7%2C8&sid=68CFB855-844C-4995-A9AD-C411FF884FB9&url=com.cbs.app.adsenseformobileapps.com%2F&is_lat=0&idtype=adid&rdid=31228d63-999f-42a3-b56e-6acf74373d6d&us_privacy=1YNN",      
+        "drmType":"WIDEVINE",
+        "drmContentId":"FJI2nkXRr14XckzAnrDBUrUVoNuwqm8_",
+        "drmToken":"{drmToken}",
+        "type":"VOD",     
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}",
+	"promo":true      
+      },	   
+      {
+        "title":"DAI Live w/Pause Ad",
+        "resourceProvider":"DAI",
+        "daiId":"9Lq0ERvoSR-z9AwvFS-xYA",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"LIVE",
+	"allowFetchAd":true       
+      },
+      {
+        "title":"DAI Live w/Preroll",
+        "resourceProvider":"DAI",
+        "daiId":"e3-dXxPwQV2rzrLIPCrFLA",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"LIVE"
+      },	   
+      {
+        "title":"DAI Live w/Frequent Ads",
+        "resourceProvider":"DAI",
+        "daiId":"gfkxhQFOQAOXHigAVdRi8A",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"LIVE"
+      }, 
+      {
+	"title":"DAI Live w/VTT CC",
+        "resourceProvider":"DAI",
+        "daiId":"7f3Wv6f7QEKfQna22jHqLQ",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"LIVE"
+      },	
+      {
+        "title":"DAI Live - w/HLS Key Headers",
+        "resourceProvider":"DAI",
+        "daiId":"5dKkkAbqTruWOc3Vdtndrg",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"LIVE",
+	"drmType":"NONE",      
+        "drmContentId":"UlDz5M8xbMl8rW9mlsdsjSvipKwdMa7X",
+        "drmToken":"{drmToken}",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"      
+      },	   
+      {
+        "title":"DAI DVR - Frequent Ads",
+        "resourceProvider":"DAI",
+        "daiId":"gfkxhQFOQAOXHigAVdRi8A",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"DVR"
+      },
+      {
+        "title":"DAI DVR - Frequent Ads - Resume @0s",
+        "resourceProvider":"DAI",
+        "daiId":"gfkxhQFOQAOXHigAVdRi8A",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"DVR",
+	"resumePosition":0      
+      },	   
+      {
+        "title":"DAI DVR w/HLS Key Headers",
+        "resourceProvider":"DAI",
+        "daiId":"FK81dfnhRS2cXTA2iczTAA",
+        "daiApiKey":"",
+        "daiCmsId":"",
+	"drmType":"NONE",       
+	"drmContentId":"W3ONcRWtWXQbE8XLlC6ivcg_W_fvG9Ep",
+        "drmToken":"{drmToken}",
+        "drmEnvironment":"{drmEnvironmentTest}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}",     
+        "type":"DVR"
+      },	   
+      {
+	"heading":"CDN Tests"
+      },
+      {
+        "title":"URI VoD w/DRM - Akamai CDN",
+        "resourceProvider":"URI",
+        "uri":"https://vod62c350g.airspace-a.cbsivideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd",
+        "drmType":"WIDEVINE",
+        "drmContentId":"TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },     
+      {
+        "title":"URI VoD w/DRM - CloudFront CDN",
+        "resourceProvider":"URI",
+        "uri":"https://vod62c350g.airspace-c.cbsivideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd",
+        "drmType":"WIDEVINE",
+        "drmContentId":"TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },
+      {
+        "title":"URI VoD w/DRM - Edgecast CDN",
+        "resourceProvider":"URI",
+        "uri":"https://vod62c350g.airspace-e.cbsivideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd",
+        "drmType":"WIDEVINE",
+        "drmContentId":"TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },
+      {
+        "title":"URI VoD w/DRM - Fastly CDN",
+        "resourceProvider":"URI",
+        "uri":"https://vod62c350g.airspace-f.cbsivideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd",
+        "drmType":"WIDEVINE",
+        "drmContentId":"TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },
+      {
+	"heading":"Error Tests"
+      },
+      {
+        "title":"URI VoD w/DRM - Source Error",
+        "resourceProvider":"URI",
+        "uri":"http://vod62c350g.airspace-a.cbsivideo.com/intl_vms/2022/03/16/2013439043562/1250647_cenc_fmp4_dash/stream.mpd",
+        "drmType":"WIDEVINE",
+        "drmContentId":"AmBcaCActcTer6wa7QjKWWzdtKrMlHBw",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },
+      {
+        "title":"URI VoD w/DRM - DRM Error",
+        "resourceProvider":"URI",
+        "uri":"https://vod-gcs-cedexis-dev.cbsaavideo.com/CBS_Production_Entertainment_VMS/2022/07/19/2053464643928/11474_cenc_fmp4_dash/stream.mpd",
+        "drmType":"WIDEVINE",
+        "drmContentId":"_TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },
+      {
+	"title":"URI VoD w/VTT Error",
+	"resourceProvider":"URI",
+	"uri":"https://raw.githubusercontent.com/ssenanayake/test/main/vtt-test.m3u8",
+	"type":"VOD"
+      },
+      {
+	 "title":"URI Live w/Expired Token",
+	 "resourceProvider":"URI",
+	 "uri":"https://cbsplaylistserver.aws.syncbak.com/cpl/853636/cbshls/2.0/7b2264657669636554797065223a322c226361706162696c6974696573223a7b7d7d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjIwMTYwNDAxIn0.eyJkZXZpY2VUeXBlIjoyLCJzaWQiOiIxMTYiLCJjaWQiOjEwNzU0LCJvb20iOmZhbHNlLCJhcHN0IjpudWxsLCJzc2lkIjoiYmQ4MjdjM2ViZjUxNGY4YzhhMDU5ZDk0NTRiNzIxZTAiLCJpcCI6IjE4LjIwOS44My4xIiwidWlwIjoiMTM2LjMzLjIxNi4xMzkiLCJkbWEiOjYxNiwic24iOiJVbnNwZWNpZmllZCBiYmRhMDhlNGE4ICIsInVpZCI6bnVsbCwiY3NiIjpmYWxzZSwibWlkIjoiODUzNjM2IiwibWQ1IjoiZWVhMTg4NWZkN2NmYjgzODc4NTgyNGIzMGMyYmI0MzAiLCJpYXQiOjE2ODExNTgxMjksImV4cCI6MTY4MTE1ODIxOSwiaXNzIjoiV0xTIiwic3ViIjoiNzVlZTlhODMtMGU3NC00OWYwLTk4MTgtYTI5NWE2YjdiN2FhIn0.LLlQYbrU0QYgGQYp-MA77p7BzGBIPsIE7_mWepF_FKM",
+	 "type":"LIVE"     
+      }, 
+      {
+	"title":"URI VOD from Live HLS - 608/708 CC w/Missing Manifests",
+        "resourceProvider":"URI",
+	"uri":"https://cbsn-sf.cbsnstream.cbsnews.com/out/v1/dac63c1abb3f4a2dac9f508f44bb072a/start/2023-04-20T17:49:12Z/end/2023-04-20T18:13:29Z/master.m3u8",      
+        "type":"VOD"
+      },	 
+      {
+        "title":"URI Live w/SAMPLE-AES for HLS",
+	"resourceProvider":"URI",
+	"uri":"https://hfrcache1.viacbsops.com/live/hfr1/ccc_hfr.isml/.m3u8",
+	"type":"LIVE"
+      },	
+      {
+        "title":"URI VoD w/DRM & DASH Thumbnails - DRM Update after 20s",
+	"resourceProvider":"URI",
+	"uri":"https://vod62c350g.airspace-f.cbsivideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd",
+	"drmType":"WIDEVINE",
+        "drmContentId":"TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D",
+        "drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}",
+	"resetInterval":20     	      
+      },	   
+      {
+	"title":"URI Live - Syncbak Update after 20s",
+	"resourceProvider":"URI",
+	"uri":"https://www.paramountplus.com/apps-api/v3.0/firetv/dma.json?ipaddress=73.220.60.115&dtp=8&mvpdId=AllAccess&is60FPS=true&did=652e321238a51e6f&locale=en-us&at=ABCmrL%2BqTCQ8UujYajWJJnvgcsXFGqrgS530PSANzLK%2Fi3SLgMcReMBy1nkxGwo9RA0%3D",
+	"type":"LIVE",
+	"feed":"syncbak",
+	"resetInterval":20      
+      },  	   
+      {
+	"heading":"Custom Resource Provider Tests"
+      },
+      {
+	"title":"URI VoD w/VTT Thumbnails - Custom Resource Provider",
+        "resourceProvider":"CUSTOM",
+        "uri":"https://play.dev.cbsivideo.com/h/1.7TORoMYqJaeWzOhAFif0RCBEMIutx4t97p8SHqcPyqEXtUrnJpNQZ6s6UWxSu7Sk33fooMwlgJA6xFIv2LSYC2jRERfbtGn1VsyWgFfkIisTimThJJ61tcPIcemtEqp2oswKCqFx1MyLIyc9waPsrBt00MIGJqQdjoHkLh0ltoVTDjHnmGFWJ2BqH3JD28LuBgyUi6oRpcxO0FOgeMuCbrjo9ZAQx86VRrkiLFxTB766GNVR5fLyzGbqgSM03tu3GL5KmU2yoV599RJMfGwBEBTbpQ7U7WlNLVZhTLyQkVQ6NjtNvIOCUbG78I8SIS6Vw3FOjmzbL5zTJ2s1hjsl1MFTGEeWE3RQOE4f00T8odARjyCtwPVxk5GLiXxsq5p4FxkZJ2T2mZS7MlVzoOQhx71a6lWQ5WEUfUm8UWGXvWrAgTsHSwBkmFDAfneMj6eqjiwFG5mJEhbo0mbTeNH4zEogYRV3KL3dqsFvvDTcCzRiNZdP609HM0BtMeRq8t0/master.m3u8",
+	"type":"VOD",
+        "thumbnails":[{"size":"", "uri":"https://play.dev.cbsivideo.com/h/1.7TORoMYqJaeWzOhAFif0RCBEMIutx4t97p8SHqcPyqEXtUrnJpNQZ6s6UWxSu7Sk33fooMwlgJA6xFIv2LSYC2jRERfbtGn1VsyWgFfkIisTimThJJ61tcPIcemtEqp2oswKCqFx1MyLIyc9waPsrBt00MIGJqQdjoHkLh0ltoVTDjHnmGFWJ2BqH3JD28LuBgyUi6oRpcxO0FOgeMuCbrjo9ZAQx86VRrkiLFxTB766GNVR5fLyzGbqgSM03tu3GL5KmU2yoV599RJMfGwBEBTbpQ7U7WlNLVZhTLyQkVQ6NjtNvIOCUbG78I8SIS6Vw3FOjmzbL5zTJ2s1hjsl1MFTGEeWE3RQOE4f00T8odARjyCtwPVxk5GLiXxsq5p4FxkZJ2T2mZS7MlVzoOQhx71a6lWQ5WEUfUm8UWGXvWrAgTsHSwBkmFDAfneMj6eqjiwFG5mJEhbo0mbTeNH4zEogYRV3KL3dqsFvvDTcCzRiNZdP609HM0BtMeRq8t0/thumbs.vtt"}]
+      },	
+      {
+	"title":"URI Live DASH w/DRM - Custom Resource Provider",
+	"resourceProvider":"CUSTOM",
+	"uri":"https://188105e06331.airspace-cdn.cbsivideo.com/out/v1/abf671309c034fb0bc26a1244f00ecc0/manifest.mpd",
+	"type":"LIVE",
+	"drmType":"WIDEVINE",
+        "drmContentId":"l0qJaPDJfuowrvNyhFzLEzoZpQMz8SYE",
+        "drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironmentTest}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"       
+      },	  
+      {
+	"heading":"Superbowl Tests"
+      },
+      {
+        "title":"URI Live - SuperBowl HLS + HDR with Ad ID3",
+        "resourceProvider":"SB",
+	"uri":"https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/f388889369b9401cb8bdad965aed5e32/uhd-hdr/index.m3u8", 
+        "type":"LIVE"
+      },
+      {
+        "title":"URI Live - SuperBowl HLS - Clear - SDR",
+        "resourceProvider":"SB",
+        "uri":"https://sblvi754e20a.airspace-cdn.cbsivideo.com/out/v1/0a1b0a524eee4b619d614326391ddee4/index.m3u8",
+        "type":"LIVE"
+      },	   
+      {
+        "title":"URI Live - SuperBowl HLS - Clear CMAF - HDR",
+        "resourceProvider":"SB",
+        "uri":"https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/f388889369b9401cb8bdad965aed5e32/uhd-hdr/index.m3u8",
+        "type":"LIVE"
+      },	   
+      {
+        "title":"URI Live - SuperBowl HLS - AES128 - SDR (Not supported)",
+        "resourceProvider":"SB",
+        "uri":"https://sblvi754e20a.airspace-cdn.cbsivideo.com/out/v1/ff8fa0426a384adb91cf542f465c030b/index.m3u8",
+        "type":"LIVE"
+      },	   	   
+      {
+        "title":"URI Live - SuperBowl DASH w/DRM - HDR",
+        "resourceProvider":"SB",
+        "uri":"https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/8ed5905e3c594aea8054c72e57af58ff/index.mpd",
+        "type":"LIVE",
+	"drmType":"WIDEVINE",
+	"drmContentId":"fa4c06e8-7cde-4794-bbe8-35b1e41b927c",
+	"drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironmentTest}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+      },
+      {
+        "title":"URI Live - SuperBowl HLS w/Irdeto Keys - SDR",
+        "resourceProvider":"SB",
+        "uri":"https://sblvi754e20a.airspace-cdn.cbsivideo.com/out/v1/ff8fa0426a384adb91cf542f465c030b/index.m3u8",
+        "type":"LIVE",
+	"drmType":"NONE",
+	"drmContentId":"6c93f843-3368-43c9-ac54-58d14f6ee827",
+	"drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironmentTest}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+      },	   
+      {
+        "title":"URI Live - SuperBowl DASH w/DRM - HDR - No Auto-Play",
+        "resourceProvider":"SB",
+        "uri":"https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/8ed5905e3c594aea8054c72e57af58ff/index.mpd",
+        "type":"LIVE",
+	"drmType":"WIDEVINE",
+	"drmContentId":"fa4c06e8-7cde-4794-bbe8-35b1e41b927c",
+	"drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironmentTest}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}",
+	"autoPlay":false      
+      },	   
+      {
+	"heading":"Sports Tests"
+      },	   
+      {
+	"title":"URI",
+        "resourceProvider":"URI",
+	"uri":"http://canhls.cbs.com/CBS_Production_MaxPreps_VMS/2018/01/26/1146247235697/MiamiTop10_1313822_phone.m3u8",      
+        "type":"VOD"    
+      },	
+      {
+	"title":"IMA",
+        "resourceProvider":"IMA",
+        "uri":"http://canhls.cbs.com/CBS_Production_MaxPreps_VMS/2018/01/26/1146247235697/MiamiTop10_1313822_phone.m3u8",
+        "adUri":"https://7f077.v.fwmrm.net/ad/g/1?asnw=520311&caid=ZSU_QWliQ1KNUaJ7veTItfArxdq4dPuR&csid=vcbs_cbssports_mobile_androidphone_vod&flag=%2Bdtrd%2Bsync%2Bqtcb%2Bvicb%2Bemcr%2Baeti%2Bsltp%2Bfbad%2Bscpv%2Bslcb&metr=1023&nw=520311&prof=520311%3AGoogleDAICSAI_v01&pvrn=%5BTIMESTAMP%5D&resp=vmap1%2Bvast4&ssnw=520311&vprn=%5BTIMESTAMP%5D;&_fw_coppa=0&_fw_h_referer=com.handmark.sportcaster.android&_fw_vcid2=8a4b05f7-800e-4b06-8ae9-f5018946e4f3&description_url=https%3A%2F%2Fwww.cbssports.com&sz=640x480&givn=%5BGOOGLE_INSTREAM_VIDEO_NONCE%5D",
+        "type":"VOD"
+      },	
+      {
+        "title":"DAI Live",
+        "resourceProvider":"DAI",
+        "daiId":"9Lq0ERvoSR-z9AwvFS-xYA",
+        "daiApiKey":"",
+        "daiCmsId":"",
+	"adParameters":"dai_ot=bw&imafw__fw_coppa=0&dai_ov=&imafw_csid=vcbs_cbssports_mobile_androidphone_live&imafw_live_asset_id=9Lq0ERvoSR-z9AwvFS-xYA&imafw__fw_vcid2=8a4b05f7-800e-4b06-8ae9-f5018946e4f3&imafw__fw_h_referer=com.handmark.sportcaster.android",      
+        "type":"LIVE"
+      },	   
+      {
+	"heading":"Movie Tests"
+      },	   
+      {
+	"title":"URI VoD DASH w/DRM - Sonic the Hedgehog",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/04/14/2023121475896/1500797_cenc_fmp4_dash/stream.mpd",
+	"type":"VOD",
+	"drmType":"WIDEVINE",
+        "drmContentId":"NXFYTekfckCoKBmEoDZZOtMsiCIG3D0_",
+        "drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironmentTest}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"       
+      },
+      {
+	"title":"URI VoD DASH w/DRM - RESPECT",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/07/16/2052743235896/1533745_cenc_fmp4_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+	"drmContentId":"DVNyURCvCmj0jbRbCzl_WWm8Ib3t4L8o",
+	"drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironmentTest}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+      },
+      {
+	"title":"URI VoD DASH w/DRM - Dungeon's and Dragons",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/04/14/2193920579720/2413401_cenc_fmp4_dash/stream.mpd",
+	"type":"VOD",
+	"drmType":"WIDEVINE",
+        "drmContentId":"VYaqo0i3pHMuC4n2U30CyIQ6CuVjp716",
+        "drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"       
+      },	  
+      {
+	"title":"URI VoD DASH w/DRM - Top Gun, Maverick",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/10/26/2091444291941/2404044_cenc_fmp4_dash/stream.mpd",
+	"type":"VOD",
+	"drmType":"WIDEVINE",
+        "drmContentId":"Alcn0hcGx0HosdhcawKteH8DXh3RiOF7",
+        "drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"       
+      },	   
+      {
+	"title":"URI VoD DASH w/DRM - Transformers, Resume @11s",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2021/07/08/1919384131766/861986_cenc_fmp4_hdr_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+	"drmContentId":"BzNnp6UpAQvTAlTdIrfO26aZoA9sxwTh",
+	"drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}",
+	"resumePosition":11000      
+      },	
+      {
+	"heading":"Topaz Tests"
+      },	   
+      {
+	"title":"URI VoD w/Topaz Feed 1",
+        "resourceProvider":"URI",
+	"uri":"https://topaz-uat.paramount.tech/topaz/api/mgid:arc:episode:shared.betplus.us:0599969a-e91c-11eb-8774-70df2f866ace/mica.json?clientPlatform=roku&ds.stage=staging&advertId=&ssus=ed524808-6f72-5959-951a-1d375b5094af&bundle=&idfv=&deviceType=&TPZdpCheck=false",      
+        "type":"VOD",
+	"feed":"topaz_uri"
+      },
+      {
+	"title":"URI VoD w/Topaz Feed 2",
+        "resourceProvider":"URI",
+	"uri":"https://topaz-uat.paramount.tech/topaz/api/mgid:arc:showvideo:android.playplex.mtv.com:3a373bdd-8f27-44e3-8852-610f074b7485/mica.json?clientPlatform=android&ds.stage=staging&advertId=&ssus=a4dd74f9-df41-4357-8287-106af79df182&bundle=&idfv=&deviceType=&gppString=&gppSid=&TPZdpCheck=false&plutov2=true&widevineSupport=L1",      
+        "type":"VOD",
+	"feed":"topaz_uri"
+      },	   
+      {
+	"title":"DAI VoD w/Topaz Feed, DAI Auth Token - 1",
+        "resourceProvider":"DAI",
+	"uri":"https://topaz-uat.paramount.tech/topaz/api/mgid:arc:episode:shared.betplus.us:0599969a-e91c-11eb-8774-70df2f866ace/mica.json?clientPlatform=roku&ds.stage=staging&advertId=&ssus=ed524808-6f72-5959-951a-1d375b5094af&bundle=&idfv=&deviceType=&TPZdpCheck=false",      
+        "type":"VOD",
+	"feed":"topaz_dai"
+      },
+      {
+	"title":"DAI VoD w/Topaz Feed, DAI Auth Token - 2",
+        "resourceProvider":"DAI",
+	"uri":"https://topaz-uat.paramount.tech/topaz/api/mgid:arc:movie:android.playplex.mtv.com:71ca3598-39e8-11eb-834d-70df2f866ace/mica.json?clientPlatform=androidfiretv&ds.stage=staging&advertId=db20f99e-77d5-4272-8bc8-fd01c332b5e6&ssus=848e540c-3132-4a96-86c0-1e54ddb1879e&bundle=&idfv=&deviceType=&TPZdpCheck=false&plutov2=true&widevineSupport=L1",      
+        "type":"VOD",
+	"feed":"topaz_dai"
+      },
+      {
+	"title":"DAI VoD w/Topaz Feed, DAI Auth Token - 3",
+        "resourceProvider":"DAI",
+	"uri":"https://topaz-uat.paramount.tech/topaz/api/mgid:arc:showvideo:android.playplex.mtv.com:3a373bdd-8f27-44e3-8852-610f074b7485/mica.json?clientPlatform=android&ds.stage=staging&advertId=&ssus=a4dd74f9-df41-4357-8287-106af79df182&bundle=&idfv=&deviceType=&gppString=&gppSid=&TPZdpCheck=false&plutov2=true&widevineSupport=L1",      
+        "type":"VOD",
+	"feed":"topaz_dai"
+      },	   	   
+      {
+	"title":"URI VoD w/Topaz Feed & Seek Thumbnails",
+        "resourceProvider":"URI",
+	"uri":"https://topaz-uat.paramount.tech/topaz/api/mgid:arc:episode:android.playplex.comedycentral.com:b81f4880-254a-4dc6-b8ff-5a4781496dad/mica.json?clientPlatform=android&ds.stage=staging&advertId=&ssus=d405f3f4-b0ee-488a-b862-f9ff361fc1b0&bundle=&idfv=&deviceType=&TPZdpCheck=false&plutov2=true&widevineSupport=L1",      
+        "type":"VOD",
+	"feed":"topaz_uri"
+      },
+      {
+	"title":"DAI VoD w/Topaz Feed & Seek Thumbnails",
+        "resourceProvider":"DAI",
+	"uri":"https://topaz-uat.paramount.tech/topaz/api/mgid:arc:episode:android.playplex.comedycentral.com:b81f4880-254a-4dc6-b8ff-5a4781496dad/mica.json?clientPlatform=android&ds.stage=staging&advertId=&ssus=d405f3f4-b0ee-488a-b862-f9ff361fc1b0&bundle=&idfv=&deviceType=&TPZdpCheck=false&plutov2=true&widevineSupport=L1",      
+        "type":"VOD",
+	"feed":"topaz_dai"
+      },	   
+      {
+	"heading":"Play List Tests"
+      },	   
+      {
+	"title":"IMA Ad & DAI Content",
+	"resourceProvider":"LIST",      
+	"list":["IMA Ad Only", "DAI VoD w/Topaz Feed, DAI Auth Token - 1"]
+      },
+      {
+	"title":"IMA Ad & DAI Content with Error",
+	"resourceProvider":"LIST",      
+	"list":["IMA Ad Only", "DAI VoD w/Topaz Feed, DAI Auth Token - 2"]
+      },	
+      {
+	"heading":"Pluto Tests"
+      },
+      {
+	"title":"Pluto w/JWT",
+        "resourceProvider":"URI",
+	"uri":"https://boot.pluto.tv/v4/start?appName=androidmobile&appVersion=5.38.0-debug&clientID=fc4d38ce-51a6-49c7-bc55-ad97afca3f62_41b9891933b28855&clientModelNumber=sdk_gphone64_arm64&deviceVersion=13_33&clientDeviceType=4&deviceModel=sdk_gphone64_arm64&deviceType=android%2CGoogle%2Cmobile&deviceMake=Google&cmAudienceID=7209c963-698e-48fd-a24b-cc4b31d8239b&isClientDNT=false&channelID=5b4fc274694c027be6ed3eea&channelSlug=pluto-tv-sci-fi&episodeCount=5&serverSideAds=false&constraints=&drmCapabilities=widevine%3AL3&includeEPG=true&isDeviceInactive=false&blockingMode=&lastAppLaunchDate=2024-01-22T11%3A51%3A04.832-06%3A00&appLaunchCount=153&notificationVersion=2&preNotificationsDevice=true",      
+	"contentId": "61e9ea7bf30167001a6d270d",
+	"additionalUriParams":"eventVOD=true&gdpr=0&us_privacy=&paln=AQzzBGQEey46ffQbq7HTqnmnpwp3CSS8-suCXpkmYxNdQ7JNUZq3kC4hKQNrkiEfeenf3zuimdsbOX-d-FUthKGKXP-D3tZhHaqh5LXl_pe58Db8bC9NECcF2hegUJrtllBv7MlVPLYVNI1OLQJbq0X4-0Ef8TW7sqmb7oU5wgdL85nH64luSkQpIEMRoFczvMgEZBvfb_1aZt0TgyHXy-QkDj6VjaSGBVfewObG4n72Eks1RVF_IfV2ReYRrH3HHzPE2ckLGt_Ht-0qT2W7nEtji2EayeHjaOZdP_St9WsrR77PLhWffW-Jd8jAFd8ttr7aVxPVpmTVyjpoIFyVhz9Np63VMoPXrkn7XFE0U5ud93JqQPZmiDhAeafs7kSPr5IkIGC47mxvpq9PR69GlryB7hO3zRN7mgTYELqusIuNxheK379_X2raau_iRZroAHxyqrO84xZCvwmsM3YS3dtcoFddpo9NFsrMHuaTpbCPchgpsGb9ZQswFEU4PomAIN087Rpx53SD567HZuUeeQaw8JP5LC_kIU8YifpfvtxD_BAGexzqkiQdxlMpci2-rDH0cHLnXumcemJ0-jWuLlaB-jfXVQqrA7JPpBZGkuNo3zSuCkMw91iGvOrAnnxzwYr9eJAPu3z3ckDMiX8oodMyDMfyGYblBUyi0slZfSKHZ23LPVZE4ssL-ZgMaEfWvdVq4fvelkR_ot7ME0zg5QTHtBFgbPLgAEVBJUNuw1rWW-6DuIvYpLtKF_JsztUbf2xZV5f4VhB4JQfeKg2KaebIOKEyjzAbj7_6EGpIo40BXSHw88LC-_xacwyffqwNt67CVwIcxwVptE4qn5uYVrjuZCwb5KarHa4JGLMiql7zXmMeHmYOaWT1sl_D32K6uZk3w7AOvdlToDxXpvm_lZvubGVwhbrLxHRe_Osx9UiBLLRb_bdQpLLViG1X-NiIXyJLG9oqccKysZuJxWFKgAUU6gQ_UbVWEoBLeVIRIP191zstpCD9c4hCkqieGnE7C2cARTFFUpcL0vgiS9lUZeq5jAzjEDcU0ZB9PDmpuK8peSKvz6YWUKQbz-fKsihHIFh9XM2z6JVkEfqRuIfSw7vNbl7c-ocsumgYNQ76vc6NV2nZt6Esp8Pd5_vJtRORppQJyXXOWOUuSE0U6d_D222sNLHj4KBPPFVaiPTHYIoVel_DEXaQU9Yueie-eHmMLk2fwEex7sPey7GoqCygIkrJJFqo0Fc_MsxrTdTL-sHgrpunmE5GTKDZSGTv2OD9C7Kaz-RggtBvy-lhF4l5GvaIDDLTnUw8203P6SJksMoA4yp0aBfVIVBLt2Y-pi_W2G6jVfQ-ONV7zTtNuf-F6Sva957qr8QW3AC7OI0HXgaq_bHJss9Und8oFg49N02FqMdeBSjYoeBP1TJns1bG1w0BB8gn9at57KB44-b8-kLgant62ZTmwE5ofz3QPXOmkjo2yUZHZ6XyFlCiDgusQMHHPZi3MmtTyfQcof5qHgUyAD218EStjIr_Tbo8z0UF15fDi1Mw3Rd8nF1CTIy2kGo6H-ib3kRCvppjmJMwWtWNvteNGssEHSgOeMc0PK6mRjpGfzISG56EABLM_5KgyQW3U-mV0xWqO7AQ8fPls-XbfSXv2zJtIJMG-tJCpSN_8iauhaUlMAeRZyunjsLKZikMSrDuIoCzQm8Ca3uD_4qHIWRjbsEt1xbaoUlferpaGPeSSA%3D%3D&includeExtendedEvents=true&isCertifyingOMSDK=false",      
+        "type":"VOD",
+	"drmType":"WIDEVINE",
+	"drmUri":"https://service-concierge.clusters.pluto.tv/v1/wv",      
+	"type":"VOD",
+	"feed":"pluto"
+      },	   
+      {
+	"heading":"Miscellaneous Tests"
+      },
+      {
+        "title":"DAI Live - HLS w/Irdeto Keys",
+        "resourceProvider":"DAI",
+        "daiId":"5dKkkAbqTruWOc3Vdtndrg",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"LIVE",
+	"drmType":"NONE",
+	"drmContentId":"UlDz5M8xbMl8rW9mlsdsjSvipKwdMa7X",
+	"drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"    
+      }, 	   
+      {
+	"enable":false,      
+	"title":"URI VoD DASH w/DRM - Interstitials",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis-dev.cbsaavideo.com/CBS_Production_Entertainment_VMS/2023/07/11/2243781187614/13070_cenc_fmp4_hdr_dash/stream_xlink_1.mpd",
+	"drmType":"WIDEVINE",
+	"drmContentId":"s0egwLW18sTWkFJMhW9C7rnvlag2DO94",
+	"drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+      },
+      {
+        "title":"DAI Live - News - Captions Test 1",
+        "resourceProvider":"DAI",
+        "daiId":"Sid4xiTQTkCT1SLu6rjUSQ",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"LIVE"
+      },
+      {
+	"title":"URI Live - Captions Test 2",
+	"resourceProvider":"URI",
+	"uri":"https://7cfdaa0a709b.airspace-cdn.cbsivideo.com/out/v1/150e8ae734844c7bbea5c390e75ceb68/manifest.mpd",
+	"drmType":"WIDEVINE",
+	"drmContentId":"y0Rot3bPoyjWCUqwE1vxXHOYHuV32Hwg",
+	"drmToken":"{drmToken}",
+	"type":"LIVE",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+      },
+      {
+        "title":"URI Live - Golazo",
+        "resourceProvider":"URI",
+	"uri":"https://dai.google.com/linear/hls/event/zCNuwqBgQNKbiwNR3dhqiA/master.m3u8",      
+        "type":"LIVE"
+      },
+      {
+	"title":"DAI VoD w/DRM - Track Count Test",
+        "resourceProvider":"DAI",
+	"daiId":"rn1zyirVOPjCl8rxopWrhUmJEIs3GcKW",
+	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+	"daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"rn1zyirVOPjCl8rxopWrhUmJEIs3GcKW",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },	
+      {
+        "title":"URI VoD - Crash Test",
+        "resourceProvider":"IMA",
+	"adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpostpod&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&cmsid=496&vid=short_onecue&correlator={RANDOM}",      
+	"uri":"https://sports.play.cbsi.video/h/1.KdZYWEfyFHBuPKIasOnZpwzTSK7nSLgXUUNRLBPf2Yf1ab6NlN9pAVa3Pve6NNRRmZlrXSyYGWdcIuB0Kb5WOJNuOCswvPyrRh0ackV1u0vYz9llF3Q6NtSdBlG1L0t6JLvdAx2SJn8nHnX9MAfQcEt1jeUxYIGuYxGuukwNK6QoJHrFgIpS3tUd5fa2r7INpa5ukzyoanlBRn3RkXXpuayVh5kXBosjCYfLz16xHJOcnEUnbc4Sn4RI1PJpZLwCVyqxEmyUi2RYe2Hq0tInlekZV/master.m3u8",      
+        "type":"VOD"
+      },
+      {
+	"title":"DAI VoD w/DRM - Event Test",
+        "resourceProvider":"DAI",
+	"daiId":"oUAgWofsOONY8UIr65ea2voK_uz_GLi1",
+	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+	"daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"oUAgWofsOONY8UIr65ea2voK_uz_GLi1",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },
+      {
+	"title":"URI VoD - Track Test 1",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/05/19/2208572995707/2375176_cenc_precon_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+	"drmContentId":"zzvVWZ_qkLDj2LXltHmuZlUsX8BfdZ7U",
+	"drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+      },	   
+      {
+	"title":"URI VoD - Track Test 2",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2021/04/29/1891421251546/2319741_cenc_fmp4_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+	"drmContentId":"_pv_OqjNGiWc67M0M3pCYUnM2G5c_DhP",
+	"drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+      },
+      {
+	"title":"URI VoD - Missing Thumbnails Check",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2014/08/04/315040323798/733724_cenc_precon_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+	"drmContentId":"v6MQx0t3sYwv_dPzd5a1_ZhMqC9LSyLr",
+	"drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+      },
+      {
+	"title":"URI VoD - Max Quality Check",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/04/14/2193920579720/2215071_cenc_fmp4_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+	"drmContentId":"VYaqo0i3pHMuC4n2U30CyIQ6CuVjp716",
+	"drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+      },
+      {
+	"title":"URI DVR - Playback Check",
+	"resourceProvider":"URI",
+	"uri":"https://propea4bd188.airspace-cdn.cbsivideo.com/out/v1/698df154dd334613b39b5262c2451faf/start/1697279100/manifest.mpd",
+	"type":"DVR"
+      },
+      {
+	"title":"DAI VoD w/DRM - Decorder crash Check",
+        "resourceProvider":"DAI",
+	"daiId":"rWlBiiWtlV7Htmqq8nX3oGxySpWkV34E",
+	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+	"daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"rWlBiiWtlV7Htmqq8nX3oGxySpWkV34E",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },
+      {
+	"title":"URI VoD - Caption Tracks Check",
+	"resourceProvider":"URI",
+	"uri":"https://bakery-pplus.cbs.com/l(fr,de,it,no,fi,da,sv,es-MX,pt-BR)/intl_vms/2023/09/28/2267947587535/2374878_cenc_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+	"drmContentId":"VTSt19RhFbSZ4y0d8c26cS5avVYzLO6B",
+	"drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+      },
+      {
+        "title":"DAI VoD w/DRM - Decoder Crash Test",
+        "resourceProvider":"DAI",
+        "daiId":"x6XrF8A_tiSDRwc4Rt349KFKnCZ8QmtY",
+        "daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+        "daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"x6XrF8A_tiSDRwc4Rt349KFKnCZ8QmtY",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },	
+      {
+        "title":"URI - Decoder Crash Test",
+        "resourceProvider":"URI",
+        "uri":"https://p-ause1-adops-output.cbsivideo.com/encodes/adops-us/1698170236935-0/SHOFELLOS01TR101030000STN1_2bX6tO-6.mp4",
+        "type":"VOD"
+      },
+      {
+	"title":"IMA VoD Multi Ad Preroll Ad & DRM - Decoder Crash Test - 1",
+        "resourceProvider":"IMA",
+        "uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/04/20/2024655939770/2402169_cenc_fmp4_dash/stream.mpd",
+	"adUri":"https://7f077.v.fwmrm.net/ad/g/1?asnw=520311&caid=aw0JwlNSzbjXxbk1hIoMg4arwjGbmj70&csid=streaming_paramountplus_ctv_amazonfiretv_vod&flag=%2Bamcb%2Bemcr%2Bsltp%2Bslcb%2Bqtcb%2Bvicb%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&nw=520311&prof=520311%3AGoogleDAICSAI_v01&pvrn=1699038163&resp=vmap1%2Bvast4&ssnw=520311&vprn=1699038163;_fw_coppa=0&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&packageSource=cbscomp&_fw_did=amazon_advertising_id%3A28c83ab7-7853-4e41-9954-dd4b19aa657f&_fw_app_bundle=com.cbs.ott&_fw_is_lat=0&_fw_ae=&_fw_h_referer=com.cbs.ott&_fw_continuous_play=0&cpPre=0&session=d&description_url=https%3A%2F%2Fwww.paramountplus.com&ge=0&cpSession=0&vguid=1db5e48e-9be4-4ca9-ae50-3753fb0e1af3&subses=1&user=ADULT&sb=14&sub=17191373&bundle=exSHO&gr=4&tfcd=0&_fw_us_privacy=1YNN&sz=640x480&msid=B017250D16&esb=6&fms_ruleid=10000&_fw_3P_UID=UID2%3AAgAABUEMEYdqKW1n%2FrvvFO9wcFdqpRybh1wBkdN7LevedoFBQArHKPgwBhzdanNTRuKfvMPWQsNrxpLBZ%2FbBobM40KFnX2Qxdh5w8UM4xdegpXdzOI4N2A2v36VGpmSZc%2BHUNV5PwHn284GKiqQSeqKTfhqqIxlw4Y64F8o5wGxqemMRmw%3D%3D%2CIDL%3AAtXqM1Bp5l6XSVPOUKgrymOjaZ5T6FHmHFeZ6N5YTPaIPT97LDNGLQ&fms_ifa=28c83ab7-7853-4e41-9954-dd4b19aa657f&fms_bididtype=1010%2C1020&fms_subscriberid=17191373&fms_vcid2type=liveramp&fms_ramp_id=XY6395vd0GQE2BsUdPRLUxzB5hosENr1kAfqpkd-e5G4xeUP8&_fw_vcid2=XY6395vd0GQE2BsUdPRLUxzB5hosENr1kAfqpkd-e5G4xeUP8&fms_emailhash=a10aa1293f8493f4913ce864be54e10beb3c4c991d9e20b4ad3529fb638588d3&fms_hh_ramp_id=hY6395dMLf7IHTjQrAsvzv31FlEch4VaVjstKUhMW0wS4k9g0&playername_version=avia_4.6.1&ima_sdkv=3.28.2",
+	"drmType":"WIDEVINE",
+        "drmContentId":"aw0JwlNSzbjXxbk1hIoMg4arwjGbmj70",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },
+      {
+	"title":"IMA VoD Multi Ad Preroll Ad & DRM - Decoder Crash Test - 2",
+        "resourceProvider":"IMA",
+        "uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2021/10/28/1968784451885/1152154_cenc_fmp4_dash/stream.mpd",
+	"adUri":"https://7f077.v.fwmrm.net/ad/g/1?asnw=520311&caid=t_OKSBTJxPYhx3VdOh2fuhNjrdGIUz4Y&csid=streaming_paramountplus_us_ctv_amazonfiretv_vod&flag=%2Bamcb%2Bemcr%2Bsltp%2Bslcb%2Bqtcb%2Bvicb%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&nw=520311&prof=520311%3AGoogleDAICSAI_v01&pvrn=1699648086&resp=vmap1%2Bvast4&ssnw=520311&vprn=1699648086;_fw_coppa=0&_fw_ae=&_fw_app_bundle=com.cbs.ott&_fw_is_lat=0&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&packageSource=cbscomp&_fw_did=amazon_advertising_id%3Abab529e8-ee64-49ad-92bd-0f0c2f64648e&_fw_h_referer=com.cbs.ott&_fw_continuous_play=0&sub=20562091&description_url=https%3A%2F%2Fwww.paramountplus.com&tfcd=0&_fw_us_privacy=1YNN&session=a&sz=640x480&cpSession=0&gr=5&sb=14&vguid=f39c2c11-a40b-4736-a7a8-3db70bde4d2b&cpPre=0&msid=B017250D16&subses=4&user=ADULT&ge=0&fms_subscriberid=20562091&_fw_3P_UID=UID2%3AAgAABVO2rLmjhMN9RcX4%2FMtBnGs3U1pWcOk4CQtRiNBCGDe2fKwiu4rZNAhcgQAP0BbAxkS0fV1TAE4BVAAYm8RdDqYZiG3Lu%2F5Po%2FR9FtTO3F0cdrzz82qt56vY%2BHB37YG2sFYEZVB2SB5sIKjnHghXjwfiMBCKCxKCD04BFUq%2FlZTPBQ%3D%3D&fms_ruleid=10000&fms_emailhash=518074e839e8ee03fcbe0e19c45c9cad47876f1bb42146528fcd70fe00df7e51&_fw_vcid2=XY6395KVBXtrViaXd_c8AqHjYdAmU-Z1nrbp6i-rrz4y3lGkI&fms_ramp_id=XY6395KVBXtrViaXd_c8AqHjYdAmU-Z1nrbp6i-rrz4y3lGkI&fms_bididtype=1010&fms_hh_ramp_id=hY6395L9yK_Ui6X94eO-OlW6Njd_GJW_8_VyGAdLr97jdXkZs&fms_ifa=bab529e8-ee64-49ad-92bd-0f0c2f64648e&fms_vcid2type=liveramp;",
+	"drmType":"WIDEVINE",
+        "drmContentId":"t_OKSBTJxPYhx3VdOh2fuhNjrdGIUz4Y",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },	   
+      {
+	"title":"DAI VoD w/DRM & Ad Parameters - Test on HD8",
+        "resourceProvider":"DAI",
+	"daiId":"OBdr8h3JUob6TbTlAplg8B2G842PMOiU",
+	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+	"daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"OBdr8h3JUob6TbTlAplg8B2G842PMOiU",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}",
+	"adParameters":["imafw_gr=4","imafw__fw_3P_UID=UID2%3AAgAABm0b1MvvIzNk43EDCSB6ZQOsOvx9Q0ISpI98LCFNbInsfgPxylfU7yaVwOvmLqtiI45%2B1ocPqW9ByFfCATYIJdS3B6MKDpXI0zeRN13HWQ3k7OGoy9HOAj1LzSyKtrkZBHGNRZAnYOieKjkChyrXDSDLZIrrgJwT%2BAmzGjxjHkdXWw%3D%3D", "imafw_cpPre=0", "imafw_sz=640x480", "imafw_fms_vcid2type=emailhash", "imafw__fw_continuous_play=0", "imafw_vguid=468a66b4-0e41-4641-b388-a2b26da7f20d", "imafw__fw_app_bundle=com.cbs.ott", "imafw_description_url=https%3A%2F%2Fwww.paramountplus.com", "imafw_packageSource=googleplay", "imafw_user=ADULT", "imafw_fms_emailhash=c8d21f5ef760d7647db5c3d83e191bae2cc0f4f52af5d05fc9bbdcbf31c3e44c", "imafw_fms_bididtype=1010", "imafw_ge=0", "imafw_csid=streaming_paramountplus_us_mobile_firetablet_vod", "imafw_cpSession=0", "imafw__fw_us_privacy=1YNN", "imafw_sb=6", "imafw_ima_sdkv=3.30.3", "imafw__fw_h_referer=com.cbs.ott", "imafw_session=b", "imafw_fms_ruleid=10000", "imafw__fw_coppa=0", "tfcd=0", "dai-sr=:2000000", "imafw_tfcd=0", "imafw__fw_is_lat=0", "imafw_sub=25014979", "imafw_fms_subscriberid=25014979", "imafw__fw_vcid2=c8d21f5ef760d7647db5c3d83e191bae2cc0f4f52af5d05fc9bbdcbf31c3e44c", "imafw_playername_version=avia_5.7.19", "imafw_subses=1"],
+	"x":["api-key=7j3n273bfj7jcnvf22d713a51f", "sas=1", "ctv=0", "mv=2001747510.com.amazon.venezia", "ms=CoACtFvKCl65qb2rCrEuwnqIqffFQ1pxW9y9a8G0n1J0WXdnl3uAtcO45Xx4eQBQWyW4t0ERC3cp9TzuQsf6h3nAZ82WMlaeA1526M8Bv4wECpp8vyzbTNsjJaUiHlDgYkjr7WMopuwfl5NdlrcJlQD8oU51I8Dd2tdZ1-hywxspu_vXdzdrgmfM3JtthMq3D24hrCUFGxWtTSYOa43O_Yp8KXk--BW2B-ZkOr5y7QtcQ9Kj9EyrJpjHd-veXxeiVIqS2J9RmnNThB-aweUdg0uTeCI6zO4a5M4hTN2XXdyPhUkzmdsi-N70JzDGpPLMEwVqaC8GXXJ-gaIqpP4rYfl3_QqAAhOnp7n1-Ubdway1hzEoXe5cDcHHEufdwDQNgrYIyYVqmKYcmDRZz73GnPVxDTua2ajSa2NgYbKU8g04EyVpqO2TqQedq83DL1_uwE-I08yUYea9jT9e9T9ZAAxxykNly4zQqhQkCgJXabQdt_NZHl8lNvwXMYQJv_2Pfh90bkW9Pm0cfUI4MIZ55nrSkt4bmN7DtrHNy_mcgGrdXiVyY5fWqjzGmm9b0q2SE6YL-27g7uQXZObIPMVrWXAFEJ15AQskxNcGig1t-2NjZDh20buv9nYnXevPBiGJmFk5avTRM7V8vI_TqQMFOmcR3PKNX_jzJEi_c37f74KOdLL0Cz8SEDl01lSc37kYNeWDxHSDVTY", "js=ima-android.3.30.3", "correlator=3390113184787406", "mpt=AVIA_Player", "mpv=5.7.19", "ptt=20", "osd=2", "sdki=445", "sdkv=h.3.384.0%2Fn.android.3.30.3%2Fcom.cbs.ott", "uach=null", "ua=Mozilla%2F5.0%20(Linux%3B%20Android%209%3B%20KFKAWI%20Build%2FPS7329.3838N%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F116.0.0.0%20Safari%2F537.36", "an=com.cbs.ott&msid=com.cbs.ott", "eid=44772139%2C44777649%2C44781409%2C44804291%2C44809192%2C44809548", "frm=-1", "omid_p=Google1%2Fandroid.3.30.3", "sdk_apis=7%2C8", "sid=D7E0288D-E582-48AB-A59E-1A4082F65507", "ssss=gima", "url=com.cbs.ott.adsenseformobileapps.com%2F", "is_lat=0", "idtype=afai", "rdid=69239f80-3fd9-468f-8cfc-233c59becf9e", "us_privacy=1YNN"]      
+      },	   
+      {
+	"title":"DAI VoD w/DRM, Ad Params with Bitrate limiting",
+        "resourceProvider":"DAI",
+	"daiId":"D0_Y1AKfKj6WkNW3rZjGX8dWTe324CLO",
+	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+	"daiCmsId":"2497752",
+	"adParameters":"dai-sr=:2600000",      
+        "drmType":"WIDEVINE",
+        "drmContentId":"D0_Y1AKfKj6WkNW3rZjGX8dWTe324CLO",
+        "drmToken":"{drmToken}",
+        "type":"VOD",     
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },	   
+      {
+	"title":"DAI VoD w/DRM - 7th Heaven",
+        "resourceProvider":"DAI",
+	"daiId":"_hvHAxnZRBpULz9JqBxlYVTKOyQOtETq",
+	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+	"daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"_hvHAxnZRBpULz9JqBxlYVTKOyQOtETq",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },	   
+      {
+	"heading":"Superbowl Test-Games"
+      },
+      {
+        "title":"URI Live - SuperBowl HLS - Clear - SDR",
+        "resourceProvider":"SB",
+        "uri":"https://sb58hf609gf.airspace-cdn.cbsivideo.com/stream_2/main.m3u8",
+        "type":"LIVE",
+	"drmType":"NONE"
+      },	   
+      {
+        "title":"URI Live - SuperBowl DASH - Clear - HDR",
+        "resourceProvider":"SB",
+        "uri":"https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_4/main.mpd",
+        "type":"LIVE",
+	"drmType":"NONE"
+      },
+      {
+        "title":"URI Live - SuperBowl HLS - Key from Irdeto - SDR",
+        "resourceProvider":"SB",
+        "uri":"https://sb58gcf94h2.airspace-cdn.cbsivideo.com/stream_1/main.m3u8",
+        "type":"LIVE",
+	"drmType":"NONE",
+        "drmContentId":"6c93f843-3368-43c9-ac54-58d14f6ee827",
+        "drmToken":"{drmToken}",
+        "drmEnvironment":"{drmEnvironmentTest}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"      
+      },
+      {
+        "title":"URI Live - SuperBowl DASH w/DRM - HDR",
+        "resourceProvider":"SB",
+        "uri":"https://sb589f19881.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
+        "type":"LIVE",
+	"drmType":"WIDEVINE",
+        "drmContentId":"fa4c06e8-7cde-4794-bbe8-35b1e41b927c",
+        "drmToken":"{drmToken}",
+        "drmEnvironment":"{drmEnvironmentTest}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"      
+      },
+      {
+	"heading":"Superbowl Pre-Games"
+      },
+      {
+        "title":"URI Live - SuperBowl HLS - Key from Irdeto - SDR",
+        "resourceProvider":"SB",
+        "uri":"https://sb58hf609gf.airspace-cdn.cbsivideo.com/stream_1/main.m3u8",
+        "type":"LIVE",
+	"drmType":"NONE",
+        "drmContentId":"e1738a79-4e13-4281-8379-f7f44b3786a7",
+        "drmToken":"{drmToken}",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"      
+      },
+      {
+        "title":"URI Live - SuperBowl DASH w/DRM - HDR",
+        "resourceProvider":"SB",
+        "uri":"https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
+        "type":"LIVE",
+	"drmType":"WIDEVINE",
+        "drmContentId":"1460556a-a1c6-456a-8da8-a33ad1f2e9e7",
+        "drmToken":"{drmToken}",
+        "drmEnvironment":"{drmEnvironmentTest}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"      
+      }			   
+   ]
+}
