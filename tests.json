@@ -873,17 +873,13 @@
       {
 	"title":"Pluto w/JWT",
         "resourceProvider":"URI",
-	"uri":"https://boot.pluto.tv/v4/start?appName=web&appVersion=7.9.0-a9cca6b89aea4dc0998b92a51989d2adb9a9025d&deviceVersion=109.0.0&deviceModel=web&deviceMake=firefox&deviceType=web&clientID=ef2e090d-4cdc-4376-94cd-2891140edd67&clientModelNumber=1.0.0&seriesIDs=629ff609cb032400134d42bc&serverSideAds=false&constraints=&drmCapabilities=widevine%3AL3&blockingMode=&clientTime=2024-01-22T16%3A58%3A47.396Z",      
-	"contentId": "629ff609cb032400134d42bc",
+	"uri":"https://boot.pluto.tv/v4/start?appName=androidmobile&appVersion=5.38.0-debug&clientID=fc4d38ce-51a6-49c7-bc55-ad97afca3f62_41b9891933b28855&clientModelNumber=sdk_gphone64_arm64&deviceVersion=13_33&clientDeviceType=4&deviceModel=sdk_gphone64_arm64&deviceType=android%2CGoogle%2Cmobile&deviceMake=Google&cmAudienceID=7209c963-698e-48fd-a24b-cc4b31d8239b&isClientDNT=false&channelID=5b4fc274694c027be6ed3eea&channelSlug=pluto-tv-sci-fi&episodeCount=5&serverSideAds=false&constraints=&drmCapabilities=widevine%3AL3&includeEPG=true&isDeviceInactive=false&blockingMode=&lastAppLaunchDate=2024-01-22T11%3A51%3A04.832-06%3A00&appLaunchCount=153&notificationVersion=2&preNotificationsDevice=true",      
+	"contentId": "5b4fc274694c027be6ed3eea",
 	"additionalUriParams":"&includeExtendedEvents=true&paln=AQzzBGQE6WiGjxJKJGC1ZoD05AKpk5cetU3vcObhYrMhYLwug5lSB98ZS1IXKiUPR-5SiDdjI7_DvvwRnfvMWe8x-KU9a6VGfmquH43jLhb1cJmtB1_vDg2P9ahU7Zrzsf9owlff-SX_HtFEQjEQcZaksTIBlgjMkT6S3MbIq5fu85ZjBQqA-B9gd0RPEGDdHaV22dsu4579tkcr7Lz99WSwnxxI2ihHAsFVSHF9Jr1YFLyFL5E4pBEBgaILQNQemTKIJsNBXbq2Z8V8JeoFYymajv8L48aZO_pUv4wWLqsjTTk-yxSOo4mHhX6UZp22ih_iSknhQOCm5GS72Q8kgywaOBkNkGE8OTUxqr9hOv3rbTPj3k-KlPRxNJQJsBiZeCjJr9rUawY670R5sRmTDqoQLK7RsAOURsZrAClum5dgySLr7h1XZto4mDyRnVXdrRQVW0ahS7CGO83oH00RUgCGA0Xxj55hHiWepV7Ex-luUtpwY8Wud5yxz5NoMiWSzU7AiRMb2UyVjk2er2CsAmilI89y50DLzN1CNDzG4IPaUWzIRpq14yZDkA3kLdL2Z5rANmVDJFs6VKNvlSsMJCgL_JT34RDPfAQzsMaLBtDoioiaDP93c0hoLBEMb-izD9InjCBYuqBvMJ-4k514vfDeIa-yTHcr0_EvYNaN-TaQYm392HsRbicCt9NQXLbflCSADpjtxNnO8BSYcNhiHU2CLiuHyK4N5ZRcljy0L8kDLS_O9nXI6l5gWW2rzOq6YfMdBKC7kbE7YAfOl7PtjrmTY1dMrcjVgMTFONJJ907xVCVUIBOk8nmFmOQ-icTtvycvDQ7uzpVrqPtSldK4NCPpaL_cl5Aq3cTuW1Bgs-e0fugoI-50UvBcC4QFHwdJLbQB_CV3HkacLVrXVgc3G4AEs4CtZz86g3TzF4d1HxghW75gayOM_u4lQ3q3-WVsPZPcKH_qvpaCs-2nIF9nUxGTO1MkeMKMDUW9gKX3ZZEZngapr3f7FNTV2eqGZAwF2TUrm0W_8i1-jAuZsS_sxGVXB4KIGSu0RqW4XCpQRONt2cKfmub4rWqHTf3Fi2Cm9Tb-EE3BmX6gUKx0uSSH3RMXmgcy3B1_ezZurGctWQHJfm2kEEIc&us_privacy=1YNN&eventVOD=false&CMCD=ot%3Dm%2Csid%3D%22ae52eddb-2b07-4a68-a8c6-0d925fbbac1f%22",      
         "type":"VOD",
 	"drmType":"WIDEVINE",
-	"drmContentId":"629ff609cb032400134d42bc",
-	"drmToken":"{drmToken}",
+	"drmUri":"https://service-concierge.clusters.pluto.tv/v1/wv/alt",      
 	"type":"VOD",
-	"drmEnvironment":"{drmEnvironment}",
-	"drmHost":"{drmHost}",
-	"drmDevice":"{drmDevice}",      
 	"feed":"pluto"
       },	   
       {
