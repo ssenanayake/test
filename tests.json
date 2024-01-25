@@ -322,7 +322,7 @@
         "type":"VOD",
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
-        "drmDevice":"{drmDevice}",      
+        "drmDevice":"{drmDevice}" 
       },	   	   
       {
 	"heading":"DAI Tests"
