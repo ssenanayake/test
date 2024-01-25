@@ -17,9 +17,6 @@
       {
 	"heading":"Pluto Tests"
       },
-	   {
-	"heading":"Pluto Tests"
-      },
       {
 	"title":"Pluto w/JWT,eventVOD=true (Live to VOD)",
         "resourceProvider":"URI",
