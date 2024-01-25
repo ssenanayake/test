@@ -26,7 +26,7 @@
 	"type":"VOD",
 	"drmType":"WIDEVINE",
 	"drmUri":"https://service-concierge.clusters.pluto.tv/v1/wv",      
-	"type":"VOD",
+	"type":"LIVE",
 	"feed":"pluto"
       },
       {
@@ -38,7 +38,7 @@
         "type":"VOD",
 	"drmType":"WIDEVINE",
 	"drmUri":"https://service-concierge.clusters.pluto.tv/v1/wv",      
-	"type":"VOD",
+	"type":"LIVE",
 	"feed":"pluto",
 	"resumePosition":120000      
       }
