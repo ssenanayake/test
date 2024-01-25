@@ -882,7 +882,6 @@
 	"type":"VOD",
 	"feed":"pluto"
       },
-      
       {
 	"title":"Pluto w/JWT,eventVOD=true,resumePosition=120000 (Live to VOD)",
         "resourceProvider":"URI",
