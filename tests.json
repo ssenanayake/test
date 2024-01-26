@@ -802,6 +802,18 @@
 	"drmEnvironment":"{drmEnvironment}",
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}"       
+      },
+      {
+	"title":"URI VoD DASH w/PR DRM - Top Gun, Maverick",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/10/26/2091444291941/2404044_cenc_fmp4_dash/stream.mpd",
+	"type":"VOD",
+	"drmType":"PLAYREADY",
+        "drmContentId":"Alcn0hcGx0HosdhcawKteH8DXh3RiOF7",
+        "drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"       
       },	   
       {
 	"title":"URI VoD DASH w/DRM - Transformers, Resume @11s",
