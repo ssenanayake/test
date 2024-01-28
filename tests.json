@@ -1233,7 +1233,7 @@
         "uri":"https://sb58hf609gf.airspace-cdn.cbsivideo.com/stream_1/main.m3u8",
         "type":"LIVE",
 	"drmType":"NONE",
-        "drmContentId":"e1738a79-4e13-4281-8379-f7f44b3786a7",
+        "drmContentId":"511833b6-b8de-4801-afd7-e04b48435a42",
         "drmToken":"{drmToken}",
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
@@ -1245,9 +1245,9 @@
         "uri":"https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
         "type":"LIVE",
 	"drmType":"WIDEVINE",
-        "drmContentId":"1460556a-a1c6-456a-8da8-a33ad1f2e9e7",
+        "drmContentId":"550eb742-717a-4378-9f7f-ebf43cee7f6c",
         "drmToken":"{drmToken}",
-        "drmEnvironment":"{drmEnvironmentTest}",
+        "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}"      
       }			   
