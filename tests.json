@@ -794,7 +794,7 @@
       {
 	"title":"URI VoD DASH w/DRM - Top Gun, Maverick",
 	"resourceProvider":"URI",
-	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/05/04/2202473539626/2538125_cenc_fmp4_dash/stream.mpd"      
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/05/04/2202473539626/2538125_cenc_fmp4_dash/stream.mpd",  
 	"type":"VOD",
 	"drmType":"WIDEVINE",
 	"drmContentId":"sh0UeJexoBbPNr40vL8zV9TpG9qG7_BS",      
