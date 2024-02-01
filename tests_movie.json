@@ -66,7 +66,7 @@
 	"drmDevice":"{drmDevice}"       
       },
       {
-	"title":"URI VoD DASH w/DRM - Transformers, Resume @11s",
+	"title":"URI VoD DASH w/DRM - Transformers",
 	"resourceProvider":"URI",
 	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2021/07/08/1919384131766/861986_cenc_fmp4_hdr_dash/stream.mpd",
 	"drmType":"WIDEVINE",
@@ -75,8 +75,7 @@
 	"type":"VOD",
 	"drmEnvironment":"{drmEnvironment}",
 	"drmHost":"{drmHost}",
-	"drmDevice":"{drmDevice}",
-	"resumePosition":11000      
+	"drmDevice":"{drmDevice}"
       }			   
    ]
 }
