@@ -146,7 +146,7 @@
         "DeviceCategory": "{data.deviceCategory}"
       },
       "playerInfo": {
-        "Conviva.frameworkName": "{data.frameworkName}",
+        "Conviva.framework": "{data.frameworkName}",
         "Conviva.frameworkVersion": "{data.frameworkVersion}"
       },
       "contentInfo": {
