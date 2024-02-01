@@ -1,0 +1,82 @@
+{
+   "params":{
+      "drmToken":"https://www.paramountplus.com/apps-api/v2.0/iphone/auth/login.json?at=ABA7fgnFH2O1XVmpSKh6f5YiwylZTNpMlafiNbyneb9n8T0B3DOq/3LdTxmeTy2g6/k=",
+      "drmHost":"www.paramountplus.com",
+      "drmEnvironment":"live",
+      "drmEnvironmentTest":"stage",	   
+      "drmDevice":"firetv",
+      "maxBitrate":"20000000",
+      "enableThumbnails":"true",
+      "fetchAdUri":"https://7f077.v.fwmrm.net/ad/g/1?nw=520311&asnw=520311&ssnw=520311&prof=520311%3AGoogleDAICSAI_v01&caid=oMvs9adT4w35zHaQSmmU25QZw5Rt6DnM&csid=streaming_paramountplus_ctv_androidtv_vod&flag=%2Bamcb%2Bemcr%2Bslcb%2Bqtcb%2Bvicb%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&pvrn=1697861614&resp=vast4&vprn=1697861614;_fw_coppa=0&_fw_is_lat=0&csid=streaming_paramountplus_ctv_androidtv_vod&_fw_ae=&_fw_continuous_play=0&_fw_app_bundle=com.cbs.ott&_fw_did=google_advertising_id%3A93aecbf9-6060-4f46-9dea-0abe88193d22&_fw_h_referer=com.cbs.ott&packageSource=cbscomp&gr=4&cpPre=0&sz=640x480&tfcd=0&vguid=f45efa76-90c7-436e-8ec0-6227f5f58b29&description_url=https%3A%2F%2Fwww.paramountplus.com&user=ADULT&cust_params=bundle%3DSHO&ge=3&tfcd=0&cpSession=0&_fw_us_privacy=1YNN&sub=80747620&sb=22&session=b&subses=2&fms_bididtype=1010&_fw_3P_UID=UID2%3AAgAABSeYUikw1OrjX3hNfKZnUyC%2FRo27RFKMk4eijp0Ln%2FvbthpO1iAzEBUsXUwX3ghJL5%2F4s2lttLOB%2Fuo%2BlLxppmqV6Ix6Kvyqh3ApwJYKK2nmT17hytNmiVpYyAgriO1x%2BrtlKagQ2Z1yeR28qQIjiv%2BIZhl8Y2U3zUHa4pGjj2OvoA%3D%3D&fms_ruleid=10000&fms_ramp_id=XY6395oFkPT7tu0tW5r_hZqSkBNLepxbjJKNPjIbPgW7yu1jE&fms_vcid2type=liveramp&fms_ifa=93aecbf9-6060-4f46-9dea-0abe88193d22&fms_subscriberid=80747620&_fw_vcid2=XY6395oFkPT7tu0tW5r_hZqSkBNLepxbjJKNPjIbPgW7yu1jE&fms_emailhash=35c70ea01d22e010bf51bd2f9def921527c174c9e80107216ba5ef260bbe10ee&fms_hh_ramp_id=hY6395clQXKjYjn9Ae9QQ5HmRs0EhkMe7OzicmvTGcn4jMTuc;slid=pause_ads-1018x674&ptgt=a&tpcl=PAUSE_MIDROLL&w=1018&h=674&slau=PAUSE_AD",
+      "fetchAdDelay":"3000",
+      "liveOffset":"40000",	   
+      "trackingConfig":"",
+      "deviceConfig":"https://raw.githubusercontent.com/ssenanayake/test/main/device-config.json"	   
+   },
+   "tests":[	   
+      {
+	"heading":"Movie Tests"
+      },	   
+      {
+	"title":"URI VoD DASH w/DRM - Sonic the Hedgehog",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/04/14/2023121475896/1500797_cenc_fmp4_dash/stream.mpd",
+	"type":"VOD",
+	"drmType":"WIDEVINE",
+        "drmContentId":"NXFYTekfckCoKBmEoDZZOtMsiCIG3D0_",
+        "drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironmentTest}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"       
+      },
+      {
+	"title":"URI VoD DASH w/DRM - RESPECT",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/07/16/2052743235896/1533745_cenc_fmp4_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+	"drmContentId":"DVNyURCvCmj0jbRbCzl_WWm8Ib3t4L8o",
+	"drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironmentTest}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+      },
+      {
+	"title":"URI VoD DASH w/DRM - Dungeon's and Dragons",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/04/14/2193920579720/2413401_cenc_fmp4_dash/stream.mpd",
+	"type":"VOD",
+	"drmType":"WIDEVINE",
+        "drmContentId":"VYaqo0i3pHMuC4n2U30CyIQ6CuVjp716",
+        "drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"       
+      },	  
+      {
+	"title":"URI VoD DASH w/DRM - Top Gun, Maverick",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/05/04/2202473539626/2538125_cenc_fmp4_dash/stream.mpd",  
+	"type":"VOD",
+	"drmType":"WIDEVINE",
+	"drmContentId":"sh0UeJexoBbPNr40vL8zV9TpG9qG7_BS",      
+        "drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"       
+      },
+      {
+	"title":"URI VoD DASH w/DRM - Transformers, Resume @11s",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2021/07/08/1919384131766/861986_cenc_fmp4_hdr_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+	"drmContentId":"BzNnp6UpAQvTAlTdIrfO26aZoA9sxwTh",
+	"drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}",
+	"resumePosition":11000      
+      }			   
+   ]
+}
