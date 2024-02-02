@@ -44,7 +44,7 @@
       {
 	"title":"URI VoD DASH w/DRM - Dungeon's and Dragons",
 	"resourceProvider":"URI",
-	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/04/14/2193920579720/2413401_cenc_fmp4_dash/stream.mpd",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/04/14/2193920579720/2514554_cenc_fmp4_dash/stream.mpd",
 	"type":"VOD",
 	"drmType":"WIDEVINE",
         "drmContentId":"VYaqo0i3pHMuC4n2U30CyIQ6CuVjp716",
@@ -68,7 +68,7 @@
       {
 	"title":"URI VoD DASH w/DRM - Transformers",
 	"resourceProvider":"URI",
-	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2021/07/08/1919384131766/861986_cenc_fmp4_hdr_dash/stream.mpd",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2021/07/08/1919384131766/861986_cenc_fmp4_dash/stream.mpd",
 	"drmType":"WIDEVINE",
 	"drmContentId":"BzNnp6UpAQvTAlTdIrfO26aZoA9sxwTh",
 	"drmToken":"{drmToken}",
