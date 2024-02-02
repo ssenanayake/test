@@ -20,10 +20,10 @@
       {
 	"title":"URI VoD DASH w/DRM - Sonic the Hedgehog",
 	"resourceProvider":"URI",
-	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/04/14/2023121475896/1500797_cenc_fmp4_dash/stream.mpd",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2021/04/22/1888618563964/2540741_cenc_fmp4_dash/stream.mpd",
 	"type":"VOD",
 	"drmType":"WIDEVINE",
-        "drmContentId":"NXFYTekfckCoKBmEoDZZOtMsiCIG3D0_",
+        "drmContentId":"5EKDXPOzdVf9voUqW6oRuocyAEeJGbEc",
         "drmToken":"{drmToken}",
 	"drmEnvironment":"{drmEnvironmentTest}",
 	"drmHost":"{drmHost}",
