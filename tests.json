@@ -815,7 +815,7 @@
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}",
 	"resumePosition":11000
-      }		
+      },
       {
 	"heading":"Topaz Tests"
       },	   
