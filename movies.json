@@ -58,7 +58,7 @@
 	"resourceProvider":"URI",
 	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/05/04/2202473539626/2538125_cenc_fmp4_dash/stream.mpd",  
 	"type":"VOD",
-	"drmType":"PLAYREADY",
+	"drmType":"WIDEVINE",
 	"drmContentId":"sh0UeJexoBbPNr40vL8zV9TpG9qG7_BS",      
         "drmToken":"{drmToken}",
 	"drmEnvironment":"{drmEnvironment}",
