@@ -955,9 +955,16 @@
 	"customDataSource":"OKHTTP"
       },
       {
-	"title":"URI VoD w/Custom CachedDataSource",
+	"title":"URI VoD - HLS w/Custom CachedDataSource",
         "resourceProvider":"URI",
         "uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
+	"type":"VOD",
+	"customDataSource":"CACHED"      
+      },
+      {
+	"title":"URI VoD - DASH w/Custom CachedDataSource",
+        "resourceProvider":"URI",
+        "uri":"https://storage.googleapis.com/wvmedia/clear/h264/tears/tears.mpd",
 	"type":"VOD",
 	"customDataSource":"CACHED"      
       },	   
