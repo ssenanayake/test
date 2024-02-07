@@ -908,7 +908,23 @@
 	"type":"VOD",
 	"feed":"pluto",
 	"resumePosition":120000      
-      },	      
+      },	 
+      {
+	"heading":"Custom DataSource Tests"
+      },	   
+      {
+        "title":"URI VoD w/DRM & DASH Thumbnails",
+	"resourceProvider":"URI",
+	"uri":"https://vod62c350g.airspace-f.cbsivideo.com/test/HDR10/android_spi_cenc_dash_110k/stream.mpd",
+	"drmType":"WIDEVINE",
+        "drmContentId":"TDsQoUEj9hk8IzmnMv7Yv4oZdm5FHv3D",
+        "drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}",
+	"customDataSource":true
+      },	   
       {
 	"heading":"Miscellaneous Tests"
       },
