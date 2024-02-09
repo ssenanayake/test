@@ -718,7 +718,9 @@
       },
       "dataType": {
         "start.live": "boolean",
-        "start.mediaDuration": "long"
+        "start.mediaDuration": "long",
+        "start.playRate": "float",
+        "error.live": "boolean"
       }
     }
   }
