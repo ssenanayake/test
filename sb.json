@@ -18,7 +18,7 @@
       {
         "title":"HLS - SDR",
         "resourceProvider":"SB",
-        "uri":"https://sb58gcf94h2.airspace-cdn.cbsivideo.com/stream_1/main.m3u8",
+        "uri":"https://sb58hf609gf.airspace-cdn.cbsivideo.com/stream_1/main.m3u8",
         "type":"LIVE",
 	"drmType":"NONE",
         "drmContentId":"199639ba-a581-48aa-bcf0-146682ce6849",
@@ -30,7 +30,7 @@
       {
         "title":"DASH - HDR",
         "resourceProvider":"SB",
-        "uri":"https://sb589f19881.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
+        "uri":"https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
         "type":"LIVE",
 	"drmType":"WIDEVINE",
         "drmContentId":"0f94d2fc-e731-4775-98fd-f55224c989f1",
