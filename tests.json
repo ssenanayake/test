@@ -967,7 +967,16 @@
         "uri":"https://storage.googleapis.com/wvmedia/clear/h264/tears/tears.mpd",
 	"type":"VOD",
 	"customDataSource":"CACHED"      
-      },	   
+      },
+      {
+	"title":"URI VoD - DASH & DRM w/Custom CachedDataSource",
+        "resourceProvider":"URI",
+        "uri":"https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
+	"type":"VOD",
+	"drmType":"WIDEVINE",
+	"drmUri":"https://proxy.uat.widevine.com/proxy?video_id=2015_tears&provider=widevine_test",
+	"customDataSource":"CACHED"      
+      },   	   
       {
 	"heading":"Miscellaneous Tests"
       },
