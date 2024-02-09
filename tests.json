@@ -664,69 +664,32 @@
 	"drmDevice":"{drmDevice}"       
       },	  
       {
-	"heading":"Superbowl Tests"
+	"heading":"Superbowl"
       },
       {
-        "title":"URI Live - SuperBowl HLS + HDR with Ad ID3",
+        "title":"SB - HLS - SDR",
         "resourceProvider":"SB",
-	"uri":"https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/f388889369b9401cb8bdad965aed5e32/uhd-hdr/index.m3u8", 
-        "type":"LIVE"
-      },
-      {
-        "title":"URI Live - SuperBowl HLS - Clear - SDR",
-        "resourceProvider":"SB",
-        "uri":"https://sblvi754e20a.airspace-cdn.cbsivideo.com/out/v1/0a1b0a524eee4b619d614326391ddee4/index.m3u8",
-        "type":"LIVE"
-      },	   
-      {
-        "title":"URI Live - SuperBowl HLS - Clear CMAF - HDR",
-        "resourceProvider":"SB",
-        "uri":"https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/f388889369b9401cb8bdad965aed5e32/uhd-hdr/index.m3u8",
-        "type":"LIVE"
-      },	   
-      {
-        "title":"URI Live - SuperBowl HLS - AES128 - SDR (Not supported)",
-        "resourceProvider":"SB",
-        "uri":"https://sblvi754e20a.airspace-cdn.cbsivideo.com/out/v1/ff8fa0426a384adb91cf542f465c030b/index.m3u8",
-        "type":"LIVE"
-      },	   	   
-      {
-        "title":"URI Live - SuperBowl DASH w/DRM - HDR",
-        "resourceProvider":"SB",
-        "uri":"https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/8ed5905e3c594aea8054c72e57af58ff/index.mpd",
-        "type":"LIVE",
-	"drmType":"WIDEVINE",
-	"drmContentId":"fa4c06e8-7cde-4794-bbe8-35b1e41b927c",
-	"drmToken":"{drmToken}",
-	"drmEnvironment":"{drmEnvironmentTest}",
-	"drmHost":"{drmHost}",
-	"drmDevice":"{drmDevice}"
-      },
-      {
-        "title":"URI Live - SuperBowl HLS w/Irdeto Keys - SDR",
-        "resourceProvider":"SB",
-        "uri":"https://sblvi754e20a.airspace-cdn.cbsivideo.com/out/v1/ff8fa0426a384adb91cf542f465c030b/index.m3u8",
+        "uri":"https://sb58hf609gf.airspace-cdn.cbsivideo.com/stream_1/main.m3u8",
         "type":"LIVE",
 	"drmType":"NONE",
-	"drmContentId":"6c93f843-3368-43c9-ac54-58d14f6ee827",
-	"drmToken":"{drmToken}",
-	"drmEnvironment":"{drmEnvironmentTest}",
-	"drmHost":"{drmHost}",
-	"drmDevice":"{drmDevice}"
-      },	   
+        "drmContentId":"199639ba-a581-48aa-bcf0-146682ce6849",
+        "drmToken":"{drmToken}",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"      
+      },
       {
-        "title":"URI Live - SuperBowl DASH w/DRM - HDR - No Auto-Play",
+        "title":"SB - DASH - HDR",
         "resourceProvider":"SB",
-        "uri":"https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/8ed5905e3c594aea8054c72e57af58ff/index.mpd",
+        "uri":"https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
         "type":"LIVE",
 	"drmType":"WIDEVINE",
-	"drmContentId":"fa4c06e8-7cde-4794-bbe8-35b1e41b927c",
-	"drmToken":"{drmToken}",
-	"drmEnvironment":"{drmEnvironmentTest}",
-	"drmHost":"{drmHost}",
-	"drmDevice":"{drmDevice}",
-	"autoPlay":false      
-      },	   
+        "drmContentId":"0f94d2fc-e731-4775-98fd-f55224c989f1",
+        "drmToken":"{drmToken}",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"      
+      },	   	   
       {
 	"heading":"Sports Tests"
       },	   
@@ -1238,74 +1201,6 @@
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}"
-      },	   
-      {
-	"heading":"Superbowl Test-Games"
-      },
-      {
-        "title":"URI Live Test - SuperBowl HLS - Clear - SDR",
-        "resourceProvider":"SB",
-        "uri":"https://sb58hf609gf.airspace-cdn.cbsivideo.com/stream_2/main.m3u8",
-        "type":"LIVE",
-	"drmType":"NONE"
-      },	   
-      {
-        "title":"URI Live Test - SuperBowl DASH - Clear - HDR",
-        "resourceProvider":"SB",
-        "uri":"https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_4/main.mpd",
-        "type":"LIVE",
-	"drmType":"NONE"
-      },
-      {
-        "title":"URI Live Test - SuperBowl HLS - Key from Irdeto - SDR",
-        "resourceProvider":"SB",
-        "uri":"https://sb58gcf94h2.airspace-cdn.cbsivideo.com/stream_1/main.m3u8",
-        "type":"LIVE",
-	"drmType":"NONE",
-        "drmContentId":"6c93f843-3368-43c9-ac54-58d14f6ee827",
-        "drmToken":"{drmToken}",
-        "drmEnvironment":"{drmEnvironmentTest}",
-        "drmHost":"{drmHost}",
-        "drmDevice":"{drmDevice}"      
-      },
-      {
-        "title":"URI Live Test - SuperBowl DASH w/DRM - HDR",
-        "resourceProvider":"SB",
-        "uri":"https://sb589f19881.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
-        "type":"LIVE",
-	"drmType":"WIDEVINE",
-        "drmContentId":"fa4c06e8-7cde-4794-bbe8-35b1e41b927c",
-        "drmToken":"{drmToken}",
-        "drmEnvironment":"{drmEnvironmentTest}",
-        "drmHost":"{drmHost}",
-        "drmDevice":"{drmDevice}"      
-      },
-      {
-	"heading":"Superbowl Pre-Games"
-      },
-      {
-        "title":"URI Live - SuperBowl HLS - Key from Irdeto - SDR",
-        "resourceProvider":"SB",
-        "uri":"https://sb58hf609gf.airspace-cdn.cbsivideo.com/stream_1/main.m3u8",
-        "type":"LIVE",
-	"drmType":"NONE",
-        "drmContentId":"511833b6-b8de-4801-afd7-e04b48435a42",
-        "drmToken":"{drmToken}",
-        "drmEnvironment":"{drmEnvironment}",
-        "drmHost":"{drmHost}",
-        "drmDevice":"{drmDevice}"      
-      },
-      {
-        "title":"URI Live - SuperBowl DASH w/DRM - HDR",
-        "resourceProvider":"SB",
-        "uri":"https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
-        "type":"LIVE",
-	"drmType":"WIDEVINE",
-        "drmContentId":"550eb742-717a-4378-9f7f-ebf43cee7f6c",
-        "drmToken":"{drmToken}",
-        "drmEnvironment":"{drmEnvironment}",
-        "drmHost":"{drmHost}",
-        "drmDevice":"{drmDevice}"      
-      }			   
+      }		   
    ]
 }
