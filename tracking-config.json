@@ -718,9 +718,8 @@
         "adPlayhead": "{data.adPlayhead}"
       },
       "dataType": {
-        "debugLogging": "boolean",
-        "sendUndefined": "boolean",
-        "sessionInterval": "int"
+        "start.live": "boolean",
+        "start.mediaDuration": "long"
       }
     }
   }
