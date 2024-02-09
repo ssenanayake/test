@@ -554,7 +554,6 @@
         "mediaDuration": "{data.isLive} ? 0 : {context.mediaDuration}",
         "player": "{data.playerName}",
         "playerVersion": "{data.playerVersion}",
-        "resource": "{data.mediaUrl}",
         "deviceUUID": "",
         "username": "",
         "playRate": "1.0",
