@@ -550,7 +550,7 @@
         "mediaResource": "{data.mediaUrl}",
         "live": "{data.isLive} ? true : false",
         "pluginVersion": "6.7.33-ExoPlayer-Android",
-        "title": "{data.isLive} ? {context.vidEpTitle} : {context.seriesTitle} - {context.vidEpTitle}",
+        "title": "{data.mediaTitle}",
         "mediaDuration": "{data.isLive} ? 0 : {context.mediaDuration}",
         "player": "{data.playerName}",
         "playerVersion": "{data.playerVersion}",
