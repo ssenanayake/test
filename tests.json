@@ -387,6 +387,23 @@
 	"resumePosition":10000
       },
       {
+        "title":"DAI VoD w/DRM & Resume @10s, Custom Ad Snapback/Forward = 500ms",
+        "resourceProvider":"DAI",
+        "daiId":"9D5se7TaQpNkFuHlSJL4Gl_VVoZBPZnz",
+        "daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+        "daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"9D5se7TaQpNkFuHlSJL4Gl_VVoZBPZnz",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}",
+	"resumePosition":10000,
+	"adSnapBackDuration":500,
+	"adSnapForwardDuration":500      
+      },	   
+      {
         "title":"DAI VoD w/Innovid (returns a 404 during Content)",
         "resourceProvider":"DAI",
         "daiId":"googleio-highlights",
