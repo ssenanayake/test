@@ -833,7 +833,14 @@
 	"uri":"https://topaz-uat.paramount.tech/topaz/api/mgid:arc:showvideo:android.playplex.mtv.com:3a373bdd-8f27-44e3-8852-610f074b7485/mica.json?clientPlatform=android&ds.stage=staging&advertId=&ssus=a4dd74f9-df41-4357-8287-106af79df182&bundle=&idfv=&deviceType=&gppString=&gppSid=&TPZdpCheck=false&plutov2=true&widevineSupport=L1",      
         "type":"VOD",
 	"feed":"topaz_dai"
-      },	   	   
+      },
+      {
+	"title":"DAI VoD w/Topaz Feed, DAI Auth Token - 4",
+        "resourceProvider":"DAI",
+	"uri":"https://topaz-uat.paramount.tech/topaz/api/mgid:arc:episode:android.playplex.vh1.com:f7224ddf-e29c-11ed-ad8e-0e40cf2fc285/mica.json?clientPlatform=android&ds.stage=staging&advertId=&ssus=954bb529-2c07-4710-9bf5-7005ad330764&bundle=&idfv=&deviceType=&gppString=DBABzw~1YNN~BVQqAAAAAg&gppSid=6_7&TPZdpCheck=false&plutov2=true&widevineSupport=L1",      
+        "type":"VOD",
+	"feed":"topaz_dai"
+      },	   
       {
 	"title":"URI VoD w/Topaz Feed & Seek Thumbnails",
         "resourceProvider":"URI",
