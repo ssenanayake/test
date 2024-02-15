@@ -271,6 +271,7 @@
         "videoColorRange": "{data.isHdr} ? hdr : sdr",
         "videoProperties": "{context.videoProperties}",
         "videoQuality": "{data.videoQuality}",
+        "videoResolutionName": "{data.videoResolutionName}",
         "winDimension": "{context.screenSize}"
       },
       "errorInfo": {
