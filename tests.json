@@ -842,6 +842,11 @@
 	"list":["IMA Ad Only", "URI VoD w/Topaz Feed"]
       },
       {
+	"title":"IMA Ad, Error Content, URI Content",
+	"resourceProvider":"LIST",      
+	"list":["IMA Ad Only", "URI VoD w/DRM - Source Error", "URI VoD w/Topaz Feed"]
+      },	   
+      {
 	"heading":"Pluto Tests"
       },
       {
