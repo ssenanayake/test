@@ -837,7 +837,7 @@
 	"heading":"Play List Tests"
       },	   
       {
-	"title":"IMA Ad & DAI Content",
+	"title":"IMA Ad & URI Content",
 	"resourceProvider":"LIST",      
 	"list":["IMA Ad Only", "URI VoD w/Topaz Feed"]
       }
