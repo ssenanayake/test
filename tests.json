@@ -858,6 +858,7 @@
 	"type":"VOD",
 	"drmType":"NONE",
 	"type":"LIVE",
+	"stitcher":"DASH",            
 	"feed":"pluto"
       },
       {
@@ -869,6 +870,7 @@
 	"type":"VOD",
 	"drmType":"NONE",
 	"type":"LIVE",
+	"stitcher":"DASH",            
 	"feed":"pluto",
 	"resumePosition":20      
       },	 
@@ -881,6 +883,7 @@
 	"type":"VOD",
 	"drmType":"NONE",
 	"type":"LIVE",
+	"stitcher":"HLS",      
 	"feed":"pluto"
       },	 	   
       {
