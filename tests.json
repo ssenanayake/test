@@ -835,20 +835,6 @@
       {
 	"title":"DAI VoD w/Topaz Feed, DAI Auth Token - 2",
         "resourceProvider":"DAI",
-	"uri":"https://topaz-uat.paramount.tech/topaz/api/mgid:arc:movie:android.playplex.mtv.com:71ca3598-39e8-11eb-834d-70df2f866ace/mica.json?clientPlatform=androidfiretv&ds.stage=staging&advertId=db20f99e-77d5-4272-8bc8-fd01c332b5e6&ssus=848e540c-3132-4a96-86c0-1e54ddb1879e&bundle=&idfv=&deviceType=&TPZdpCheck=false&plutov2=true&widevineSupport=L1",      
-        "type":"VOD",
-	"feed":"topaz_dai"
-      },
-      {
-	"title":"DAI VoD w/Topaz Feed, DAI Auth Token - 3",
-        "resourceProvider":"DAI",
-	"uri":"https://topaz-uat.paramount.tech/topaz/api/mgid:arc:showvideo:android.playplex.mtv.com:3a373bdd-8f27-44e3-8852-610f074b7485/mica.json?clientPlatform=android&ds.stage=staging&advertId=&ssus=a4dd74f9-df41-4357-8287-106af79df182&bundle=&idfv=&deviceType=&gppString=&gppSid=&TPZdpCheck=false&plutov2=true&widevineSupport=L1",      
-        "type":"VOD",
-	"feed":"topaz_dai"
-      },
-      {
-	"title":"DAI VoD w/Topaz Feed, DAI Auth Token - 4",
-        "resourceProvider":"DAI",
 	"uri":"https://topaz-uat.paramount.tech/topaz/api/mgid:arc:episode:android.playplex.vh1.com:f7224ddf-e29c-11ed-ad8e-0e40cf2fc285/mica.json?clientPlatform=android&ds.stage=staging&advertId=&ssus=954bb529-2c07-4710-9bf5-7005ad330764&bundle=&idfv=&deviceType=&gppString=DBABzw~1YNN~BVQqAAAAAg&gppSid=6_7&TPZdpCheck=false&plutov2=true&widevineSupport=L1",      
         "type":"VOD",
 	"feed":"topaz_dai",
@@ -861,13 +847,6 @@
         "type":"VOD",
 	"feed":"topaz_uri"
       },
-      {
-	"title":"DAI VoD w/Topaz Feed & Seek Thumbnails",
-        "resourceProvider":"DAI",
-	"uri":"https://topaz-uat.paramount.tech/topaz/api/mgid:arc:episode:android.playplex.comedycentral.com:b81f4880-254a-4dc6-b8ff-5a4781496dad/mica.json?clientPlatform=android&ds.stage=staging&advertId=&ssus=d405f3f4-b0ee-488a-b862-f9ff361fc1b0&bundle=&idfv=&deviceType=&TPZdpCheck=false&plutov2=true&widevineSupport=L1",      
-        "type":"VOD",
-	"feed":"topaz_dai"
-      },	   
       {
 	"heading":"Play List Tests"
       },	   
