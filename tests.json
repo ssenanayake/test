@@ -840,7 +840,7 @@
 	"title":"IMA Ad & URI Content",
 	"resourceProvider":"LIST",      
 	"list":["IMA Ad Only", "URI VoD w/Topaz Feed"]
-      }
+      },
       {
 	"heading":"Pluto Tests"
       },
