@@ -16,29 +16,6 @@
    "tests":[
       {
 	"heading":"Pluto Tests"
-      },
-      {
-	"title":"Pluto w/JWT, Live RCO",
-        "resourceProvider":"URI",
-	"uri":"https://boot.pluto.tv/v4/start?appName=androidmobile&appVersion=5.38.0-debug&clientID=fc4d38ce-51a6-49c7-bc55-ad97afca3f62_41b9891933b28855&clientModelNumber=sdk_gphone64_arm64&deviceVersion=13_33&clientDeviceType=4&deviceModel=sdk_gphone64_arm64&deviceType=android%2CGoogle%2Cmobile&deviceMake=Google&cmAudienceID=7209c963-698e-48fd-a24b-cc4b31d8239b&isClientDNT=false&channelID=5b4fc274694c027be6ed3eea&channelSlug=pluto-tv-sci-fi&episodeCount=5&serverSideAds=false&constraints=&drmCapabilities=widevine%3AL3&includeEPG=true&isDeviceInactive=false&blockingMode=&lastAppLaunchDate=2024-01-22T11%3A51%3A04.832-06%3A00&appLaunchCount=153&notificationVersion=2&preNotificationsDevice=true",      
-	"contentId": "644986fa559c07001a11a337",
-	"additionalUriParams":"",
-	"drmType":"NONE",
-	"type":"LIVE",
-	"stitcher":"DASH",            
-	"feed":"pluto"
-      },
-      {
-	"title":"Pluto w/JWT, Live RCO, Resume@20s",
-        "resourceProvider":"URI",
-	"uri":"https://boot.pluto.tv/v4/start?appName=androidmobile&appVersion=5.38.0-debug&clientID=fc4d38ce-51a6-49c7-bc55-ad97afca3f62_41b9891933b28855&clientModelNumber=sdk_gphone64_arm64&deviceVersion=13_33&clientDeviceType=4&deviceModel=sdk_gphone64_arm64&deviceType=android%2CGoogle%2Cmobile&deviceMake=Google&cmAudienceID=7209c963-698e-48fd-a24b-cc4b31d8239b&isClientDNT=false&channelID=5b4fc274694c027be6ed3eea&channelSlug=pluto-tv-sci-fi&episodeCount=5&serverSideAds=false&constraints=&drmCapabilities=widevine%3AL3&includeEPG=true&isDeviceInactive=false&blockingMode=&lastAppLaunchDate=2024-01-22T11%3A51%3A04.832-06%3A00&appLaunchCount=153&notificationVersion=2&preNotificationsDevice=true",      
-	"contentId": "644986fa559c07001a11a337",
-	"additionalUriParams":"",
-	"drmType":"NONE",
-	"type":"LIVE",
-	"stitcher":"DASH",            
-	"feed":"pluto",
-	"resumePosition":20      
       },	 
       {
 	"title":"Pluto w/JWT, HLS Audio Track Count",
@@ -58,7 +35,7 @@
 	"contentId": "644986fa559c07001a11a337",
 	"additionalUriParams":"",
 	"type":"VOD",
-	"drmType":"NONE",
+	"drmType":"WIDEVINE",
 	"stitcher":"DASH",      
 	"feed":"pluto"
       }	   
