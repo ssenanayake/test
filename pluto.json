@@ -18,7 +18,7 @@
 	"heading":"Pluto Tests"
       },	 
       {
-	"title":"Pluto w/JWT, HLS Audio Track Count",
+	"title":"Pluto w/JWT, HLS",
         "resourceProvider":"URI",
 	"uri":"https://boot.pluto.tv/v4/start?appName=firetv&appVersion=5.39.0-amazon&clientID=87ce8513-5448-4bcd-925e-6afcbc077698_345538389c60cae7&clientModelNumber=AFTSSS&deviceVersion=9_28&clientDeviceType=6&deviceModel=AFTSSS&deviceType=android%2CAmazon%2Cctv&deviceMake=Amazon&cmAudienceID=ac92856e-52eb-4cb9-af6e-0e84be86340a&isClientDNT=false&channelID=5ced7d5df64be98e07ed47b6&channelSlug=nfl-channel&episodeCount=5&serverSideAds=false&constraints=&drmCapabilities=widevine%3AL1&includeEPG=true&isDeviceInactive=true&blockingMode=&lastAppLaunchDate=2024-02-12T20%3A03%3A32.608%2B01%3A00&appLaunchCount=2&notificationVersion=2&preNotificationsDevice=true",      
 	"contentId": "6449720a1a5081001a13edf3",
@@ -29,7 +29,7 @@
 	"feed":"pluto"
       },
       {
-	"title":"Pluto w/JWT, DASH Audio Track Count",
+	"title":"Pluto w/JWT, DASH",
         "resourceProvider":"URI",
 	"uri":"https://boot.pluto.tv/v4/start?appName=firetv&appVersion=5.39.0-amazon&clientID=87ce8513-5448-4bcd-925e-6afcbc077698_345538389c60cae7&clientModelNumber=AFTSSS&deviceVersion=9_28&clientDeviceType=6&deviceModel=AFTSSS&deviceType=android%2CAmazon%2Cctv&deviceMake=Amazon&cmAudienceID=ac92856e-52eb-4cb9-af6e-0e84be86340a&isClientDNT=false&channelID=5ced7d5df64be98e07ed47b6&channelSlug=nfl-channel&episodeCount=5&serverSideAds=false&constraints=&drmCapabilities=widevine%3AL1&includeEPG=true&isDeviceInactive=true&blockingMode=&lastAppLaunchDate=2024-02-12T20%3A03%3A32.608%2B01%3A00&appLaunchCount=2&notificationVersion=2&preNotificationsDevice=true",      
 	"contentId": "6449720a1a5081001a13edf3",
