@@ -92,6 +92,12 @@
         "vr360":true
       },
       {
+	"title":"URI VoD 360 on SurfaceView",
+        "resourceProvider":"URI",
+        "uri":"https://cdn.jwplayer.com/videos/AgqYcfAT-8yQ1cYbs.mp4",
+        "type":"VOD"
+      },	   
+      {
 	"title":"URI VoD Local File",
 	"resourceProvider":"URI",
 	"uri":"file:///storage/emulated/0/Paramount.mp4",
