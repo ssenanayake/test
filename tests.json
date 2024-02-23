@@ -857,7 +857,7 @@
       {
 	"title":"IMA Ad Only, URI Content, IMA Ad Only",
 	"resourceProvider":"LIST",      
-	"list":["IMA Ad Only", "URI VoD w/Topaz Feed"]
+	"list":["IMA Ad Only", "URI VoD w/Topaz Feed", "IMA Ad Only"]
       },	   
       {
 	"title":"IMA Ad Only, Error Content, URI Content",
