@@ -850,12 +850,17 @@
 	"heading":"Play List Tests"
       },	   
       {
-	"title":"IMA Ad & URI Content",
+	"title":"IMA Ad Only & URI Content",
 	"resourceProvider":"LIST",      
 	"list":["IMA Ad Only", "URI VoD w/Topaz Feed"]
       },
       {
-	"title":"IMA Ad, Error Content, URI Content",
+	"title":"IMA Ad Only, URI Content, IMA Ad Only",
+	"resourceProvider":"LIST",      
+	"list":["IMA Ad Only", "URI VoD w/Topaz Feed"]
+      },	   
+      {
+	"title":"IMA Ad Only, Error Content, URI Content",
 	"resourceProvider":"LIST",      
 	"list":["IMA Ad Only", "URI VoD w/DRM - Source Error", "URI VoD w/Topaz Feed"]
       },	   
