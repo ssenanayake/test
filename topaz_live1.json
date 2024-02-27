@@ -21,6 +21,7 @@
 	"title":"DAI Live w/Topaz Feed, DAI Auth Token",
         "resourceProvider":"DAI",
 	"accessTokenUri":"https://auth.mtvnservices.com/accessToken?clientId=vh1-amazonfiretv&countryCode=US",      
+	"mediaTokenUri":"https://auth.mtvnservices.com/mediaToken?clientId=vh1-amazonfiretv&countryCode=US",      
 	"uri":"https://topaz.viacomcbs.digital/topaz/api/mgid:arc:showvideo:android.playplex.vh1.com:3166f5d1-b3b3-41bb-a86b-816813b53ddb/mica.json?clientPlatform=amazonfiretv&advertId=46f7886d-4782-4cde-a256-e7dc968d4c75&ssus=0afd4dda-5788-4bf3-b177-e205a03ae189&bundle=&idfv=&deviceType=&tveprovider=Cablevision&amznSlots=&amznregion=&amznbrmId=&plutov2=true&widevineSupport=L1",      
         "type":"LIVE",
 	"feed":"topaz_dai"
