@@ -280,13 +280,20 @@
         "type":"VOD"
       },
       {
-	"title":"IMA VoD Preroll w/Skip Ad",
+	"title":"IMA VoD Preroll w/Skip Ad as Promo",
         "resourceProvider":"IMA",
         "uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
         "adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_preroll_skippable&sz=640x480&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator={RANDOM}",
         "type":"VOD",
 	"promo":true      
       },
+      {
+	"title":"IMA VoD Preroll w/Skip Ad",
+        "resourceProvider":"IMA",
+        "uri":"http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
+        "adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_preroll_skippable&sz=640x480&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator={RANDOM}",
+        "type":"VOD"
+      },	   
       {
 	"title":"IMA VoD Multi Ad Preroll Ad & DRM",
         "resourceProvider":"IMA",
