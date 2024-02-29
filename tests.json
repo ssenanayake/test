@@ -265,12 +265,19 @@
 	"allowFetchAd":true            
       },
       {
-        "title":"IMA Ad Only",
+        "title":"IMA Ad Only - 1",
         "resourceProvider":"IMA",
 	"uri":"",
         "adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_preroll_skippable&sz=640x480&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator={RANDOM}",
         "type":"VOD"
       },
+      {
+        "title":"IMA Ad Only - 2",
+        "resourceProvider":"IMA",
+	"uri":"",
+        "adUri":"https://7f077.v.fwmrm.net/ad/g/1?asnw=520311&caid=Ml_8xlr__D9RFI3OY8uXQmUK8c_Dfj2o&vdur=86400&csid=vcbs_cbssports_mobile_androidphone_live&flag=%2Bdtrd%2Bsync%2Bqtcb%2Bvicb%2Bemcr%2Baeti%2Bsltp%2Bfbad%2Bscpv%2Bslcb&metr=1023&nw=520311&prof=520311%3AGoogleDAICSAI_v01&pvrn=[TIMESTAMP]&resp=vmap1%2Bvast4&ssnw=520311&vprn=[TIMESTAMP];live_asset_id=9Lq0ERvoSR-z9AwvFS-xYA&_fw_coppa=0&_fw_vcid2=8a4b05f7-800e-4b06-8ae9-f5018946e4f3&description_url=https%3A%2F%2Fwww.cbssports.com&sz=640x480&givn=[GOOGLE_INSTREAM_VIDEO_NONCE];",
+        "type":"VOD"
+      },	   
       {
         "title":"IMA VoD Pre/Mid/Postrolls w/Ad Holiday",
         "resourceProvider":"IMA",
@@ -917,17 +924,22 @@
       {
 	"title":"IMA Ad Only & URI Content",
 	"resourceProvider":"LIST",      
-	"list":["IMA Ad Only", "URI VoD w/Topaz Feed"]
+	"list":["IMA Ad Only - 1", "URI VoD w/Topaz Feed"]
       },
       {
 	"title":"IMA Ad Only, URI Content, IMA Ad Only",
 	"resourceProvider":"LIST",      
-	"list":["IMA Ad Only", "URI VoD w/Topaz Feed", "IMA Ad Only"]
+	"list":["IMA Ad Only - 1", "URI VoD w/Topaz Feed", "IMA Ad Only - 2"]
       },	   
       {
 	"title":"IMA Ad Only, Error Content, URI Content",
 	"resourceProvider":"LIST",      
-	"list":["IMA Ad Only", "URI VoD w/DRM - Source Error", "URI VoD w/Topaz Feed"]
+	"list":["IMA Ad Only - 1", "URI VoD w/DRM - Source Error", "URI VoD w/Topaz Feed"]
+      },
+      {
+	"title":"IMA Ad Only, DAI Live",
+	"resourceProvider":"LIST",      
+	"list":["IMA Ad Only - 2", "DAI Live w/Frequent Ads"]
       },	   
       {
 	"heading":"Pluto Tests"
