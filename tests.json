@@ -239,10 +239,11 @@
 	"drmDevice":"{drmDevice}"    
       },
       {
-	"title":"URI Sports Test - Portrait",
+	"title":"URI Sports Test - Portrait Zoomed",
 	"resourceProvider":"URI",
 	"uri":"https://play.dev.cbsivideo.com/h/1.4tPyn87YiDN089Qh3Scj3C1jiHLgV6AQ3fnz4XY4Er9vRPwhVVY3F7jyqglZCozMs7z9YaLxNuufwskokoHNGggO3AhhMJX8prqVestXjvSd4vXrCcpkoEVt5c5NSYnzK3ROBRHg0ucHPHO25LnRAHe1UEjcGr9YIcZCCEZpmyLPcRxa8uW3kk6vrx1DLtacFOJ2xyRSdDr5cVU8RffDkxYasOxkdp6RnreeaOXMDhDAO1roMbksTomw80CG5GgKCd6LK6yCs6isPshYJJjKAeAJfJxFwAv9CN55OWAYNIUeXEiDfuGpe4JszbbfyyVixFW/master.m3u8",
-	"type":"VOD"
+	"type":"VOD",
+	"resizeModeZoom":true      
       },	   
       {
         "heading":"IMA Tests"
