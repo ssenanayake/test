@@ -836,7 +836,7 @@
 	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/10/26/2091444291941/2509187_cenc_precon_dash/stream.mpd",  
 	"type":"VOD",
 	"drmType":"WIDEVINE",
-	"drmContentId":"sh0UeJexoBbPNr40vL8zV9TpG9qG7_BS",      
+	"drmContentId":"Alcn0hcGx0HosdhcawKteH8DXh3RiOF7",      
         "drmToken":"{drmToken}",
 	"drmEnvironment":"{drmEnvironment}",
 	"drmHost":"{drmHost}",
