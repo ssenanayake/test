@@ -68,10 +68,10 @@
       {
 	"title":"URI VoD DASH w/DRM - Top Gun, Maverick - HDR & SDR",
 	"resourceProvider":"URI",
-	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/05/04/2202473539626/2538125_cenc_fmp4_dash/stream.mpd",  
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/10/26/2091444291941/2510383_cenc_fmp4_hdr_dash/stream.mpd",  
 	"type":"VOD",
 	"drmType":"WIDEVINE",
-	"drmContentId":"sh0UeJexoBbPNr40vL8zV9TpG9qG7_BS",      
+	"drmContentId":"Alcn0hcGx0HosdhcawKteH8DXh3RiOF7",      
         "drmToken":"{drmToken}",
 	"drmEnvironment":"{drmEnvironment}",
 	"drmHost":"{drmHost}",
