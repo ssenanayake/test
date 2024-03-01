@@ -18,7 +18,7 @@
 	"heading":"Movie Tests"
       },	   
       {
-	"title":"URI VoD DASH w/DRM - Top Gun, Maverick - HDR & SDR",
+	"title":"URI VoD DASH w/DRM",
 	"resourceProvider":"URI",
 	"uri":"https://bakery-pplus-dev.cbs.com/b(0,2099997)/intl_vms/2023/04/12/2192849475583/2393182_cenc_fmp4_dash/stream.mpd",  
 	"type":"VOD",
