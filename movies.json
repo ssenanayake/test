@@ -54,7 +54,7 @@
 	"drmDevice":"{drmDevice}"       
       },	  
       {
-	"title":"URI VoD DASH w/DRM - Top Gun, Maverick - HDR & SDR",
+	"title":"URI VoD DASH w/DRM - Mission Impossible - HDR & SDR",
 	"resourceProvider":"URI",
 	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/05/04/2202473539626/2538125_cenc_fmp4_dash/stream.mpd",  
 	"type":"VOD",
