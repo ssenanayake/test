@@ -25,6 +25,13 @@
         "autoPlay":false
       },  
       {
+        "title":"URI VoD wo/Audio (Muted)",
+        "resourceProvider":"URI",
+        "uri":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "type":"VOD",
+        "muted":true
+      }, 	   
+      {
 	"title":"URI VoD w/Pause Ad",
 	"resourceProvider":"URI",
 	"uri":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
