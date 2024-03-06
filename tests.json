@@ -244,6 +244,12 @@
 	"uri":"https://play.dev.cbsivideo.com/h/1.4tPyn87YiDN089Qh3Scj3C1jiHLgV6AQ3fnz4XY4Er9vRPwhVVY3F7jyqglZCozMs7z9YaLxNuufwskokoHNGggO3AhhMJX8prqVestXjvSd4vXrCcpkoEVt5c5NSYnzK3ROBRHg0ucHPHO25LnRAHe1UEjcGr9YIcZCCEZpmyLPcRxa8uW3kk6vrx1DLtacFOJ2xyRSdDr5cVU8RffDkxYasOxkdp6RnreeaOXMDhDAO1roMbksTomw80CG5GgKCd6LK6yCs6isPshYJJjKAeAJfJxFwAv9CN55OWAYNIUeXEiDfuGpe4JszbbfyyVixFW/master.m3u8",
 	"type":"VOD",
 	"resizeModeZoom":true      
+      },
+      {
+	"title":"URI Sports Test - Portrait Video",
+	"resourceProvider":"URI",
+	"uri":"https://sports.play.cbsi.video/h/1.Z1wgFiOBhYvZGnCgLggAJleR1tmkHosp2xnvZap2YkhAqnfE6mTQaV9efpEpj3yjE3G5uRhhyraZowM9RHSzHcI8xQgDZXfqUHomUr6X2b0uXRor84S9Vz06O3oGTx6Stkemhd5RA2f2vpxohoPtGs1pkf5M2PpCicmCXkaKO1jOI4Ntex7WP6eib1vVV0vHl9hGCylIyjcTXhamO6Fv73OpUJBCkDHsNHp2cnvxl2EmqkHux9KX8fY3gYEHZf/master.m3u8",
+	"type":"VOD"
       },	   
       {
         "heading":"IMA Tests"
