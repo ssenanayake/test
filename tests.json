@@ -249,7 +249,8 @@
 	"title":"URI Sports Test - Portrait Video",
 	"resourceProvider":"URI",
 	"uri":"https://sports.play.cbsi.video/h/1.Z1wgFiOBhYvZGnCgLggAJleR1tmkHosp2xnvZap2YkhAqnfE6mTQaV9efpEpj3yjE3G5uRhhyraZowM9RHSzHcI8xQgDZXfqUHomUr6X2b0uXRor84S9Vz06O3oGTx6Stkemhd5RA2f2vpxohoPtGs1pkf5M2PpCicmCXkaKO1jOI4Ntex7WP6eib1vVV0vHl9hGCylIyjcTXhamO6Fv73OpUJBCkDHsNHp2cnvxl2EmqkHux9KX8fY3gYEHZf/master.m3u8",
-	"type":"VOD"
+	"type":"VOD",
+	"lockOrientationToVideo":true      
       },	   
       {
         "heading":"IMA Tests"
