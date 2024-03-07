@@ -410,6 +410,20 @@
         "drmDevice":"{drmDevice}"
       },
       {
+	"title":"DAI VoD w/DRM - Jon Stewart",
+        "resourceProvider":"DAI",
+	"daiId":"UmpGlmeRqwihmKiHM_VDkG1p7fLhjf_0",
+	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+	"daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"UmpGlmeRqwihmKiHM_VDkG1p7fLhjf_0",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },	   
+      {
 	"title":"DAI VoD w/DRM & Ad Parameters",
         "resourceProvider":"DAI",
 	"daiId":"kFfjpWZ9totEO8uL2CsFxFxYGTcqLIS_",
