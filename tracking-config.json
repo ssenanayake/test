@@ -132,14 +132,16 @@
         "gatewayUrl": "{context.dev} ? cbscom-test.testonly.conviva.com : "
       },
       "deviceInfo": {
-        "DeviceBrand": "{data.deviceBrand}",
-        "DeviceManufacturer": "{data.deviceManufacturer}",
-        "DeviceModel": "{data.deviceModel}",
-        "DeviceType": "{data.deviceType}",
-        "DeviceVersion": "{data.deviceVersion}",
-        "OperatingSystemName": "{data.osName}",
-        "OperatingSystemVersion": "{data.osVersion}",
-        "DeviceCategory": "{data.deviceCategory}"
+        "androidBuildModel": "{context.androidBuildModel}",
+        "operatingSystemVersion": "{context.operatingSystemVersion}",
+        "deviceBrand": "{context.deviceBrand}",
+        "deviceManufacturer": "{context.deviceManufacturer}",
+        "deviceModel": "{context.deviceModel}",
+        "deviceType": "{context.deviceType}",
+        "deviceVersion": "{context.deviceVersion}",
+        "deviceScreenWidth": "{context.deviceScreenWidth}",
+        "deviceScreenHeight": "{context.deviceScreenHeight}",
+        "deviceScreenScaleFactor": "{context.deviceScreenScaleFactor}"
       },
       "playerInfo": {
         "Conviva.framework": "{data.frameworkName}",
