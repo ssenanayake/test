@@ -15,10 +15,10 @@
    },
    "tests":[
       {
-	"heading":"Movie Tests - Irdeto Staging"
+	"heading":"Movie Tests - Irdeto"
       },	   
       {
-	"title":"URI VoD DASH w/DRM - RESPECT - SDR Only",
+	"title":"URI VoD DASH w/DRM - RESPECT - SDR Only - Staging",
 	"resourceProvider":"URI",
 	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/07/16/2052743235896/1533745_cenc_fmp4_dash/stream.mpd",
 	"drmType":"WIDEVINE",
@@ -30,7 +30,7 @@
 	"drmDevice":"{drmDevice}"
       },	   
       {
-	"title":"URI VoD DASH w/DRM - Sonic the Hedgehog - HDR & SDR",
+	"title":"URI VoD DASH w/DRM - Sonic the Hedgehog - HDR & SDR - Staging",
 	"resourceProvider":"URI",
 	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2021/04/22/1888618563964/2540741_cenc_fmp4_dash/stream.mpd",
 	"type":"VOD",
@@ -42,7 +42,7 @@
 	"drmDevice":"{drmDevice}"       
       },
       {
-	"title":"URI VoD DASH w/DRM - Dungeon's and Dragons - HDR & SDR",
+	"title":"URI VoD DASH w/DRM - Dungeon's and Dragons - HDR & SDR - Staging",
 	"resourceProvider":"URI",
 	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/04/14/2193920579720/2514554_cenc_fmp4_dash/stream.mpd",
 	"type":"VOD",
@@ -54,7 +54,7 @@
 	"drmDevice":"{drmDevice}"       
       },	  
       {
-	"title":"URI VoD DASH w/DRM - Mission Impossible - HDR & SDR",
+	"title":"URI VoD DASH w/DRM - Mission Impossible - HDR & SDR - Staging",
 	"resourceProvider":"URI",
 	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/05/04/2202473539626/2538125_cenc_fmp4_dash/stream.mpd",  
 	"type":"VOD",
@@ -66,7 +66,7 @@
 	"drmDevice":"{drmDevice}"       
       },
       {
-	"title":"URI VoD DASH w/DRM - Top Gun, Maverick - HDR & SDR - Test",
+	"title":"URI VoD DASH w/DRM - Top Gun, Maverick - HDR & SDR - Prod",
 	"resourceProvider":"URI",
 	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/10/26/2091444291941/2510383_cenc_fmp4_dash/stream.mpd",  
 	"type":"VOD",
@@ -78,7 +78,19 @@
 	"drmDevice":"{drmDevice}"       
       },	   
       {
-	"title":"URI VoD DASH w/DRM - Transformers - HDR & SDR",
+	"title":"URI VoD DASH w/DRM - Top Gun, Maverick - HDR & SDR - Staging",
+	"resourceProvider":"URI",
+	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/10/26/2091444291941/2510383_cenc_fmp4_dash/stream.mpd",  
+	"type":"VOD",
+	"drmType":"WIDEVINE",
+	"drmContentId":"Alcn0hcGx0HosdhcawKteH8DXh3RiOF7",      
+        "drmToken":"{drmToken}",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"       
+      },	   	   
+      {
+	"title":"URI VoD DASH w/DRM - Transformers - HDR & SDR - Staging",
 	"resourceProvider":"URI",
 	"uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2021/07/08/1919384131766/861986_cenc_fmp4_dash/stream.mpd",
 	"drmType":"WIDEVINE",
