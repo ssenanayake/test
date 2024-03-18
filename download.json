@@ -71,7 +71,8 @@
         "resourceProvider":"URI",
         "uri":"https://storage.googleapis.com/wvmedia/clear/h264/tears/tears.mpd",
 	"type":"VOD",
-	"customDataSource":"CACHED"      
+	"customDataSource":"CACHED",
+	"streamKeys":["0,0,0","0,1,0"]      
       },
       {
 	"title":"URI VoD - DASH & DRM w/Custom CachedDataSource",
@@ -80,7 +81,8 @@
 	"type":"VOD",
 	"drmType":"WIDEVINE",
 	"drmUri":"https://proxy.uat.widevine.com/proxy?video_id=2015_tears&provider=widevine_test",
-	"customDataSource":"CACHED"      
+	"customDataSource":"CACHED",
+	"streamKeys":["0,0,0","0,1,0"]      
       }   	   
    ]
 }
