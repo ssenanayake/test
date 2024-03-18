@@ -47,7 +47,7 @@
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}",
 	"customDataSource":"CACHED",
-	"streamKeys":["0,0,2","0,2,1"]      
+	"streamKeys":["0,0,2","0,2,0"]      
       }	   
    ]
 }
