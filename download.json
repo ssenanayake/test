@@ -34,6 +34,22 @@
 	"drmUri":"https://proxy.uat.widevine.com/proxy?video_id=2015_tears&provider=widevine_test",
 	"customDataSource":"CACHED",
 	"streamKeys":["0,0,0","0,1,0"]      
-      }   	   
+      },
+      {
+	"title":"URI VoD - DASH & DRM w/Custom CachedDataSource - Paramount Content",
+        "resourceProvider":"URI",
+        "uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2024/01/23/2302935619647/2574154_cenc_dash/stream.mpd",
+	"drmType":"WIDEVINE",
+        "drmContentId":"9JsNhryXVdJd_mY0PV1pUwDfcf7smbgc",
+        "drmToken":"{drmToken}",
+	"type":"VOD",
+	"drmEnvironment":"{drmEnvironment}",
+	"drmHost":"{drmHost}",
+	"drmDevice":"{drmDevice}"
+	"type":"VOD",
+	"drmType":"WIDEVINE",
+	"customDataSource":"CACHED",
+	"streamKeys":["0,0,0","0,1,0"]      
+      }	   
    ]
 }
