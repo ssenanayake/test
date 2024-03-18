@@ -45,9 +45,7 @@
 	"type":"VOD",
 	"drmEnvironment":"{drmEnvironment}",
 	"drmHost":"{drmHost}",
-	"drmDevice":"{drmDevice}"
-	"type":"VOD",
-	"drmType":"WIDEVINE",
+	"drmDevice":"{drmDevice}",
 	"customDataSource":"CACHED",
 	"streamKeys":["0,0,0","0,1,0"]      
       }	   
