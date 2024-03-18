@@ -36,7 +36,7 @@
 	"streamKeys":["0,0,0","0,1,0"]      
       },
       {
-	"title":"URI VoD - DASH & DRM w/Custom CachedDataSource - Paramount Content",
+	"title":"URI VoD - DASH & DRM, CC w/Custom CachedDataSource - Paramount Content",
         "resourceProvider":"URI",
         "uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2024/01/23/2302935619647/2574154_cenc_dash/stream.mpd",
 	"drmType":"WIDEVINE",
@@ -47,7 +47,7 @@
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}",
 	"customDataSource":"CACHED",
-	"streamKeys":["0,0,2","0,2,0"]      
+	"streamKeys":["0,0,2","0,2,0","0,5,0","0,6,1"]      
       }	   
    ]
 }
