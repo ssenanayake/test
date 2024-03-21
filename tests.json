@@ -28,6 +28,15 @@
 	"drmEnvironment":"{drmEnvironment}",
 	"drmHost":"{drmHost}",
 	"drmDevice":"{drmDevice}"
+      },
+      {
+        "title":"URI VoD w/DRM & DASH Thumbnails - Using DAI Ad Stitched url & LA url, JWT (will Expire)",
+	"resourceProvider":"URI",
+	"uri":"https://pubads.g.doubleclick.net/ondemand/dash/content/2497752/vid/UmpGlmeRqwihmKiHM_VDkG1p7fLhjf_0/DLS/streams/76133aad-574b-4247-a7ad-1f19e777a27d/manifest.mpd",
+	"drmType":"WIDEVINE",
+        "drmUri":"https://cbsi.live.ott.irdeto.com/widevine/getlicense?CrmId=cbsi&AccountId=cbsi&SubContentType=Default&contentId=UmpGlmeRqwihmKiHM_VDkG1p7fLhjf_0",
+	"token":"eyJhbGciOiJIUzI1NiIsImtpZCI6IjNkNjg4NGJmLWViMDktNDA1Zi1hOWZjLWU0NGE1NmY3NjZiNiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMDU2MjA5MV9VUyIsImVudCI6W3siYmlkIjoiQWxsQWNjZXNzTWFpbiIsImVwaWQiOjl9XSwiaWF0IjoxNzExMDUxNzM5LCJleHAiOjE3MTEwNjYxMzksImlzcyI6ImNicyIsImFpZCI6ImNic2kiLCJpc2UiOnRydWUsImp0aSI6ImUwMGU2N2QxLTljY2EtNDNmZS04MTUzLTczMDlmNTgzYzU0ZSJ9.3QOVs0myLwBezTbEuJHl1pXbRUqnAUuoKqMdwaysXJY",      
+        "type":"VOD"
       },	   
       {
 	"heading":"URI Tests"
