@@ -379,7 +379,6 @@
 	"drmType":"WIDEVINE",
         "drmContentId":"Alcn0hcGx0HosdhcawKteH8DXh3RiOF7",
         "drmToken":"{drmToken}",
-        "type":"VOD",
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}" 
