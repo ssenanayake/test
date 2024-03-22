@@ -44,6 +44,20 @@
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}"
+      },
+      {
+	"title":"DAI API VoD w/DRM - Test - 1",
+        "resourceProvider":"DAIAPI",
+      	"daiId":"9Zrngoc18WmN22hrRJQgq4LFT_oE4A_v",
+      	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+      	"daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"9Zrngoc18WmN22hrRJQgq4LFT_oE4A_v",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
       },	   
       {
         "title":"DAI API Live - Sports HQ",
