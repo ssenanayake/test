@@ -18,7 +18,7 @@
 	      "heading":"AFTSSS Performance Tests"
       },
       {
-	      "title":"DAI API VoD w/DRM - Jon Stewart",
+	      "title":"DAI API VoD w/DRM - Jon Stewart - 1",
         "resourceProvider":"DAIAPI",
       	"daiId":"UmpGlmeRqwihmKiHM_VDkG1p7fLhjf_0",
       	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
@@ -31,6 +31,20 @@
         "drmHost":"{drmHost}",
         "drmDevice":"{drmDevice}"
       },
+      {
+	      "title":"DAI API VoD w/DRM - Jon Stewart - 2",
+        "resourceProvider":"DAIAPI",
+      	"daiId":"Nre3Gmj3gOVHJN7y6pbgmQ4wVoTwa5BM",
+      	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
+      	"daiCmsId":"2497752",
+        "drmType":"WIDEVINE",
+        "drmContentId":"Nre3Gmj3gOVHJN7y6pbgmQ4wVoTwa5BM",
+        "drmToken":"{drmToken}",
+        "type":"VOD",
+        "drmEnvironment":"{drmEnvironment}",
+        "drmHost":"{drmHost}",
+        "drmDevice":"{drmDevice}"
+      },	   
       {
         "title":"DAI API Live - Sports HQ",
         "resourceProvider":"DAIAPI",
