@@ -46,7 +46,7 @@
         "drmDevice":"{drmDevice}"
       },
       {
-	"title":"DAI API VoD w/DRM - Test - 1",
+	"title":"DAI API VoD w/DRM - Halo - Ad Stutter Test - 1",
         "resourceProvider":"DAIAPI",
       	"daiId":"9Zrngoc18WmN22hrRJQgq4LFT_oE4A_v",
       	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
@@ -57,7 +57,8 @@
         "type":"VOD",
         "drmEnvironment":"{drmEnvironment}",
         "drmHost":"{drmHost}",
-        "drmDevice":"{drmDevice}"
+        "drmDevice":"{drmDevice}",
+	"adParameters":"imafw__fw_3P_UID=UID2%3AAgAAB%2BQ1l7G8ASmgGsjrHBRlNoCY%2Figuzo4tJRLtRsClwjoY8ZstKQmPcuprAcSy2l2opQsManM870u2uZVefFtycm2DNa1P6eUpUrfKDzx32560KJYob1iuKtif2cXktmTbRxSa%2FwTRmRU8x5zyGwy03A%2FLCOQC0TowGrnFmOZ%2B%2BwedjQ%3D%3D%2CIDL%3AAjT76M8J1eMKmGg08Tf8kxcj8YFXI6XZx_TINO2EzkQ5T4IFtdJspNLvDP3ufrL5t5F2Ydmn&imafw_cpPre=0&imafw_sz=640x480&imafw_fms_vcid2type=liveramp&imafw__fw_continuous_play=0&imafw_vguid=312ad72d-9da4-4635-ad55-d88770fdf788&imafw__fw_content_language=en&imafw_packageSource=cbscomp&imafw_user=ADULT&imafw_fms_emailhash=35534df1c3d976f2d84c9b06939092a48bc3710f574e9d12afd162d555dc5e74&imafw_fms_bididtype=1010%2C1022&imafw_ge=3&imafw_fms_ramp_id=Xi6395j0f1EL3rloavCHOXruQq3ni8tIIUD4GoUKctUrz8smrb7Oq5Jh6icITJpRf9qJRK&imafw_csid=streaming_paramountplus_us_ctv_amazonfiretv_vod&imafw_cpSession=0&imafw__fw_us_privacy=1YNN&imafw_language_selection=en&imafw__fw_h_x_country=us&imafw_sb=6&imafw_ima_sdkv=3.30.3&imafw_session=d&imafw_fms_ruleid=10000&imafw__fw_coppa=0&tfcd=0&imafw_fms_ifa=dc3bd544-2a69-42df-b108-8adbb945b83f&imafw_fms_hh_ramp_id=UNMATCHED&msid=com.cbs.ott&imafw_tfcd=0&imafw_esb=14&imafw__fw_is_lat=0&imafw_device_region_language=en&imafw_sub=45948811&imafw_fms_subscriberid=45948811&imafw__fw_vcid2=Xi6395j0f1EL3rloavCHOXruQq3ni8tIIUD4GoUKctUrz8smrb7Oq5Jh6icITJpRf9qJRK&imafw_playername_version=avia_5.8.2&imafw_subses=2&api-key=7j3n273bfj7jcnvf22d713a51f&sas=1&ctv=1&mv=424540410.com.amazon.venezia&ms=CoACJ176gio-S9VHbggyIJ3_PCh-anUElKQVaUTjnpOrMbjiIKQ_36WxMe2UflRJpcvqcU_I8YTwiJ5oG3iOSwM0UogIJKdrJMHMODYpkXSIWjfmIVbQxPyPb1azoe7Pf-ucugIFXo8Cpf9Yhul1tR0Y9dv7kRJ7sspgGj-U4Ky5a1hlbvOwaDQBglIb7-WAIexD7UtPrFEitz9MLx5DCJkCowfihG_4OeIeOSkGMebt0zvrs4cVYQVnEFi4310tUcnxq29aOKuIuwhcO9FwKDrcyyAtmnaup6IN6rwkczrlLScwj9XwEl2AoYt6sEZg_-XTuSnhI7E1oUFK27S41qHAwAqAAp-G1VJTNNLyTt_np_AmazcNRo771bSy9kcL2NJZZR2bkZkugdi_Aa3AbkGQBzL_ajf6S-oJ7GIyiz4UOZRiMsIEOLT24_-Cp4IPBYJQPXkCeew8KorapfkrWll6uK_veZAu1fDwN7whXvmzhryKmcpSKNoTO9_tsd2IPGUtXZmj9qlMBPGtZ_xdi02WChjVxNvWWrdAjkAIhhuw6WV1uBROQ3Nuigie3jJ-x6B5wXYW-dVL7OToX5QZLLkxxuQqJiNu4Cf8alQoaLtsKLZJCxg7y9zrUsAl2qlryhqXRtZev2KsaiPz7aOwd8vceOepoCQHG9oQk3fvY2RGu8vfDcQSECxX8MZKZpT2tu2d0l2CmM0&js=ima-android.3.30.3&correlator=2102874010305965&mpt=AVIA_Player&mpv=5.8.2&ptt=20&osd=2&sdki=405&sdkv=h.3.401.2%2Fn.android.3.30.3%2Fcom.cbs.ott&uach=WyJBbmRyb2lkIiwiOS4wLjAiLCIiLCJBRlRTU1MiLCIxMjAuMC42MDk5LjI2NiIsbnVsbCwxLG51bGwsIiIsW1siTm90X0EgQnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyMC4wLjYwOTkuMjY2Il0sWyJBbmRyb2lkIFdlYlZpZXciLCIxMjAuMC42MDk5LjI2NiJdXSwwXQ..&ua=Mozilla%2F5.0%20(Linux%3B%20Android%209%3B%20AFTSSS%20Build%2FPS7669.4007N%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F120.0.6099.266%20Mobile%20Safari%2F537.36&an=com.cbs.ott&eid=44751889%2C44772139%2C44777649%2C44781409%2C95321947%2C95322027%2C95323893%2C95324128%2C95326337&frm=-1&omid_p=Google1%2Fandroid.3.30.3&sdk_apis=7%2C8&sid=42F6DBC5-F637-4029-8D8A-950CACC7976B&ssss=gima&url=com.cbs.ott.adsenseformobileapps.com%2F&is_lat=0&idtype=afai&rdid=dc3bd544-2a69-42df-b108-8adbb945b83f&us_privacy=1YNN"     
       },	   
       {
         "title":"DAI API Live - Sports HQ",
