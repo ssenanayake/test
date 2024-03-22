@@ -46,7 +46,7 @@
         "drmDevice":"{drmDevice}"
       },
       {
-	"title":"DAI API VoD w/DRM - Halo - Ad Stutter Test - 1",
+	"title":"DAI API VoD w/DRM - Halo - Playback Stutter Test - 1",
         "resourceProvider":"DAIAPI",
       	"daiId":"9Zrngoc18WmN22hrRJQgq4LFT_oE4A_v",
       	"daiApiKey":"7j3n273bfj7jcnvf22d713a51f",
