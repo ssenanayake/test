@@ -32,18 +32,12 @@
         "drmDevice":"{drmDevice}"
       },
       {
-        "title":"DAI API Live - HLS w/Irdeto Keys",
-        "resourceProvider":"DAIAPI",
-        "daiId":"5dKkkAbqTruWOc3Vdtndrg",
+        "title":"DAI API Live - Sports HQ",
+        "resourceProvider":"DAI",
+        "daiId":"9Lq0ERvoSR-z9AwvFS-xYA",
         "daiApiKey":"",
         "daiCmsId":"",
-        "type":"LIVE",
-	"drmType":"NONE",
-	"drmContentId":"UlDz5M8xbMl8rW9mlsdsjSvipKwdMa7X",
-	"drmToken":"{drmToken}",
-	"drmEnvironment":"{drmEnvironment}",
-	"drmHost":"{drmHost}",
-	"drmDevice":"{drmDevice}"    
-      }
+        "type":"LIVE"     
+      }   
   ]
 }
