@@ -69,6 +69,14 @@
         "type":"LIVE"     
       },
       {
+        "title":"DAI API Live w/Frequent Ads",
+        "resourceProvider":"DAIAPI",
+        "daiId":"gfkxhQFOQAOXHigAVdRi8A",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"LIVE"
+      },	   
+      {
 	"title":"DAI SDK VoD w/DRM - Jon Stewart - 1",
         "resourceProvider":"DAI",
       	"daiId":"UmpGlmeRqwihmKiHM_VDkG1p7fLhjf_0",
