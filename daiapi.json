@@ -126,6 +126,14 @@
         "daiApiKey":"",
         "daiCmsId":"",
         "type":"LIVE"     
-      }   	   
+      },
+      {
+        "title":"DAI API Live w/Frequent Ads",
+        "resourceProvider":"DAI",
+        "daiId":"gfkxhQFOQAOXHigAVdRi8A",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"LIVE"
+      }	   
   ]
 }
