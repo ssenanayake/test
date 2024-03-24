@@ -129,14 +129,14 @@
       },	   
       {
         "title":"DAI SDK Live - Sports HQ",
-        "resourceProvider":"DAIAPI",
+        "resourceProvider":"DAI",
         "daiId":"9Lq0ERvoSR-z9AwvFS-xYA",
         "daiApiKey":"",
         "daiCmsId":"",
         "type":"LIVE"     
       },
       {
-        "title":"DAI API Live w/Frequent Ads",
+        "title":"DAI SDK Live w/Frequent Ads",
         "resourceProvider":"DAI",
         "daiId":"gfkxhQFOQAOXHigAVdRi8A",
         "daiApiKey":"",
