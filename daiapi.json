@@ -69,14 +69,6 @@
         "type":"LIVE"     
       },
       {
-        "title":"DAI API Live w/Frequent Ads",
-        "resourceProvider":"DAIAPI",
-        "daiId":"gfkxhQFOQAOXHigAVdRi8A",
-        "daiApiKey":"",
-        "daiCmsId":"",
-        "type":"LIVE"
-      },
-      {
         "title":"DAI API Live - News",
         "resourceProvider":"DAIAPI",
         "daiId":"Sid4xiTQTkCT1SLu6rjUSQ",
@@ -84,6 +76,14 @@
         "daiCmsId":"",
         "type":"LIVE"
       },	   	   
+      {
+        "title":"DAI API Live w/Frequent Ads",
+        "resourceProvider":"DAIAPI",
+        "daiId":"gfkxhQFOQAOXHigAVdRi8A",
+        "daiApiKey":"",
+        "daiCmsId":"",
+        "type":"LIVE"
+      },	   
       {
 	"title":"DAI SDK VoD w/DRM - Jon Stewart - 1",
         "resourceProvider":"DAI",
@@ -136,17 +136,17 @@
         "type":"LIVE"     
       },
       {
-        "title":"DAI SDK Live w/Frequent Ads",
+        "title":"DAI SDK Live - News",
         "resourceProvider":"DAI",
-        "daiId":"gfkxhQFOQAOXHigAVdRi8A",
+        "daiId":"Sid4xiTQTkCT1SLu6rjUSQ",
         "daiApiKey":"",
         "daiCmsId":"",
         "type":"LIVE"
       },
       {
-        "title":"DAI SDK Live - News",
+        "title":"DAI SDK Live w/Frequent Ads",
         "resourceProvider":"DAI",
-        "daiId":"Sid4xiTQTkCT1SLu6rjUSQ",
+        "daiId":"gfkxhQFOQAOXHigAVdRi8A",
         "daiApiKey":"",
         "daiCmsId":"",
         "type":"LIVE"
