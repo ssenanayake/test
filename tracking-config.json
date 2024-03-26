@@ -89,6 +89,428 @@
       }
     }
   },
+  "AdobeMediaEdge": {
+    "enabled": "{context.enableAdobeMediaEdge}",
+    "category": "video",
+    "type": "restapi",
+    "params": {
+      "trackerCommands": {
+        "debugLogging": "true",
+        "sendUndefined": "false"
+      },
+      "settings": {
+        "datastreamId": "7f342689-f4d2-408e-a22c-1089010fd434",
+        "uriHost": "https://edge.adobedc.net",
+        "pingInterval": "10",
+        "sessionTimeout": "15",
+        "retrySessionLimit": "2"
+      },
+      "eventList": {
+        "Play": {
+          "path": "/ee-pre-prd/va/v1/play",
+          "schema": {
+            "events": [
+              {
+                "xdm": {
+                  "eventType": "media.play",
+                  "mediaCollection": {
+                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "playhead": "{adobeMediaEdge.playhead}"
+                  },
+                  "timestamp": "{data.clientTimestamp}"
+                }
+              }
+            ]
+          }
+        },
+        "Pause": {
+          "path": "/ee-pre-prd/va/v1/pauseStart",
+          "schema": {
+            "events": [
+              {
+                "xdm": {
+                  "eventType": "media.pauseStart",
+                  "mediaCollection": {
+                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "playhead": "{adobeMediaEdge.playhead}"
+                  },
+                  "timestamp": "{data.clientTimestamp}"
+                }
+              }
+            ]
+          }
+        },
+        "Heartbeat": {
+          "path": "/ee-pre-prd/va/v1/ping",
+          "schema": {
+            "events": [
+              {
+                "xdm": {
+                  "eventType": "media.ping",
+                  "mediaCollection": {
+                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "playhead": "{adobeMediaEdge.playhead}"
+                  },
+                  "timestamp": "{data.clientTimestamp}"
+                }
+              }
+            ]
+          }
+        },
+        "ChapterStart": {
+          "path": "/ee-pre-prd/va/v1/chapterStart",
+          "schema": {
+            "events": [
+              {
+                "xdm": {
+                  "eventType": "media.chapterStart",
+                  "mediaCollection": {
+                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "playhead": "{adobeMediaEdge.playhead}",
+                    "chapterDetails": {
+                      "offset": 1,
+                      "length": 2,
+                      "index": 3,
+                      "friendlyName": "friendlyName"
+                    }
+                  },
+                  "timestamp": "{data.clientTimestamp}"
+                }
+              }
+            ]
+          }
+        },
+        "ChapterComplete": {
+          "path": "/ee-pre-prd/va/v1/chapterComplete",
+          "schema": {
+            "events": [
+              {
+                "xdm": {
+                  "eventType": "media.chapterComplete",
+                  "mediaCollection": {
+                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "playhead": "{adobeMediaEdge.playhead}"
+                  },
+                  "timestamp": "{data.clientTimestamp}"
+                }
+              }
+            ]
+          }
+        },
+        "ChapterSkip": {
+          "path": "/ee-pre-prd/va/v1/chapterSkip",
+          "schema": {
+            "events": [
+              {
+                "xdm": {
+                  "eventType": "media.chapterSkip",
+                  "mediaCollection": {
+                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "playhead": "{adobeMediaEdge.playhead}"
+                  },
+                  "timestamp": "{data.clientTimestamp}"
+                }
+              }
+            ]
+          }
+        },
+        "BufferStart": {
+          "path": "/ee-pre-prd/va/v1/bufferStart",
+          "schema": {
+            "events": [
+              {
+                "xdm": {
+                  "eventType": "media.bufferStart",
+                  "mediaCollection": {
+                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "playhead": "{adobeMediaEdge.playhead}"
+                  },
+                  "timestamp": "{data.clientTimestamp}"
+                }
+              }
+            ]
+          }
+        },
+        "AdBreakStart": {
+          "path": "/ee-pre-prd/va/v1/adBreakStart",
+          "schema": {
+            "events": [
+              {
+                "xdm": {
+                  "eventType": "media.adBreakStart",
+                  "mediaCollection": {
+                    "advertisingPodDetails": {
+                      "friendlyName": "{data.adPodType}",
+                      "index": "{data.adPodIndex}",
+                      "offset": "{data.playhead}"
+                    },
+                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "playhead": "{adobeMediaEdge.playhead}"
+                  },
+                  "timestamp": "{data.clientTimestamp}"
+                }
+              }
+            ]
+          }
+        },
+        "AdBreakEnd": {
+          "path": "/ee-pre-prd/va/v1/adBreakComplete",
+          "schema": {
+            "events": [
+              {
+                "xdm": {
+                  "eventType": "media.adBreakComplete",
+                  "mediaCollection": {
+                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "playhead": "{adobeMediaEdge.playhead}"
+                  },
+                  "timestamp": "{data.clientTimestamp}"
+                }
+              }
+            ]
+          }
+        },
+        "AdStart": {
+          "path": "/ee-pre-prd/va/v1/adStart",
+          "schema": {
+            "events": [
+              {
+                "xdm": {
+                  "eventType": "media.adStart",
+                  "mediaCollection": {
+                    "advertisingDetails": {
+                      "friendlyName": "{data.adPodType}",
+                      "name": "{data.adTitle}",
+                      "length": "{data.adDuration} || 5",
+                      "advertiser": "{adobeMediaEdge.playhead} - {adobeMediaEdge.adobeEdgeSessionId} - advertiser name - {context.hello}",
+                      "campaignID": "{data.adId}",
+                      "creativeID": "{data.creativeId} || n/a",
+                      "creativeURL": "{data.adResourceUrl}",
+                      "placementID": "{context.placementID} || n/a",
+                      "siteID": "{context.siteId} || n/a",
+                      "podPosition": "{data.adIndex}",
+                      "playerName": "{data.playerName}"
+                    },
+                    "customMetadata": [
+                      {
+                        "name": "myCustomValue3",
+                        "value": "c3"
+                      }
+                    ],
+                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "playhead": "{adobeMediaEdge.playhead}"
+                  },
+                  "timestamp": "{data.clientTimestamp}"
+                }
+              }
+            ]
+          }
+        },
+        "AdPause": {
+          "path": "/ee-pre-prd/va/v1/pauseStart",
+          "schema": {
+            "events": [
+              {
+                "xdm": {
+                  "eventType": "media.pauseStart",
+                  "mediaCollection": {
+                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "playhead": "{adobeMediaEdge.playhead}"
+                  },
+                  "timestamp": "{data.clientTimestamp}"
+                }
+              }
+            ]
+          }
+        },
+        "AdEnd": {
+          "path": "/ee-pre-prd/va/v1/adComplete",
+          "schema": {
+            "events": [
+              {
+                "xdm": {
+                  "eventType": "media.adComplete",
+                  "mediaCollection": {
+                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "playhead": "{adobeMediaEdge.playhead}"
+                  },
+                  "timestamp": "{data.clientTimestamp}"
+                }
+              }
+            ]
+          }
+        },
+        "Error": {
+          "path": "/ee-pre-prd/va/v1/error",
+          "schema": {
+            "events": [
+              {
+                "xdm": {
+                  "eventType": "media.error",
+                  "mediaCollection": {
+                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "playhead": "{adobeMediaEdge.playhead}",
+                    "qoeDataDetails": {
+                      "bitrate": "{data.bitrate}",
+                      "droppedFrames": "{data.droppedFrames} || -1"
+                    },
+                    "errorDetails": {
+                      "name": "{data.errorCode} - {data.errorName}",
+                      "source": "player"
+                    }
+                  },
+                  "timestamp": "{data.clientTimestamp}"
+                }
+              }
+            ]
+          }
+        },
+        "FatalError": {
+          "path": "/ee-pre-prd/va/v1/error",
+          "schema": {
+            "events": [
+              {
+                "xdm": {
+                  "eventType": "media.error",
+                  "mediaCollection": {
+                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "playhead": "{adobeMediaEdge.playhead}",
+                    "qoeDataDetails": {
+                      "bitrate": "{data.bitrate}",
+                      "droppedFrames": "{data.droppedFrames} || -1"
+                    },
+                    "errorDetails": {
+                      "name": "{data.errorCode} - {data.errorName}",
+                      "source": "player"
+                    }
+                  },
+                  "timestamp": "{data.clientTimestamp}"
+                }
+              }
+            ]
+          }
+        },
+        "SessionStart": {
+          "path": "/ee-pre-prd/va/v1/sessionStart",
+          "schema": {
+            "events": [
+              {
+                "xdm": {
+                  "eventType": "media.sessionStart",
+                  "mediaCollection": {
+                    "sessionDetails": {
+                      "name": "title",
+                      "playerName": "{data.playerName}",
+                      "contentType": "{data.isLive} ? Live : VOD",
+                      "length": "{data.isLive} ? 86400 : {context.mediaDuration}",
+                      "channel": "channel name",
+                      "appVersion": "{data.playerVersion}"
+                    },
+                    "playhead": "{adobeMediaEdge.playhead}"
+                  },
+                  "timestamp": "{data.clientTimestamp}"
+                }
+              }
+            ]
+          }
+        },
+        "SessionEnd": {
+          "path": "/ee-pre-prd/va/v1/sessionEnd",
+          "schema": {
+            "events": [
+              {
+                "xdm": {
+                  "eventType": "media.sessionEnd",
+                  "mediaCollection": {
+                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "playhead": "{adobeMediaEdge.playhead}"
+                  },
+                  "timestamp": "{data.clientTimestamp}"
+                }
+              }
+            ]
+          }
+        },
+        "SessionComplete": {
+          "path": "/ee-pre-prd/va/v1/sessionComplete",
+          "schema": {
+            "events": [
+              {
+                "xdm": {
+                  "eventType": "media.sessionComplete",
+                  "mediaCollection": {
+                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "playhead": "{adobeMediaEdge.playhead}"
+                  },
+                  "timestamp": "{context.inbuilt.timestampISO}"
+                }
+              }
+            ]
+          }
+        },
+        "StateStart": {
+          "path": "/ee-pre-prd/va/v1/statesUpdate",
+          "schema": {
+            "events": [
+              {
+                "xdm": {
+                  "eventType": "media.statesUpdate",
+                  "mediaCollection": {
+                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "playhead": "{adobeMediaEdge.playhead}",
+                    "statesStart": [
+                      {
+                        "name": "mute"
+                      },
+                      {
+                        "name": "streamFormatHDR"
+                      }
+                    ]
+                  },
+                  "timestamp": "{data.clientTimestamp}"
+                }
+              }
+            ]
+          }
+        },
+        "StateEnd": {
+          "path": "/ee-pre-prd/va/v1/statesUpdate",
+          "schema": {
+            "events": [
+              {
+                "xdm": {
+                  "eventType": "media.statesUpdate",
+                  "mediaCollection": {
+                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "playhead": "{adobeMediaEdge.playhead}",
+                    "statesEnd": "{adobeMediaEdge.statesEnded}"
+                  },
+                  "timestamp": "{data.clientTimestamp}"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "dataType": {
+        "debugLogging": "boolean",
+        "sendUndefined": "boolean",
+        "pingInterval": "int",
+        "retrySessionLimit": "int",
+        "playhead": "int",
+        "length": "int",
+        "sessionTimeout": "float",
+        "playheadTimeout": "float",
+        "timeShifted": "boolean",
+        "streamingFormatVideoColorRange": "boolean",
+        "offset": "int"
+      },
+      "playerStates": {
+        "timeShifted": "true",
+        "streamingFormatVideoColorRange": "true"
+      }
+    }
+  },
   "Comscore": {
     "enabled": true,
     "category": "tracking",
