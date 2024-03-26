@@ -102,7 +102,7 @@
         "datastreamId": "7f342689-f4d2-408e-a22c-1089010fd434",
         "uriHost": "https://edge.adobedc.net",
         "pingInterval": "10",
-        "sessionTimeout": "15",
+        "sessionTimeout": "600",
         "retrySessionLimit": "2"
       },
       "eventList": {
@@ -114,7 +114,7 @@
                 "xdm": {
                   "eventType": "media.play",
                   "mediaCollection": {
-                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "sessionID": "{adobeMediaEdge.sessionId}",
                     "playhead": "{adobeMediaEdge.playhead}"
                   },
                   "timestamp": "{data.clientTimestamp}"
@@ -131,7 +131,7 @@
                 "xdm": {
                   "eventType": "media.pauseStart",
                   "mediaCollection": {
-                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "sessionID": "{adobeMediaEdge.sessionId}",
                     "playhead": "{adobeMediaEdge.playhead}"
                   },
                   "timestamp": "{data.clientTimestamp}"
@@ -148,7 +148,7 @@
                 "xdm": {
                   "eventType": "media.ping",
                   "mediaCollection": {
-                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "sessionID": "{adobeMediaEdge.sessionId}",
                     "playhead": "{adobeMediaEdge.playhead}"
                   },
                   "timestamp": "{data.clientTimestamp}"
@@ -165,7 +165,7 @@
                 "xdm": {
                   "eventType": "media.chapterStart",
                   "mediaCollection": {
-                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "sessionID": "{adobeMediaEdge.sessionId}",
                     "playhead": "{adobeMediaEdge.playhead}",
                     "chapterDetails": {
                       "offset": 1,
@@ -188,7 +188,7 @@
                 "xdm": {
                   "eventType": "media.chapterComplete",
                   "mediaCollection": {
-                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "sessionID": "{adobeMediaEdge.sessionId}",
                     "playhead": "{adobeMediaEdge.playhead}"
                   },
                   "timestamp": "{data.clientTimestamp}"
@@ -205,7 +205,7 @@
                 "xdm": {
                   "eventType": "media.chapterSkip",
                   "mediaCollection": {
-                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "sessionID": "{adobeMediaEdge.sessionId}",
                     "playhead": "{adobeMediaEdge.playhead}"
                   },
                   "timestamp": "{data.clientTimestamp}"
@@ -222,7 +222,7 @@
                 "xdm": {
                   "eventType": "media.bufferStart",
                   "mediaCollection": {
-                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "sessionID": "{adobeMediaEdge.sessionId}",
                     "playhead": "{adobeMediaEdge.playhead}"
                   },
                   "timestamp": "{data.clientTimestamp}"
@@ -244,7 +244,7 @@
                       "index": "{data.adPodIndex}",
                       "offset": "{data.playhead}"
                     },
-                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "sessionID": "{adobeMediaEdge.sessionId}",
                     "playhead": "{adobeMediaEdge.playhead}"
                   },
                   "timestamp": "{data.clientTimestamp}"
@@ -261,7 +261,7 @@
                 "xdm": {
                   "eventType": "media.adBreakComplete",
                   "mediaCollection": {
-                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "sessionID": "{adobeMediaEdge.sessionId}",
                     "playhead": "{adobeMediaEdge.playhead}"
                   },
                   "timestamp": "{data.clientTimestamp}"
@@ -282,7 +282,7 @@
                       "friendlyName": "{data.adPodType}",
                       "name": "{data.adTitle}",
                       "length": "{data.adDuration} || 5",
-                      "advertiser": "{adobeMediaEdge.playhead} - {adobeMediaEdge.adobeEdgeSessionId} - advertiser name - {context.hello}",
+                      "advertiser": "{adobeMediaEdge.playhead} - {adobeMediaEdge.sessionId} - advertiser name - {context.hello}",
                       "campaignID": "{data.adId}",
                       "creativeID": "{data.creativeId} || n/a",
                       "creativeURL": "{data.adResourceUrl}",
@@ -297,7 +297,7 @@
                         "value": "c3"
                       }
                     ],
-                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "sessionID": "{adobeMediaEdge.sessionId}",
                     "playhead": "{adobeMediaEdge.playhead}"
                   },
                   "timestamp": "{data.clientTimestamp}"
@@ -314,7 +314,7 @@
                 "xdm": {
                   "eventType": "media.pauseStart",
                   "mediaCollection": {
-                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "sessionID": "{adobeMediaEdge.sessionId}",
                     "playhead": "{adobeMediaEdge.playhead}"
                   },
                   "timestamp": "{data.clientTimestamp}"
@@ -331,7 +331,7 @@
                 "xdm": {
                   "eventType": "media.adComplete",
                   "mediaCollection": {
-                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "sessionID": "{adobeMediaEdge.sessionId}",
                     "playhead": "{adobeMediaEdge.playhead}"
                   },
                   "timestamp": "{data.clientTimestamp}"
@@ -348,7 +348,7 @@
                 "xdm": {
                   "eventType": "media.error",
                   "mediaCollection": {
-                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "sessionID": "{adobeMediaEdge.sessionId}",
                     "playhead": "{adobeMediaEdge.playhead}",
                     "qoeDataDetails": {
                       "bitrate": "{data.bitrate}",
@@ -373,7 +373,7 @@
                 "xdm": {
                   "eventType": "media.error",
                   "mediaCollection": {
-                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "sessionID": "{adobeMediaEdge.sessionId}",
                     "playhead": "{adobeMediaEdge.playhead}",
                     "qoeDataDetails": {
                       "bitrate": "{data.bitrate}",
@@ -422,7 +422,7 @@
                 "xdm": {
                   "eventType": "media.sessionEnd",
                   "mediaCollection": {
-                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "sessionID": "{adobeMediaEdge.sessionId}",
                     "playhead": "{adobeMediaEdge.playhead}"
                   },
                   "timestamp": "{data.clientTimestamp}"
@@ -439,7 +439,7 @@
                 "xdm": {
                   "eventType": "media.sessionComplete",
                   "mediaCollection": {
-                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "sessionID": "{adobeMediaEdge.sessionId}",
                     "playhead": "{adobeMediaEdge.playhead}"
                   },
                   "timestamp": "{context.inbuilt.timestampISO}"
@@ -456,7 +456,7 @@
                 "xdm": {
                   "eventType": "media.statesUpdate",
                   "mediaCollection": {
-                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "sessionID": "{adobeMediaEdge.sessionId}",
                     "playhead": "{adobeMediaEdge.playhead}",
                     "statesStart": [
                       {
@@ -481,7 +481,7 @@
                 "xdm": {
                   "eventType": "media.statesUpdate",
                   "mediaCollection": {
-                    "sessionID": "{adobeMediaEdge.adobeEdgeSessionId}",
+                    "sessionID": "{adobeMediaEdge.sessionId}",
                     "playhead": "{adobeMediaEdge.playhead}",
                     "statesEnd": "{adobeMediaEdge.statesEnded}"
                   },
@@ -708,22 +708,21 @@
     }
   },
   "Hydra": {
-    "enabled":true,
-    "category":"app",
-    "params":{
-      "config":{
-        "namespace":"appTracker",
-        "endPoint":"https://hydra-api.dev.cbsivideo.com",
-        "fetchTokenPath":"/v1/token",
-        "authSessionPath":"/v1/auth",
-        "postEventsPath":"/v1/events",
-        "tokenExpiryTime":14400,
+    "enabled": true,
+    "category": "app",
+    "params": {
+      "config": {
+        "namespace": "appTracker",
+        "endPoint": "https://hydra-api.dev.cbsivideo.com",
+        "fetchTokenPath": "/v1/token",
+        "authSessionPath": "/v1/auth",
+        "postEventsPath": "/v1/events",
+        "tokenExpiryTime": 14400,
         "postBatchSize": 10
-
       },
-      "dataType":{
-        "postBatchSize":"int",
-        "tokenExpiryTime":"int"
+      "dataType": {
+        "postBatchSize": "int",
+        "tokenExpiryTime": "int"
       }
     }
   },
