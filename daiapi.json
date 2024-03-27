@@ -154,10 +154,10 @@
       {
 	"title":"IMA SDK VoD - Multi Ad Preroll Ad & DRM",
         "resourceProvider":"IMA",
-        "uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2014/06/29/292077123905/1681438_cenc_precon_dash/stream.mpd",
-	"adUri":"https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpreonlybumper&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&correlator={RANDOM}",      
+        "uri":"https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/05/04/2202473539626/2538125_cenc_fmp4_dash/stream.mpd",
+	"adUri":"https://7f077.v.fwmrm.net/ad/g/1?asnw=520311&caid=9Zrngoc18WmN22hrRJQgq4LFT_oE4A_v&csid=streaming_paramountplus_us_ctv_amazonfiretv_vod&flag=%2Bamcb%2Bemcr%2Bsltp%2Bslcb%2Bqtcb%2Bvicb%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&nw=520311&prof=520311%3AGoogleDAICSAI_v01&pvrn=1711568431&resp=vmap1%2Bvast4&ssnw=520311&vprn=1711568431;_fw_coppa=0&_fw_content_language=en&tfcd=0&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&packageSource=cbscomp&_fw_continuous_play=0&sub=20562091&device_region_language=en&_fw_us_privacy=1YNN&session=d&sz=640x480&language_selection=en&cpSession=0&_fw_h_x_country=us&gr=5&sb=14&vguid=c137d012-9330-40e1-9dc5-7c8415e67aa4&cpPre=0&msid=B017250D16&subses=3&user=ADULT&ge=0&fms_subscriberid=20562091&_fw_3P_UID=UID2%3AAgAAB%2FKB4mhlASyMGcC0HBntIKYh2ACwuPYmaYWLBYdQMXBl8Kb%2BMxSlrthSM46VaSB7gXDh4PLuqle9fDLZdQAs7qrCePdMkJfsqztQr9j%2BS4hQw1LbmelLRTTnfdSUE0DV2Ex24Y%2Fb2gZGaeXFEOOcCo26QIrjy7YEb4LXSEiwXfhJ8g%3D%3D%2CIDL%3AAgiDq9v145PFjsJ-5u6NewcTCa3wL_8fefc2BQKnnm6HLSSlC-ioGDtw&fms_ruleid=10000&fms_emailhash=518074e839e8ee03fcbe0e19c45c9cad47876f1bb42146528fcd70fe00df7e51&_fw_vcid2=XY6395KVBXtrViaXd_c8AqHjYdAmU-Z1nrbp6i-rrz4y3lGkI&fms_ramp_id=XY6395KVBXtrViaXd_c8AqHjYdAmU-Z1nrbp6i-rrz4y3lGkI&fms_bididtype=1010%2C1021&fms_hh_ramp_id=hY6395L9yK_Ui6X94eO-OlW6Njd_GJW_8_VyGAdLr97jdXkZs&fms_ifa=bab529e8-ee64-49ad-92bd-0f0c2f64648e&fms_vcid2type=liveramp&_fw_is_lat=0&_fw_did=amazon_advertising_id%3Abab529e8-ee64-49ad-92bd-0f0c2f64648e&playername_version=avia_5.10.1-beta02&ima_sdkv=3.30.3",      
 	"drmType":"WIDEVINE",
-        "drmContentId":"NVv_JyUbYUmbE0T__q87_rSwqYwUo_9f",
+        "drmContentId":"sh0UeJexoBbPNr40vL8zV9TpG9qG7_BS",
         "drmToken":"{drmToken}",
         "type":"VOD",
         "drmEnvironment":"{drmEnvironment}",
